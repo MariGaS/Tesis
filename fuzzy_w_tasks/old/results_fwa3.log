@@ -1,0 +1,239 @@
+c-1-32
+Mon 15 Aug 2022 04:08:55 PM CDT
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_key_w/fuzzy_w_anxia5.py", line 92
+    chose =1,dif = m[i], fuzzy= arg5[i],remove_stop=arg6[i],train_data = True, compress=False, concatenate = True)
+                                                                                                                 ^
+SyntaxError: positional argument follows keyword argument
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+241
+quitando stopwords
+(152, 460) (320, 460)
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+done in 124.491142s
+242
+quitando stopwords
+(152, 142) (320, 142)
+done in 117.340368s
+243
+quitando stopwords
+(152, 37) (320, 37)
+done in 115.973632s
+244
+quitando stopwords
+(152, 642) (320, 642)
+done in 124.819585s
+245
+quitando stopwords
+(152, 255) (320, 255)
+done in 118.388892s
+246
+quitando stopwords
+(152, 514) (320, 514)
+done in 121.740834s
+247
+quitando stopwords
+(152, 293) (320, 293)
+done in 118.280352s
+248
+quitando stopwords
+(152, 4045) (320, 4045)
+done in 208.499554s
+249
+quitando stopwords
+(152, 73) (320, 73)
+done in 116.607308s
+250
+quitando stopwords
+(152, 406) (320, 406)
+done in 119.967060s
+251
+quitando stopwords
+(152, 28) (320, 28)
+done in 115.109217s
+252
+quitando stopwords
+(152, 17) (320, 17)
+done in 115.387619s
+253
+(152, 460) (320, 460)
+done in 176.633222s
+254
+(152, 142) (320, 142)
+done in 170.007357s
+255
+(152, 37) (320, 37)
+done in 169.377616s
+256
+(152, 642) (320, 642)
+done in 177.260487s
+257
+(152, 255) (320, 255)
+done in 171.322357s
+258
+(152, 514) (320, 514)
+done in 174.656291s
+259
+(152, 293) (320, 293)
+done in 172.318941s
+260
+(152, 4045) (320, 4045)
+done in 260.748894s
+261
+(152, 73) (320, 73)
+done in 170.281651s
+262
+(152, 406) (320, 406)
+done in 173.220588s
+263
+(152, 28) (320, 28)
+done in 168.288150s
+264
+(152, 17) (320, 17)
+done in 169.251560s
+265
+quitando stopwords
+(152, 460) (320, 460)
+done in 121.318896s
+266
+quitando stopwords
+(152, 142) (320, 142)
+done in 115.990632s
+267
+quitando stopwords
+(152, 37) (320, 37)
+done in 115.530597s
+268
+quitando stopwords
+(152, 642) (320, 642)
+done in 123.274262s
+269
+quitando stopwords
+(152, 255) (320, 255)
+done in 117.373576s
+270
+quitando stopwords
+(152, 514) (320, 514)
+done in 121.664686s
+271
+quitando stopwords
+(152, 293) (320, 293)
+done in 118.351902s
+272
+quitando stopwords
+(152, 4010) (320, 4010)
+done in 206.412833s
+273
+quitando stopwords
+(152, 73) (320, 73)
+done in 115.008570s
+274
+quitando stopwords
+(152, 406) (320, 406)
+done in 119.259489s
+275
+quitando stopwords
+(152, 28) (320, 28)
+done in 115.339377s
+276
+quitando stopwords
+(152, 17) (320, 17)
+done in 115.004658s
+277
+(152, 460) (320, 460)
+done in 174.850348s
+278
+(152, 142) (320, 142)
+done in 170.398526s
+279
+(152, 37) (320, 37)
+done in 169.054742s
+280
+(152, 642) (320, 642)
+done in 177.276634s
+281
+(152, 255) (320, 255)
+done in 171.632728s
+282
+(152, 514) (320, 514)
+done in 175.257848s
+283
+(152, 293) (320, 293)
+done in 172.241789s
+284
+(152, 4010) (320, 4010)
+done in 259.901367s
+285
+(152, 73) (320, 73)
+done in 168.783580s
+286
+(152, 406) (320, 406)
+done in 171.868477s
+287
+(152, 28) (320, 28)
+done in 167.489413s
+288
+(152, 17) (320, 17)
+done in 169.451698s
+End experiments
+Mon 15 Aug 2022 06:13:58 PM CDT

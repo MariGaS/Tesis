@@ -1,0 +1,228 @@
+c-1-40
+Sat 13 Aug 2022 01:26:39 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+97
+quitando stopwords
+(152, 2) (320, 2)
+done in 129.212314s
+98
+quitando stopwords
+(152, 2) (320, 2)
+done in 119.222429s
+99
+quitando stopwords
+(152, 2) (320, 2)
+done in 115.411808s
+100
+quitando stopwords
+(152, 2) (320, 2)
+done in 115.650954s
+101
+quitando stopwords
+(152, 2) (320, 2)
+done in 109.987670s
+102
+quitando stopwords
+(152, 2) (320, 2)
+done in 203.778119s
+103
+quitando stopwords
+(152, 2) (320, 2)
+done in 125.332131s
+104
+quitando stopwords
+(152, 2) (320, 2)
+done in 118.112611s
+105
+quitando stopwords
+(152, 2) (320, 2)
+done in 113.179009s
+106
+quitando stopwords
+(152, 2) (320, 2)
+done in 113.487791s
+107
+quitando stopwords
+(152, 2) (320, 2)
+done in 110.526449s
+108
+quitando stopwords
+(152, 2) (320, 2)
+done in 194.717379s
+109
+(152, 2) (320, 2)
+done in 182.236586s
+110
+(152, 2) (320, 2)
+done in 170.970603s
+111
+(152, 2) (320, 2)
+done in 166.419404s
+112
+(152, 2) (320, 2)
+done in 165.671162s
+113
+(152, 2) (320, 2)
+done in 162.676136s
+114
+(152, 2) (320, 2)
+done in 261.146176s
+115
+(152, 2) (320, 2)
+done in 179.468951s
+116
+(152, 2) (320, 2)
+done in 172.015796s
+117
+(152, 2) (320, 2)
+done in 168.029775s
+118
+(152, 2) (320, 2)
+done in 166.322589s
+119
+(152, 2) (320, 2)
+done in 163.022193s
+120
+(152, 2) (320, 2)
+done in 249.477934s
+121
+quitando stopwords
+(152, 2) (320, 2)
+done in 124.463377s
+122
+quitando stopwords
+(152, 2) (320, 2)
+done in 116.534226s
+123
+quitando stopwords
+(152, 2) (320, 2)
+done in 113.719067s
+124
+quitando stopwords
+(152, 2) (320, 2)
+done in 113.711611s
+125
+quitando stopwords
+(152, 2) (320, 2)
+done in 110.846295s
+126
+quitando stopwords
+(152, 2) (320, 2)
+done in 177.981477s
+127
+quitando stopwords
+(152, 2) (320, 2)
+done in 121.776154s
+128
+quitando stopwords
+(152, 2) (320, 2)
+done in 115.906875s
+129
+quitando stopwords
+(152, 2) (320, 2)
+done in 112.764276s
+130
+quitando stopwords
+(152, 2) (320, 2)
+done in 112.397660s
+131
+quitando stopwords
+(152, 2) (320, 2)
+done in 109.376932s
+132
+quitando stopwords
+(152, 2) (320, 2)
+done in 170.412806s
+133
+(152, 2) (320, 2)
+done in 176.533983s
+134
+(152, 2) (320, 2)
+done in 169.683658s
+135
+(152, 2) (320, 2)
+done in 165.500758s
+136
+(152, 2) (320, 2)
+done in 166.321719s
+137
+(152, 2) (320, 2)
+done in 165.301883s
+138
+(152, 2) (320, 2)
+done in 234.497933s
+139
+(152, 2) (320, 2)
+done in 176.756435s
+140
+(152, 2) (320, 2)
+done in 169.817771s
+141
+(152, 2) (320, 2)
+done in 166.524558s
+142
+(152, 2) (320, 2)
+done in 166.547204s
+143
+(152, 2) (320, 2)
+done in 163.020705s
+144
+(152, 2) (320, 2)
+done in 228.433179s
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+145
+quitando stopwords
+(152, 2) (320, 2)
+done in 112.496153s
+146
+quitando stopwords
+(152, 2) (320, 2)
+done in 110.517847s
+147
+quitando stopwords
+Traceback (most recent call last):
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_Key/fuzzy_key_anxia4.py", line 90, in <module>
+    f,a = run_exp_anxia_sim(i+145, all_pos, all_neg,test_anxia,test_labels_anxia, tr_label,arg1[i],arg2[i],tau=arg3[i],
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_Key/vector_key.py", line 437, in run_exp_anxia_sim
+    results, x, y,z,dic1,dic2 = classificator_pos_neg(pos_data, neg_data, test_data,score1,score2,kw1,kw2, 
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_Key/vector_key.py", line 308, in classificator_pos_neg
+    word_repre_user = get_fuzzy_rep(words_doc, dictionary1,option = chose, epsilon = tau)
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_Key/vector_key.py", line 108, in get_fuzzy_rep
+    similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(words_user, dictionary_vec)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/pairwise.py", line 1246, in cosine_similarity
+    X, Y = check_pairwise_arrays(X, Y)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/pairwise.py", line 164, in check_pairwise_arrays
+    Y = check_array(
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/utils/validation.py", line 797, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 300)) while a minimum of 1 is required by check_pairwise_arrays.
+Sat 13 Aug 2022 03:40:09 PM CDT

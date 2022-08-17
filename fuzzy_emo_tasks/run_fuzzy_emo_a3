@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --partition=C1Mitad1
+#SBATCH --job-name=fuzzy_anxia3
+#SBATCH --output=results_fa3.log
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=maria.garcia@cimat.mx
+cd /home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_Emo
+source /opt/anaconda351/etc/profile.d/conda.sh
+conda activate proyecto
+hostname
+date
+python fuzzy_emo_a5.py
+python fuzzy_emo_a6.py
+date
+

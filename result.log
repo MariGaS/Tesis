@@ -1,0 +1,85 @@
+Executes python sim_dep_key1_3.py in core with id 1
+Executes python sim_dep_key1_4.py in core with id 2
+Load_anxia
+Load_anxia
+Load_dep
+Load_dep
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load pretrained
+Load pretrained
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Begins experiments
+Begins experiments
+31 1000 1000 2 0.99 False True False False
+quitando stopwords
+21 1000 1000 2 0.99 False False False False
+32 1500 1500 2 0.99 False True False False
+quitando stopwords
+22 1500 1500 2 0.99 False False False False
+33 2000 2000 2 0.99 False True False False
+quitando stopwords
+23 2000 2000 2 0.99 False False False False
+34 2500 2500 2 0.99 False True False False
+quitando stopwords
+24 2500 2500 2 0.99 False False False False
+35 3000 3000 2 0.99 False True False False
+quitando stopwords
+25 3000 3000 2 0.99 False False False False
+36 4000 4000 2 0.99 False True False False
+quitando stopwords
+26 4000 4000 2 0.99 False False False False
+37 4500 4500 2 0.99 False True False False
+quitando stopwords
+27 4500 4500 2 0.99 False False False False
+38 5000 5000 2 0.99 False True False False
+quitando stopwords
+28 5000 5000 2 0.99 False False False False
+39 5500 5500 2 0.99 False True False False
+quitando stopwords
+29 5500 5500 2 0.99 False False False False
+40 6000 6000 2 0.99 False True False False
+quitando stopwords
+30 6000 6000 2 0.99 False False False False
+Exception in thread Thread-1 (_handle_workers):
+Traceback (most recent call last):
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 513, in _handle_workers
+    cls._maintain_pool(ctx, Process, processes, pool, inqueue,
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 337, in _maintain_pool
+    Pool._repopulate_pool_static(ctx, Process, processes, pool,
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 326, in _repopulate_pool_static
+    w.start()
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+Exception in thread Thread-1 (_handle_workers):
+Traceback (most recent call last):
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 513, in _handle_workers
+    cls._maintain_pool(ctx, Process, processes, pool, inqueue,
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 337, in _maintain_pool
+    Pool._repopulate_pool_static(ctx, Process, processes, pool,
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 326, in _repopulate_pool_static
+    w.start()
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/popen_fork.py", line 66, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory
+slurmstepd: error: *** JOB 10003 ON c-1-8 CANCELLED AT 2022-07-26T11:48:39 ***

@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --partition=C1Mitad1
+#SBATCH --job-name=vec_dep_model3
+#SBATCH --output=results_vec_dep3.log
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=maria.garcia@cimat.mx
+cd /home/est_posgrado_maria.garcia/Proyecto_tecnologico/User_Vec
+source /opt/anaconda351/etc/profile.d/conda.sh
+conda activate proyecto
+hostname
+date
+python vec_dep3.py
+date

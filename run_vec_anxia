@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH --partition=C1Mitad1
+#SBATCH --job-name=vectorization_anxia
+#SBATCH --output=results_vec_anxia.log
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=maria.garcia@cimat.mx
+cd /home/est_posgrado_maria.garcia/Proyecto_tecnologico/User_Vec
+source /opt/anaconda351/etc/profile.d/conda.sh
+conda activate proyecto
+hostname
+date 
+python vec_anxia.py
+python vec_anxia_2.py
+python vec_anxia_3.py
+python vec_anxia_4.py
+python vec_anxia_5.py
+python vec_anxia_6.py
+date

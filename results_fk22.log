@@ -1,0 +1,122 @@
+c-1-6
+Sun 14 Aug 2022 03:22:41 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+Begins experiments
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
+  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
+32
+quitando stopwords
+(1707, 3438) (1399, 3438)
+done in 7598.507498s
+35
+quitando stopwords
+(1707, 5031) (1399, 5031)
+done in 8276.549080s
+31
+quitando stopwords
+(1707, 8000) (1399, 8000)
+done in 9135.535914s
+33
+quitando stopwords
+(1707, 8008) (1399, 8008)
+done in 9227.273803s
+34
+quitando stopwords
+(1707, 8008) (1399, 8008)
+done in 9682.250475s
+36
+quitando stopwords
+(1707, 9745) (1399, 9745)
+done in 10079.531463s
+38
+quitando stopwords
+(1707, 9745) (1399, 9745)
+done in 10101.660578s
+39
+quitando stopwords
+(1707, 9745) (1399, 9745)
+done in 10107.794235s
+26
+(1707, 3438) (1399, 3438)
+done in 10221.305359s
+40
+quitando stopwords
+(1707, 9745) (1399, 9745)
+done in 10144.932415s
+24
+(1707, 5012) (1399, 5012)
+done in 10578.458114s
+37
+quitando stopwords
+(1707, 9745) (1399, 9745)
+done in 10401.847198s
+30
+(1707, 5012) (1399, 5012)
+done in 10596.626259s
+23
+(1707, 5031) (1399, 5031)
+done in 10597.418241s
+22
+(1707, 8008) (1399, 8008)
+done in 10934.158044s
+29
+(1707, 8014) (1399, 8014)
+done in 11001.660953s
+25
+(1707, 8000) (1399, 8000)
+done in 11024.323932s
+27
+(1707, 8014) (1399, 8014)
+done in 11040.860608s
+28
+(1707, 9745) (1399, 9745)
+done in 11235.796630s
+21
+(1707, 8008) (1399, 8008)
+done in 11075.172806s
+[(0.5454545454545455, {'C': 0.5}), (0.5454545454545455, {'C': 0.5}), (0.5589519650655022, {'C': 0.05}), (0.5589519650655022, {'C': 0.05}), (0.5739910313901346, {'C': 0.05}), (0.516949152542373, {'C': 0.05}), (0.579185520361991, {'C': 0.05}), (0.5794392523364486, {'C': 0.12}), (0.579185520361991, {'C': 0.05}), (0.5589519650655022, {'C': 0.05}), (0.579185520361991, {'C': 0.05}), (0.5084745762711865, {'C': 0.05}), (0.5765765765765767, {'C': 0.05}), (0.5765765765765767, {'C': 0.05}), (0.5128205128205129, {'C': 4}), (0.5688073394495414, {'C': 0.05}), (0.5688073394495414, {'C': 0.05}), (0.5688073394495414, {'C': 0.05}), (0.5688073394495414, {'C': 0.05}), (0.5688073394495414, {'C': 0.05})]
+End experiments
+End experiments
+Sun 14 Aug 2022 06:34:17 PM CDT
+/opt/slurm/var/spool/slurmd/job10562/slurm_script: line 15: /home/est_posgrado_maria.garcia: Is a directory

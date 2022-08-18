@@ -1,0 +1,259 @@
+c-1-40
+Wed 20 Jul 2022 01:15:24 AM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+experiment 1
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 2
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 3
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 4
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 5
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 6
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 7
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 8
+Vectorization for train data: Done
+Vectorization for test data: Done
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+experiment 9
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 10
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 11
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 12
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 13
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 14
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 15
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 16
+Vectorization for train data: Done
+Vectorization for test data: Done
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+experiment 17
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 18
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 19
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 20
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 21
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 22
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 23
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 24
+Vectorization for train data: Done
+Vectorization for test data: Done
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+experiment 1
+Vectorization for train data: Done
+Vectorization for test data: Done
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+experiment 2
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 3
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 4
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 5
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 6
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 7
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 8
+Vectorization for train data: Done
+Vectorization for test data: Done
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+experiment 9
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 10
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 11
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 12
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 13
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 14
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 15
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 16
+Vectorization for train data: Done
+Vectorization for test data: Done
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+experiment 17
+Vectorization for train data: Done
+Vectorization for test data: Done
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+experiment 18
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 19
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 20
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 21
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 22
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 23
+Vectorization for train data: Done
+Vectorization for test data: Done
+experiment 24
+Vectorization for train data: Done
+Vectorization for test data: Done
+End experiments
+Wed 20 Jul 2022 03:02:54 AM CDT

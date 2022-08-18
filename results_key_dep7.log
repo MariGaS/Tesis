@@ -1,0 +1,72 @@
+c-1-8
+Tue 26 Jul 2022 02:34:56 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+Begins experiments
+132 1500 1500 3 0.99 True True False False
+quitando stopwords
+131 1000 1000 3 0.99 True True False False
+quitando stopwords
+121 1000 1000 3 0.99 True False False False
+134 2500 2500 3 0.99 True True False False
+quitando stopwords
+135 3000 3000 3 0.99 True True False False
+quitando stopwords
+122 1500 1500 3 0.99 True False False False
+137 4500 4500 3 0.99 True True False False
+quitando stopwords
+136 4000 4000 3 0.99 True True False False
+quitando stopwords
+123 2000 2000 3 0.99 True False False False
+138 5000 5000 3 0.99 True True False False
+quitando stopwords
+124 2500 2500 3 0.99 True False False False
+139 5500 5500 3 0.99 True True False False
+quitando stopwords
+130 6000 6000 3 0.99 True False False False
+125 3000 3000 3 0.99 True False False False
+133 2000 2000 3 0.99 True True False False
+quitando stopwords
+126 4000 4000 3 0.99 True False False False
+140 6000 6000 3 0.99 True True False False
+quitando stopwords
+[0.19087136929460582, 0.18794688457609804, 0.1978723404255319, 0.19724284199363734, 0.21016949152542372, 0.21545667447306788, 0.21261682242990654, 0.21818181818181817, 0.22698612862547288, 0.22929936305732485, 0.19254658385093165, 0.18794688457609804, 0.19829424307036245, 0.1978723404255319, 0.20969560315670802, 0.21495327102803738, 0.21187427240977882, 0.21634615384615385, 0.22641509433962265, 0.22842639593908629]
+End experiments
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+Begins experiments
+151 1000 1000 3 0.99 False True False False
+quitando stopwords
+152 1500 1500 3 0.99 False True False False
+quitando stopwords
+153 2000 2000 3 0.99 False True False False
+quitando stopwords
+154 2500 2500 3 0.99 False True False False
+quitando stopwords
+155 3000 3000 3 0.99 False True False False
+quitando stopwords
+141 1000 1000 3 0.99 False False False False
+149 5500 5500 3 0.99 False False False False
+142 1500 1500 3 0.99 False False False False
+156 4000 4000 3 0.99 False True False False
+quitando stopwords
+144 2500 2500 3 0.99 False False False False
+143 2000 2000 3 0.99 False False False False
+158 5000 5000 3 0.99 False True False False
+quitando stopwords
+146 4000 4000 3 0.99 False False False False
+159 5500 5500 3 0.99 False True False False
+quitando stopwords
+160 6000 6000 3 0.99 False True False False
+quitando stopwords
+147 4500 4500 3 0.99 False False False False
+150 6000 6000 3 0.99 False False False False
+[0.188911704312115, 0.1869918699186992, 0.1964097148891236, 0.1951731374606506, 0.2075892857142857, 0.21296296296296297, 0.21296296296296297, 0.2158273381294964, 0.2219482120838471, 0.22613065326633164, 0.1905737704918033, 0.1869918699186992, 0.1964097148891236, 0.1957894736842105, 0.2073578595317726, 0.21247113163972287, 0.21296296296296297, 0.21403091557669443, 0.22085889570552147, 0.22556390977443608]
+End experiments
+End experiments
+Tue 26 Jul 2022 06:01:14 PM CDT

@@ -1,0 +1,77 @@
+c-1-8
+Thu 28 Jul 2022 08:15:34 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+Experiment:  181
+Experiment:  182
+Experiment:  183
+Experiment:  184
+Experiment:  185
+Experiment:  186
+Experiment:  187
+Experiment:  188
+Experiment:  189
+Experiment:  190
+quitando stopwords
+Experiment:  191
+quitando stopwords
+Experiment:  192
+quitando stopwords
+Experiment:  193
+quitando stopwords
+Experiment:  194
+quitando stopwords
+Experiment:  195
+quitando stopwords
+Experiment:  196
+quitando stopwords
+Experiment:  197
+quitando stopwords
+Experiment:  198
+quitando stopwords
+Experiment:  199
+Experiment:  200
+Experiment:  201
+Experiment:  202
+Experiment:  203
+Experiment:  204
+Experiment:  205
+Experiment:  206
+Experiment:  207
+Experiment:  208
+quitando stopwords
+Experiment:  209
+quitando stopwords
+Experiment:  210
+quitando stopwords
+Experiment:  211
+quitando stopwords
+Experiment:  212
+quitando stopwords
+Experiment:  213
+quitando stopwords
+Experiment:  214
+quitando stopwords
+Experiment:  215
+quitando stopwords
+Experiment:  216
+quitando stopwords
+End experiments
+Traceback (most recent call last):
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Sim_Vec/sim_anxia6.py", line 165, in <module>
+    l10.append(best[i])
+NameError: name 'l10' is not defined. Did you mean: 'l1'?
+Thu 28 Jul 2022 11:12:18 PM CDT

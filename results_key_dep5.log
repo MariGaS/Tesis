@@ -1,0 +1,40 @@
+c-1-12
+Tue 26 Jul 2022 11:54:03 AM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+Begins experiments
+21 1000 1000 2 0.99 False False False False
+22 1500 1500 2 0.99 False False False False
+23 2000 2000 2 0.99 False False False False
+28 5000 5000 2 0.99 False False False False
+29 5500 5500 2 0.99 False False False False
+[0.18852459016393444, 0.18661257606490875, 0.19375000000000003, 0.19334719334719336, 0.20666666666666667, 0.21271676300578035, 0.21222606689734713, 0.2174432497013142, 0.22413793103448273, 0.23]
+End experiments
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+Begins experiments
+31 1000 1000 2 0.99 False True False False
+quitando stopwords
+32 1500 1500 2 0.99 False True False False
+quitando stopwords
+35 3000 3000 2 0.99 False True False False
+quitando stopwords
+33 2000 2000 2 0.99 False True False False
+quitando stopwords
+34 2500 2500 2 0.99 False True False False
+quitando stopwords
+40 6000 6000 2 0.99 False True False False
+quitando stopwords
+37 4500 4500 2 0.99 False True False False
+quitando stopwords
+38 5000 5000 2 0.99 False True False False
+quitando stopwords
+39 5500 5500 2 0.99 False True False False
+quitando stopwords
+[0.18998978549540346, 0.18604651162790697, 0.19476439790575917, 0.1943573667711599, 0.2062084257206208, 0.2119815668202765, 0.21125143513203218, 0.2156398104265403, 0.22441430332922316, 0.2291407222914072]
+End experiments
+Tue 26 Jul 2022 01:44:46 PM CDT

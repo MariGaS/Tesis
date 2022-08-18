@@ -1,0 +1,73 @@
+c-1-6
+Thu 28 Jul 2022 04:52:03 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+Experiment:  73
+Experiment:  74
+Experiment:  75
+Experiment:  76
+Experiment:  77
+Experiment:  78
+Experiment:  79
+Experiment:  80
+Experiment:  81
+Experiment:  82
+quitando stopwords
+Experiment:  83
+quitando stopwords
+Experiment:  84
+quitando stopwords
+Experiment:  85
+quitando stopwords
+Experiment:  86
+quitando stopwords
+Experiment:  87
+quitando stopwords
+Experiment:  88
+quitando stopwords
+Experiment:  89
+quitando stopwords
+Experiment:  90
+quitando stopwords
+EXPERIMENT:  91
+EXPERIMENT:  92
+EXPERIMENT:  93
+EXPERIMENT:  94
+EXPERIMENT:  95
+EXPERIMENT:  96
+EXPERIMENT:  97
+EXPERIMENT:  98
+EXPERIMENT:  99
+Experiment:  100
+quitando stopwords
+Experiment:  101
+quitando stopwords
+Experiment:  102
+quitando stopwords
+Experiment:  103
+quitando stopwords
+Experiment:  104
+quitando stopwords
+Experiment:  105
+quitando stopwords
+Experiment:  106
+quitando stopwords
+Experiment:  107
+quitando stopwords
+Experiment:  108
+quitando stopwords
+End experiments
+Thu 28 Jul 2022 07:03:50 PM CDT

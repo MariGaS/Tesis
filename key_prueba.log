@@ -1,0 +1,22 @@
+c-1-6
+Sun 24 Jul 2022 05:03:56 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+Begins experiments 
+
+Experiment:  41
+Experiment:  42
+Experiment:  43
+Experiment:  44
+Experiment:  45
+Experiment:  46
+Experiment:  47
+Experiment:  48
+Experiment:  49
+Experiment:  50
+
+End experiments
+
+Sun 24 Jul 2022 11:23:23 PM CDT

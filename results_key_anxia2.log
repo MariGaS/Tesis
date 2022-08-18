@@ -1,0 +1,75 @@
+c-1-11
+Fri 22 Jul 2022 12:20:28 AM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+End experiments
+Traceback (most recent call last):
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Sim_key/sim_anxia_key3.py", line 151, in <module>
+    if f_score[i] > 0.78:
+TypeError: '>' not supported between instances of 'tuple' and 'float'
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+quitando stopwords
+End experiments
+Fri 22 Jul 2022 04:35:20 AM CDT

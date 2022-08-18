@@ -1,0 +1,40 @@
+c-1-38
+Tue 28 Jun 2022 09:11:49 PM CDT
+Primer experimento
+Segundo experimento
+Tercer experimento
+Cuarto experimento
+qu15avo experimento
+12avo experimento
+13avo experimento
+14avo experimento
+/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/externals/loky/process_executor.py:702: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+Finalizado depresion
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Traceback (most recent call last):
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/BOW.py", line 466, in <module>
+    fa8 = run_experiment_anorexia(
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/BOW_functions.py", line 109, in run_experiment_anorexia
+    x_train, y, x_test = building_bow(data=data, labels=label, ntrain=ntrain, min=min, max=max, num_feat=num_feat,
+  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/BOW_functions.py", line 68, in building_bow
+    X_val = vectorizer.transform(x_val)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/feature_extraction/text.py", line 2102, in transform
+    return self._tfidf.transform(X, copy=False)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/feature_extraction/text.py", line 1660, in transform
+    X = self._validate_data(
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/base.py", line 561, in _validate_data
+    X = check_array(X, **check_params)
+  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/utils/validation.py", line 797, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 2561230)) while a minimum of 1 is required.
+Tue 28 Jun 2022 10:07:17 PM CDT

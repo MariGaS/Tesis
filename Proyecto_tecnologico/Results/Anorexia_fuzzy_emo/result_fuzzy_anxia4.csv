@@ -1,0 +1,17 @@
+	best_parameter	f1	is_norm_dataset	remove_stop	dict	sim
+1	{'C': 0.05}	0.761904761904762	standard	True	dict1	0.98
+2	{'C': 0.05}	0.7500000000000001	standard	True	dict2	0.98
+3	{'C': 0.05}	0.7088607594936709	standard	True	dict3	0.98
+4	{'C': 0.25}	0.6341463414634146	standard	True	dict4	0.98
+5	{'C': 1}	0.7710843373493976	normalize	True	dict1	0.98
+6	{'C': 0.05}	0.7422680412371134	normalize	True	dict2	0.98
+7	{'C': 0.12}	0.7954545454545454	normalize	True	dict3	0.98
+8	{'C': 0.05}	0.7954545454545454	normalize	True	dict4	0.98
+9	{'C': 0.05}	0.761904761904762	standard	False	dict1	0.98
+10	{'C': 0.05}	0.7500000000000001	standard	False	dict2	0.98
+11	{'C': 0.05}	0.7088607594936709	standard	False	dict3	0.98
+12	{'C': 0.12}	0.6419753086419754	standard	False	dict4	0.98
+13	{'C': 1}	0.7710843373493976	normalize	False	dict1	0.98
+14	{'C': 0.05}	0.7422680412371134	normalize	False	dict2	0.98
+15	{'C': 0.12}	0.7954545454545454	normalize	False	dict3	0.98
+16	{'C': 0.05}	0.7777777777777778	normalize	False	dict4	0.98

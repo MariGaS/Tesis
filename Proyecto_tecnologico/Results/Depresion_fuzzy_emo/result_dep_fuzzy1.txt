@@ -1,0 +1,18 @@
+Experimento de depresión número: 1
+Confusion matrix: 
+[[1242   59]
+ [  67   31]]
+Metrics classification 
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95      1301
+           1       0.34      0.32      0.33        98
+
+    accuracy                           0.91      1399
+   macro avg       0.65      0.64      0.64      1399
+weighted avg       0.91      0.91      0.91      1399
+
+Best parameter:
+{'C': 0.5}
+F1-score:
+0.32978723404255317

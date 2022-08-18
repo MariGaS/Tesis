@@ -1,0 +1,21 @@
+,num_feats,tol,fuzzy,remove_stop,svm,compress,f1,best
+181,1000,0.99,False,False,True,False,0.413502109704641,{'C': 2}
+182,1500,0.99,False,False,True,False,0.445378151260504,{'C': 0.05}
+183,2000,0.99,False,False,True,False,0.483050847457627,{'C': 0.05}
+184,2500,0.99,False,False,True,False,0.506437768240343,{'C': 0.05}
+185,3000,0.99,False,False,True,False,0.51528384279476,{'C': 0.05}
+186,4000,0.99,False,False,True,False,0.502202643171806,{'C': 2}
+187,4500,0.99,False,False,True,False,0.526785714285714,{'C': 0.05}
+188,5000,0.99,False,False,True,False,0.524017467248908,{'C': 0.05}
+189,5500,0.99,False,False,True,False,0.53448275862069,{'C': 0.05}
+190,6000,0.99,False,False,True,False,0.52991452991453,{'C': 0.05}
+191,1000,0.99,False,True,True,False,0.420600858369099,{'C': 0.25}
+192,1500,0.99,False,True,True,False,0.443514644351464,{'C': 0.05}
+193,2000,0.99,False,True,True,False,0.485106382978723,{'C': 0.12}
+194,2500,0.99,False,True,True,False,0.493617021276596,{'C': 0.05}
+195,3000,0.99,False,True,True,False,0.489082969432314,{'C': 0.5}
+196,4000,0.99,False,True,True,False,0.495652173913043,{'C': 0.05}
+197,4500,0.99,False,True,True,False,0.504347826086956,{'C': 1}
+198,5000,0.99,False,True,True,False,0.511013215859031,{'C': 0.05}
+199,5500,0.99,False,True,True,False,0.51528384279476,{'C': 0.12}
+200,6000,0.99,False,True,True,False,0.528138528138528,{'C': 1}

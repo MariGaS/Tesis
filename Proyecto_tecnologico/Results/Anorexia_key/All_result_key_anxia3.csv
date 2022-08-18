@@ -1,0 +1,37 @@
+	tol	num_feats	remove_stop	compress	svm	fuzzy	best	f1
+1	0.99	500	False	True	True	fuzzy	{'C': 0.12}	0.7692307692307692
+2	0.99	1000	False	True	True	fuzzy	{'C': 0.25}	0.7741935483870966
+3	0.99	2000	False	True	True	fuzzy	{'C': 0.5}	0.7096774193548387
+4	0.99	2200	False	True	True	fuzzy	{'C': 0.05}	0.7472527472527474
+5	0.99	2500	False	True	True	fuzzy	{'C': 0.05}	0.723404255319149
+6	0.99	3000	False	True	True	fuzzy	{'C': 0.05}	0.7692307692307692
+7	0.99	4500	False	True	True	fuzzy	{'C': 0.05}	0.8461538461538461
+8	0.99	5000	False	True	True	fuzzy	{'C': 0.05}	0.7837837837837839
+9	0.99	5100	False	True	True	fuzzy	{'C': 0.05}	0.7945205479452054
+10	0.99	500	True	True	True	fuzzy	{'C': 0.12}	0.7692307692307692
+11	0.99	1000	True	True	True	fuzzy	{'C': 0.05}	0.7659574468085106
+12	0.99	2000	True	True	True	fuzzy	{'C': 0.5}	0.7096774193548387
+13	0.99	2200	True	True	True	fuzzy	{'C': 0.05}	0.7472527472527474
+14	0.99	2500	True	True	True	fuzzy	{'C': 0.05}	0.7311827956989247
+15	0.99	3000	True	True	True	fuzzy	{'C': 0.05}	0.7692307692307692
+16	0.99	4500	True	True	True	fuzzy	{'C': 0.05}	0.8461538461538461
+17	0.99	5000	True	True	True	fuzzy	{'C': 0.05}	0.7837837837837839
+18	0.99	5100	True	True	True	fuzzy	{'C': 0.05}	0.7945205479452054
+19	0.99	500	False	True	True	no-fuzzy	{'C': 0.05}	(0.7692307692307692, {'C': 0.12})
+20	0.99	1000	False	True	True	no-fuzzy	{'C': 0.05}	(0.7741935483870966, {'C': 0.25})
+21	0.99	2000	False	True	True	no-fuzzy	{'C': 0.05}	(0.7096774193548387, {'C': 0.5})
+22	0.99	2200	False	True	True	no-fuzzy	{'C': 0.05}	(0.7472527472527474, {'C': 0.05})
+23	0.99	2500	False	True	True	no-fuzzy	{'C': 0.05}	(0.723404255319149, {'C': 0.05})
+24	0.99	3000	False	True	True	no-fuzzy	{'C': 0.05}	(0.7692307692307692, {'C': 0.05})
+25	0.99	4500	False	True	True	no-fuzzy	{'C': 0.05}	(0.8461538461538461, {'C': 0.05})
+26	0.99	5000	False	True	True	no-fuzzy	{'C': 0.05}	(0.7837837837837839, {'C': 0.05})
+27	0.99	5100	False	True	True	no-fuzzy	{'C': 0.05}	(0.7945205479452054, {'C': 0.05})
+28	0.99	500	True	True	True	no-fuzzy	{'C': 0.05}	(0.7692307692307692, {'C': 0.12})
+29	0.99	1000	True	True	True	no-fuzzy	{'C': 0.05}	(0.7659574468085106, {'C': 0.05})
+30	0.99	2000	True	True	True	no-fuzzy	{'C': 0.05}	(0.7096774193548387, {'C': 0.5})
+31	0.99	2200	True	True	True	no-fuzzy	{'C': 0.05}	(0.7472527472527474, {'C': 0.05})
+32	0.99	2500	True	True	True	no-fuzzy	{'C': 0.05}	(0.7311827956989247, {'C': 0.05})
+33	0.99	3000	True	True	True	no-fuzzy	{'C': 0.05}	(0.7692307692307692, {'C': 0.05})
+34	0.99	4500	True	True	True	no-fuzzy	{'C': 0.05}	(0.8461538461538461, {'C': 0.05})
+35	0.99	5000	True	True	True	no-fuzzy	{'C': 0.05}	(0.7837837837837839, {'C': 0.05})
+36	0.99	5100	True	True	True	no-fuzzy	{'C': 0.05}	(0.7945205479452054, {'C': 0.05})

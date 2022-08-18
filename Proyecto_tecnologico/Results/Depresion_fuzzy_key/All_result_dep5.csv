@@ -1,0 +1,21 @@
+	score1	score2	tol	fuzzy	remove_stop	svm	compress	n_dif	best	f1
+81	0.0003	0.0003	0.99	True	False	True	False	True	{'C': 0.05}	0.5414847161572052
+82	0.0003	0.0007	0.99	True	False	True	False	True	{'C': 0.05}	0.5414847161572052
+83	0.0003	0.0001	0.99	True	False	True	False	True	{'C': 0.05}	0.5407725321888412
+84	0.0001	0.0001	0.99	True	False	True	False	True	{'C': 0.05}	0.5384615384615385
+85	0.0001	0.0005	0.99	True	False	True	False	True	{'C': 0.5}	0.5575221238938053
+86	0.0001	5e-05	0.99	True	False	True	False	True	{'C': 0.05}	0.5042735042735041
+87	5e-05	5e-05	0.99	True	False	True	False	True	{'C': 0.05}	0.5244444444444445
+88	5e-05	1e-05	0.99	True	False	True	False	True	{'C': 0.05}	0.4144144144144145
+89	5e-05	8e-05	0.99	True	False	True	False	True	{'C': 0.05}	0.5299145299145299
+90	1e-05	1e-05	0.99	True	False	True	False	True	{'C': 0.05}	0.4298245614035088
+91	1e-05	6e-05	0.99	True	True	True	False	True	{'C': 0.05}	0.5
+92	1e-05	5e-06	0.99	True	True	True	False	True	{'C': 0.05}	0.3799283154121863
+93	3e-05	3e-05	0.99	True	True	True	False	True	{'C': 0.05}	0.49339207048458145
+94	3e-05	8e-05	0.99	True	True	True	False	True	{'C': 0.05}	0.5276595744680851
+95	3e-05	1e-05	0.99	True	True	True	False	True	{'C': 0.05}	0.4329004329004329
+96	0.007	0.007	0.99	True	True	True	False	True	{'C': 2}	0.5446428571428572
+97	0.007	0.003	0.99	True	True	True	False	True	{'C': 2}	0.5446428571428572
+98	0.007	0.009	0.99	True	True	True	False	True	{'C': 2}	0.5446428571428572
+99	9e-07	4e-07	0.99	True	True	True	False	True	{'C': 4}	0.2182890855457227
+100	5e-06	5e-06	0.99	True	True	True	False	True	{'C': 0.05}	0.4014336917562724

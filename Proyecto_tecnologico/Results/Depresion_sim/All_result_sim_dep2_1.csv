@@ -1,0 +1,21 @@
+	num_feats	tol	fuzzy	remove_stop	svm	compress	f1	best
+41	5000	0.99	True	False	True	False	0.5596330275229358	{'C': 0.05}
+42	7000	0.99	True	False	True	False	0.5844748858447489	{'C': 0.25}
+43	8000	0.99	True	False	True	False	0.586046511627907	{'C': 0.5}
+44	8500	0.99	True	False	True	False	0.5871559633027523	{'C': 0.25}
+45	9000	0.99	True	False	True	False	0.5871559633027523	{'C': 0.12}
+46	10000	0.99	True	False	True	False	0.5833333333333334	{'C': 0.05}
+47	11000	0.99	True	False	True	False	0.5767441860465117	{'C': 0.12}
+48	12000	0.99	True	False	True	False	0.5898617511520737	{'C': 0.05}
+49	13000	0.99	True	False	True	False	0.5953488372093022	{'C': 0.5}
+50	15000	0.99	True	False	True	False	0.5925925925925926	{'C': 0.05}
+51	5000	0.99	True	True	True	False	0.5327102803738317	{'C': 0.25}
+52	7000	0.99	True	True	True	False	0.5345622119815667	{'C': 0.05}
+53	8000	0.99	True	True	True	False	0.5514018691588785	{'C': 0.05}
+54	8500	0.99	True	True	True	False	0.5514018691588785	{'C': 0.05}
+55	9000	0.99	True	True	True	False	0.563380281690141	{'C': 0.05}
+56	10000	0.99	True	True	True	False	0.5714285714285714	{'C': 0.05}
+57	11000	0.99	True	True	True	False	0.5660377358490565	{'C': 0.05}
+58	12000	0.99	True	True	True	False	0.5741626794258374	{'C': 0.12}
+59	13000	0.99	True	True	True	False	0.5687203791469194	{'C': 0.25}
+60	15000	0.99	True	True	True	False	0.5714285714285714	{'C': 0.12}

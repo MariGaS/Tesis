@@ -1,0 +1,9 @@
+	best_parameter	f1	is_norm_dataset	is_norm_vec	dict
+1	{'C': 2}	0.27844311377245506	normalize	none	dict29
+2	{'C': 1}	0.3501199040767386	standard	none	dict29
+3	{'C': 2}	0.27844311377245506	normalize	avg	dict29
+4	{'C': 2}	0.27844311377245506	normalize	norm	dict29
+5	{'C': 0.25}	0.3154761904761905	standard	avg	dict29
+6	{'C': 0.5}	0.32131147540983607	standard	norm	dict29
+7	{'C': 4}	0.28750000000000003	normalize	none	dict29_ex
+8	{'C': 2}	0.33760683760683763	standard	none	dict29_ex

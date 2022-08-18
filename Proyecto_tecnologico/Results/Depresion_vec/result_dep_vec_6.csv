@@ -1,0 +1,9 @@
+	best_parameter	f1	is_norm_dataset	is_norm_vec	dict
+1	{'C': 0.5}	0.3557312252964427	standard	avg	dict51
+2	{'C': 0.05}	0.4861111111111111	standard	norm	dict51
+3	{'C': 4}	0.4018264840182649	normalize	none	dict51_ex
+4	{'C': 0.25}	0.45538461538461533	standard	none	dict51_ex
+5	{'C': 4}	0.4018264840182649	normalize	avg	dict51_ex
+6	{'C': 4}	0.4018264840182649	normalize	norm	dict51_ex
+7	{'C': 0.05}	0.4548736462093863	standard	avg	dict51_ex
+8	{'C': 0.05}	0.4878048780487805	normalize	norm	dict51_ex

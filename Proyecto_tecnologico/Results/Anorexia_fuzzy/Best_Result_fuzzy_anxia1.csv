@@ -1,0 +1,4 @@
+	best_parameter	f1	is_norm_dataset	remove_stop	dict	sim
+5	{'C': 1}	0.8095238095238095	normalize	True	dict1	0.98
+13	{'C': 1}	0.8095238095238095	normalize	False	dict1	0.98
+16	{'C': 0.25}	0.7872340425531914	normalize	False	dict4	0.98

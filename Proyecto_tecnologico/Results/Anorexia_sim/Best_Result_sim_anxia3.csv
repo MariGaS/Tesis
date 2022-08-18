@@ -1,0 +1,17 @@
+	tol	num_feats	remove_stop	compress	svm	fuzzy	best	f1
+2	0.99	1000	False	True	True	fuzzy	{'C': 0.05}	0.782608695652174
+7	0.99	4500	False	True	True	fuzzy	{'C': 0.05}	0.8
+8	0.99	5000	False	True	True	fuzzy	{'C': 0.05}	0.810126582278481
+9	0.99	5100	False	True	True	fuzzy	{'C': 0.05}	0.8205128205128206
+11	0.99	1000	True	True	True	fuzzy	{'C': 0.05}	0.8
+16	0.99	4500	True	True	True	fuzzy	{'C': 0.05}	0.810126582278481
+17	0.99	5000	True	True	True	fuzzy	{'C': 0.12}	0.8051948051948052
+18	0.99	5100	True	True	True	fuzzy	{'C': 0.05}	0.8051948051948052
+20	0.99	1000	False	True	True	no-fuzzy	{'C': 0.05}	0.782608695652174
+25	0.99	4500	False	True	True	no-fuzzy	{'C': 0.05}	0.8
+26	0.99	5000	False	True	True	no-fuzzy	{'C': 0.05}	0.810126582278481
+27	0.99	5100	False	True	True	no-fuzzy	{'C': 0.05}	0.8205128205128206
+29	0.99	1000	True	True	True	no-fuzzy	{'C': 0.05}	0.8
+34	0.99	4500	True	True	True	no-fuzzy	{'C': 0.05}	0.810126582278481
+35	0.99	5000	True	True	True	no-fuzzy	{'C': 0.12}	0.8051948051948052
+36	0.99	5100	True	True	True	no-fuzzy	{'C': 0.05}	0.8051948051948052

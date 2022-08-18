@@ -1,0 +1,25 @@
+	best_parameter	f1	is_norm_dataset	is_norm_vec	dict
+1	{'C': 4}	0.296875	normalize	none	dict29
+2	{'C': 0.25}	0.26161790017211706	standard	none	dict29
+3	{'C': 4}	0.296875	normalize	avg	dict29
+4	{'C': 4}	0.296875	normalize	norm	dict29
+5	{'C': 0.12}	0.27675276752767525	standard	avg	dict29
+6	{'C': 0.12}	0.2045454545454545	standard	norm	dict29
+7	{'C': 4}	0.2950310559006211	normalize	none	dict29_ex
+8	{'C': 1}	0.3279445727482679	standard	none	dict29_ex
+9	{'C': 4}	0.2950310559006211	normalize	avg	dict29_ex
+10	{'C': 4}	0.2950310559006211	normalize	norm	dict29_ex
+11	{'C': 1}	0.27230046948356806	standard	avg	dict29_ex
+12	{'C': 2}	0.2227432590855803	standard	norm	dict29_ex
+13	{'C': 4}	0.2887218045112782	normalize	none	dict51
+14	{'C': 1}	0.38522427440633245	standard	none	dict51
+15	{'C': 4}	0.2887218045112782	normalize	avg	dict51
+16	{'C': 4}	0.2887218045112782	normalize	norm	dict51
+17	{'C': 1}	0.25233644859813087	standard	avg	dict51
+18	{'C': 2}	0.2364963503649635	standard	norm	dict51
+19	{'C': 4}	0.28657616892911014	normalize	none	dict51_ex
+20	{'C': 0.25}	0.33260393873085337	standard	none	dict51_ex
+21	{'C': 4}	0.28657616892911014	normalize	avg	dict51_ex
+22	{'C': 4}	0.28657616892911014	normalize	norm	dict51_ex
+23	{'C': 4}	0.1948051948051948	standard	avg	dict51_ex
+24	{'C': 0.5}	0.2356902356902357	normalize	norm	dict51_ex

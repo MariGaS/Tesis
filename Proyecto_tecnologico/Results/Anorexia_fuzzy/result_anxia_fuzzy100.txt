@@ -1,0 +1,16 @@
+Experimento de anorexia número: 100
+Confusion matrix: 
+[[265  14]
+ [ 16  25]]
+Metrics classification 
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.95       279
+           1       0.64      0.61      0.62        41
+
+    accuracy                           0.91       320
+   macro avg       0.79      0.78      0.79       320
+weighted avg       0.90      0.91      0.91       320
+
+Best parameter:
+{'C': 4}

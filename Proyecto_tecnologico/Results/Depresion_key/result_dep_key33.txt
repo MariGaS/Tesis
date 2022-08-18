@@ -1,0 +1,15 @@
+Experimento de depresión número: 33
+Confusion matrix: 
+[[537 764]
+ [  5  93]]
+Metrics classification 
+              precision    recall  f1-score   support
+
+           0       0.99      0.41      0.58      1301
+           1       0.11      0.95      0.19        98
+
+    accuracy                           0.45      1399
+   macro avg       0.55      0.68      0.39      1399
+weighted avg       0.93      0.45      0.56      1399
+
+0.19476439790575917

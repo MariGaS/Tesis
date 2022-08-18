@@ -1,1 +1,10 @@
 fastText
+glove.6B.300d.txt
+cc.en.300.bin.gz
+cc.en.300.bin
+Anorexia_2018
+Depression2018
+depression2022
+*.npy
+__pycache__
+results_sim_dep1.log

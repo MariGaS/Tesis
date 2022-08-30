@@ -5,10 +5,10 @@ from vector_key import run_exp_dep_sim
 import pandas as pd
 import multiprocessing
 from joblib import Parallel, delayed
-train_neg_2017 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/training_data/2017_cases/neg'
-train_pos_2017 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/training_data/2017_cases/pos'
-train_neg_2018 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/training_data/2018_cases/neg'
-train_pos_2018 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/training_data/2018_cases/pos'
+train_neg_2017 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/training_data/2017_cases/neg'
+train_pos_2017 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/training_data/2017_cases/pos'
+train_neg_2018 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/training_data/2018_cases/neg'
+train_pos_2018 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/training_data/2018_cases/pos'
 
 #- MAKE LIST FROM 2017 AND 2018 -#
 tr_neg_2017, tr_lab_2017 = get_text_labels(train_neg_2017, polarity='Negative')
@@ -20,12 +20,12 @@ tr_y_pos  = [*tr_lab_pos_2017, *tr_lab_pos_2018]
 tr_y_neg   = [*tr_lab_2017, *tr_lab_2018]
 train_y = tr_y_pos +tr_y_neg
 
-test_data = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/test_data/datos'
+test_data = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/test_data/datos'
 
 test_url = []
 test_labels = []
 
-with open('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/test_data/risk_golden_truth.txt') as f:
+with open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/test_data/risk_golden_truth.txt') as f:
     lines = f.readlines()
     for line in lines:
         if line[0:11] != 'subject3958':
@@ -72,16 +72,18 @@ with multiprocessing.Pool(processes=20) as pool:
     results = pool.starmap(run_exp_dep_sim, zip(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg10,arg9,arg16,arg11,arg12,arg13,arg14,arg15))
 print(results)
 #results = Parallel(n_jobs=4)(delayed(run_exp_dep_sim)(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p) for a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p in #zip(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg10,arg9,arg16,arg11,arg12,arg13,arg14,arg15))       
-f1,a  = zip(*results)
+f1,a, l1, l2  = zip(*results)
 
 print('End experiments')
 
 
-data = { 'score1': arg7, 'score2': arg8, 'tol': arg9, 'fuzzy':arg11,'remove_stop' : arg12,'svm':arg13,'compress':arg14, 'n_dif': arg16,'best': a,'f1': f1}
+data = { 'score1': arg7, 'score2': arg8, 'tol': arg9, 'fuzzy':arg11,'remove_stop' : arg12,
+            'svm':arg13,'compress':arg14, 'n_dif': arg16,'best': a,'f1': f1, 
+            'words_pos': l1, 'words_neg': l2, 'concatenate': arg15, 'word_embeddings': arg10}
 df = pd.DataFrame(data, index= arg1)        
 print('End experiments')
 
-df.to_csv('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key/All_result_dep4.csv', sep='\t')
+df.to_csv('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/All_result_dep4.csv', sep='\t')
 
                 
 

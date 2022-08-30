@@ -45,23 +45,24 @@ test = test_txt
 
 print('Begins experiments')
 
-arg1 = [x for x in range(141,161)]
+arg1 = [x for x in range(161,181)]
 arg2 = [train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos,train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos, train_pos]
 arg3 = [train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg,train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg, train_neg]
 arg4 = [test, test, test, test, test, test, test, test, test, test,test, test, test, test, test, test, test, test, test, test]
 arg5 = [test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels, test_labels]
 arg6 = [train_y,  train_y, train_y, train_y, train_y, train_y, train_y, train_y, train_y, train_y,train_y,  train_y, train_y, train_y, train_y, train_y, train_y, train_y, train_y, train_y]
-arg7 = [0.0003,0.0003,0.0003,0.0001,0.0001,0.0001,0.0005,0.005,0.0005,0.0001,0.0001,0.0001,0.0003, 0.0003,0.0003,0.007,0.007,0.007,0.009,0.005 ] #score1 
-arg8 = [0.0003,0.0007,0.0001,0.0001,0.0005,0.00005,0.0005,.001,0.0008,0.0001,0.0006,0.00005,0.0003,0.0008,0.0001,0.007,0.003,0.009,0.004,0.005] #score2
+arg7 = [0.03,0.03,0.03,0.01,0.001,0.001,0.005,0.005,0.005,0.001,0.001,0.001,0.003, 0.003,0.003,0.007,0.007,0.007,0.009,0.005 ] #score1 
+arg8 = [0.03,0.07,0.01,0.01,0.005,0.005,0.005,0.001,0.008,0.001,0.006,0.0005,0.003,0.008,0.001,0.007,0.003,0.009,0.004,0.005] #score2
 arg9 = [0.99]*20 #tolerancia
 arg10 = [3]*20 #chose
 arg11 = [False]*20 #fuzzy
 arg12 = [False,False,False,False,False,False,False,False,False,False,True,True,True,True,True,True,True,True,True,True] #remove stop
 arg13 = [True]*20 #train_data 
 arg14 = [False]*20#compress
-arg15 = [True]*20 #concatenate
+arg15 = [False]*20 #concatenate
 arg16 = [False]*20 #dif
-with multiprocessing.Pool(processes=8) as pool:
+print(multiprocessing.cpu_count()-1)
+with multiprocessing.Pool(multiprocessing.cpu_count()-1) as pool:
     results = pool.starmap(run_exp_dep_sim, zip(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg10,arg9,arg16,arg11,arg12,arg13,arg14,arg15))
 print(results)
         
@@ -76,7 +77,7 @@ data = { 'score1': arg7, 'score2': arg8, 'tol': arg9, 'fuzzy':arg11,'remove_stop
 df = pd.DataFrame(data, index= arg1)        
 print('End experiments')
 
-df.to_csv('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/All_result_dep8.csv', sep='\t')
+df.to_csv('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/All_result_dep9.csv', sep='\t')
 
                 
 

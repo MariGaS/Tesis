@@ -1,0 +1,42 @@
+DEBUG:root:
+ This is a message from experimet number 2000
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 2000
+DEBUG:root:
+ This is a message from experimet number 1001
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1001
+DEBUG:root:
+ This is a message from experimet number 1002
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1002
+DEBUG:root:
+ This is a message from experimet number 1003
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1003
+DEBUG:root:
+ This is a message from experimet number 1004
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1004
+DEBUG:root:
+ This is a message from experimet number 1005
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1005
+DEBUG:root:
+ This is a message from experimet number 1006
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1006

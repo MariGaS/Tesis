@@ -20,17 +20,23 @@ from gensim.test.utils import get_tmpfile, datapath
 import fasttext
 import fasttext.util
 import pickle
+import pandas as pd 
+import random
+import sys
+import warnings 
+import logging
+from statistics import stdev, variance
 
 from text_functions import (get_text_labels,
                             get_text_test)
 tokenizer = TweetTokenizer()
 
 print('Load_anxia')
-model_anxia = FastText.load('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Model/anxiety.model')
+model_anxia = FastText.load('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Model/anxiety.model')
 print('Load_dep')
-model_dep   = FastText.load('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Model/depresion.model')
+model_dep   = FastText.load('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Model/depresion.model')
 print('Load pretrained')
-model_pre = fasttext.load_model('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/cc.en.300.bin')
+model_pre = fasttext.load_model('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/cc.en.300.bin')
 
 
 # Pre-processing functions
@@ -231,10 +237,10 @@ def dict_scores(d1,d2, score1, score2, no_distintc):
 
 
                 
-path_pos_anxia = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_pos_anxia'
-path_neg_anxia = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_neg_anxia'
-path_pos_dep = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_pos_dep'
-path_neg_dep = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_neg_dep'
+path_pos_anxia = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_pos_anxia'
+path_neg_anxia = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_neg_anxia'
+path_pos_dep = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_pos_dep'
+path_neg_dep = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_neg_dep'
 
 #get all the list of the concatenate dictionaries 
 k1 = get_list_key(path_pos_anxia)
@@ -244,11 +250,11 @@ k4 = get_list_key(path_neg_dep)
 
 #get all the list of the first dictionaries from Sim-Key 
 #Keywords for anxia 
-path_1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/keywords/key1'
-path_2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/keywords/key2'
+path_1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key1'
+path_2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key2'
 #Keywords for depression
-path_3 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/keywords/key5'
-path_4 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/keywords/key6'
+path_3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key5'
+path_4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key6'
 
 k5 = get_list_key(path_1)
 k6 = get_list_key(path_2)
@@ -392,99 +398,185 @@ def classificator_pos_neg(pos_data, neg_data, test, score1, score2,di1,di2, tau,
 def run_exp_anxia_sim(num_exp, pos_data, neg_data, test_data, test_labels, train_labels,score1,score2, 
                       chose,tau, dif,fuzzy, remove_stop, train_data, compress, concatenate):
     print(num_exp)
+    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/warnings_anorexia.txt",level=logging.DEBUG)
+    logging.debug('\n This is a message from experimet number ' + str(num_exp) )
+    logging.info('\n This is a message for info')
+    logging.captureWarnings(True)
+    logging.warning('\n Warning message for experiment number ' + str(num_exp))
+
+
     t_initial = time()
     if concatenate == True: 
-    	kw1 = k5
-    	kw2 = k6
+        kw1 = k5
+        kw2 = k6
     else: 
-    	kw1 = k1
-    	kw2 = k2
+        kw1 = k1
+        kw2 = k2
     		          
     if train_data == False:
         results,x , y,dic1,dic2 = classificator_pos_neg(pos_data, neg_data, test_data,score1,score2,kw1,kw2, 
         			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy,remove_stop=remove_stop, train_data =train_data,compress = False)
         result_name = 'result_anxia_key' + str(num_exp) + '.txt'
-        path_name =  '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_fuzzy_key'+ '/' + result_name
+        path_name =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_fuzzy_key'+ '/' + result_name
         
         with open(path_name, "w") as f:
-        	f.write("Experimento de anorexia número: " + str(num_exp) + '\n')
-        	f.write("Confusion matrix: \n")
-        	f.write(str(confusion_matrix(test_labels, results)) + '\n')
-
-        	f.write('Metrics classification \n')
-        	f.write(str(metrics.classification_report(test_labels, results)) + '\n')
-        	f.write('F1-score:\n')
-        	f.write(str(f1_score(test_labels, y_pred)))
-
-        	f.close()
-        path_name_dic1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
-        path_name_dic2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
+            f.write("Experimento de anorexia número: " + str(num_exp) + '\n')
+            f.write("Confusion matrix: \n")
+            f.write(str(confusion_matrix(test_labels, results)) + '\n')
+            
+            f.write('Metrics classification \n')
+            f.write(str(metrics.classification_report(test_labels, results)) + '\n')
+            f.write('F1-score:\n')
+            f.write(str(f1_score(test_labels, results)))
+            
+            f.close()
+        path_name_dic1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
+        path_name_dic2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
         
         with open(path_name_dic1, "w") as f:
-        	for i in range(len(dic1)):
-            		f.write(str(dic1[i]) + '\n')
-        	f.close()
+            for i in range(len(dic1)):
+                f.write(str(dic1[i]) + '\n')
+            f.close()
+        
         with open(path_name_dic2, "w") as f:
-        	for i in range(len(dic2)):
-            		f.write(str(dic2[i]) + '\n')
-        	f.close()
+            for i in range(len(dic2)):
+                f.write(str(dic2[i]) + '\n')
+            f.close()
         print("done in %fs" % (time() - t_initial))
         return f1_score(test_labels, results)
-        
+
+
     if train_data == True:
-        seed_val = 42
-        np.random.seed(seed_val)
+        #seed_val = 42
+        #np.random.seed(seed_val)
         parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
         
         results, x, y,z,dic1,dic2 = classificator_pos_neg(pos_data, neg_data, test_data,score1,score2,kw1,kw2, 
         			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy,remove_stop=remove_stop, train_data =train_data,compress = compress)
-		
-        if compress == True: 
-        	svr = svm.LinearSVC(class_weight='balanced', dual=False)
+        # num_samples > num_features set dual = False 
+        # results.shape[1] is num_features and results.shape[0] y num_samples		
+        
+        if results.shape[1] < results.shape[0]:
+            svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 2000)
+        
         else: 
-        	svr = svm.LinearSVC(class_weight='balanced', dual=True)
+            svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 2000)
+        
+        #grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
+        #grid_anorexia.fit(z, train_labels)
+
+        #y_pred = grid_anorexia.predict(results)
+        #a1 = grid_anorexia.best_params_
+
+        # THE SAME EXPERIMENT FIVE TIMES #
+        
+        # create seed 1
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
         
         grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
         grid_anorexia.fit(z, train_labels)
 
         y_pred = grid_anorexia.predict(results)
         a1 = grid_anorexia.best_params_
+        f1 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_anorexia.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a1)) 
+        f.close()
+        
+        # create  seed 2
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
 
-        p, r, f, _ = precision_recall_fscore_support(test_labels, y_pred, average='macro', pos_label=1)
-        result_name = 'result_anxia_key' + str(num_exp) + '.txt'
-        path_name = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_fuzzy_key' + '/' + result_name
+        y_pred = grid_anorexia.predict(results)
+        a2 = grid_anorexia.best_params_
+        f2 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_anorexia.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a2)) 
+        f.close()
         
+        # create  seed 3
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
         
-        with open(path_name, "w") as f:
-            f.write("Experimento de anorexia número: " + str(num_exp) + '\n')
-            f.write("Confusion matrix: \n")
-            f.write(str(confusion_matrix(test_labels, y_pred)) + '\n')
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
 
-            f.write('Metrics classification \n')
-            f.write(str(metrics.classification_report(test_labels, y_pred)) + '\n')
+        y_pred = grid_anorexia.predict(results)
+        a3 = grid_anorexia.best_params_
+        f3 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_anorexia.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a3)) 
+        f.close()
+        
+        # create seed 4
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
 
-            f.write('Best parameter:\n')
-            f.write(str(a1))
-            f.write('\n')
-            f.write('F1-score:\n')
-            f.write(str(f1_score(test_labels, y_pred)))
-            f.close()
+        y_pred = grid_anorexia.predict(results)
+        a4 = grid_anorexia.best_params_
+        f4 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_anorexia.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a4)) 
+        f.close()
+                
         
-        path_name_dic1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
-        path_name_dic2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
+        # create seed 5
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
         
-        with open(path_name_dic1, "w") as f:
-        	for i in range(len(dic1)):
-            		f.write(str(dic1[i]) + '\n')
-        	f.close()
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
+
+        y_pred = grid_anorexia.predict(results)
+        a5 = grid_anorexia.best_params_
+        f5 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_anorexia.txt','a')
+
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + 
+                        str(a5) + ',' + str(np.var([f1,f2,f3,f4,f5])) + ',' + str(np.std([f1,f2,f3,f4,f5]))) 
+        f.close()
+        #p, r, f, _ = precision_recall_fscore_support(test_labels, y_pred, average='macro', pos_label=1)
+        #result_name = 'result_anxia_key' + str(num_exp) + '.txt'
+        #path_name = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_fuzzy_key' + '/' + result_name
         
-        with open(path_name_dic2, "w") as f:
-        	for i in range(len(dic2)):
-            		f.write(str(dic2[i]) + '\n')
-        	f.close()
+        
+        #with open(path_name, "w") as f:
+        #    f.write("Experimento de anorexia número: " + str(num_exp) + '\n')
+        #    f.write("Confusion matrix: \n")
+        #    f.write(str(confusion_matrix(test_labels, y_pred)) + '\n')
+
+        #    f.write('Metrics classification \n')
+        #    f.write(str(metrics.classification_report(test_labels, y_pred)) + '\n')
+
+        #    f.write('Best parameter:\n')
+        #    f.write(str(a1))
+        #    f.write('\n')
+        #    f.write('F1-score:\n')
+        #    f.write(str(f1_score(test_labels, y_pred)))
+        #    f.close()
+        
+        #path_name_dic1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
+        #path_name_dic2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
+        
+        #with open(path_name_dic1, "w") as f:
+        #	for i in range(len(dic1)):
+        #    		f.write(str(dic1[i]) + '\n')
+        #	f.close()
+        
+        #with open(path_name_dic2, "w") as f:
+        #	for i in range(len(dic2)):
+        #    		f.write(str(dic2[i]) + '\n')
+        #	f.close()
         print("done in %fs" % (time() - t_initial))
         
-        return f1_score(test_labels, y_pred),a1
+        return f1_score(test_labels, y_pred),a1, len(dic1), len(dic2)
         
         
             
@@ -494,102 +586,183 @@ def run_exp_anxia_sim(num_exp, pos_data, neg_data, test_data, test_labels, train
 
 def run_exp_dep_sim(num_exp, pos_data, neg_data, test_data, test_labels, train_labels,score1,score2, 
                       chose,tau, dif, fuzzy, remove_stop, train_data, compress, concatenate):
-                      
+    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/warnings_dep_2.txt",level=logging.DEBUG)
+    logging.debug('\n This is a message from experimet number ' + str(num_exp) )
+    logging.info('\n This is a message for info')
+    logging.captureWarnings(True)
+    logging.warning('\nWarning message for experiment number ' + str(num_exp))
+
     
     print(num_exp)
     t_initial = time()
     if concatenate == True: 
-    	kw1 = k7
-    	kw2 = k8
+        kw1 = k7
+        kw2 = k8
     else: 
-    	kw1 = k3
-    	kw2 = k4    
-    
+        kw1 = k3
+        kw2 = k4    
+        
     
     if train_data == False:
         results,x , y,dic1,dic2 = classificator_pos_neg(pos_data, neg_data, test_data,score1,score2,kw1,kw2, 
         			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy,remove_stop=remove_stop, train_data =train_data,compress = False)
         result_name = 'result_dep_key' + str(num_exp) + '.txt'
-        path_name =  '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key'+ '/' + result_name
+        path_name =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key'+ '/' + result_name
         
         with open(path_name, "w") as f:
-        	f.write("Experimento de depresión número: " + str(num_exp) + '\n')
-        	f.write("Confusion matrix: \n")
-        	f.write(str(confusion_matrix(test_labels, results)) + '\n')
-
-        	f.write('Metrics classification \n')
-        	f.write(str(metrics.classification_report(test_labels, results)) + '\n')
-        	f.write(str(f1_score(test_labels, results)))
-        	f.write('F1-score:\n')
-        	f.write(str(f1_score(test_labels, y_pred)))
+            f.write("Experimento de depresión número: " + str(num_exp) + '\n')
+            f.write("Confusion matrix: \n")
+            f.write(str(confusion_matrix(test_labels, results)) + '\n')
             
-        	f.close()
-        path_name_dic1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
-        path_name_dic2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
+            f.write('Metrics classification \n')
+            f.write(str(metrics.classification_report(test_labels, results)) + '\n')
+            f.write(str(f1_score(test_labels, results)))
+            f.write('F1-score:\n')
+            f.write(str(f1_score(test_labels, y_pred)))
+            
+        f.close()
+        path_name_dic1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
+        path_name_dic2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
         
         with open(path_name_dic1, "w") as f:
-        	for i in range(len(dic1)):
-            		f.write(str(dic1[i]) + '\n')
-        	f.close()
+            for i in range(len(dic1)):
+                f.write(str(dic1[i]) + '\n')
+            f.close()
         
         with open(path_name_dic2, "w") as f:
-        	for i in range(len(dic2)):
-            		f.write(str(dic2[i]) + '\n')
-        	f.close()
+            for i in range(len(dic2)):
+                f.write(str(dic2[i]) + '\n')
+            f.close()
+        
         print("done in %fs" % (time() - t_initial))
         return f1_score(test_labels, results)
 
     else:
-        seed_val = 42
-        np.random.seed(seed_val)
+        #seed_val = 42
+        #np.random.seed(seed_val)
         parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
         results, x, y,z,dic1,dic2 = classificator_pos_neg(pos_data, neg_data, test_data,score1,score2,kw1,kw2,
         			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy,remove_stop=remove_stop, train_data =train_data,compress = compress)
-
-        if compress == True: 
-        	svr = svm.LinearSVC(class_weight='balanced', dual=False)
+        # num_samples > num_features set dual = False 
+        # results.shape[1] is num_features and results.shape[0] y num_samples		
+        if results.shape[1] < results.shape[0]:
+            svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 2000)
         else: 
-        	svr = svm.LinearSVC(class_weight='balanced', dual=True)
-        		
-        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+            svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 2000)
+
+
+        #grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+        #grid_anorexia.fit(z, train_labels)
+
+        #y_pred = grid_anorexia.predict(results)
+        #a1 = grid_anorexia.best_params_
+
+
+        # create seed 1
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
         grid_anorexia.fit(z, train_labels)
 
         y_pred = grid_anorexia.predict(results)
         a1 = grid_anorexia.best_params_
-
-        p, r, f, _ = precision_recall_fscore_support(test_labels, y_pred, average='macro', pos_label=1)
-        result_name = 'result_dep_key' + str(num_exp) + '.txt'
-        path_name = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key' + '/' + result_name
-
-        with open(path_name, "w") as f:
-            f.write("Experimento de depresión número: " + str(num_exp) + '\n')
-            f.write("Confusion matrix: \n")
-            f.write(str(confusion_matrix(test_labels, y_pred)) + '\n')
-
-            f.write('Metrics classification \n')
-            f.write(str(metrics.classification_report(test_labels, y_pred)) + '\n')
-
-            f.write('Best parameter:\n')
-            f.write(str(a1))
-            f.write('\n')
-            
-            
-            f.write('F1-score:\n')
-            f.write(str(f1_score(test_labels, y_pred)))
-            
-            f.close()
-        path_name_dic1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
-        path_name_dic2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
+        f1 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_dep.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a1)) 
+        f.close()
         
-        with open(path_name_dic1, "w") as f:
-        	for i in range(len(dic1)):
-            		f.write(str(dic1[i]) + '\n')
-        	f.close()
-        with open(path_name_dic2, "w") as f:
-        	for i in range(len(dic2)):
-            		f.write(str(dic2[i]) + '\n')
-        	f.close()
+        # create  seed 2
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
+
+        y_pred = grid_anorexia.predict(results)
+        a2 = grid_anorexia.best_params_
+        f2 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_dep.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a2)) 
+        f.close()
+        
+        # create  seed 3
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
+
+        y_pred = grid_anorexia.predict(results)
+        a3 = grid_anorexia.best_params_
+        f3 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_dep.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a3)) 
+        f.close()
+        
+        # create seed 4
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
+
+        y_pred = grid_anorexia.predict(results)
+        a4 = grid_anorexia.best_params_
+        f4 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_dep.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + str(a4)) 
+        f.close()
+                
+        
+        # create seed 5
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        
+        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
+        grid_anorexia.fit(z, train_labels)
+
+        y_pred = grid_anorexia.predict(results)
+        a5 = grid_anorexia.best_params_
+        f5 = f1_score(test_labels, y_pred)
+        #f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Fuzzy_Key/f1_dep.txt','a')
+        #f.write('\n' + str(num_exp) + ',' + str(seed_value) + ',' + str(f1_score(test_labels, y_pred)) + ',' + 
+        #                str(a5) + ',' + str(np.var([f1,f2,f3,f4,f5])) + ',' + str(np.std([f1,f2,f3,f4,f5]))) 
+        #f.close()
+
+        #p, r, f, _ = precision_recall_fscore_support(test_labels, y_pred, average='macro', pos_label=1)
+        #result_name = 'result_dep_key' + str(num_exp) + '.txt'
+        #path_name = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_fuzzy_key' + '/' + result_name
+
+        #with open(path_name, "w") as f:
+        #    f.write("Experimento de depresión número: " + str(num_exp) + '\n')
+        #    f.write("Confusion matrix: \n")
+        #    f.write(str(confusion_matrix(test_labels, y_pred)) + '\n')
+
+        #    f.write('Metrics classification \n')
+        #    f.write(str(metrics.classification_report(test_labels, y_pred)) + '\n')
+
+        #    f.write('Best parameter:\n')
+        #    f.write(str(a1))
+        #    f.write('\n')
+            
+            
+        #    f.write('F1-score:\n')
+        #    f.write(str(f1_score(test_labels, y_pred)))
+            
+        #    f.close()
+        #path_name_dic1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic1' + '/dictionary1_' + str(num_exp) + '.txt'
+        #path_name_dic2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Depresion_fuzzy_key/dic2' + '/dictionary2_' + str(num_exp) + '.txt'
+        
+        #with open(path_name_dic1, "w") as f:
+        #	for i in range(len(dic1)):
+        #    		f.write(str(dic1[i]) + '\n')
+        #	f.close()
+        #with open(path_name_dic2, "w") as f:
+        #	for i in range(len(dic2)):
+        #    		f.write(str(dic2[i]) + '\n')
+        #	f.close()
         print("done in %fs" % (time() - t_initial))
-        return f1_score(test_labels, y_pred),a1
+        return f1_score(test_labels, y_pred),a1, len(dic1), len(dic2)
         
 

@@ -98,7 +98,7 @@ def get_test_post(user_path):
             for j in range(1, num_sub_post - 1):
                 # print(i,j, user_path)
 
-                if user_path == '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/test_data/datos/subject1566.xml' and j == 1:
+                if user_path == '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/test_data/datos/subject1566.xml' and j == 1:
                     entry = root[i][2][1].text
                     if type(entry) == str:
                         entry = entry.replace('\n', ' ')
@@ -106,7 +106,7 @@ def get_test_post(user_path):
                             continue
                         else:
                             hist_post.append(entry[0:-1])
-                elif user_path == '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/test_data/datos/subject1566.xml' and j > 3 and len(
+                elif user_path == '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/test_data/datos/subject1566.xml' and j > 3 and len(
                         root[i][2][j][2]) != 0:
                     for k in range(1, len(root[i][2][j][2])):
                         entry = root[i][2][j][2][k][2].text
@@ -117,7 +117,7 @@ def get_test_post(user_path):
                             else:
                                 hist_post.append(entry[0:-1])
 
-                elif user_path != '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/depression2022/test_data/datos/subject1566.xml':
+                elif user_path != '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/test_data/datos/subject1566.xml':
                     entry = root[i][2][j][2].text
 
                     if type(entry) == str:

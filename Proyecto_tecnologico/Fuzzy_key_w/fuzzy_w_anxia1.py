@@ -5,8 +5,8 @@ from vector_key import run_exp_anxia_sim
 import pandas as pd
 
 ### ANOREXIA'S EXPERIMENTS ####
-anxia_train = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Anorexia_2018/Anorexia_Datasets_1/train'
-anxia_test = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Anorexia_2018/Anorexia_Datasets_1/test'
+anxia_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Anorexia_2018/Anorexia_Datasets_1/train'
+anxia_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Anorexia_2018/Anorexia_Datasets_1/test'
 
 pos = 'positive_examples'
 neg = 'negative_examples'
@@ -125,5 +125,5 @@ data = { 'score1':score1, 'score2':score2,  'tol': tol, 'remove_stop':rem,'fuzzy
 df = pd.DataFrame(data, index= l)
 
 
-df.to_csv('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Anorexia_w_key/Result_w_anxia1.csv',sep='\t')
+df.to_csv('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Results/Anorexia_w_key/Result_w_anxia1.csv',sep='\t')
 

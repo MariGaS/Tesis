@@ -1,49 +1,49 @@
-,score1,score2,tol,remove_stop,fuzzy,no_dist,svm,compress,best,f1
-1129,0.0001,5E-05,0.99,True,False,False,True,True,{'C': 2},0.779220779220779
-1135,0.0001,5E-05,0.99,False,True,False,True,True,{'C': 2},0.779220779220779
-1143,5E-05,1E-05,0.99,False,False,False,True,True,{'C': 2},0.701298701298701
-1102,0.007,0.003,0.99,True,True,True,True,True,{'C': 4},0.676923076923077
-1108,0.007,0.003,0.99,True,False,True,True,True,{'C': 4},0.676923076923077
-1114,0.007,0.003,0.99,False,True,True,True,True,{'C': 4},0.676923076923077
-1120,0.007,0.003,0.99,False,False,True,True,True,{'C': 4},0.676923076923077
-1098,0.0003,0.0001,0.99,True,True,True,True,True,{'C': 4},0.658227848101266
-1104,0.0003,0.0001,0.99,True,False,True,True,True,{'C': 1},0.658227848101266
-1110,0.0003,0.0001,0.99,False,True,True,True,True,{'C': 1},0.658227848101266
-1116,0.0003,0.0001,0.99,False,False,True,True,True,{'C': 4},0.658227848101266
-1128,0.0003,0.0001,0.99,True,False,False,True,True,{'C': 1},0.626506024096385
-1134,0.0003,0.0001,0.99,False,True,False,True,True,{'C': 4},0.617283950617284
-1140,0.0003,0.0001,0.99,False,False,False,True,True,{'C': 4},0.617283950617284
-1122,0.0003,0.0001,0.99,True,True,False,True,True,{'C': 2},0.602150537634409
-1126,0.007,0.003,0.99,True,True,False,True,True,{'C': 4},0.566666666666667
-1132,0.007,0.003,0.99,True,False,False,True,True,{'C': 4},0.566666666666667
-1138,0.007,0.003,0.99,False,True,False,True,True,{'C': 4},0.566666666666667
-1144,0.007,0.003,0.99,False,False,False,True,True,{'C': 4},0.566666666666667
-1111,0.0001,5E-05,0.99,False,True,True,True,True,{'C': 4},0.36
-1117,0.0001,5E-05,0.99,False,False,True,True,True,{'C': 4},0.36
-1103,0.0003,0.0003,0.99,True,False,True,True,True,{'C': 1},0.329411764705882
-1109,0.0003,0.0003,0.99,False,True,True,True,True,{'C': 1},0.329411764705882
-1115,0.0003,0.0003,0.99,False,False,True,True,True,{'C': 1},0.329411764705882
-1097,0.0003,0.0003,0.99,True,True,True,True,True,{'C': 0.25},0.327272727272727
-1099,0.0001,5E-05,0.99,True,True,True,True,True,{'C': 4},0.326530612244898
-1105,0.0001,5E-05,0.99,True,False,True,True,True,{'C': 4},0.326530612244898
-1123,0.0001,5E-05,0.99,True,True,False,True,True,{'C': 4},0.326530612244898
-1141,0.0001,5E-05,0.99,False,False,False,True,True,{'C': 4},0.326530612244898
-1139,0.0003,0.0003,0.99,False,False,False,True,True,{'C': 2},0.313513513513514
-1127,0.0003,0.0003,0.99,True,False,False,True,True,{'C': 1},0.306010928961749
-1133,0.0003,0.0003,0.99,False,True,False,True,True,{'C': 1},0.306010928961749
-1121,0.0003,0.0003,0.99,True,True,False,True,True,{'C': 2},0.304347826086957
-1124,5E-05,5E-05,0.99,True,True,False,True,True,{'C': 2},0.275862068965517
-1136,5E-05,5E-05,0.99,False,True,False,True,True,{'C': 2},0.273972602739726
-1142,5E-05,5E-05,0.99,False,False,False,True,True,{'C': 2},0.273972602739726
-1100,5E-05,5E-05,0.99,True,True,True,True,True,{'C': 0.5},0.227146814404432
-1101,5E-05,1E-05,0.99,True,True,True,True,True,{'C': 4},0
-1106,5E-05,5E-05,0.99,True,False,True,True,True,{'C': 4},0
-1107,5E-05,1E-05,0.99,True,False,True,True,True,{'C': 0.05},0
-1112,5E-05,5E-05,0.99,False,True,True,True,True,{'C': 4},0
-1113,5E-05,1E-05,0.99,False,True,True,True,True,{'C': 4},0
-1118,5E-05,5E-05,0.99,False,False,True,True,True,{'C': 4},0
-1119,5E-05,1E-05,0.99,False,False,True,True,True,{'C': 4},0
-1125,5E-05,1E-05,0.99,True,True,False,True,True,{'C': 4},0
-1130,5E-05,5E-05,0.99,True,False,False,True,True,{'C': 4},0
-1131,5E-05,1E-05,0.99,True,False,False,True,True,{'C': 1},0
-1137,5E-05,1E-05,0.99,False,True,False,True,True,{'C': 4},0
+	score1	score2	tol	remove_stop	fuzzy	no_dist	svm	compress	best	f1	words_pos	words_neg	concatenate	word_embeddings
+1097	0.0003	0.0003	0.99	True	True	True	True	False	{'C': 0.12}	0.2832618025751073	266	1317	True	3
+1098	0.0003	0.0001	0.99	True	True	True	True	False	{'C': 4}	0.6829268292682927	266	583	True	3
+1099	0.0001	5e-05	0.99	True	True	True	True	False	{'C': 4}	0.6666666666666667	111	362	True	3
+1100	5e-05	5e-05	0.99	True	True	True	True	False	{'C': 4}	0.09302325581395349	64	362	True	3
+1101	5e-05	1e-05	0.99	True	True	True	True	False	{'C': 0.25}	0.44961240310077516	64	83	True	3
+1102	0.007	0.003	0.99	True	True	True	True	False	{'C': 4}	0.676923076923077	2648	5875	True	3
+1103	0.0003	0.0003	0.99	True	False	True	True	False	{'C': 4}	0.327683615819209	266	1317	True	3
+1104	0.0003	0.0001	0.99	True	False	True	True	False	{'C': 4}	0.6382978723404255	266	583	True	3
+1105	0.0001	5e-05	0.99	True	False	True	True	False	{'C': 4}	0.7865168539325843	111	362	True	3
+1106	5e-05	5e-05	0.99	True	False	True	True	False	{'C': 4}	0.4675324675324676	64	362	True	3
+1107	5e-05	1e-05	0.99	True	False	True	True	False	{'C': 0.25}	0.44961240310077516	64	83	True	3
+1108	0.007	0.003	0.99	True	False	True	True	False	{'C': 4}	0.676923076923077	2648	5875	True	3
+1109	0.0003	0.0003	0.99	False	True	True	True	False	{'C': 0.12}	0.28444444444444444	266	1317	True	3
+1110	0.0003	0.0001	0.99	False	True	True	True	False	{'C': 2}	0.6666666666666666	266	583	True	3
+1111	0.0001	5e-05	0.99	False	True	True	True	False	{'C': 2}	0.6875000000000001	111	362	True	3
+1112	5e-05	5e-05	0.99	False	True	True	True	False	{'C': 0.25}	0.0	64	362	True	3
+1113	5e-05	1e-05	0.99	False	True	True	True	False	{'C': 1}	0.45112781954887227	64	83	True	3
+1114	0.007	0.003	0.99	False	True	True	True	False	{'C': 4}	0.676923076923077	2648	5875	True	3
+1115	0.0003	0.0003	0.99	False	False	True	True	False	{'C': 4}	0.3352601156069364	266	1317	True	3
+1116	0.0003	0.0001	0.99	False	False	True	True	False	{'C': 0.5}	0.047619047619047616	266	583	True	3
+1117	0.0001	5e-05	0.99	False	False	True	True	False	{'C': 4}	0.4727272727272727	111	362	True	3
+1118	5e-05	5e-05	0.99	False	False	True	True	False	{'C': 2}	0.0	64	362	True	3
+1119	5e-05	1e-05	0.99	False	False	True	True	False	{'C': 1}	0.45112781954887227	64	83	True	3
+1120	0.007	0.003	0.99	False	False	True	True	False	{'C': 4}	0.676923076923077	2648	5875	True	3
+1121	0.0003	0.0003	0.99	True	True	False	True	False	{'C': 0.5}	0.30107526881720426	79	1296	True	3
+1122	0.0003	0.0001	0.99	True	True	False	True	False	{'C': 2}	0.6233766233766234	87	572	True	3
+1123	0.0001	5e-05	0.99	True	True	False	True	False	{'C': 4}	0.3923444976076555	39	357	True	3
+1124	5e-05	5e-05	0.99	True	True	False	True	False	{'C': 4}	0.2807017543859649	18	357	True	3
+1125	5e-05	1e-05	0.99	True	True	False	True	False	{'C': 0.5}	0.460431654676259	32	82	True	3
+1126	0.007	0.003	0.99	True	True	False	True	False	{'C': 4}	0.5666666666666667	515	5745	True	3
+1127	0.0003	0.0003	0.99	True	False	False	True	False	{'C': 0.12}	0.3333333333333333	79	1296	True	3
+1128	0.0003	0.0001	0.99	True	False	False	True	False	{'C': 2}	0.625	87	572	True	3
+1129	0.0001	5e-05	0.99	True	False	False	True	False	{'C': 4}	0.6875000000000001	39	357	True	3
+1130	5e-05	5e-05	0.99	True	False	False	True	False	{'C': 2}	0.0	18	357	True	3
+1131	5e-05	1e-05	0.99	True	False	False	True	False	{'C': 0.5}	0.460431654676259	32	82	True	3
+1132	0.007	0.003	0.99	True	False	False	True	False	{'C': 4}	0.5666666666666667	515	5745	True	3
+1133	0.0003	0.0003	0.99	False	True	False	True	False	{'C': 2}	0.30851063829787234	79	1296	True	3
+1134	0.0003	0.0001	0.99	False	True	False	True	False	{'C': 4}	0.6086956521739131	87	572	True	3
+1135	0.0001	5e-05	0.99	False	True	False	True	False	{'C': 4}	0.25	39	357	True	3
+1136	5e-05	5e-05	0.99	False	True	False	True	False	{'C': 2}	0.22777777777777777	18	357	True	3
+1137	5e-05	1e-05	0.99	False	True	False	True	False	{'C': 0.5}	0.460431654676259	32	82	True	3
+1138	0.007	0.003	0.99	False	True	False	True	False	{'C': 4}	0.5666666666666667	515	5745	True	3
+1139	0.0003	0.0003	0.99	False	False	False	True	False	{'C': 0.25}	0.2958579881656805	79	1296	True	3
+1140	0.0003	0.0001	0.99	False	False	False	True	False	{'C': 4}	0.5979381443298969	87	572	True	3
+1141	0.0001	5e-05	0.99	False	False	False	True	False	{'C': 2}	0.2671009771986971	39	357	True	3
+1142	5e-05	5e-05	0.99	False	False	False	True	False	{'C': 4}	0.2271468144044321	18	357	True	3
+1143	5e-05	1e-05	0.99	False	False	False	True	False	{'C': 0.5}	0.460431654676259	32	82	True	3
+1144	0.007	0.003	0.99	False	False	False	True	False	{'C': 4}	0.5666666666666667	515	5745	True	3

@@ -1,348 +1,66 @@
-c-1-40
-Mon 15 Aug 2022 12:26:17 PM CDT
+c-1-36
+Sun 21 Aug 2022 08:08:45 PM CDT
 Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
 Load_anxia
 Load_dep
 Load pretrained
 Begins experiments
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
-  warnings.warn(
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
 99
 quitando stopwords
 (1707, 123) (1399, 123)
-done in 6525.783543s
-100
-quitando stopwords
-(1707, 948) (1399, 948)
-done in 6984.449373s
-95
-quitando stopwords
-(1707, 1736) (1399, 1736)
-done in 7484.465110s
-91
-quitando stopwords
-(1707, 3902) (1399, 3902)
-done in 7911.921163s
+done in 6548.622532s
 92
 quitando stopwords
 (1707, 1008) (1399, 1008)
-done in 7054.663871s
+done in 7892.106432s
 93
 quitando stopwords
 (1707, 2926) (1399, 2926)
-done in 7999.251576s
+done in 8166.967457s
 90
 (1707, 1551) (1399, 1551)
-done in 8070.430807s
+done in 9284.256947s
+100
+quitando stopwords
+(1707, 948) (1399, 948)
+done in 8466.178145s
 94
 quitando stopwords
 (1707, 4721) (1399, 4721)
-done in 8848.818079s
-97
-quitando stopwords
-(1707, 16000) (1399, 16000)
-done in 11816.508220s
-86
-(1707, 4179) (1399, 4179)
-done in 9896.750715s
-89
-(1707, 4850) (1399, 4850)
-done in 10121.033898s
+done in 9076.427799s
 87
 (1707, 3879) (1399, 3879)
-done in 9286.412652s
-83
-(1707, 6538) (1399, 6538)
-done in 10463.087608s
+done in 10043.789586s
+86
+(1707, 4179) (1399, 4179)
+done in 9966.585602s
 84
 (1707, 5756) (1399, 5756)
-done in 10222.513970s
+done in 10614.139291s
+89
+(1707, 4850) (1399, 4850)
+done in 10362.760200s
+83
+(1707, 6538) (1399, 6538)
+done in 10944.577041s
+91
+quitando stopwords
+(1707, 3902) (1399, 3902)
+done in 8550.489196s
 85
 (1707, 8747) (1399, 8747)
-done in 10792.129297s
+done in 11154.723619s
 82
 (1707, 9529) (1399, 9529)
-done in 10978.118577s
-81
-(1707, 9529) (1399, 9529)
-done in 11255.472199s
-96
+done in 11568.759274s
+95
 quitando stopwords
-(1707, 16000) (1399, 16000)
-done in 11659.819249s
-98
-quitando stopwords
-(1707, 16000) (1399, 16000)
-done in 11803.523257s
-[(0.5414847161572052, {'C': 0.05}), (0.5414847161572052, {'C': 0.05}), (0.5407725321888412, {'C': 0.05}), (0.5384615384615385, {'C': 0.05}), (0.5575221238938053, {'C': 0.5}), (0.5042735042735041, {'C': 0.05}), (0.5244444444444445, {'C': 0.05}), (0.4144144144144145, {'C': 0.05}), (0.5299145299145299, {'C': 0.05}), (0.4298245614035088, {'C': 0.05}), (0.5, {'C': 0.05}), (0.3799283154121863, {'C': 0.05}), (0.49339207048458145, {'C': 0.05}), (0.5276595744680851, {'C': 0.05}), (0.4329004329004329, {'C': 0.05}), (0.5446428571428572, {'C': 2}), (0.5446428571428572, {'C': 2}), (0.5446428571428572, {'C': 2}), (0.2182890855457227, {'C': 4}), (0.4014336917562724, {'C': 0.05})]
+(1707, 1736) (1399, 1736)
+done in 8009.812219s
+88
+(1707, 1865) (1399, 1865)
+done in 8981.419204s
+[(0.5414847161572052, {'C': 0.05}, 1529, 8000), (0.5414847161572052, {'C': 0.05}, 1529, 8000), (0.5407725321888412, {'C': 0.05}, 1529, 5009), (0.5384615384615385, {'C': 0.05}, 747, 5009), (0.5575221238938053, {'C': 0.5}, 747, 8000), (0.5042735042735041, {'C': 0.05}, 747, 3432), (0.5244444444444445, {'C': 0.05}, 447, 3432), (0.4144144144144145, {'C': 0.05}, 447, 1418), (0.5299145299145299, {'C': 0.05}, 447, 4403), (0.4298245614035088, {'C': 0.05}, 133, 1418), (0.5, {'C': 0.05}, 133, 3769), (0.381294964028777, {'C': 0.05}, 133, 875), (0.49339207048458145, {'C': 0.05}, 318, 2608), (0.5276595744680851, {'C': 0.05}, 318, 4403), (0.4329004329004329, {'C': 0.05}, 318, 1418), (0.5446428571428572, {'C': 2}, 8000, 8000), (0.5446428571428572, {'C': 2}, 8000, 8000), (0.5446428571428572, {'C': 2}, 8000, 8000), (0.2404809619238477, {'C': 0.25}, 18, 105), (0.3712121212121212, {'C': 4}, 73, 875)]
 End experiments
 End experiments
-Mon 15 Aug 2022 03:47:21 PM CDT
+Sun 21 Aug 2022 11:35:48 PM CDT

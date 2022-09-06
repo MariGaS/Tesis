@@ -1,49 +1,49 @@
-,score1,score2,tol,remove_stop,fuzzy,no_dist,svm,compress,best,f1
-248,0.03,0.01,0.99,True,False,True,True,True,{'C': 0.5},0.81578947368421
-272,0.03,0.01,0.99,True,False,False,True,True,{'C': 0.5},0.81578947368421
-284,0.03,0.01,0.99,False,False,False,True,True,{'C': 0.5},0.81578947368421
-260,0.03,0.01,0.99,False,False,True,True,True,{'C': 4},0.76056338028169
-267,0.001,0.0005,0.99,True,True,False,True,True,{'C': 2},0.321739130434783
-279,0.001,0.0005,0.99,False,True,False,True,True,{'C': 2},0.321739130434783
-249,0.001,0.001,0.99,True,False,True,True,True,{'C': 2},0.315315315315315
-273,0.001,0.001,0.99,True,False,False,True,True,{'C': 2},0.315315315315315
-243,0.001,0.0005,0.99,True,True,True,True,True,{'C': 1},0.311926605504587
-255,0.001,0.0005,0.99,False,True,True,True,True,{'C': 1},0.311926605504587
-261,0.001,0.001,0.99,False,False,True,True,True,{'C': 1},0.311926605504587
-285,0.001,0.001,0.99,False,False,False,True,True,{'C': 4},0.311926605504587
-259,0.003,0.003,0.99,False,False,True,True,True,{'C': 0.05},0.28421052631579
-271,0.003,0.003,0.99,True,False,False,True,True,{'C': 0.05},0.28421052631579
-244,0.005,0.005,0.99,True,True,True,True,True,{'C': 0.05},0.282828282828283
-256,0.005,0.005,0.99,False,True,True,True,True,{'C': 0.05},0.282828282828283
-268,0.005,0.005,0.99,True,True,False,True,True,{'C': 0.05},0.282828282828283
-280,0.005,0.005,0.99,False,True,False,True,True,{'C': 0.12},0.282828282828283
-283,0.003,0.003,0.99,False,False,False,True,True,{'C': 0.25},0.282828282828283
-242,0.003,0.001,0.99,True,True,True,True,True,{'C': 0.05},0.282722513089005
-254,0.003,0.001,0.99,False,True,True,True,True,{'C': 0.05},0.282722513089005
-278,0.003,0.001,0.99,False,True,False,True,True,{'C': 0.05},0.282722513089005
-247,0.003,0.003,0.99,True,False,True,True,True,{'C': 0.12},0.282485875706215
-274,0.005,0.003,0.99,True,False,False,True,True,{'C': 0.05},0.274111675126904
-286,0.005,0.003,0.99,False,False,False,True,True,{'C': 0.05},0.274111675126904
-277,0.001,0.005,0.99,False,True,False,True,True,{'C': 0.05},0.273684210526316
-245,0.005,0.001,0.99,True,True,True,True,True,{'C': 0.05},0.272727272727273
-257,0.005,0.001,0.99,False,True,True,True,True,{'C': 0.05},0.272727272727273
-281,0.005,0.001,0.99,False,True,False,True,True,{'C': 0.12},0.272727272727273
-266,0.003,0.001,0.99,True,True,False,True,True,{'C': 0.12},0.269662921348315
-250,0.005,0.003,0.99,True,False,True,True,True,{'C': 0.25},0.263414634146341
-262,0.005,0.003,0.99,False,False,True,True,True,{'C': 0.5},0.263414634146341
-269,0.005,0.001,0.99,True,True,False,True,True,{'C': 0.25},0.263414634146341
-241,0.001,0.005,0.99,True,True,True,True,True,{'C': 0.25},0.26
-253,0.001,0.005,0.99,False,True,True,True,True,{'C': 1},0.26
-265,0.001,0.005,0.99,True,True,False,True,True,{'C': 1},0.26
-246,0.007,0.003,0.99,True,True,True,True,True,{'C': 0.05},0.239130434782609
-258,0.007,0.003,0.99,False,True,True,True,True,{'C': 0.05},0.239130434782609
-270,0.007,0.003,0.99,True,True,False,True,True,{'C': 0.05},0.239130434782609
-282,0.007,0.003,0.99,False,True,False,True,True,{'C': 0.05},0.239130434782609
-264,0.0005,0.0003,0.99,False,False,True,True,True,{'C': 0.5},0.227146814404432
-251,0.0005,0.0005,0.99,True,False,True,True,True,{'C': 4},0
-252,0.0005,0.0003,0.99,True,False,True,True,True,{'C': 4},0
-263,0.0005,0.0005,0.99,False,False,True,True,True,{'C': 0.05},0
-275,0.0005,0.0005,0.99,True,False,False,True,True,{'C': 4},0
-276,0.0005,0.0003,0.99,True,False,False,True,True,{'C': 0.12},0
-287,0.0005,0.0005,0.99,False,False,False,True,True,{'C': 1},0
-288,0.0005,0.0003,0.99,False,False,False,True,True,{'C': 4},0
+	score1	score2	tol	remove_stop	fuzzy	no_dist	svm	compress	best	f1	words_pos	words_neg
+241	0.001	0.005	0.99	True	True	True	True	False	{'C': 0.5}	0.30188679245283023	11	449
+242	0.003	0.001	0.99	True	True	True	True	False	{'C': 0.05}	0.2755102040816326	80	62
+243	0.001	0.0005	0.99	True	True	True	True	False	{'C': 0.5}	0.32173913043478264	11	26
+244	0.005	0.005	0.99	True	True	True	True	False	{'C': 0.05}	0.2828282828282828	193	449
+245	0.005	0.001	0.99	True	True	True	True	False	{'C': 0.12}	0.2634146341463415	193	62
+246	0.007	0.003	0.99	True	True	True	True	False	{'C': 0.05}	0.24731182795698928	301	213
+247	0.003	0.003	0.99	True	False	True	True	False	{'C': 0.05}	0.2871794871794872	80	213
+248	0.03	0.01	0.99	True	False	True	True	False	{'C': 0.5}	0.8157894736842105	2848	1197
+249	0.001	0.001	0.99	True	False	True	True	False	{'C': 0.05}	0.3105022831050228	11	62
+250	0.005	0.003	0.99	True	False	True	True	False	{'C': 0.25}	0.2634146341463415	193	213
+251	0.0005	0.0005	0.99	True	False	True	True	False	{'C': 0.05}	0.06451612903225808	2	26
+252	0.0005	0.0003	0.99	True	False	True	True	False	{'C': 0.05}	0.03921568627450981	2	15
+253	0.001	0.005	0.99	False	True	True	True	False	{'C': 0.12}	0.29126213592233013	11	449
+254	0.003	0.001	0.99	False	True	True	True	False	{'C': 0.05}	0.2755102040816326	80	62
+255	0.001	0.0005	0.99	False	True	True	True	False	{'C': 0.5}	0.32173913043478264	11	26
+256	0.005	0.005	0.99	False	True	True	True	False	{'C': 0.12}	0.2885572139303483	193	449
+257	0.005	0.001	0.99	False	True	True	True	False	{'C': 0.12}	0.2634146341463415	193	62
+258	0.007	0.003	0.99	False	True	True	True	False	{'C': 0.05}	0.2391304347826087	301	213
+259	0.003	0.003	0.99	False	False	True	True	False	{'C': 0.05}	0.2871794871794872	80	213
+260	0.03	0.01	0.99	False	False	True	True	False	{'C': 4}	0.7605633802816902	2848	1197
+261	0.001	0.001	0.99	False	False	True	True	False	{'C': 0.05}	0.3105022831050228	11	62
+262	0.005	0.003	0.99	False	False	True	True	False	{'C': 0.05}	0.2727272727272727	193	213
+263	0.0005	0.0005	0.99	False	False	True	True	False	{'C': 0.05}	0.06451612903225808	2	26
+264	0.0005	0.0003	0.99	False	False	True	True	False	{'C': 0.05}	0.03921568627450981	2	15
+265	0.001	0.005	0.99	True	True	False	True	False	{'C': 0.12}	0.33333333333333337	11	449
+266	0.003	0.001	0.99	True	True	False	True	False	{'C': 0.05}	0.2755102040816326	80	62
+267	0.001	0.0005	0.99	True	True	False	True	False	{'C': 0.5}	0.32173913043478264	11	26
+268	0.005	0.005	0.99	True	True	False	True	False	{'C': 0.25}	0.28431372549019607	193	449
+269	0.005	0.001	0.99	True	True	False	True	False	{'C': 0.12}	0.2634146341463415	193	62
+270	0.007	0.003	0.99	True	True	False	True	False	{'C': 0.05}	0.2391304347826087	301	213
+271	0.003	0.003	0.99	True	False	False	True	False	{'C': 0.05}	0.2871794871794872	80	213
+272	0.03	0.01	0.99	True	False	False	True	False	{'C': 0.5}	0.8157894736842105	2820	1190
+273	0.001	0.001	0.99	True	False	False	True	False	{'C': 0.05}	0.3105022831050228	11	62
+274	0.005	0.003	0.99	True	False	False	True	False	{'C': 0.12}	0.2634146341463415	193	213
+275	0.0005	0.0005	0.99	True	False	False	True	False	{'C': 0.05}	0.06451612903225808	2	26
+276	0.0005	0.0003	0.99	True	False	False	True	False	{'C': 0.05}	0.03921568627450981	2	15
+277	0.001	0.005	0.99	False	True	False	True	False	{'C': 0.5}	0.3302752293577982	11	449
+278	0.003	0.001	0.99	False	True	False	True	False	{'C': 0.05}	0.2755102040816326	80	62
+279	0.001	0.0005	0.99	False	True	False	True	False	{'C': 0.5}	0.32173913043478264	11	26
+280	0.005	0.005	0.99	False	True	False	True	False	{'C': 0.05}	0.2885572139303483	193	449
+281	0.005	0.001	0.99	False	True	False	True	False	{'C': 0.12}	0.2634146341463415	193	62
+282	0.007	0.003	0.99	False	True	False	True	False	{'C': 0.05}	0.2391304347826087	301	213
+283	0.003	0.003	0.99	False	False	False	True	False	{'C': 0.05}	0.2871794871794872	80	213
+284	0.03	0.01	0.99	False	False	False	True	False	{'C': 0.5}	0.8157894736842105	2820	1190
+285	0.001	0.001	0.99	False	False	False	True	False	{'C': 0.05}	0.3105022831050228	11	62
+286	0.005	0.003	0.99	False	False	False	True	False	{'C': 0.05}	0.2727272727272727	193	213
+287	0.0005	0.0005	0.99	False	False	False	True	False	{'C': 0.05}	0.06451612903225808	2	26
+288	0.0005	0.0003	0.99	False	False	False	True	False	{'C': 0.05}	0.03921568627450981	2	15

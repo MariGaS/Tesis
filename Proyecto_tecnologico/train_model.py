@@ -1,7 +1,6 @@
 from text_functions import (get_text_chunk,
                             get_text_test_anorexia, get_text_labels,
                             get_text_test)
-#from functions_for_vec import  normalize
 import yake
 from gensim.models import FastText
 from gensim.models import phrases, word2vec
@@ -10,15 +9,10 @@ import os
 import re
 from os import listdir
 from os.path import isfile, join
-from sklearn import svm
-from sklearn.model_selection import GridSearchCV
-from sklearn import metrics
-from sklearn.metrics import accuracy_score, confusion_matrix, f1_score, precision_recall_fscore_support, roc_auc_score
 from gensim.models import utils
 from gensim.models import FastText
 import gensim.downloader
 from gensim.test.utils import get_tmpfile, datapath
-#from gensim.models import fasttext
 import fasttext
 import fasttext.util
 import pickle
@@ -135,20 +129,6 @@ test_data = 'depression2022/test_data/datos'
 test_url = []
 test_labels = []
 
-#with open('depression2022/test_data/risk_golden_truth.txt') as f:
-#    lines = f.readlines()
-#    for line in lines:
-
-#        test_url.append(line[:-3])  # only the name of the subject
-
-#        test_labels.append(int(line[-2:-1]))  # only the label
-#    f.close()
-
-#test_txt = get_text_test(test_data, test_url)
-#train = tr_txt_2017 + tr_txt_2018 #all training data
-#test = test_txt  #test data
-
-#labels_dep = tr_y_2018 + tr_y_2017 #labeling
 
 ### ANOREXIA'S EXPERIMENTS ####
 anxia_train = 'Anorexia_2018/Anorexia_Datasets_1/train'
@@ -219,17 +199,17 @@ print("Inicia entrenamiento")
 
 
 def get_lines(text):
-        #text = normalize(text)
-    text_change = []
+        
     string = ''
     for i in range(len(text)):
         string = string + ' ' + text[i]
     #text_change.append(string)
     return string
-#all_pos_clean = normalize(all_pos)
-#all_neg_clean = normalize(all_neg)
-#t = get_lines(all_pos_clean)
-#s = get_lines(all_neg_clean)
+
+all_pos_clean = normalize(all_pos)
+all_neg_clean = normalize(all_neg)
+t = get_lines(all_pos_clean)
+s = get_lines(all_neg_clean)
 
 #def get_words_from_kw(kw):
 #    list1 = []

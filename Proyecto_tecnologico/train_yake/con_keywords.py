@@ -86,14 +86,14 @@ def con_all(name_list):
 name_list = []
 
 for i in range(20):
-    name_list.append('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/pos_anxia/key_pos_anxia' + str(i))
+    name_list.append('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/pos_anxia/key_pos_anxia' + str(i))
 
 dic_pos, rep_pos, how_pos, scores_pos = con_all(name_list)
 
-dic_path1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_pos_anxia'
-rep_path1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/rep_pos_anxia'
-how_path1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/how_pos_anxia'
-scores_path1 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/scores_pos_anxia'
+dic_path1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_pos_anxia'
+rep_path1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/rep_pos_anxia'
+how_path1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/how_pos_anxia'
+scores_path1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/scores_pos_anxia'
 
 with open(dic_path1, 'wb') as f:
     pickle.dump(dic_pos, f)
@@ -115,14 +115,14 @@ with open(scores_path1, 'wb') as f:
 
 name_list2 = []
 for i in range(132):
-    name_list2.append('/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/neg_anxia/key_neg_anxia' + str(i))
+    name_list2.append('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/neg_anxia/key_neg_anxia' + str(i))
 
 dic_neg, rep_neg, how_neg, scores_neg = con_all(name_list2)
 
-dic_path2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_neg_anxia'
-rep_path2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/rep_neg_anxia'
-how_path2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/how_neg_anxia'
-scores_path2 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/scores_neg_anxia'
+dic_path2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_neg_anxia'
+rep_path2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/rep_neg_anxia'
+how_path2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/how_neg_anxia'
+scores_path2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/scores_neg_anxia'
 
 with open(dic_path2, 'wb') as f:
     pickle.dump(dic_neg, f)
@@ -149,10 +149,10 @@ for i in range(214):
 
 dic_pos_dep, rep_pos_dep, how_pos_dep, scores_pos_dep = con_all(name_list3)
 
-dic_path3 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_pos_dep'
-rep_path3 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/rep_pos_dep'
-how_path3 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/how_pos_dep'
-scores_path3 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/scores_pos_dep'
+dic_path3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_pos_dep'
+rep_path3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/rep_pos_dep'
+how_path3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/how_pos_dep'
+scores_path3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/scores_pos_dep'
 
 with open(dic_path3, 'wb') as f:
     pickle.dump(dic_pos_dep, f)
@@ -178,10 +178,10 @@ for i in range(1493):
 
 dic_neg_dep, rep_neg_dep, how_neg_dep, scores_neg_dep = con_all(name_list4)
 
-dic_path4 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/dic_neg_dep'
-rep_path4 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/rep_neg_dep'
-how_path4 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/how_neg_dep'
-scores_path4 = '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/train_yake/scores_neg_dep'
+dic_path4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_neg_dep'
+rep_path4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/rep_neg_dep'
+how_path4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/how_neg_dep'
+scores_path4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/scores_neg_dep'
 
 with open(dic_path4, 'wb') as f:
     pickle.dump(dic_neg_dep, f)

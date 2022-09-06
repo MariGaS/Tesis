@@ -1,0 +1,21 @@
+	score1	score2	tol	fuzzy	remove_stop	svm	compress	n_dif	best	f1	words_pos	words_neg	concatenate	word_embeddings
+61	0.0003	0.0003	0.99	False	False	True	False	False	{'C': 1}	0.14285714285714285	16	7992	True	1
+62	0.0003	0.0007	0.99	False	False	True	False	False	{'C': 0.12}	0.14109347442680775	16	7992	True	1
+63	0.0003	0.0001	0.99	False	False	True	False	False	{'C': 0.25}	0.16842105263157894	27	5004	True	1
+64	0.0001	0.0001	0.99	False	False	True	False	False	{'C': 0.5}	0.13836477987421383	8	5004	True	1
+65	0.0001	0.0005	0.99	False	False	True	False	False	{'C': 0.05}	0.14457831325301207	8	7992	True	1
+66	0.0001	5e-05	0.99	False	False	True	False	False	{'C': 0.5}	0.15655577299412918	9	3429	True	1
+67	0.0005	0.0005	0.99	False	False	True	False	False	{'C': 4}	0.1486854034451496	22	7992	True	1
+68	0.005	0.001	0.99	False	False	True	False	False	{'C': 0.12}	0.4172661870503597	1753	7992	True	1
+69	0.0005	0.0008	0.99	False	False	True	False	False	{'C': 0.25}	0.14835164835164835	22	7992	True	1
+70	0.0001	0.0001	0.99	False	False	True	False	False	{'C': 0.05}	0.13725490196078433	8	5004	True	1
+71	0.0001	0.0006	0.99	False	True	True	False	False	{'C': 0.5}	0.14363636363636365	8	7992	True	1
+72	0.0001	5e-05	0.99	False	True	True	False	False	{'C': 0.05}	0.1377840909090909	9	3429	True	1
+73	0.0003	0.0003	0.99	False	True	True	False	False	{'C': 0.12}	0.14324569356300998	16	7992	True	1
+74	0.0003	0.0008	0.99	False	True	True	False	False	{'C': 0.5}	0.14349775784753363	16	7992	True	1
+75	0.0003	0.0001	0.99	False	True	True	False	False	{'C': 0.25}	0.17826086956521742	27	5004	True	1
+76	0.007	0.007	0.99	False	True	True	False	False	{'C': 4}	0.402555910543131	1753	7992	True	1
+77	0.007	0.003	0.99	False	True	True	False	False	{'C': 4}	0.402555910543131	1753	7992	True	1
+78	0.007	0.009	0.99	False	True	True	False	False	{'C': 4}	0.402555910543131	1753	7992	True	1
+79	0.009	0.004	0.99	False	True	True	False	False	{'C': 4}	0.402555910543131	1753	7992	True	1
+80	0.005	0.005	0.99	False	True	True	False	False	{'C': 4}	0.402555910543131	1753	7992	True	1

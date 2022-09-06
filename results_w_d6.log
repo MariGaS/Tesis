@@ -1,113 +1,68 @@
 c-1-40
-Mon 15 Aug 2022 09:12:05 PM CDT
+Mon 22 Aug 2022 03:37:44 AM CDT
 Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
 Load_anxia
 Load_dep
 Load pretrained
 Begins experiments
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-103
-(1707, 5031) (1399, 5031)
-done in 9986.889409s
-106
-(1707, 3438) (1399, 3438)
-done in 9847.174723s
 112
 quitando stopwords
 (1707, 3438) (1399, 3438)
-done in 7706.773695s
-110
-(1707, 5012) (1399, 5012)
-done in 12343.305145s
-104
-(1707, 5012) (1399, 5012)
-done in 12231.338950s
-114
-quitando stopwords
-(1707, 8008) (1399, 8008)
-done in 15795.359241s
-113
-quitando stopwords
-(1707, 8008) (1399, 8008)
-done in 15853.907118s
-111
-quitando stopwords
-(1707, 8000) (1399, 8000)
-done in 13647.235224s
+done in 8639.082300s
 115
 quitando stopwords
 (1707, 5031) (1399, 5031)
-done in 10859.109687s
-107
-(1707, 8014) (1399, 8014)
-done in 16543.232249s
-102
+done in 11384.657001s
+106
+(1707, 3438) (1399, 3438)
+done in 10102.909875s
+104
+(1707, 5012) (1399, 5012)
+done in 12573.014678s
+110
+(1707, 5012) (1399, 5012)
+done in 12635.522022s
+103
+(1707, 5031) (1399, 5031)
+done in 12675.635298s
+114
+quitando stopwords
 (1707, 8008) (1399, 8008)
-done in 16609.147258s
-101
+done in 16348.961944s
+113
+quitando stopwords
 (1707, 8008) (1399, 8008)
-done in 16615.115741s
-105
+done in 16351.620602s
+111
+quitando stopwords
 (1707, 8000) (1399, 8000)
-done in 16598.212078s
-109
-(1707, 8014) (1399, 8014)
-done in 16636.100151s
-119
+done in 16359.899458s
+116
 quitando stopwords
 (1707, 9745) (1399, 9745)
-done in 17525.776044s
+done in 16929.569525s
 120
 quitando stopwords
 (1707, 9745) (1399, 9745)
-done in 17577.202766s
-108
-(1707, 9745) (1399, 9745)
-done in 17274.885454s
+done in 17781.686453s
 118
 quitando stopwords
 (1707, 9745) (1399, 9745)
-done in 17540.041006s
-[(0.14794007490636704, {'C': 0.25}), (0.14794007490636704, {'C': 0.25}), (0.20592383638928066, {'C': 0.25}), (0.14668218859138535, {'C': 0.25}), (0.14031971580817051, {'C': 1}), (0.15934627170582227, {'C': 0.5}), (0.1519468186134853, {'C': 0.25}), (0.3893129770992366, {'C': 0.5}), (0.1519468186134853, {'C': 0.25}), (0.14668218859138535, {'C': 0.25}), (0.14031971580817051, {'C': 1}), (0.15918367346938778, {'C': 0.5}), (0.14766355140186915, {'C': 0.25}), (0.14766355140186915, {'C': 0.25}), (0.20592383638928066, {'C': 0.25}), (0.3923076923076923, {'C': 0.5}), (0.3923076923076923, {'C': 0.5}), (0.3923076923076923, {'C': 0.5}), (0.3923076923076923, {'C': 0.5}), (0.3923076923076923, {'C': 0.5})]
+done in 16946.710295s
+102
+(1707, 8008) (1399, 8008)
+done in 17128.004529s
+107
+(1707, 8014) (1399, 8014)
+done in 17133.803499s
+105
+(1707, 8000) (1399, 8000)
+done in 17128.553159s
+117
+quitando stopwords
+(1707, 9745) (1399, 9745)
+done in 17220.420960s
+[(0.1432408236347359, {'C': 0.5}, 16, 7992), (0.14916584887144257, {'C': 0.12}, 16, 7992), (0.16433239962651724, {'C': 0.25}, 27, 5004), (0.141156462585034, {'C': 0.12}, 8, 5004), (0.14069456812110417, {'C': 1}, 8, 7992), (0.15640273704789834, {'C': 1}, 9, 3429), (0.14862385321100918, {'C': 0.5}, 22, 7992), (0.38783269961977185, {'C': 0.5}, 1753, 7992), (0.1474414570685169, {'C': 0.05}, 22, 7992), (0.13780918727915195, {'C': 0.25}, 8, 5004), (0.14019520851818987, {'C': 0.12}, 8, 7992), (0.14977168949771688, {'C': 0.5}, 9, 3429), (0.14349775784753363, {'C': 0.05}, 16, 7992), (0.1436265709156194, {'C': 0.5}, 16, 7992), (0.15319148936170213, {'C': 0.05}, 27, 5004), (0.3923076923076923, {'C': 0.5}, 1753, 7992), (0.3893129770992366, {'C': 0.5}, 1753, 7992), (0.3923076923076923, {'C': 0.5}, 1753, 7992), (0.3923076923076923, {'C': 0.5}, 1753, 7992), (0.3923076923076923, {'C': 0.5}, 1753, 7992)]
 End experiments
 End experiments
-Tue 16 Aug 2022 02:09:56 AM CDT
+Mon 22 Aug 2022 08:38:32 AM CDT

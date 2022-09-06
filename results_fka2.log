@@ -1,5 +1,189 @@
-c-1-20
-Sat 13 Aug 2022 07:04:14 PM CDT
+c-1-6
+Sun 21 Aug 2022 04:36:27 PM CDT
+Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
+Load_anxia
+Load_dep
+Load pretrained
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+text extracted for all users
+Begins experiments
+97
+quitando stopwords
+(152, 2) (320, 2)
+done in 132.623547s
+98
+quitando stopwords
+(152, 2) (320, 2)
+done in 120.163031s
+99
+quitando stopwords
+(152, 2) (320, 2)
+done in 117.720604s
+100
+quitando stopwords
+(152, 2) (320, 2)
+done in 118.233104s
+101
+quitando stopwords
+(152, 2) (320, 2)
+done in 111.651276s
+102
+quitando stopwords
+(152, 2) (320, 2)
+done in 202.038753s
+103
+quitando stopwords
+(152, 2) (320, 2)
+done in 125.016603s
+104
+quitando stopwords
+(152, 2) (320, 2)
+done in 118.571315s
+105
+quitando stopwords
+(152, 2) (320, 2)
+done in 114.522007s
+106
+quitando stopwords
+(152, 2) (320, 2)
+done in 113.463525s
+107
+quitando stopwords
+(152, 2) (320, 2)
+done in 111.489608s
+108
+quitando stopwords
+(152, 2) (320, 2)
+done in 197.555502s
+109
+(152, 2) (320, 2)
+done in 184.165665s
+110
+(152, 2) (320, 2)
+done in 179.319614s
+111
+(152, 2) (320, 2)
+done in 170.532945s
+112
+(152, 2) (320, 2)
+done in 176.881381s
+113
+(152, 2) (320, 2)
+done in 167.535486s
+114
+(152, 2) (320, 2)
+done in 265.533796s
+115
+(152, 2) (320, 2)
+done in 185.339008s
+116
+(152, 2) (320, 2)
+done in 175.869987s
+117
+(152, 2) (320, 2)
+done in 170.432621s
+118
+(152, 2) (320, 2)
+done in 172.741030s
+119
+(152, 2) (320, 2)
+done in 164.907708s
+120
+(152, 2) (320, 2)
+done in 250.989331s
+121
+quitando stopwords
+(152, 2) (320, 2)
+done in 124.253729s
+122
+quitando stopwords
+(152, 2) (320, 2)
+done in 118.243571s
+123
+quitando stopwords
+(152, 2) (320, 2)
+done in 117.058845s
+124
+quitando stopwords
+(152, 2) (320, 2)
+done in 116.270010s
+125
+quitando stopwords
+(152, 2) (320, 2)
+done in 112.266727s
+126
+quitando stopwords
+(152, 2) (320, 2)
+done in 177.345210s
+127
+quitando stopwords
+(152, 2) (320, 2)
+done in 122.034633s
+128
+quitando stopwords
+(152, 2) (320, 2)
+done in 119.159515s
+129
+quitando stopwords
+(152, 2) (320, 2)
+done in 113.671556s
+130
+quitando stopwords
+(152, 2) (320, 2)
+done in 117.144813s
+131
+quitando stopwords
+(152, 2) (320, 2)
+done in 110.694085s
+132
+quitando stopwords
+(152, 2) (320, 2)
+done in 173.760438s
+133
+(152, 2) (320, 2)
+done in 176.724054s
+134
+(152, 2) (320, 2)
+done in 171.349168s
+135
+(152, 2) (320, 2)
+done in 175.033738s
+136
+(152, 2) (320, 2)
+done in 170.156164s
+137
+(152, 2) (320, 2)
+done in 162.967317s
+138
+(152, 2) (320, 2)
+done in 242.200761s
+139
+(152, 2) (320, 2)
+done in 178.074250s
+140
+(152, 2) (320, 2)
+done in 171.510488s
+141
+(152, 2) (320, 2)
+done in 171.323573s
+142
+(152, 2) (320, 2)
+done in 170.613667s
+143
+(152, 2) (320, 2)
+done in 167.014309s
+144
+(152, 2) (320, 2)
+done in 230.689277s
+End experiments
 Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
 Load_anxia
 Load_dep
@@ -18,170 +202,170 @@ Begins experiments
 145
 quitando stopwords
 (152, 2) (320, 2)
-done in 119.971070s
+done in 117.978724s
 146
 quitando stopwords
 (152, 2) (320, 2)
-done in 111.114036s
+done in 112.852698s
 147
 quitando stopwords
 (152, 2) (320, 2)
-done in 109.667230s
+done in 113.496583s
 148
 quitando stopwords
 (152, 2) (320, 2)
-done in 117.716794s
+done in 120.279626s
 149
 quitando stopwords
 (152, 2) (320, 2)
-done in 111.440328s
+done in 111.721989s
 150
 quitando stopwords
 (152, 2) (320, 2)
-done in 114.772823s
+done in 114.981613s
 151
 quitando stopwords
 (152, 2) (320, 2)
-done in 112.428958s
+done in 112.848596s
 152
 quitando stopwords
 (152, 2) (320, 2)
-done in 150.515950s
+done in 152.378706s
 153
 quitando stopwords
 (152, 2) (320, 2)
-done in 109.794918s
+done in 113.202767s
 154
 quitando stopwords
 (152, 2) (320, 2)
-done in 114.407669s
+done in 113.908304s
 155
 quitando stopwords
 (152, 2) (320, 2)
-done in 112.841488s
+done in 110.879591s
 156
 quitando stopwords
 (152, 2) (320, 2)
-done in 109.123913s
+done in 114.517580s
 157
 (152, 2) (320, 2)
-done in 180.026561s
+done in 174.839956s
 158
 (152, 2) (320, 2)
-done in 163.531632s
+done in 170.413367s
 159
 (152, 2) (320, 2)
-done in 164.200654s
+done in 169.625608s
 160
 (152, 2) (320, 2)
-done in 171.042409s
+done in 169.858142s
 161
 (152, 2) (320, 2)
-done in 170.005538s
+done in 164.963478s
 162
 (152, 2) (320, 2)
-done in 171.280160s
+done in 167.752691s
 163
 (152, 2) (320, 2)
-done in 171.159728s
+done in 166.708002s
 164
 (152, 2) (320, 2)
-done in 209.110609s
+done in 203.023102s
 165
 (152, 2) (320, 2)
-done in 167.071486s
+done in 163.943139s
 166
 (152, 2) (320, 2)
-done in 173.317727s
+done in 176.714453s
 167
 (152, 2) (320, 2)
-done in 168.478260s
+done in 164.791011s
 168
 (152, 2) (320, 2)
-done in 167.299363s
+done in 166.197444s
 169
 quitando stopwords
 (152, 2) (320, 2)
-done in 116.252059s
+done in 115.766880s
 170
 quitando stopwords
 (152, 2) (320, 2)
-done in 110.817965s
+done in 111.194512s
 171
 quitando stopwords
 (152, 2) (320, 2)
-done in 113.292019s
+done in 111.100098s
 172
 quitando stopwords
 (152, 2) (320, 2)
-done in 121.603292s
+done in 115.765479s
 173
 quitando stopwords
 (152, 2) (320, 2)
-done in 112.808922s
+done in 114.496514s
 174
 quitando stopwords
 (152, 2) (320, 2)
-done in 114.063822s
+done in 116.787436s
 175
 quitando stopwords
 (152, 2) (320, 2)
-done in 112.880196s
+done in 111.935447s
 176
 quitando stopwords
 (152, 2) (320, 2)
-done in 151.508533s
+done in 149.232551s
 177
 quitando stopwords
 (152, 2) (320, 2)
-done in 112.560730s
+done in 111.168989s
 178
 quitando stopwords
 (152, 2) (320, 2)
-done in 117.122963s
+done in 114.890070s
 179
 quitando stopwords
 (152, 2) (320, 2)
-done in 109.778802s
+done in 111.489004s
 180
 quitando stopwords
 (152, 2) (320, 2)
-done in 108.895784s
+done in 112.603274s
 181
 (152, 2) (320, 2)
-done in 167.742979s
+done in 171.395984s
 182
 (152, 2) (320, 2)
-done in 165.736743s
+done in 166.433092s
 183
 (152, 2) (320, 2)
-done in 168.134166s
+done in 164.868538s
 184
 (152, 2) (320, 2)
-done in 176.355744s
+done in 172.161687s
 185
 (152, 2) (320, 2)
-done in 168.230897s
+done in 165.128407s
 186
 (152, 2) (320, 2)
-done in 175.479168s
+done in 176.829995s
 187
 (152, 2) (320, 2)
-done in 173.160728s
+done in 168.886379s
 188
 (152, 2) (320, 2)
-done in 210.693617s
+done in 203.478075s
 189
 (152, 2) (320, 2)
-done in 167.931600s
+done in 166.456132s
 190
 (152, 2) (320, 2)
-done in 176.304916s
+done in 174.973861s
 191
 (152, 2) (320, 2)
-done in 166.629017s
+done in 162.833496s
 192
 (152, 2) (320, 2)
-done in 167.664941s
+done in 165.838765s
 End experiments
-Sat 13 Aug 2022 09:03:04 PM CDT
+Sun 21 Aug 2022 08:43:40 PM CDT

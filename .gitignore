@@ -8,3 +8,10 @@ depression2022
 *.npy
 __pycache__
 results_sim_dep1.log
+*.log
+*run*
+.vscode/
+pre_model/
+anxia_model/
+dep_model/
+corpus*

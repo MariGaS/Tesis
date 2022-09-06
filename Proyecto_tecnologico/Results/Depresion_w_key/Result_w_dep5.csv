@@ -1,21 +1,21 @@
-	score1	score2	tol	fuzzy	remove_stop	svm	compress	n_dif	best	f1
-81	0.0003	0.0003	0.99	True	False	True	False	True	{'C': 0.25}	0.142433234421365
-82	0.0003	0.0007	0.99	True	False	True	False	True	{'C': 0.25}	0.142433234421365
-83	0.0003	0.0001	0.99	True	False	True	False	True	{'C': 0.12}	0.1388888888888889
-84	0.0001	0.0001	0.99	True	False	True	False	True	{'C': 0.25}	0.14857142857142858
-85	0.0001	0.0005	0.99	True	False	True	False	True	{'C': 0.25}	0.14744801512287334
-86	0.0001	5e-05	0.99	True	False	True	False	True	{'C': 0.12}	0.1499051233396584
-87	5e-05	5e-05	0.99	True	False	True	False	True	{'C': 0.5}	0.14227642276422764
-88	5e-05	1e-05	0.99	True	False	True	False	True	{'C': 1}	0.17021276595744678
-89	5e-05	8e-05	0.99	True	False	True	False	True	{'C': 0.12}	0.1412575366063738
-90	1e-05	1e-05	0.99	True	False	True	False	True	{'C': 2}	0.13504273504273506
-91	1e-05	6e-05	0.99	True	True	True	False	True	{'C': 0.25}	0.020202020202020204
-92	1e-05	5e-06	0.99	True	True	True	False	True	{'C': 4}	0.1494542401343409
-93	3e-05	3e-05	0.99	True	True	True	False	True	{'C': 0.5}	0.14566473988439307
-94	3e-05	8e-05	0.99	True	True	True	False	True	{'C': 0.12}	0.13857998289136014
-95	3e-05	1e-05	0.99	True	True	True	False	True	{'C': 2}	0.15043394406943106
-96	0.007	0.007	0.99	True	True	True	False	True	{'C': 4}	0.16338028169014082
-97	0.007	0.003	0.99	True	True	True	False	True	{'C': 4}	0.16338028169014082
-98	0.007	0.009	0.99	True	True	True	False	True	{'C': 4}	0.16338028169014082
-99	9e-07	4e-07	0.99	True	True	True	False	True	{'C': 0.5}	0.0
-100	5e-06	5e-06	0.99	True	True	True	False	True	{'C': 2}	0.13261163734776726
+	score1	score2	tol	fuzzy	remove_stop	svm	compress	n_dif	best	f1	words_pos	words_neg	concatenate	word_embeddings
+81	0.0003	0.0003	0.99	True	False	True	False	True	{'C': 0.25}	0.14188532555879493	1529	8000	True	3
+82	0.0003	0.0007	0.99	True	False	True	False	True	{'C': 0.5}	0.141747572815534	1529	8000	True	3
+83	0.0003	0.0001	0.99	True	False	True	False	True	{'C': 0.12}	0.13916500994035785	1529	5009	True	3
+84	0.0001	0.0001	0.99	True	False	True	False	True	{'C': 0.05}	0.14684014869888473	747	5009	True	3
+85	0.0001	0.0005	0.99	True	False	True	False	True	{'C': 0.5}	0.14429223744292238	747	8000	True	3
+86	0.0001	5e-05	0.99	True	False	True	False	True	{'C': 0.5}	0.15448851774530273	747	3432	True	3
+87	5e-05	5e-05	0.99	True	False	True	False	True	{'C': 0.12}	0.1414141414141414	447	3432	True	3
+88	5e-05	1e-05	0.99	True	False	True	False	True	{'C': 4}	0.16724738675958187	447	1418	True	3
+89	5e-05	8e-05	0.99	True	False	True	False	True	{'C': 0.25}	0.13836477987421383	447	4403	True	3
+90	1e-05	1e-05	0.99	True	False	True	False	True	{'C': 4}	0.1384928716904277	133	1418	True	3
+91	1e-05	6e-05	0.99	True	True	True	False	True	{'C': 0.05}	0.16326530612244897	133	3769	True	3
+92	1e-05	5e-06	0.99	True	True	True	False	True	{'C': 0.25}	0.2156862745098039	133	875	True	3
+93	3e-05	3e-05	0.99	True	True	True	False	True	{'C': 0.5}	0.20207253886010362	318	2608	True	3
+94	3e-05	8e-05	0.99	True	True	True	False	True	{'C': 0.5}	0.14115092290988057	318	4403	True	3
+95	3e-05	1e-05	0.99	True	True	True	False	True	{'C': 4}	0.1518987341772152	318	1418	True	3
+96	0.007	0.007	0.99	True	True	True	False	True	{'C': 4}	0.16338028169014082	8000	8000	True	3
+97	0.007	0.003	0.99	True	True	True	False	True	{'C': 4}	0.16338028169014082	8000	8000	True	3
+98	0.007	0.009	0.99	True	True	True	False	True	{'C': 4}	0.16338028169014082	8000	8000	True	3
+99	9e-07	4e-07	0.99	True	True	True	False	True	{'C': 1}	0.22121212121212122	18	105	True	3
+100	5e-06	5e-06	0.99	True	True	True	False	True	{'C': 0.12}	0.13613613613613612	73	875	True	3

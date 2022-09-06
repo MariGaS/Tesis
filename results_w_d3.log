@@ -1,117 +1,77 @@
-c-1-6
-Mon 15 Aug 2022 04:17:33 PM CDT
+c-1-36
+Mon 22 Aug 2022 12:43:53 AM CDT
 Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
 Load_anxia
 Load_dep
 Load pretrained
 Begins experiments
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1308: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
-  _warn_prf(average, modifier, msg_start, len(result))
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
-/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/joblib/parallel.py:735: UserWarning: Loky-backed parallel loops cannot be called in a multiprocessing, setting n_jobs=1
-  n_jobs = self._backend.configure(n_jobs=self.n_jobs, parallel=self,
 59
 quitando stopwords
 (1707, 123) (1399, 123)
-52
-quitando stopwords
-(1707, 1008) (1399, 1008)
+done in 5062.403442s
 55
 quitando stopwords
 (1707, 1736) (1399, 1736)
+done in 6109.354383s
 60
 quitando stopwords
 (1707, 948) (1399, 948)
+done in 5418.315377s
+52
+quitando stopwords
+(1707, 1008) (1399, 1008)
+done in 5431.429365s
 53
 quitando stopwords
 (1707, 2926) (1399, 2926)
+done in 7134.973781s
 50
 (1707, 1551) (1399, 1551)
-48
-(1707, 1865) (1399, 1865)
+done in 7341.623021s
 51
 quitando stopwords
 (1707, 3902) (1399, 3902)
+done in 8235.660374s
+48
+(1707, 1865) (1399, 1865)
+done in 7438.841416s
 54
 quitando stopwords
 (1707, 4721) (1399, 4721)
-49
-(1707, 4850) (1399, 4850)
-43
-(1707, 6538) (1399, 6538)
-45
-(1707, 8747) (1399, 8747)
-44
-(1707, 5756) (1399, 5756)
-41
-(1707, 9529) (1399, 9529)
-42
-(1707, 9529) (1399, 9529)
+done in 8858.983758s
+47
+(1707, 3879) (1399, 3879)
+done in 9065.410297s
 46
 (1707, 4179) (1399, 4179)
-56
+done in 9167.914546s
+49
+(1707, 4850) (1399, 4850)
+done in 9860.934031s
+44
+(1707, 5756) (1399, 5756)
+done in 10469.405651s
+43
+(1707, 6538) (1399, 6538)
+done in 10695.020479s
+45
+(1707, 8747) (1399, 8747)
+done in 13018.888051s
+42
+(1707, 9529) (1399, 9529)
+done in 13178.008709s
+41
+(1707, 9529) (1399, 9529)
+done in 13243.080847s
+57
 quitando stopwords
 (1707, 16000) (1399, 16000)
+done in 15993.647268s
 58
 quitando stopwords
 (1707, 16000) (1399, 16000)
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 51, in starmapstar
-    return list(itertools.starmap(args[0], args[1]))
-  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_key_w/vector_key.py", line 599, in run_exp_dep_sim
-    with open(path_name, "w") as f:
-FileNotFoundError: [Errno 2] No such file or directory: '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_w_key/result_dep_key59.txt'
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Fuzzy_key_w/fuzzy_w_dep3.py", line 73, in <module>
-    results = pool.starmap(run_exp_dep_sim, zip(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg10,arg9,arg17,arg16,arg11,arg12,arg13,arg14,arg15))
-  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 372, in starmap
-    return self._map_async(func, iterable, starmapstar, chunksize).get()
-  File "/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/multiprocessing/pool.py", line 771, in get
-    raise self._value
-FileNotFoundError: [Errno 2] No such file or directory: '/home/est_posgrado_maria.garcia/Proyecto_tecnologico/Results/Depresion_w_key/result_dep_key59.txt'
-Mon 15 Aug 2022 08:44:12 PM CDT
+done in 16095.244873s
+[(0.14355948869223206, {'C': 0.25}, 1529, 8000), (0.1407907425265188, {'C': 0.05}, 1529, 8000), (0.13224821973550357, {'C': 0.12}, 1529, 5009), (0.14562211981566822, {'C': 0.05}, 747, 5009), (0.14324569356300998, {'C': 1}, 747, 8000), (0.14985590778097982, {'C': 0.12}, 747, 3432), (0.14028436018957344, {'C': 1}, 447, 3432), (0.1653272101033295, {'C': 2}, 447, 1418), (0.1371900826446281, {'C': 0.25}, 447, 4403), (0.07692307692307691, {'C': 2}, 133, 1418), (0.14353163361661944, {'C': 2}, 133, 3769), (0.16631130063965885, {'C': 0.05}, 133, 875), (0.13387978142076504, {'C': 0.5}, 318, 2608), (0.1382667964946446, {'C': 0.25}, 318, 4403), (0.16321243523316062, {'C': 4}, 318, 1418), (0.17057169634489222, {'C': 4}, 8000, 8000), (0.17057169634489222, {'C': 4}, 8000, 8000), (0.17057169634489222, {'C': 4}, 8000, 8000), (0.21884498480243159, {'C': 0.25}, 18, 105), (0.1372351160443996, {'C': 0.12}, 73, 875)]
+End experiments
+End experiments
+Mon 22 Aug 2022 05:16:59 AM CDT

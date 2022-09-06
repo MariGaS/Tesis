@@ -1,0 +1,156 @@
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 2
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 2
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 3
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 3
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 4
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 4
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 5
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 5
+DEBUG:root:
+ This is a message from experimet number 6
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 6
+DEBUG:root:
+ This is a message from experimet number 7
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 7
+DEBUG:root:
+ This is a message from experimet number 8
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 8
+DEBUG:root:
+ This is a message from experimet number 9
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 9
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 10
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 10
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 11
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 11
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 12
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 12
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 13
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 13
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 14
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 14
+WARNING:py.warnings:/home/est_posgrado_maria.garcia/.conda/envs/proyecto/lib/python3.10/site-packages/sklearn/svm/_base.py:1206: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn(
+
+DEBUG:root:
+ This is a message from experimet number 15
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 15
+DEBUG:root:
+ This is a message from experimet number 16
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 16
+DEBUG:root:
+ This is a message from experimet number 17
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 17
+DEBUG:root:
+ This is a message from experimet number 18
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 18

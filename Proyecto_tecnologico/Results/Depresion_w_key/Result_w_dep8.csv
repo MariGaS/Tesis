@@ -1,0 +1,21 @@
+	score1	score2	tol	fuzzy	remove_stop	svm	compress	n_dif	best	f1	word_pos	word_neg	concatenate	word_embeddings
+141	0.0003	0.0003	0.99	False	False	True	False	False	{'C': 0.12}	0.1410146173688736	16	7992	True	3
+142	0.0003	0.0007	0.99	False	False	True	False	False	{'C': 0.12}	0.1436265709156194	16	7992	True	3
+143	0.0003	0.0001	0.99	False	False	True	False	False	{'C': 0.12}	0.15296052631578946	27	5004	True	3
+144	0.0001	0.0001	0.99	False	False	True	False	False	{'C': 0.05}	0.14571092831962396	8	5004	True	3
+145	0.0001	0.0005	0.99	False	False	True	False	False	{'C': 0.5}	0.1413427561837456	8	7992	True	3
+146	0.0001	5e-05	0.99	False	False	True	False	False	{'C': 0.25}	0.1981981981981982	9	3429	True	3
+147	5e-05	5e-05	0.99	False	False	True	False	False	{'C': 1}	0.1366120218579235	4	3429	True	3
+148	5e-05	1e-05	0.99	False	False	True	False	False	{'C': 4}	0.43271767810026385	8	1418	True	3
+149	5e-05	8e-05	0.99	False	False	True	False	False	{'C': 0.5}	0.13999999999999999	4	4399	True	3
+150	1e-05	1e-05	0.99	False	False	True	False	False	{'C': 2}	0.13793103448275862	1	1418	True	3
+151	1e-05	6e-05	0.99	False	True	True	False	False	{'C': 0.12}	0.16725978647686832	1	3768	True	3
+152	1e-05	5e-06	0.99	False	True	True	False	False	{'C': 0.05}	0.13549039433771487	1	875	True	3
+153	3e-05	3e-05	0.99	False	True	True	False	False	{'C': 4}	0.1391465677179963	3	2606	True	3
+154	3e-05	8e-05	0.99	False	True	True	False	False	{'C': 0.12}	0.14454976303317535	3	4400	True	3
+155	3e-05	1e-05	0.99	False	True	True	False	False	{'C': 4}	0.09433962264150944	3	1418	True	3
+156	0.007	0.007	0.99	False	True	True	False	False	{'C': 0.5}	0.3923076923076923	1753	7992	True	3
+157	0.007	0.003	0.99	False	True	True	False	False	{'C': 0.5}	0.3923076923076923	1753	7992	True	3
+158	0.007	0.009	0.99	False	True	True	False	False	{'C': 0.5}	0.3923076923076923	1753	7992	True	3
+159	0.009	0.0004	0.99	False	True	True	False	False	{'C': 0.5}	0.3923076923076923	1753	7992	True	3
+160	5e-06	5e-06	0.99	False	True	True	False	False	{'C': 0.05}	0.13549039433771487	1	875	True	3

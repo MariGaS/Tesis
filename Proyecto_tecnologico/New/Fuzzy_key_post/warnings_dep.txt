@@ -1,0 +1,90 @@
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 5
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 5
+DEBUG:root:
+ This is a message from experimet number 9
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 9
+DEBUG:root:
+ This is a message from experimet number 13
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 13
+DEBUG:root:
+ This is a message from experimet number 2
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 2
+DEBUG:root:
+ This is a message from experimet number 6
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 6
+DEBUG:root:
+ This is a message from experimet number 10
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 10
+DEBUG:root:
+ This is a message from experimet number 14
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 14
+DEBUG:root:
+ This is a message from experimet number 3
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 3
+DEBUG:root:
+ This is a message from experimet number 7
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 7
+DEBUG:root:
+ This is a message from experimet number 11
+INFO:root:
+ This is a message for info
+WARNING:root:
+Warning message for experiment number 11

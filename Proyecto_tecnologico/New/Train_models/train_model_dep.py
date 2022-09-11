@@ -19,24 +19,18 @@ import pickle
 
 tokenizer = TweetTokenizer()
 def normalize(document):
-
-    document = [x.lower()  for x in document]
+    #eliminate link 
+    document = [re.sub(r'{link}', '', x) for x in document]
+    # eliminate video
+    document = [re.sub(r"\[video\]", '', x) for x in document]
     # eliminate url
     document = [re.sub(r'https?:\/\/\S+', '', x) for x in document]
     # eliminate url
     document = [re.sub(r"www\.[a-z]?\.?(com)+|[a-z]+\.(com)", '', x) for x in document]
-    # eliminate link
-    document = [re.sub(r'{link}', '', x) for x in document]
-    # eliminate video
-    document = [re.sub(r"\[video\]", '', x) for x in document]
-    document = [re.sub(r'\s+', ' ' '', x).strip() for x in document]
     # eliminate #
     document = [x.replace("#","") for x in document]
-    # eliminate emoticons
-    document = [re.subn(r'[^\w\s,]',"", x)[0].strip() for x in document]
 
     return document
-
 
 
 train_neg_2017 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/depression2022/training_data/2017_cases/neg'

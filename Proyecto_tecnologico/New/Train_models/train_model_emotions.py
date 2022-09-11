@@ -17,24 +17,22 @@ import fasttext.util
 
 
 tokenizer = TweetTokenizer()
-def normalize(document):
 
-    document = [x.lower()  for x in document]
+
+def normalize(document):
+    #eliminate link 
+    document = [re.sub(r'{link}', '', x) for x in document]
+    # eliminate video
+    document = [re.sub(r"\[video\]", '', x) for x in document]
     # eliminate url
     document = [re.sub(r'https?:\/\/\S+', '', x) for x in document]
     # eliminate url
     document = [re.sub(r"www\.[a-z]?\.?(com)+|[a-z]+\.(com)", '', x) for x in document]
-    # eliminate link
-    document = [re.sub(r'{link}', '', x) for x in document]
-    # eliminate video
-    document = [re.sub(r"\[video\]", '', x) for x in document]
-    document = [re.sub(r'\s+', ' ' '', x).strip() for x in document]
     # eliminate #
     document = [x.replace("#","") for x in document]
-    # eliminate emoticons
-    document = [re.subn(r'[^\w\s,]',"", x)[0].strip() for x in document]
 
     return document
+
 
 def get_emotion_from_file(path_corpus): 
     words_list = []
@@ -93,9 +91,9 @@ def add_words(text, dict_emo):
         
         for word in corpus_palabras:
             string = string + ' ' + word
-            if word in dict_emo and word.isnumeric() == False:  
-                for j in range(len(dict_emo[word])):
-                    string = string + ' ' +dict_emo[word][j]
+            if word.lower() in dict_emo and word.isnumeric() == False:  
+                for j in range(len(dict_emo[word.lower()])):
+                    string = string + ' ' +dict_emo[word.lower()][j]
         text_change.append([string])
     
     return text_change
@@ -191,10 +189,17 @@ for i in range(1, 11):
             test_anxia[j] += temp1[j]
         # print("Text extracted from chunk: ", i)
         #         
-train_clean = normalize(add_words(tr_anorexia,dict_emotions))
-test_clean = normalize(add_words(test_anxia,dict_emotions))
-train_dep  = normalize(add_words(train,dict_emotions))
-test_dep   = normalize(add_words(test,dict_emotions))
+train_clean = normalize(tr_anorexia)
+train_clean = add_words(train_clean,dict_emotions)
+
+test_clean = normalize(test_anxia)
+test_clean = add_words(test_clean, dict_emotions)
+
+train_dep = normalize(train)
+train_dep  = add_words(train_dep,dict_emotions)
+
+test_dep = normalize(test)
+test_dep   = add_words(test_dep,dict_emotions)
 
 
 sentences = [*train_clean, *test_clean, *train_dep,*test_dep]

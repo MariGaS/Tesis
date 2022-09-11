@@ -1,4 +1,4 @@
-from text_functions import (get_text_chunk,
+from User_dictionary.text_functions import (get_text_chunk,
                             get_text_test_anorexia, get_text_labels,
                             get_text_test)
 #from functions_for_vec import  normalize

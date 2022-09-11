@@ -18,21 +18,16 @@ import pickle
 
 tokenizer = TweetTokenizer()
 def normalize(document):
-
-    document = [x.lower()  for x in document]
+    #eliminate link 
+    document = [re.sub(r'{link}', '', x) for x in document]
+    # eliminate video
+    document = [re.sub(r"\[video\]", '', x) for x in document]
     # eliminate url
     document = [re.sub(r'https?:\/\/\S+', '', x) for x in document]
     # eliminate url
     document = [re.sub(r"www\.[a-z]?\.?(com)+|[a-z]+\.(com)", '', x) for x in document]
-    # eliminate link
-    document = [re.sub(r'{link}', '', x) for x in document]
-    # eliminate video
-    document = [re.sub(r"\[video\]", '', x) for x in document]
-    document = [re.sub(r'\s+', ' ' '', x).strip() for x in document]
     # eliminate #
     document = [x.replace("#","") for x in document]
-    # eliminate emoticons
-    document = [re.subn(r'[^\w\s,]',"", x)[0].strip() for x in document]
 
     return document
 
@@ -110,6 +105,6 @@ model.build_vocab(all_text)
 total_examples = model.corpus_count
 model.train(all_text, total_examples=total_examples, epochs=5)
 
-model.save('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Models/anxiety.model')
+model.save('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Models/anxia.model')
 
 print("Termina entrenamiento")

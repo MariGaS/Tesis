@@ -1,4 +1,4 @@
-from text_functions import *
+from User_dictionary.text_functions import *
 import yake
 import pickle
 
@@ -36,7 +36,7 @@ max_ngram_size = 1
 deduplication_thresold = 0.9
 deduplication_algo = 'seqm'
 windowSize = 1
-numOfKeywords = 30
+numOfKeywords = 5
 
 
 #CONTRUCTING POSITIVE DICTIONARY

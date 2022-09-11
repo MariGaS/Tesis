@@ -1,4 +1,4 @@
-from text_functions import *
+from User_dictionary.text_functions import *
 import yake
 import pickle
 

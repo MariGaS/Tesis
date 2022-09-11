@@ -85,9 +85,6 @@ def get_text_chunk(path):
     
 
 
-def find_indices(list_to_check, item_to_find):
-    indices = locate(list_to_check, lambda x: x == item_to_find)
-    return list(indices)
 
 def get_dict_position(list1,list2):
     #Function that make a dictionary concatenating all the keywords of the posts
@@ -102,21 +99,26 @@ def get_dict_position(list1,list2):
 
     return position_dic
 
+
 def make_final_dic(posi_dict, num_user):
     #posi_dict the dictionary to clean 
     #num_user the number of users to use for this dictionary 
     #contains only words
     words = [posi_dict[i][0] for i in range(len(posi_dict))]
     rankings = [posi_dict[i][1] for i in range(len(posi_dict))]
-    unique_words = set(words)
-
+    #words in a numpy array
+    w_array = np.array(words)
+    #uniques words in  a numpy array does not preserve original order 
+    unique_words = np.unique(w_array)
+    #unique_words = set(words)
+    
     final_dictionary = []
     #the numpy version of posi_dict
     np_rank = np.array(rankings)
-    for word in unique_words:
+    for i in range(unique_words.shape[0]):
         #we search where this word appears in the posi_dict 
-        positions = find_indices(words,word)
-        rank_of_word = np_rank[positions].sum()
-        final_dictionary.append((word,rank_of_word/num_user))
+        positions = np.where(w_array == unique_words[i])
+        rank_of_word = np_rank[positions[0]].sum()
+        final_dictionary.append((unique_words[i],rank_of_word/num_user))
     return final_dictionary   
 

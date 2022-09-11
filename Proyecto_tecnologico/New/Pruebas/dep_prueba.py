@@ -1,5 +1,5 @@
 
-from text_functions import (get_text_labels,
+from User_dictionary.text_functions import (get_text_labels,
                             get_text_test)
 from vec_function import run_exp_dep_sim
 

@@ -24,7 +24,7 @@ import random
 import logging
 import pandas as pd
 
-from text_functions import (get_text_labels,
+from User_dictionary.text_functions import (get_text_labels,
                             get_text_test)
 tokenizer = TweetTokenizer()
 model_anxia = FastText.load(

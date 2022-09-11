@@ -1,4 +1,4 @@
-from text_functions import (get_text_chunk,
+from User_dictionary.text_functions import (get_text_chunk,
                             get_text_test_anorexia)
 from vector_key import run_exp_anxia_sim
 

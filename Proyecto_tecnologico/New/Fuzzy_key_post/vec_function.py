@@ -22,7 +22,7 @@ import fasttext.util
 import pickle
 import random
 import logging
-import pandas as pd
+
 
 from text_functions import (get_text_labels,
                             get_text_test)
@@ -66,8 +66,6 @@ def normalize(document):
     return document
 
 # FUNCTION TO REMOVE STOP WORDS#
-
-
 def remove_stop_list(document):
     document = [remove_stopwords(x) for x in document]
 
@@ -80,9 +78,7 @@ def sortFreqDict(freqdict):
     aux.reverse()
     return aux
 
-# Only obtain the words from the dictionary with the frequency of the words #
-
-
+# Only obtain the words from the dictionary with the frequency of the words # 
 def get_words(fdist_doc):
     words_doc = []
     for i, word in fdist_doc:
@@ -101,96 +97,40 @@ def get_fdist(text, num_feat):
     return fdist
 
 
-def get_fuzzy_rep(words_doc, dictionary, option, epsilon, dict_key, weight=True):
-    words_user = np.zeros((len(words_doc), 300), dtype=float)
-    dictionary_vec = np.zeros((len(set(dictionary)), 300), dtype=float)
+def get_fuzzy_rep(words_user, dictionary, option, epsilon):
 
-    for i in range(words_user.shape[0]):
-        w1 = words_doc[i]
-        if option == 1:
-            words_user[i] = model_anxia.wv[w1]
-        if option == 2:
-            words_user[i] = model_dep.wv[w1]
-        if option == 3:
-            words_user[i] = model_pre.get_word_vector(w1)
+    dictionary_vec = np.zeros((len(set(dictionary)), 300), dtype=float)     
     for i in range(dictionary_vec.shape[0]):
         w1 = dictionary[i]
         if option == 1:
             dictionary_vec[i] = model_anxia.wv[w1]
         if option == 2:
             dictionary_vec[i] = model_dep.wv[w1]
-        if option == 3:
+        if option == 3: 
             dictionary_vec[i] = model_pre.get_word_vector(w1)
-    similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(
-        words_user, dictionary_vec)
+    similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(words_user, dictionary_vec)
     # vector de representación
     vec_representation = np.count_nonzero(similarity_vocab > epsilon, axis=0)
-    if weight:
-        new_vec_rep = np.zeros((vec_representation.shape), dtype=float)
-        # dict_key is the dictionary containing the words with their scores
-        # tem contains only the words from dict_key
-        tem = get_words_from_kw(dict_key)
-
-        # multiply the tf weight by the score of thwe word
-        for i in range(len(dictionary)):
-            word_target = dictionary[i]  # word to obtain it's score
-            # index of the word in dict_key
-            indice = tem.index(word_target)
-            score = dict_key[indice][1]  # score of the word in the dictionary
-            # new weight
-            t = float(vec_representation[i])
-
-            new_vec_rep[i] = t*score
-
-        vec_representation = new_vec_rep
     return vec_representation
 
+def get_sim_rep(words_user, dictionary,option, epsilon):
 
-def get_sim_rep(words_doc, dictionary, option, epsilon, dict_key, weight=True):
-    words_user = np.zeros((len(words_doc), 300), dtype=float)
-    dictionary_vec = np.zeros((len(set(dictionary)), 300), dtype=float)
-
-    for i in range(words_user.shape[0]):
-        w1 = words_doc[i]
-        if option == 1:
-            words_user[i] = model_anxia.wv[w1]
-        if option == 2:
-            words_user[i] = model_dep.wv[w1]
-        if option == 3:
-            words_user[i] = model_pre.get_word_vector(w1)
+    dictionary_vec = np.zeros((len(set(dictionary)),300) ,dtype=float)
+     
     for i in range(dictionary_vec.shape[0]):
         w1 = dictionary[i]
         if option == 1:
             dictionary_vec[i] = model_anxia.wv[w1]
         if option == 2:
             dictionary_vec[i] = model_dep.wv[w1]
-        if option == 3:
+        if option == 3: 
             dictionary_vec[i] = model_pre.get_word_vector(w1)
+            
+    similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(words_user, dictionary_vec)
 
-    similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(
-        words_user, dictionary_vec)
 
-    vec_representation = np.sum(
-        similarity_vocab, axis=0, where=similarity_vocab > epsilon)
-    if weight:
-        new_vec_rep = np.zeros((vec_representation.shape), dtype=float)
-        # dict_key is the dictionary containing the words with their scores
-        # tem contains only the words from dict_key
-        tem = get_words_from_kw(dict_key)
-
-        # multiply the tf weight by the score of thwe word
-        for i in range(len(dictionary)):
-            word_target = dictionary[i]  # word to obtain it's score
-            # index of the word in dict_key
-            indice = tem.index(word_target)
-            score = dict_key[indice][1]  # score of the word in the dictionary
-            # new weight
-            t = float(vec_representation[i])
-
-            new_vec_rep[i] = t*score
-
-        vec_representation = new_vec_rep
-
+    vec_representation = np.sum( similarity_vocab, axis=0, where= similarity_vocab > epsilon)
+     
     return vec_representation
 
 def get_words_from_kw(kw):
@@ -215,8 +155,8 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
     #d2 = get_list_key(k2)
 
     # sort by the score
-    d1.sort(key=lambda y: y[1])
-    d2.sort(key=lambda y: y[1])
+    #d1.sort(key=lambda y: y[1])
+    #d2.sort(key=lambda y: y[1])
 
     if no_distintc == True:
         # obtain the
@@ -230,8 +170,8 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
 
     else:
         # select by the score, when the score is low the importance is greater
-        kw1 = [x for x in d1 if x[1] < score1]
-        kw2 = [x for x in d2 if x[1] < score2]
+        kw1 = [x for x in d1 if x[1] > score1]
+        kw2 = [x for x in d2 if x[1] > score2]
 
         dictionary1 = []
         dictionary2 = []
@@ -257,7 +197,7 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
                     # score en la lista 2
                     rel2 = kw2[indice][1]
                     # si el score de la lista 1 es menor que en la 1 la dejamos en lista 1
-                    if rel2 > rel1:
+                    if rel2 < rel1:
                         dictionary1.append(w1)
             # dictionario negativo son todas las palabras que no están en dictionariopos
             dictionary2 = [x for x in l2 if x not in dictionary1]
@@ -276,7 +216,7 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
                     # score en la lista 2
                     rel2 = kw2[i][1]
                     # si el score de la lista 1 es menor que en la 1 la dejamos en lista 1
-                    if rel2 < rel1:
+                    if rel2 > rel1:
                         dictionary2.append(w2)
             # dictionario positivo son todas las palabras que no están en dictionario negativo
             dictionary1 = [x for x in l1 if x not in dictionary2]
@@ -284,35 +224,46 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
     return dictionary1, dictionary2
 
 
-path_pos_anxia = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_pos_anxia_1'
-path_neg_anxia = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_neg_anxia_1'
-path_pos_dep = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_pos_dep_1'
-path_neg_dep = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/train_yake/dic_neg_dep_1'
+#POST LEVEL DICTIONARIES 
+#---------------------------ANOREXIA-------------------#
+#version 1
+post_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_pos_ver1key30'
+post_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_neg_ver1key30'
+#version 2
+post_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_pos_ver2key30'
+post_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_neg_ver2key30'
 
-# get all the list of the concatenate dictionaries
-k1 = get_list_key(path_pos_anxia)
-k2 = get_list_key(path_neg_anxia)
-k3 = get_list_key(path_pos_dep)
-k4 = get_list_key(path_neg_dep)
+#-------------------------DEPRESSION--------------------#
 
-# get all the list of the first dictionaries from Sim-Key
-# Keywords for anxia
-path_1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key1'
-path_2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key2'
-# Keywords for depression
-path_3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key5'
-path_4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/keywords/key6'
+post_pos_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_pos_ver1key30'
 
-k5 = get_list_key(path_1)
-k6 = get_list_key(path_2)
-k7 = get_list_key(path_3)
-k8 = get_list_key(path_4)
+#CONCATANATE VERSION OF THE DICTIONARIES OF THE USERS
+#---------------------------ANOREXIA-------------------#
+#version 1
+user_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver1'
+user_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver1'
+#version 2
+user_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver2'
+user_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver2'
+
+#---------------------------DEPRESSION-----------------#
+#version 1
+user_pos_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_pos_ver1'
+user_neg_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_neg_ver1'
+#version 2
+user_pos_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_pos_ver2'
+user_neg_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_neg_ver2'
+
+#CONCATANTE ALL THE TEXT 
+
+
+
+
 
 
 # function classificator
-def classificator_pos_neg(pos_data, neg_data, test, score1, score2, di1, di2, tau, chose, w, dif=True,
-                          fuzzy=True, remove_stop=False, train_data=False,
-                          compress=True):
+def classificator_pos_neg(all_path_train, all_path_test, num_test, num_train, score1, score2, di1, di2, tau, chose, dif=True,
+                          fuzzy=True, compress=True):
     # Parameters:
     # pos_data: positive data from training data
     # neg_data: negative data fromo training data
@@ -325,264 +276,326 @@ def classificator_pos_neg(pos_data, neg_data, test, score1, score2, di1, di2, ta
     # dif:  the positive dictioinary and the negative dictionar does not have words in common
     # di1,di2 : the positive and negative dictionary
     
-    if remove_stop == True:
-        t_initial = time()
-        print("quitando stopwords")
-        pos_data = remove_stop_list(pos_data)
-        neg_data = remove_stop_list(neg_data)
-        test = remove_stop_list(test)
-        print("quit stop words done in %fs" % (time() - t_initial))
-    pos_data = normalize(pos_data)
-    neg_data = normalize(neg_data)
-    test = normalize(test)
-
-    num_test = len(test)
-
-
     dictionary1, dictionary2 = dict_scores(
         di1, di2, score1, score2, no_distintc=dif)
     X_test1 = np.zeros((num_test, len(dictionary1)),
                        dtype=float)  # matriz tipo document-term
     X_test2 = np.zeros((num_test, len(dictionary2)), dtype=float)
-    num_feat1 = len(dictionary1)
-    num_feat2 = len(dictionary2)
+
 
    ### For using svm ####
-    if train_data == True:
-        t_initial = time()
-        train = [*pos_data, *neg_data]
-        num_train = len(train)
-        X_train1 = np.zeros((num_train, len(dictionary1)), dtype=float)
-        X_train2 = np.zeros((num_train, len(dictionary2)), dtype=float)
-        t_initial1 = time()
-        for i in range(num_train):
-            
-            doc = train[i]
-            corpus_palabras = tokenizer.tokenize(doc.lower())
-            fdist = nltk.FreqDist(corpus_palabras)
-            v = sortFreqDict(fdist)
-            words_doc = get_words(v)
-            if fuzzy == True:
-                word_repre_user = get_fuzzy_rep(
-                    words_doc, dictionary1, option=chose, epsilon=tau, dict_key=di1, weight=w)
-            else:
-                word_repre_user = get_sim_rep(
-                    words_doc, dictionary1, option=chose, epsilon=tau, dict_key=di1, weight=w)
-            X_train1[i] = word_repre_user
-        print("termina construcción de train data pos in %fs" % (time() - t_initial1))
-        t_initial2 = time()
-        for i in range(num_train):
-            doc = train[i]
-            corpus_palabras = tokenizer.tokenize(doc.lower())
-            fdist = nltk.FreqDist(corpus_palabras)
-            v = sortFreqDict(fdist)
-            words_doc = get_words(v)
-            if fuzzy == True:
-                word_repre_user = get_fuzzy_rep(
-                    words_doc, dictionary2, option=chose, epsilon=tau, dict_key=di2, weight=w)
-            else:
-                word_repre_user = get_sim_rep(
-                    words_doc, dictionary2, option=chose, epsilon=tau, dict_key=di2, weight=w)
-            X_train2[i] = word_repre_user
-        print("termina construcción de train data neg in %fs" % (time() - t_initial2))
-        if compress == True:
-            X_train1 = np.sum(X_train1, axis=1)
-            X_train2 = np.sum(X_train2, axis=1)
-        print("termina construcción de train data in %fs" % (time() - t_initial))
-    # - Construct test representation of positive users
-    
-    t_initial3 = time()
-    for i in range(num_test):
+    X_train1 = np.zeros((num_train, len(dictionary1)), dtype=float)
+    X_train2 = np.zeros((num_train, len(dictionary2)), dtype=float)
+    t_initial1 = time()
+    for i in range(num_train):
+        path =all_path_train + '_'+ str(i)
+        with open(path, "rb") as fp:   # Unpickling
+            b = pickle.load(fp)
+            fp.close()
 
-        if i == 0: 
-            time_ini = time()
-            doc = test[i]
-            corpus_palabras = tokenizer.tokenize(doc.lower())
-            fdist = nltk.FreqDist(corpus_palabras)
-            v = sortFreqDict(fdist)
-            words_doc = get_words(v)
-            if fuzzy == True:
-                word_repre_user = get_fuzzy_rep(
-                    words_doc, dictionary1, option=chose, epsilon=tau, dict_key=di1, weight=w)
-            else:
-                word_repre_user = get_sim_rep(
-                    words_doc, dictionary1, option=chose, epsilon=tau, dict_key=di1, weight=w)
-            X_test1[i] = word_repre_user
-            print("termina construcción de un vector data pos in %fs" % (time() - time_ini))
-        else: 
-            doc = test[i]
-            corpus_palabras = tokenizer.tokenize(doc.lower())
-            fdist = nltk.FreqDist(corpus_palabras)
-            v = sortFreqDict(fdist)
-            words_doc = get_words(v)
-            if fuzzy == True:
-                word_repre_user = get_fuzzy_rep(
-                    words_doc, dictionary1, option=chose, epsilon=tau, dict_key=di1, weight=w)
-            else:
-                word_repre_user = get_sim_rep(
-                    words_doc, dictionary1, option=chose, epsilon=tau, dict_key=di1, weight=w)
-            X_test1[i] = word_repre_user
-
-    print("termina construcción de test data pos in %fs" % (time() - t_initial3))
-    # Construct test representation of negative users
-
-    t_initial4 = time()
-    for i in range(num_test):
-        doc = test[i]
-        corpus_palabras = tokenizer.tokenize(doc.lower())
-        fdist = nltk.FreqDist(corpus_palabras)
-        v = sortFreqDict(fdist)
-        words_doc = get_words(v)
         if fuzzy == True:
             word_repre_user = get_fuzzy_rep(
-                words_doc, dictionary2, option=chose, epsilon=tau, dict_key=di2, weight=w)
+            b, dictionary1, option=chose, epsilon=tau)
         else:
             word_repre_user = get_sim_rep(
-                words_doc, dictionary2, option=chose, epsilon=tau, dict_key=di2, weight=w)
-        X_test2[i] = word_repre_user
-    #print("Vectorization for test data: Done")
-    print("termina construcción de test data neg in %fs" % (time() - t_initial4))
-
-
-    if train_data == True:
-
-        if compress == True:
-            X_test1 = np.sum(X_test1, axis=1)
-            X_test2 = np.sum(X_test2, axis=1)
-            #X_train = np.concatenate((X_train1, X_train2), axis = 1)
-            #results = np.concatenate((X_test1, X_test2), axis = 1)
-            results = np.concatenate(
-                (X_test1, X_test2)).reshape((-1, 2), order='F')
-            X_train = np.concatenate(
-                (X_train1, X_train2)).reshape((-1, 2), order='F')
-            print(X_train.shape, results.shape)
-
+            b, dictionary1, option=chose, epsilon=tau)
+        X_train1[i] = word_repre_user
+    print("termina construcción de train data pos in %fs" % (time() - t_initial1))
+    t_initial2 = time()
+    for i in range(num_train):
+        path =all_path_train + '_'+ str(i)
+        with open(path, "rb") as fp:   # Unpickling
+            b = pickle.load(fp)
+            fp.close()        
+        if fuzzy == True:
+            word_repre_user = get_fuzzy_rep(
+                b, dictionary2, option=chose, epsilon=tau)
         else:
+            word_repre_user = get_sim_rep(
+                b, dictionary2, option=chose, epsilon=tau)
+        X_train2[i] = word_repre_user
+    print("termina construcción de train data neg in %fs" % (time() - t_initial2))
+    if compress == True:
+        X_train1 = np.sum(X_train1, axis=1)
+        X_train2 = np.sum(X_train2, axis=1)
 
-            X_train = np.concatenate((X_train1, X_train2), axis=1)
-            results = np.concatenate((X_test1, X_test2), axis=1)
-            print(X_train.shape, results.shape)
+    # - Construct test representation of positive users
+    
+    for i in range(num_test):
+        path =all_path_test + '_'+ str(i)
+        with open(path, "rb") as fp:   # Unpickling
+            b = pickle.load(fp)
+            fp.close()    
+        if fuzzy == True:
+            word_repre_user = get_fuzzy_rep(
+                    b, dictionary1, option=chose, epsilon=tau)
+        else:
+            word_repre_user = get_sim_rep(
+                    b, dictionary1, option=chose, epsilon=tau)
+        X_test1[i] = word_repre_user
 
-        return results, X_test1, X_test2, X_train, dictionary1, dictionary2
 
-    if train_data == False:
+    # Construct test representation of negative users
+    for i in range(num_test):
+        path =all_path_test + '_'+ str(i)
+        with open(path, "rb") as fp:   # Unpickling
+            b = pickle.load(fp)
+            fp.close()    
+        if fuzzy == True:
+            word_repre_user = get_fuzzy_rep(
+                b, dictionary2, option=chose, epsilon=tau)
+        else:
+            word_repre_user = get_sim_rep(
+                b, dictionary2, option=chose, epsilon=tau)
+        X_test2[i] = word_repre_user
+
+
+
+    if compress == True:
         X_test1 = np.sum(X_test1, axis=1)
         X_test2 = np.sum(X_test2, axis=1)
+        #X_train = np.concatenate((X_train1, X_train2), axis = 1)
+        #results = np.concatenate((X_test1, X_test2), axis = 1)
+        X_test = np.concatenate((X_test1, X_test2)).reshape((-1, 2), order='F')
+        X_train = np.concatenate((X_train1, X_train2)).reshape((-1, 2), order='F')
+        print(X_train.shape, X_test.shape)
+        return X_test, X_train, len(dictionary1), len(dictionary2)
 
-        results = np.zeros((num_test), dtype=int)
-        for i in range(num_test):
-            if X_test1[i] > X_test2[i]:
-                results[i] = 1
-            else:
-                results[i] = 0
-        print(results.shape)
-        return results, X_test1, X_test2, dictionary1, dictionary2
+    else:
+        X_train = np.concatenate((X_train1, X_train2), axis=1)
+        X_test  = np.concatenate((X_test1, X_test2), axis=1)
+        print(X_train.shape, X_test.shape)
+
+        return  X_test, X_train, len(dictionary1), len(dictionary2)
 
 
-def run_exp_anxia_sim(num_exp, pos_data, neg_data, test_data, test_labels, train_labels, score1, score2,
-                      chose, tau, w, dif, fuzzy, remove_stop, train_data, compress, concatenate):
+
+def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,score1, score2,
+                      chose, tau, dif, fuzzy, remove_stop, compress, dic):
+    print(num_exp)
+    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/warnings_anorexia.txt",level=logging.DEBUG)
+    logging.debug('\n This is a message from experimet number ' + str(num_exp) )
+    logging.info('\n This is a message for info')
+    logging.captureWarnings(True)
+    logging.warning('\n Warning message for experiment number ' + str(num_exp))
+
+
+    t_initial = time()
+    if dic == 1: 
+        kw1 = get_list_key(post_pos_anxia1)
+        kw2 = get_list_key(post_neg_anxia1)
+        #anorexia model
+        if remove_stop == False:
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/anxia_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/anxia_model/corpus_train3'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/pre_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/pre_model/corpus_train3'
+        else: 
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/anxia_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/anxia_model/corpus_train7'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/pre_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/pre_model/corpus_train7'
+
+    elif dic == 2: 
+        kw1 = get_list_key(post_pos_anxia2)
+        kw2 = get_list_key(post_neg_anxia2)
+        if remove_stop == False:
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/anxia_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/anxia_model/corpus_train4'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/pre_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/pre_model/corpus_train4'
+        else: 
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/anxia_model/corpus_test8'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/anxia_model/corpus_train8'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/pre_model/corpus_test8'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/pre_model/corpus_train8'
+    
+    elif dic == 3: 
+        kw1 = get_list_key(user_pos_dep1)
+        kw2 = get_list_key(user_neg_dep1) 
+        if remove_stop == False:
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/anxia_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/anxia_model/corpus_train3'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/pre_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/pre_model/corpus_train3'
+        else: 
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/anxia_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/anxia_model/corpus_train7'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/pre_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/pre_model/corpus_train7'
+    
+    elif dic == 4: 
+        kw1 = get_list_key(user_pos_dep2)
+        kw2 = get_list_key(user_neg_dep2)
+        if remove_stop == False:
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/anxia_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/anxia_model/corpus_train4'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/pre_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/pre_model/corpus_train4'
+        else: 
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/anxia_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/anxia_model/corpus_train4'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/pre_model/corpus_test8'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/pre_model/corpus_train8'
+    		        
+    
     seed_val = 42
     np.random.seed(seed_val)
-    print(num_exp)
-    
-    t_initial = time()
-    if concatenate == True:
-        kw1 = k5
-        kw2 = k6
-    else:
-        kw1 = k1
-        kw2 = k2
-
-    if train_data == False:
-        results, x, y, dic1, dic2 = classificator_pos_neg(pos_data, neg_data, test_data, score1, score2, kw1, kw2,
-                                                          tau=tau, chose=chose, w=w, dif=dif, fuzzy=fuzzy, remove_stop=remove_stop, train_data=train_data, compress=False)
-
-        print("done in %fs" % (time() - t_initial))
-        return f1_score(test_labels, results)
-
-    if train_data == True:
-
-        parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
-
-        results, x, y, z, dic1, dic2 = classificator_pos_neg(pos_data, neg_data, test_data, score1, score2, kw1, kw2,
-                                                             tau=tau, chose=chose, w=w, dif=dif, fuzzy=fuzzy, remove_stop=remove_stop, train_data=train_data, compress=compress)
-        # num_samples > num_features set dual = False
-        # results.shape[1] is num_features and results.shape[0] y num_samples
-
-        if results.shape[1] < results.shape[0]:
-            svr = svm.LinearSVC(class_weight='balanced', dual=False)
-        else:
-            svr = svm.LinearSVC(class_weight='balanced', dual=True)
-
-
-        # THE SAME EXPERIMENT FIVE TIMES #
-
+    parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
         
-        grid_anorexia = GridSearchCV(
-            estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-        grid_anorexia.fit(z, train_labels)
-
-        y_pred = grid_anorexia.predict(results)
-        a = grid_anorexia.best_params_
-        f5 = f1_score(test_labels, y_pred)
-        print("done in %fs" % (time() - t_initial))
-
-        return f1_score(test_labels, y_pred), a, len(dic1), len(dic2)
-
-
-def run_exp_dep_sim(num_exp, pos_data, neg_data, test_data, test_labels, train_labels, score1, score2,
-                    chose, tau, w, dif, fuzzy, remove_stop, train_data, compress, concatenate):
-
-    print(num_exp)
-    
-    if concatenate == True:
-        kw1 = k7
-        kw2 = k8
-    else:
-        kw1 = k3
-        kw2 = k4
-
-    if train_data == False:
-        t_initial = time()
-        results, x, y, dic1, dic2 = classificator_pos_neg(pos_data, neg_data, test_data, score1, score2, kw1, kw2,
-                                                          tau=tau, chose=chose, w=w, dif=dif, fuzzy=fuzzy, remove_stop=remove_stop, train_data=train_data, compress=False)
-        print("done in %fs" % (time() - t_initial))
-        return f1_score(test_labels, results)
-
-    else:
-        seed_val = 42
-        np.random.seed(seed_val)
-        parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
-        t_initial = time()
-        results, x, y, z, dic1, dic2 = classificator_pos_neg(pos_data, neg_data, test_data, score1, score2, kw1, kw2,
-                                                             tau=tau, chose=chose, w=w, dif=dif, fuzzy=fuzzy, remove_stop=remove_stop, train_data=train_data, compress=compress)
+    X_test,X_train,len_dic1,len_dic2 = classificator_pos_neg(path_train, path_test, num_test, num_train,score1,score2,kw1,kw2, 
+        			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy, compress=compress)	
         
-        if results.shape[1] < results.shape[0]:
-            svr = svm.LinearSVC(class_weight='balanced', dual=False)
-        else:
-            svr = svm.LinearSVC(class_weight='balanced', dual=True)
+    if X_test.shape[1] < X_test.shape[0]:
+        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 2000)
+        
+    else: 
+        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 2000)
+        
+    grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    grid_anorexia.fit(X_train, train_labels)
+
+    y_pred = grid_anorexia.predict(X_test)
+    a= grid_anorexia.best_params_
+    f1 = f1_score(test_labels, y_pred)
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/f1_anorexia.txt','a')
+    f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + str(dif) 
+            +','+ str(fuzzy) +','+ str(remove_stop) +','+ str(compress)+  ',' + str(chose)+ ',' + str(len_dic1) 
+            + ','+ str(len_dic2)+ ','+ str(dic) + str(f1) + ',' + str(a)) 
+    f.close()   
+        
+    print("done in %fs" % (time() - t_initial))
+        
+    return f1_score(test_labels, y_pred)
+
+def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, score1, score2,
+                    chose, tau, dif, fuzzy, remove_stop, compress, dic):
+
+    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/warnings_dep.txt",level=logging.DEBUG)
+    logging.debug('\n This is a message from experimet number ' + str(num_exp) )
+    logging.info('\n This is a message for info')
+    logging.captureWarnings(True)
+    logging.warning('\nWarning message for experiment number ' + str(num_exp))
+    
+    if dic == 1: 
+        kw1 = get_list_key(post_pos_anxia1)
+        kw2 = get_list_key(post_neg_anxia1)
+        #anorexia model
+        if remove_stop == False:
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/anxia_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/anxia_model/corpus_train3'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/pre_model/corpus_train3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/pre_model/corpus_train3'
+        else: 
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/anxia_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/anxia_model/corpus_train7'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/pre_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/pre_model/corpus_train7'
+
+    elif dic == 2: 
+        kw1 = get_list_key(post_pos_anxia2)
+        kw2 = get_list_key(post_neg_anxia2)
+        if remove_stop == False:
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/anxia_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/anxia_model/corpus_train4'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/pre_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/pre_model/corpus_train4'
+        else: 
+            if chose == 1: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/anxia_model/corpus_test8'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/anxia_model/corpus_train8'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/pre_model/corpus_test8'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/pre_model/corpus_train8'
+    
+    elif dic == 3: 
+        kw1 = get_list_key(user_pos_dep1)
+        kw2 = get_list_key(user_neg_dep1) 
+        if remove_stop == False:
+            if chose == 2: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/dep_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/dep_model/corpus_train3'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/pre_model/corpus_test3'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/pre_model/corpus_train3'
+        else: 
+            if chose == 2: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/sin_stop/dep_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/sin_stop/dep_model/corpus_train7'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/sin_stop/pre_model/corpus_test7'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/sin_stop/pre_model/corpus_train7'
+    
+    elif dic == 4: 
+        kw1 = get_list_key(user_pos_dep2)
+        kw2 = get_list_key(user_neg_dep2)
+        if remove_stop == False:
+            if chose == 2: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/dep_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/dep_model/corpus_train4'
+            if chose == 3: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/pre_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/pre_model/corpus_train4'
+        else: 
+            if chose == 2: 
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/sin_stop/dep_model/corpus_test4'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/sin_stop/dep_model/corpus_train4'
+            if chose == 3:
+                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/sin_stop/pre_model/corpus_test8'
+                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/sin_stop/pre_model/corpus_train8'
+     
+  
+    
+    seed_val = 42
+    np.random.seed(seed_val)
+    parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
+        
+    X_test,X_train,len_dic1,len_dic2 = classificator_pos_neg(path_train, path_test,num_test, num_train,score1,score2,kw1,kw2, 
+        			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy, compress = compress)	
+        
+    if X_test.shape[1] < X_test.shape[0]:
+        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 6000)
+        
+    else: 
+        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 6000)
+        
+    grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    grid_dep.fit(X_train, train_labels)
+
+    y_pred = grid_dep.predict(X_test)
+    a= grid_dep.best_params_
+    f1 = f1_score(test_labels, y_pred)
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/f1_dep.txt','a')
+    f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + str(dif) 
+            +','+ str(fuzzy) +','+ str(remove_stop) +','+ str(compress)+  ',' + str(chose)+ ',' + str(len_dic1) 
+            + ','+ str(len_dic2)+ ','+ str(dic) + str(f1) + ',' + str(a)) 
+    f.close()       
+    
+
+    return f1,a, len_dic1, len_dic2
+        
 
 
-        time_1 = time()
-        grid_anorexia = GridSearchCV(
-            estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-        grid_anorexia.fit(z, train_labels)
-
-
-        y_pred = grid_anorexia.predict(results)
-        print("done predicttion in %fs" % (time() - time_1))  
-
-        time_2 = time()
-        grid_anorexia = GridSearchCV(
-            estimator=svr, param_grid=parameters, n_jobs=1, scoring='f1_macro', cv=5)
-        grid_anorexia.fit(z, train_labels)
-
-
-        y_pred = grid_anorexia.predict(results)
-        print("done predicttion in %fs" % (time() - time_2))  
-
-        a = grid_anorexia.best_params_
-
-        print("done in %fs" % (time() - t_initial))
-        return f1_score(test_labels, y_pred), a, len(dic1), len(dic2)
 

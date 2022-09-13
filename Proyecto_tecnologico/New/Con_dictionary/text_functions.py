@@ -87,19 +87,20 @@ def get_text_chunk(path):
     
 # DICTIONARY OF EMOTIONS
 
-def normalize(document):
-    #document = [x.lower() for x in document]
-    document = [re.sub(r'https?:\/\/\S+', '', x) for x in document] #eliminate url
-    document = [re.sub(r"www\.[a-z]?\.?(com)+|[a-z]+\.(com)", '', x) for x in document] #eliminate url 
-    document = [re.sub(r'{link}', '', x) for x in document] #eliminate link
-    document = [re.sub(r"\[video\]", '', x) for x in document] #eliminate video 
-    #document = [re.sub(r'\s+', ' ' '', x).strip() for x in document]
-    #document = [re.sub(r',', ' ' '', x).strip() for x in document]
-    document = [x.replace("#","") for x in document]  #eliminate #
-    #document = [re.subn(r'[^\w\s,]',"", x)[0].strip() for x in document] #eliminate emoticons 
+def normalize(document, all):
+    document = [x.lower() for x in document]
+    if all == True: 
+        document = [re.sub(r'https?:\/\/\S+', '', x) for x in document] #eliminate url
+        document = [re.sub(r"www\.[a-z]?\.?(com)+|[a-z]+\.(com)", '', x) for x in document] #eliminate url 
+        document = [re.sub(r'{link}', '', x) for x in document] #eliminate link
+        document = [re.sub(r"\[video\]", '', x) for x in document] #eliminate video 
+        document = [re.sub(r'\s+', ' ' '', x).strip() for x in document]
+        document = [re.sub(r',', ' ' '', x).strip() for x in document]
+        document = [x.replace("#","") for x in document]  #eliminate #
+        document = [re.subn(r'[^\w\s,]',"", x)[0].strip() for x in document] #eliminate emoticons 
     return document
 
-'''
+
 def get_emotion_from_file(path_corpus): 
     words_list = []
     emotion_list = []
@@ -146,7 +147,6 @@ def get_dic_emotions(l_words,l_emotions,l_is_in):
     return dict_emotions
     
 dict_emotions = get_dic_emotions(l1,l2,l3)
-'''
 
 #FOR THE CONCATANATION OF THE POSTS IN ORDER #
 tokenizer = TweetTokenizer()
@@ -245,3 +245,18 @@ def make_final_dic(posi_dict, num_user):
         final_dictionary.append((unique_words[i],rank_of_word/num_user))
     return final_dictionary   
 
+def get_dictionary(list1, list2, number_user):
+    final_dictionary = dict()
+
+    for i in range(len(list1)):
+        word = list1[i]
+        word_ranking = list2[i]
+        #update value 
+        if word in final_dictionary: 
+            final_dictionary[word] +=  word_ranking
+        #add a new word 
+        else: 
+            final_dictionary[word] = word_ranking
+    dictionary = list(final_dictionary.items())
+    dic = [(x,y/number_user) for (x,y) in dictionary]
+    return dic

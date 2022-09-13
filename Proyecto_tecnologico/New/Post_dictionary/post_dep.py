@@ -1,4 +1,4 @@
-from User_dictionary.text_functions import *
+from text_functions import *
 import yake
 import pickle
 
@@ -36,7 +36,7 @@ max_ngram_size = 1
 deduplication_thresold = 0.9
 deduplication_algo = 'seqm'
 windowSize = 1
-numOfKeywords = 5
+numOfKeywords = 30
 
 
 #CONTRUCTING POSITIVE DICTIONARY
@@ -56,9 +56,9 @@ for i in range(num_pos_post):
     #append the list with the positions of this 
     positions.append([x for x in range(1,len(keywords1)+1)])
 print("Ends key extraction")
+
 #a list with ALL the keywords and with their correspond positions in ther original post 
-dic_pos = get_dict_position(pre_dictionary, positions)
-final_dic_pos = make_final_dic(dic_pos, n_p)
+final_dic_pos = get_dictionary(pre_dictionary, positions, n_p)
 #to order from the highest to  the lowest 
 final_dic_pos.sort(key=lambda y: y[1], reverse = True) 
 
@@ -84,8 +84,7 @@ for i in range(num_neg_post):
     positions.append([x for x in range(1,len(keywords)+1)])
 print("End key extraction")
 #a list with ALL the keywords and with their correspond positions in ther original post 
-dic_neg = get_dict_position(pre_dictionary, positions)
-final_dic_neg = make_final_dic(dic_neg, n_n)
+final_dic_neg =  get_dictionary(pre_dictionary, positions, n_n)
 #to order from the highest to  the lowest 
 final_dic_neg.sort(key=lambda y: y[1], reverse = True) 
 
@@ -121,8 +120,7 @@ for i in range(num_pos_post):
     positions.append([x for x in range(1,len(keywords1)+1)])
 print("Ends key extraction")
 #a list with ALL the keywords and with their correspond positions in ther original post 
-dic_pos = get_dict_position(pre_dictionary, positions)
-final_dic_pos = make_final_dic(dic_pos, n_p)
+final_dic_pos = get_dictionary(pre_dictionary, positions,n_p)
 #to order from the highest to  the lowest 
 final_dic_pos.sort(key=lambda y: y[1], reverse = True) 
 
@@ -149,8 +147,7 @@ for i in range(num_neg_post):
     positions.append([x for x in range(1,len(keywords)+1)])
 print("End key extraction")
 #a list with ALL the keywords and with their correspond positions in ther original post 
-dic_neg = get_dict_position(pre_dictionary, positions)
-final_dic_neg = make_final_dic(dic_neg, n_n)
+final_dic_neg = get_dictionary(pre_dictionary, positions, n_n)
 #to order from the highest to  the lowest 
 final_dic_neg.sort(key=lambda y: y[1], reverse = True) 
 

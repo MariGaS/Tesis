@@ -122,3 +122,21 @@ def make_final_dic(posi_dict, num_user):
         final_dictionary.append((unique_words[i],rank_of_word/num_user))
     return final_dictionary   
 
+def get_dictionary(list1, list2, number_user):
+    x = [item for sublist in list1 for item in sublist]    
+    x = [i[0] for i in x]
+    y = [item for sublist in list2 for item in sublist]
+    final_dictionary = dict()
+
+    for i in range(len(x)):
+        word = x[i]
+        word_ranking = y[i]
+        #update value 
+        if word in final_dictionary: 
+            final_dictionary[word] +=  word_ranking
+        #add a new word 
+        else: 
+            final_dictionary[word] = word_ranking
+    dictionary = list(final_dictionary.items())
+    dic = [(x,y/number_user) for (x,y) in dictionary]
+    return dic

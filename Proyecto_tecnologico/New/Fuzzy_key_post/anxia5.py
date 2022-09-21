@@ -25,8 +25,8 @@ num_test = len(test_labels_anxia)
 num_train= 152
 
 
-arg1 = [390,390, 390,400,410,420,390,390, 390,400,410,420 ] #score1 
-arg2 = [330,300,290,330,330,330,330,300,290,330,330,330] #score2
+arg1 = [1000,1000, 1000,1500,1500,2000,1000,1000, 1000,1500,1500,2000 ] #score1 
+arg2 = [1500,1200,800,1000,1200,2000,1500,1200,800,1000,1200,2000] #score2
 arg3 = [0.99]*12 #tolerancia 
 arg5 = [True, True, True,True,True,True,False, False, False, False, False, False] #fuzzy
 arg6 = [True]*12#remove

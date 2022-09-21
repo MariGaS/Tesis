@@ -39,22 +39,21 @@ print('Begins experiments')
 
 # En este no importa si hay en común
 for i in range(12):
-    f = run_exp_anxia_sim(i+97,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic =2)
+    f = run_exp_anxia_sim(i+289,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic =5)
 
     
 for i in range(12):
-    f = run_exp_anxia_sim(i+109, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic =2)
+    f = run_exp_anxia_sim(i+301, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic =5)
     
 #en este si importa 
 for i in range(12):
-    f = run_exp_anxia_sim(i+121, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = False, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic= 2)
+    f = run_exp_anxia_sim(i+313, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = False, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic= 5)
     
 
 
 for i in range(12):
-    f= run_exp_anxia_sim(i+133, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = False, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic = 2)
-    
+    f= run_exp_anxia_sim(i+325, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = False, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic = 5)

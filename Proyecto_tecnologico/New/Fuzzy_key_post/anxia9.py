@@ -25,8 +25,8 @@ num_test = len(test_labels_anxia)
 num_train= 152
 
 
-arg1 = [1000,1000, 1000,1500,1500,2000,1000,1000, 1000,1500,1500,2000 ] #score1 
-arg2 = [1500,1200,800,1000,1200,2000,1500,1200,800,1000,1200,2000] #score2
+arg1 = [1000,1000, 2000,1000,1500,500,1000,1000, 2000,1000,1500,500 ] #score1 
+arg2 = [1500,1200,2000,800,1000,2000,1500,1200,2000, 800,1000,2000] #score2
 arg3 = [0.99]*12 #tolerancia 
 arg5 = [True, True, True,True,True,True,False, False, False, False, False, False] #fuzzy
 arg6 = [True]*12#remove
@@ -39,22 +39,10 @@ print('Begins experiments')
 
 # En este no importa si hay en común
 for i in range(12):
-    f = run_exp_anxia_sim(i+97,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic =2)
+    f = run_exp_anxia_sim(i+361,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg6[i], compress=True, dic =2)
 
     
 for i in range(12):
-    f = run_exp_anxia_sim(i+109, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic =2)
-    
-#en este si importa 
-for i in range(12):
-    f = run_exp_anxia_sim(i+121, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = False, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic= 2)
-    
-
-
-for i in range(12):
-    f= run_exp_anxia_sim(i+133, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = False, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic = 2)
-    
+    f = run_exp_anxia_sim(i+373, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =3,dif = True, fuzzy= arg5[i],remove_stop=arg7[i],compress=True, dic =2)

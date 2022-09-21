@@ -66,15 +66,15 @@ final_dic_pos = get_dictionary(words,words_positions, n_p)
 #to order from the highest to  the lowest 
 final_dic_pos.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver1'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver3'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_pos, f)
 	f.close()
 
-name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_pos_ver1'
-with open(name_scores, 'wb') as f:
-	pickle.dump(score_negative, f)
-	f.close()
+#name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_pos_ver1'
+#with open(name_scores, 'wb') as f:
+#	pickle.dump(score_negative, f)
+#	f.close()
 
 #NEGATIVE DICTIONARY 
 pre_dictionary = []
@@ -99,14 +99,14 @@ final_dic_neg = get_dictionary(words, words_positions, n_n)
 #to order from the highest to  the lowest 
 final_dic_neg.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver1'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver3'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_neg, f)
 	f.close()
-name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_neg_ver1'
-with open(name_scores, 'wb') as f:
-	pickle.dump(score_negative, f)
-	f.close()
+#name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_neg_ver1'
+#with open(name_scores, 'wb') as f:
+#	pickle.dump(score_negative, f)
+#	f.close()
 
 ## SECOND VERSION-- LOWER THE 
 def norm(document):
@@ -140,14 +140,14 @@ final_dic_pos =get_dictionary(words,words_positions, n_p)
 #to order from the highest to  the lowest 
 final_dic_pos.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver2'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver4'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_pos, f)
 	f.close()
-name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_pos_ver2'
-with open(name_scores, 'wb') as f:
-	pickle.dump(score_negative, f)
-	f.close()
+#name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_pos_ver2'
+#with open(name_scores, 'wb') as f:
+#	pickle.dump(score_negative, f)
+#	f.close()
 
 #NEGATIVE DICTIONARY 
 pre_dictionary = []
@@ -173,12 +173,13 @@ final_dic_neg = get_dictionary(words, words_positions, n_n)
 #to order from the highest to  the lowest 
 final_dic_neg.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver2'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver4'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_neg, f)
 	f.close()
-name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_neg_ver2'
-with open(name_scores, 'wb') as f:
-	pickle.dump(score_negative, f)
-	f.close()
+
+#name_scores = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_neg_ver2'
+#with open(name_scores, 'wb') as f:
+#	pickle.dump(score_negative, f)
+#	f.close()
 

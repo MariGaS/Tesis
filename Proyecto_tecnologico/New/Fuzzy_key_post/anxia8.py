@@ -1,3 +1,5 @@
+from text_functions import (get_text_chunk,
+                            get_text_test_anorexia)
 from vec_function import run_exp_anxia_sim
 
 
@@ -30,26 +32,19 @@ arg5 = [True, True, True,True,True,True,False, False, False, False, False, False
 arg6 = [True]*12#remove
 arg7 = [False]*12#remove
 print('Begins experiments')
-
+#arg7 = [0.0003,0.0003,0.0003,0.0001,0.0001,0.0001,0.00005,0.00005,0.00005,0.00001,0.00001,0.00001,0.00003, 0.00003,0.00003,0.007,0.007,0.007,0.0000009,0.000005 ] #score1 
+#arg8 = [0.0003,0.0007,0.0001,0.0001,0.0005,0.00005,0.00005,.00001,0.00008,0.00001,0.00006,0.000005,0.00003,0.00008,0.00001,0.007,0.003,0.009,0.0000004,0.000005] #score2
+#arg12 = [False,False,False,False,False,False,False,False,False,False,True,True,True,True,True,True,True,True,True,True]
+#arg16 = [True]*20 #dif
 
 # En este no importa si hay en común
 for i in range(12):
-    f = run_exp_anxia_sim(i+49,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = True, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic =1)
+    f = run_exp_anxia_sim(i+337,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic =6)
 
     
 for i in range(12):
-    f = run_exp_anxia_sim(i+61, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = True, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic =1)
+    f = run_exp_anxia_sim(i+349, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic =6)
     
 #en este si importa 
-for i in range(12):
-    f = run_exp_anxia_sim(i+73, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=arg6[i], compress=False, dic= 1)
-    
-
-
-for i in range(12):
-    f= run_exp_anxia_sim(i+85, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=arg7[i],compress=False, dic = 1)
-    

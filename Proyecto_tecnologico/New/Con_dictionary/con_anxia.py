@@ -66,7 +66,7 @@ order_neg1.sort(key=lambda y: y[0], reverse = True)
 for i in range(len(order_neg1)):
     index_user = order_neg1[i][1]
     negative_text = '' + all_neg[index_user] + '\n'
-
+'''
 #CONTRUCTING POSITIVE DICTIONARY
 #number of posts from positive user 
 print("Begin key extraction")
@@ -79,10 +79,10 @@ name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_d
 with open(name_key, 'wb') as f:
 	pickle.dump(keywords1, f)
 	f.close()
-
+'''
 #NEGATIVE DICTIONARY 
 print("Begins key extraction")
-text = get_order_text(negative_text)
+text = negative_text
 custom_kw_extractor = yake.KeywordExtractor(lan=language, n=max_ngram_size, dedupLim=deduplication_thresold, dedupFunc=deduplication_algo, windowsSize=windowSize, top=numOfKeywords, features=None)
 keywords = custom_kw_extractor.extract_keywords(text)
 print("End key extraction")
@@ -99,7 +99,7 @@ def norm(document):
     document = [x.lower()  for x in document]
 
     return document
-
+'''
 #CONTRUCTING POSITIVE DICTIONARY
 #for positive order 
 order_list3 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/order_pos_ver2'
@@ -147,3 +147,4 @@ name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_d
 with open(name_key, 'wb') as f:
 	pickle.dump(keywords, f)
 	f.close()
+'''

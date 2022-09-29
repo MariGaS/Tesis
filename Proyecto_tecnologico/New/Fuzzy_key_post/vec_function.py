@@ -6,21 +6,13 @@ from time import time
 import re
 from gensim.models import FastText
 import sklearn
-from sklearn import metrics
 from sklearn import svm
-from sklearn.metrics import confusion_matrix, f1_score
+from sklearn.metrics import  f1_score
 from sklearn.model_selection import GridSearchCV
-from sklearn import metrics
-from gensim.models import utils
 from gensim.models import FastText
-import gensim
-import gensim.downloader
-from gensim.test.utils import get_tmpfile, datapath
-#from gensim.models import fasttext
 import fasttext
 import fasttext.util
 import pickle
-import random
 import logging
 
 
@@ -28,7 +20,7 @@ from text_functions import (get_text_labels,
                             get_text_test)
 tokenizer = TweetTokenizer()
 model_anxia = FastText.load(
-    '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Models/anxiety.model')
+    '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Models/anxia.model')
 print('Load_anorexia')
 model_dep = FastText.load(
     '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Models/depresion.model')
@@ -148,7 +140,7 @@ def get_list_key(path):
     return b
 
 
-def dict_scores(d1, d2, score1, score2, no_distintc):
+def dict_scores(d1, d2, feature1, feature2, no_distintc, con):
     t_initial = time()
     # we upload the keywords
     #d1 = get_list_key(k1)
@@ -160,8 +152,8 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
 
     if no_distintc == True:
         # obtain the
-        kw1 = [x for x in d1 if x[1] < score1]
-        kw2 = [x for x in d2 if x[1] < score2]
+        kw1 = d1[:feature1]
+        kw2 = d2[:feature2]
 
         l1 = get_words_from_kw(kw1)
         l2 = get_words_from_kw(kw2)
@@ -170,37 +162,47 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
 
     else:
         # select by the score, when the score is low the importance is greater
-        kw1 = [x for x in d1 if x[1] > score1]
-        kw2 = [x for x in d2 if x[1] > score2]
+        #kw1 = [x for x in d1 if x[1] > score1]
+        #kw2 = [x for x in d2 if x[1] > score2]
 
         dictionary1 = []
         dictionary2 = []
 
         # get only the words
-        l1 = get_words_from_kw(kw1)
-        l2 = get_words_from_kw(kw2)
+        #l1 = get_words_from_kw(kw1)
+        #l2 = get_words_from_kw(kw2)
+        l1 = get_words_from_kw(d1)
+        l2 = get_words_from_kw(d2)
 
-        len1 = len(l1)
-        len2 = len(l2)
-        if len1 < len2:
-            for i in range(len1):
-                w1 = l1[i]
-                # revisamos si no está en el diccionario negativo
-                if (w1 in l2) == False:
-                    dictionary1.append(w1)
-                # en caso de que lo esté revisamos cual tiene score más pequeño
-                else:
-                    # en donde se encuentra en la lista l2
-                    indice = l2.index(w1)
-                    # score en la lista 1
-                    rel1 = kw1[i][1]
-                    # score en la lista 2
-                    rel2 = kw2[indice][1]
-                    # si el score de la lista 1 es menor que en la 1 la dejamos en lista 1
+        #len1 = len(l1)
+        #len2 = len(l2)
+        #if len1 < len2:
+        i = 0
+        while len(dictionary1) != feature1:
+            w1 = l1[i]
+            # revisamos si no está en el diccionario negativo
+            if (w1 in l2) == False:
+                dictionary1.append(w1)
+
+            else:
+                # en donde se encuentra en la lista l2
+                indice = l2.index(w1)
+                # score en la lista 1
+                rel1 = d1[i][1]
+                # score en la lista 2
+                rel2 = d2[indice][1]
+                # si el score de la lista 1 es menor que en la 1 la dejamos en lista 1
+                if con == True: 
+                    if rel1< rel2:
+                        dictionary1.append(w1)
+                else: 
                     if rel2 < rel1:
                         dictionary1.append(w1)
-            # dictionario negativo son todas las palabras que no están en dictionariopos
-            dictionary2 = [x for x in l2 if x not in dictionary1]
+            i +=1 
+        # dictionario negativo son todas las palabras que no están en dictionariopos
+        dictionary2 = [x for x in l2 if x not in dictionary1][:feature2]
+
+        '''
         else:
             for i in range(len2):
                 w2 = l2[i]
@@ -220,7 +222,8 @@ def dict_scores(d1, d2, score1, score2, no_distintc):
                         dictionary2.append(w2)
             # dictionario positivo son todas las palabras que no están en dictionario negativo
             dictionary1 = [x for x in l1 if x not in dictionary2]
-    print("quit make dictionaries done in %fs" % (time() - t_initial))
+        '''
+    #print("make dictionaries done in %fs" % (time() - t_initial))
     return dictionary1, dictionary2
 
 
@@ -234,36 +237,52 @@ post_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Ne
 post_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_neg_ver2key30'
 
 #-------------------------DEPRESSION--------------------#
-
+#version 1 
 post_pos_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_pos_ver1key30'
+post_neg_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_neg_ver1key30'
+#version 2
+post_pos_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_pos_ver2key30'
+post_neg_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_neg_ver1key30'
 
-#CONCATANATE VERSION OF THE DICTIONARIES OF THE USERS
+#USER VERSION OF THE DICTIONARIES OF THE USERS
 #---------------------------ANOREXIA-------------------#
 #version 1
-user_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver1'
-user_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver1'
+user_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver3'
+user_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver3'
 #version 2
-user_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver2'
-user_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver2'
+user_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_pos_ver4'
+user_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/anxia_neg_ver4'
 
 #---------------------------DEPRESSION-----------------#
 #version 1
-user_pos_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_pos_ver1'
-user_neg_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_neg_ver1'
+user_pos_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_pos_ver3'
+user_neg_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_neg_ver3'
 #version 2
-user_pos_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_pos_ver2'
-user_neg_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_neg_ver2'
+user_pos_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_pos_ver4'
+user_neg_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/dep_neg_ver4'
 
 #CONCATANTE ALL THE TEXT 
+#version 1
+con_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/anxia_pos_ver3'
+con_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/anxia_neg_ver3'
+#version 2
+con_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/anxia_pos_ver4'
+con_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/anxia_neg_ver4'
 
-
+#---------------------------DEPRESSION-----------------#
+#version 1
+con_pos_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/dep_pos_ver3'
+con_neg_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/dep_neg_ver3'
+#version 2
+con_pos_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/dep_pos_ver4'
+con_neg_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/dep_neg_ver4'
 
 
 
 
 # function classificator
 def classificator_pos_neg(all_path_train, all_path_test, num_test, num_train, score1, score2, di1, di2, tau, chose, dif=True,
-                          fuzzy=True, compress=True):
+                          fuzzy=True, compress=True, con = False):
     # Parameters:
     # pos_data: positive data from training data
     # neg_data: negative data fromo training data
@@ -277,7 +296,7 @@ def classificator_pos_neg(all_path_train, all_path_test, num_test, num_train, sc
     # di1,di2 : the positive and negative dictionary
     
     dictionary1, dictionary2 = dict_scores(
-        di1, di2, score1, score2, no_distintc=dif)
+        di1, di2, score1, score2, no_distintc=dif, con=con)
     X_test1 = np.zeros((num_test, len(dictionary1)),
                        dtype=float)  # matriz tipo document-term
     X_test2 = np.zeros((num_test, len(dictionary2)), dtype=float)
@@ -286,7 +305,7 @@ def classificator_pos_neg(all_path_train, all_path_test, num_test, num_train, sc
    ### For using svm ####
     X_train1 = np.zeros((num_train, len(dictionary1)), dtype=float)
     X_train2 = np.zeros((num_train, len(dictionary2)), dtype=float)
-    t_initial1 = time()
+    
     for i in range(num_train):
         path =all_path_train + '_'+ str(i)
         with open(path, "rb") as fp:   # Unpickling
@@ -300,7 +319,7 @@ def classificator_pos_neg(all_path_train, all_path_test, num_test, num_train, sc
             word_repre_user = get_sim_rep(
             b, dictionary1, option=chose, epsilon=tau)
         X_train1[i] = word_repre_user
-    print("termina construcción de train data pos in %fs" % (time() - t_initial1))
+    #print("termina construcción de train data pos in %fs" % (time() - t_initial1))
     t_initial2 = time()
     for i in range(num_train):
         path =all_path_train + '_'+ str(i)
@@ -314,7 +333,7 @@ def classificator_pos_neg(all_path_train, all_path_test, num_test, num_train, sc
             word_repre_user = get_sim_rep(
                 b, dictionary2, option=chose, epsilon=tau)
         X_train2[i] = word_repre_user
-    print("termina construcción de train data neg in %fs" % (time() - t_initial2))
+    #print("termina construcción de train data neg in %fs" % (time() - t_initial2))
     if compress == True:
         X_train1 = np.sum(X_train1, axis=1)
         X_train2 = np.sum(X_train2, axis=1)
@@ -381,86 +400,71 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
 
 
     t_initial = time()
-    if dic == 1: 
-        kw1 = get_list_key(post_pos_anxia1)
-        kw2 = get_list_key(post_neg_anxia1)
-        #anorexia model
-        if remove_stop == False:
+    for_all = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/'
+    if dic == 1 or dic == 3 or dic == 5: 
+        if remove_stop == False: 
             if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/anxia_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/anxia_model/corpus_train3'
+                path_test = for_all + 'test_anxia_1/anxia_model/corpus_test3'
+                path_train = for_all + 'test_anxia_1/anxia_model/corpus_train3'
             if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/pre_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/pre_model/corpus_train3'
+                path_test = for_all + 'test_anxia_1/pre_model/corpus_test3'
+                path_train = for_all + 'test_anxia_1/pre_model/corpus_train3'
         else: 
             if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/anxia_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/anxia_model/corpus_train7'
+                path_test =  for_all +'test_anxia_1/sin_stop/anxia_model/corpus_test7'
+                path_train = for_all + 'train_anxia_1/sin_stop/anxia_model/corpus_train7'
             if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/pre_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/pre_model/corpus_train7'
+                path_test = for_all + 'test_anxia_1/sin_stop/pre_model/corpus_test7'
+                path_train = for_all + 'train_anxia_1/sin_stop/pre_model/corpus_train7'
+        if dic == 1: 
+            con = False
+            kw1 = get_list_key(post_pos_anxia1)
+            kw2 = get_list_key(post_neg_anxia1)            
+        if dic == 3:
+            con = False
+            kw1 = get_list_key(user_pos_anxia1)
+            kw2 = get_list_key(user_neg_anxia1) 
+        if dic == 5:
+            con = True
+            kw1 = get_list_key(con_pos_anxia1)
+            kw2 = get_list_key(con_neg_anxia1)
 
-    elif dic == 2: 
-        kw1 = get_list_key(post_pos_anxia2)
-        kw2 = get_list_key(post_neg_anxia2)
+    if dic == 2 or dic == 4 or dic == 6: 
+
         if remove_stop == False:
             if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/anxia_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/anxia_model/corpus_train4'
+                path_test = for_all + 'test_anxia_2/anxia_model/corpus_test4'
+                path_train = for_all + 'test_anxia_2/anxia_model/corpus_train4'
             if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/pre_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/pre_model/corpus_train4'
+                path_test = for_all +  'test_anxia_2/pre_model/corpus_test4'
+                path_train = for_all + 'test_anxia_2/pre_model/corpus_train4'
         else: 
             if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/anxia_model/corpus_test8'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/anxia_model/corpus_train8'
+                path_test = for_all + 'test_anxia_2/sin_stop/anxia_model/corpus_test8'
+                path_train = for_all + 'train_anxia_2/sin_stop/anxia_model/corpus_train8'
             if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/pre_model/corpus_test8'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/pre_model/corpus_train8'
-    
-    elif dic == 3: 
-        kw1 = get_list_key(user_pos_dep1)
-        kw2 = get_list_key(user_neg_dep1) 
-        if remove_stop == False:
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/anxia_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/anxia_model/corpus_train3'
-            if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/pre_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/pre_model/corpus_train3'
-        else: 
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/anxia_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/anxia_model/corpus_train7'
-            if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/pre_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/pre_model/corpus_train7'
-    
-    elif dic == 4: 
-        kw1 = get_list_key(user_pos_dep2)
-        kw2 = get_list_key(user_neg_dep2)
-        if remove_stop == False:
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/anxia_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/anxia_model/corpus_train4'
-            if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/pre_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/pre_model/corpus_train4'
-        else: 
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/anxia_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/anxia_model/corpus_train4'
-            if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/pre_model/corpus_test8'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/pre_model/corpus_train8'
+                path_test = for_all + 'test_anxia_2/sin_stop/pre_model/corpus_test8'
+                path_train = for_all +  'train_anxia_2/sin_stop/pre_model/corpus_train8'
+        if dic == 2: 
+            con =  False
+            kw1 = get_list_key(post_pos_anxia2)
+            kw2 = get_list_key(post_neg_anxia2)
+        if dic == 4: 
+            con = False
+            kw1 = get_list_key(user_pos_anxia2)
+            kw2 = get_list_key(user_neg_anxia2)
     		        
-    
+        elif dic == 6: 
+            con = True
+            kw1 = get_list_key(con_pos_anxia2)
+            kw2 = get_list_key(con_neg_anxia2)
+
     seed_val = 42
     np.random.seed(seed_val)
     parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
         
     X_test,X_train,len_dic1,len_dic2 = classificator_pos_neg(path_train, path_test, num_test, num_train,score1,score2,kw1,kw2, 
-        			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy, compress=compress)	
+        			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy, compress=compress, con = con)	
         
     if X_test.shape[1] < X_test.shape[0]:
         svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 2000)
@@ -474,10 +478,9 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     y_pred = grid_anorexia.predict(X_test)
     a= grid_anorexia.best_params_
     f1 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/f1_anorexia.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/f1_anorexia2.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + str(dif) 
-            +','+ str(fuzzy) +','+ str(remove_stop) +','+ str(compress)+  ',' + str(chose)+ ',' + str(len_dic1) 
-            + ','+ str(len_dic2)+ ','+ str(dic) + str(f1) + ',' + str(a)) 
+            +','+ str(fuzzy) +','+ str(remove_stop) +','+ str(compress)+  ',' + str(chose) + ','+ str(dic) + ',' + str(f1) + ',' + str(a)) 
     f.close()   
         
     print("done in %fs" % (time() - t_initial))
@@ -493,87 +496,73 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     logging.captureWarnings(True)
     logging.warning('\nWarning message for experiment number ' + str(num_exp))
     
-    if dic == 1: 
-        kw1 = get_list_key(post_pos_anxia1)
-        kw2 = get_list_key(post_neg_anxia1)
-        #anorexia model
+    t_initial = time()
+    for_all = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/'
+    if dic == 1 or dic == 3 or dic == 5: 
         if remove_stop == False:
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/anxia_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/anxia_model/corpus_train3'
+            if chose == 2: 
+                path_test = for_all +'test_dep_1/dep_model/corpus_test3'
+                path_train = for_all + 'train_dep_1/dep_model/corpus_train3'
             if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/pre_model/corpus_train3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/pre_model/corpus_train3'
+                path_test = for_all + 'test_dep_1/pre_model/corpus_test3'
+                path_train = for_all + 'train_dep_1/pre_model/corpus_train3'
         else: 
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/anxia_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/anxia_model/corpus_train7'
+            if chose == 2: 
+                path_test = for_all + 'test_dep_1/sin_stop/dep_model/corpus_test7'
+                path_train = for_all +'train_dep_1/sin_stop/dep_model/corpus_train7'
             if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_1/sin_stop/pre_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_1/sin_stop/pre_model/corpus_train7'
+                path_test = for_all + 'test_dep_1/sin_stop/pre_model/corpus_test7'
+                path_train =for_all + 'train_dep_1/sin_stop/pre_model/corpus_train7'
+        
+        if dic == 1:
+            con = False
+            kw1 = get_list_key(post_pos_dep1)
+            kw2 = get_list_key(post_neg_dep1)
+        if dic == 3: 
+            con = False
+            kw1 = get_list_key(user_pos_dep1)
+            kw2 = get_list_key(user_neg_dep1) 
+        if dic == 5: 
+            con = True
+            kw1 = get_list_key(con_pos_dep1)
+            kw2 = get_list_key(con_neg_dep1)
 
-    elif dic == 2: 
-        kw1 = get_list_key(post_pos_anxia2)
-        kw2 = get_list_key(post_neg_anxia2)
-        if remove_stop == False:
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/anxia_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/anxia_model/corpus_train4'
-            if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/pre_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/pre_model/corpus_train4'
-        else: 
-            if chose == 1: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/anxia_model/corpus_test8'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/anxia_model/corpus_train8'
-            if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_anxia_2/sin_stop/pre_model/corpus_test8'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_anxia_2/sin_stop/pre_model/corpus_train8'
-    
-    elif dic == 3: 
-        kw1 = get_list_key(user_pos_dep1)
-        kw2 = get_list_key(user_neg_dep1) 
+    if dic == 2 or dic == 4 or dic == 6:         
         if remove_stop == False:
             if chose == 2: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/dep_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/dep_model/corpus_train3'
+                path_test = for_all + 'test_dep_2/dep_model/corpus_test4'
+                path_train = for_all + 'train_dep_2/dep_model/corpus_train4'
             if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/pre_model/corpus_test3'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/pre_model/corpus_train3'
+                path_test = for_all + 'test_dep_2/pre_model/corpus_test4'
+                path_train = for_all +  'train_dep_2/pre_model/corpus_train4'
         else: 
             if chose == 2: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/sin_stop/dep_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/sin_stop/dep_model/corpus_train7'
+                path_test = for_all + 'test_dep_2/sin_stop/dep_model/corpus_test8'
+                path_train = for_all + 'train_dep_2/sin_stop/dep_model/corpus_train8'
             if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_1/sin_stop/pre_model/corpus_test7'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_1/sin_stop/pre_model/corpus_train7'
-    
-    elif dic == 4: 
-        kw1 = get_list_key(user_pos_dep2)
-        kw2 = get_list_key(user_neg_dep2)
-        if remove_stop == False:
-            if chose == 2: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/dep_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/dep_model/corpus_train4'
-            if chose == 3: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/pre_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/pre_model/corpus_train4'
-        else: 
-            if chose == 2: 
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/sin_stop/dep_model/corpus_test4'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/sin_stop/dep_model/corpus_train4'
-            if chose == 3:
-                path_test = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/test_dep_2/sin_stop/pre_model/corpus_test8'
-                path_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/Matrix_user/train_dep_2/sin_stop/pre_model/corpus_train8'
-     
-  
+                path_test = for_all + 'test_dep_2/sin_stop/pre_model/corpus_test8'
+                path_train =for_all + 'train_dep_2/sin_stop/pre_model/corpus_train8'
+        if dic == 2: 
+            con = False
+            kw1 = get_list_key(post_pos_dep2)
+            kw2 = get_list_key(post_neg_dep2)
+
+        if dic == 4: 
+            con = False
+            kw1 = get_list_key(user_pos_dep2)
+            kw2 = get_list_key(user_neg_dep2)
+        if  dic == 6: 
+            con = True
+            kw1 = get_list_key(con_pos_dep2)
+            kw2 = get_list_key(con_neg_dep2)
+      
     
     seed_val = 42
     np.random.seed(seed_val)
     parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
         
     X_test,X_train,len_dic1,len_dic2 = classificator_pos_neg(path_train, path_test,num_test, num_train,score1,score2,kw1,kw2, 
-        			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy, compress = compress)	
+        			tau=tau,chose=chose,dif = dif, fuzzy = fuzzy, compress = compress, con= con)	
         
     if X_test.shape[1] < X_test.shape[0]:
         svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 6000)
@@ -587,12 +576,12 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     y_pred = grid_dep.predict(X_test)
     a= grid_dep.best_params_
     f1 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/f1_dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_key_post/f1_dep2.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + str(dif) 
-            +','+ str(fuzzy) +','+ str(remove_stop) +','+ str(compress)+  ',' + str(chose)+ ',' + str(len_dic1) 
-            + ','+ str(len_dic2)+ ','+ str(dic) + str(f1) + ',' + str(a)) 
+            +','+ str(fuzzy) +','+ str(remove_stop) +','+ str(compress)+  ',' + str(chose) + ','+ str(dic) + ',' + str(f1) + ',' + str(a)) 
     f.close()       
-    
+
+    print('The time for this experiment was %fs' % (time() - t_initial))
 
     return f1,a, len_dic1, len_dic2
         

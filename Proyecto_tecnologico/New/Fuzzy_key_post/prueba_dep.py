@@ -35,8 +35,8 @@ num_test = len(test_labels)
 num_train = len(train_y)
 
 
-arg1 = [150,170, 150,130] #score1 
-arg2 = [150, 150,130,130] #score2
+arg1 = [1500,1700, 1000,500] #score1 
+arg2 = [1500, 1500,1300,500] #score2
 arg3 = [0.99]*4 #tolerancia 
 arg4 = [False]*4 #dif, it says if the directories has words in common: True means they have, False does not have 
 arg5 = [False, False,True, True] #fuzzy
@@ -45,12 +45,12 @@ arg6 = [False, False, True,True]#remove
 print('Begins experiments')
 # En este no importa si hay en común
 for i in range(4):
-    f,x,y,z= run_exp_dep_sim(i+1, test_labels, train_y,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =2,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 3)
-    f,x,y,z= run_exp_dep_sim(i+5, test_labels, train_y,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 3)
+    #f,x,y,z= run_exp_dep_sim(i+1, test_labels, train_y,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+    #                        chose =2,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 1)
+    #f,x,y,z= run_exp_dep_sim(i+5, test_labels, train_y,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+    #                        chose =3,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 1)
     f,x,y,z= run_exp_dep_sim(i+9, test_labels, train_y,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =2,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 4)
+                            chose =2,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 2)
     f,x,y,z= run_exp_dep_sim(i+13, test_labels, train_y,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 4)
+                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=arg6[i],compress=False, dic = 2)
 print('End experiments')

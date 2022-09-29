@@ -25,10 +25,9 @@ num_test = len(test_labels_anxia)
 num_train= 152
 
 
-
 arg1 = [1000,1000, 1000,1500,1500,2000,100,200,100,500,500,300,1000,1000, 1000,1500,1500,2000,100,200,100,500,500,300 ] #score1 
 arg2 = [1500,1200,800,1000,1200,2000,100,100,200,200,2000,700,1500,1200,800,1000,1200,2000,100,100,200,200,2000,700] #score2
-arg3 = [0.99]*24 #tolerancia 
+arg3 = [0.90]*24 #tolerancia 
 arg5 = [True, True, True,True,True,True,True, True, True,True,True,True,False, False, False, False, False, False,False, False, False, False, False, False] #fuzzy
 
 print('Begins experiments')
@@ -36,14 +35,25 @@ print('Begins experiments')
 
 # En este no importa si hay en común
 for i in range(24):
-    f = run_exp_anxia_sim(i+697,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+    f = run_exp_anxia_sim(i+4601,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=False, dic =4)
+
+    f = run_exp_anxia_sim(i+4625, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=False, dic =4)
+    
+    f = run_exp_anxia_sim(i+4649, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=False, dic= 4)
+
+    f= run_exp_anxia_sim(i+4673, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=False, dic = 4)
+    f = run_exp_anxia_sim(i+4697,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
                             chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=True, dic =4)
 
-    f = run_exp_anxia_sim(i+721, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+    f = run_exp_anxia_sim(i+4721, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
                             chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=True, dic =4)
     
-    f = run_exp_anxia_sim(i+745, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+    f = run_exp_anxia_sim(i+4745, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
                             chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=True, dic= 4)
 
-    f= run_exp_anxia_sim(i+769, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+    f= run_exp_anxia_sim(i+4769, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
                             chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=True, dic = 4)

@@ -101,54 +101,7 @@ def normalize(document):
     #document = [re.subn(r'[^\w\s,]',"", x)[0].strip() for x in document] #eliminate emoticons 
     return document
 
-'''
-def get_emotion_from_file(path_corpus): 
-    words_list = []
-    emotion_list = []
-    is_in  = []
-    with open(path_corpus, "r") as f: 
 
-        header = 0
-        for line in f :
-            words = re.split(r'\t+', line)  #cada linea se divide por palabra 
-            words_list.append(words[0])
-            emotion_list.append(words[1])
-            is_in.append(words[2][:-1])
- 
-          
-            
-    return words_list, emotion_list, is_in
-path_emotions = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/NRC-Emotion-Lexicon-Wordlevel-v0.92.txt'
-l1,l2,l3 = get_emotion_from_file(path_emotions)
-
-
-def get_dic_emotions(l_words,l_emotions,l_is_in):
-    dict_emotions = dict()
-    cont = 1
-    emotions = []
-    for i in range(len(l_words)):
-        if cont%10 != 0 and i%10 != 9:
-            #print(i,cont,'i')
-            if l_is_in[i] == '1': 
-                emotions.append(l_emotions[i])
-            
-            cont +=1
-            #print(i,cont,'f')
-            #print(emotions)
-        if cont%10 == 0 and i%10 == 9:
-            if l_is_in[i] == '1':
-                emotions.append(l_emotions[i])
-            if len(emotions)>0:
-                dict_emotions[l_words[i]] = emotions
-            #print(i,cont,'l')
-            #print(emotions)
-            emotions = []
-            cont = 1
-            #print(l_words[i],i)
-    return dict_emotions
-    
-dict_emotions = get_dic_emotions(l1,l2,l3)
-'''
 
 #FOR THE CONCATANATION OF THE POSTS IN ORDER #
 tokenizer = TweetTokenizer()
@@ -186,114 +139,22 @@ def define_order_post(count, user_hist, version):
     values_count = np.unique(count)
     values_count = values_count[::-1] 
     
-    #the posts with score negative equals to zero
-    values_zero = count[count == 0]
-    #values with score negative greater to zero 
-    values_neg = values_count[values_count > 0]
-    #values with negative score less to zero 
-    values_pos = values_count[values_count < 0]
-    #order to minimum to maximum values (it means from the post more positive to the less positive)
-    values_pos = values_pos[::-1]
-    #if the number of post with zero score is greater than zero
-    if values_zero.shape[0] > 0: 
-
-        #if the dictionary is for the positive users 
-        if version == 'positive':
-            text = ''
-            #first we add the post with negative's score greater than zero 
-            for i in range(values_neg.shape[0]):
-                index = np.where(count == values_neg[i])
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-            
-            #number of post that are zero
-            num_zeros = values_zero.shape[0]
-            
-            if num_zeros == 1:
-                index = np.where(count == 0)
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-                #add the positive post 
-                for i in range(values_pos.shape[0]):
-                    index = np.where(count == values_pos[i])
-                    for j in range(index[0].shape[0]):
-                        ind = index[0][j]
-                        text = text + user_hist[ind] + ' '
-            else: 
-                index = np.where(count == 0)
-                for j in range(num_zeros//2):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-                for i in range(values_pos.shape[0]):
-                    index2 = np.where(count == values_pos[i])
-                    for j in range(index2[0].shape[0]):
-                        ind = index2[0][j]
-                        text = text + user_hist[ind] + ' '
-                for j in range(num_zeros//2, num_zeros):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-        else: 
-            text = ''
-            for i in range(values_pos.shape[0]):
-                index = np.where(count == values_pos[i])
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-            #number of post that are zero
-            num_zeros = values_zero.shape[0]
-            
-            if num_zeros == 1:
-                index = np.where(count == 0)
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-
-                for i in range(values_neg.shape[0]):
-                    index = np.where(count == values_neg[i])
-                    for j in range(index[0].shape[0]):
-                        ind = index[0][j]
-                        text = text + user_hist[ind] + ' '
-            else: 
-                index = np.where(count == 0)
-                for j in range(num_zeros//2):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-                for i in range(values_neg.shape[0]):
-                    index2 = np.where(count == values_neg[i])
-                    for j in range(index2[0].shape[0]):
-                        ind = index2[0][j]
-                        text = text + user_hist[ind] + ' '
-                for j in range(num_zeros//2, num_zeros):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-    else: 
-        if version == 'positive':
-            text = ''
-            for i in range(values_neg.shape[0]):
-                index = np.where(count == values_neg[i])
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-            for i in range(values_pos.shape[0]):
-                index = np.where(count == values_pos[i])
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-        else: 
-            text = ''
-            for i in range(values_pos.shape[0]):
-                index = np.where(count == values_pos[i])
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-            for i in range(values_neg.shape[0]):
-                index = np.where(count == values_neg[i])
-                for j in range(index[0].shape[0]):
-                    ind = index[0][j]
-                    text = text + user_hist[ind] + ' '
-
+    if version == 'negative':
+        text = ''
+        for i in range(values_count.shape[0]):
+            index = np.where(count == values_count[i])
+            for j in range(index[0].shape[0]):
+                ind = index[0][j]
+                text = text + user_hist[ind] + '\n'
+    
+    if version == 'positive':
+        text = ''
+        for i in range(values_count.shape[0]):
+            v = values_count[::-1]
+            index = np.where(count == v[i])
+            for j in range(index[0].shape[0]):
+                ind = index[0][j]
+                text = text + user_hist[ind] + '\n'        
 
     return text 
 
@@ -334,26 +195,6 @@ def get_dict_position(list1,list2):
 
     return x,y
 
-''''''
-def make_final_dic(posi_dict, num_user):
-    #posi_dict the dictionary to clean 
-    #num_user the number of users to use for this dictionary 
-    #contains only words
-    words = [posi_dict[i][0] for i in range(len(posi_dict))]
-    rankings = [posi_dict[i][1] for i in range(len(posi_dict))]
-    #words in a numpy array
-    w_array = np.array(words)
-    #uniques words in  a numpy array does not preserve original order 
-    unique_words = np.unique(w_array)
-    #unique_words = set(words)
-    
-    final_dictionary = []
-    #the numpy version of posi_dict
-    np_rank = np.array(rankings)
-    for i in range(unique_words.shape[0]):
-        #we search where this word appears in the posi_dict 
-        positions = np.where(w_array == unique_words[i])
-        rank_of_word = np_rank[positions[0]].sum()
-        final_dictionary.append((unique_words[i],rank_of_word/num_user))
-    return final_dictionary   
+
+
 

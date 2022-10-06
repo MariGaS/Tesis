@@ -1,49 +1,49 @@
-	score1	score2	tol	remove_stop	fuzzy	no_dist	svm	compress	best	f1	words_pos	words_neg	concatenate	word_emebdding
-1049	0.001	0.005	0.99	True	True	True	True	True	{'C': 0.05}	0.24472573839662448	11	449	False	3
-1050	0.003	0.001	0.99	True	True	True	True	True	{'C': 0.05}	0.2649572649572649	80	62	False	3
-1051	0.001	0.0005	0.99	True	True	True	True	True	{'C': 0.05}	0.2338709677419355	11	26	False	3
-1052	0.005	0.005	0.99	True	True	True	True	True	{'C': 0.05}	0.26666666666666666	193	449	False	3
-1053	0.005	0.001	0.99	True	True	True	True	True	{'C': 0.05}	0.26612903225806445	193	62	False	3
-1054	0.007	0.003	0.99	True	True	True	True	True	{'C': 0.05}	0.24603174603174605	301	213	False	3
-1055	0.003	0.003	0.99	True	False	True	True	True	{'C': 0.05}	0.22784810126582278	80	213	False	3
-1056	0.03	0.01	0.99	True	False	True	True	True	{'C': 0.12}	0.29493087557603687	2848	1197	False	3
-1057	0.001	0.001	0.99	True	False	True	True	True	{'C': 0.05}	0.24892703862660945	11	62	False	3
-1058	0.005	0.003	0.99	True	False	True	True	True	{'C': 0.05}	0.24313725490196078	193	213	False	3
-1059	0.0005	0.0005	0.99	True	False	True	True	True	{'C': 0.05}	0.23104693140794225	2	26	False	3
-1060	0.0005	0.0003	0.99	True	False	True	True	True	{'C': 0.05}	0.21917808219178084	2	15	False	3
-1061	0.001	0.005	0.99	False	True	True	True	True	{'C': 0.05}	0.24472573839662448	11	449	False	3
-1062	0.003	0.001	0.99	False	True	True	True	True	{'C': 0.05}	0.2649572649572649	80	62	False	3
-1063	0.001	0.0005	0.99	False	True	True	True	True	{'C': 0.05}	0.2338709677419355	11	26	False	3
-1064	0.005	0.005	0.99	False	True	True	True	True	{'C': 0.05}	0.26666666666666666	193	449	False	3
-1065	0.005	0.001	0.99	False	True	True	True	True	{'C': 0.05}	0.26612903225806445	193	62	False	3
-1066	0.007	0.003	0.99	False	True	True	True	True	{'C': 0.05}	0.24603174603174605	301	213	False	3
-1067	0.003	0.003	0.99	False	False	True	True	True	{'C': 0.05}	0.22784810126582278	80	213	False	3
-1068	0.03	0.01	0.99	False	False	True	True	True	{'C': 0.05}	0.28318584070796465	2848	1197	False	3
-1069	0.001	0.001	0.99	False	False	True	True	True	{'C': 0.05}	0.24892703862660945	11	62	False	3
-1070	0.005	0.003	0.99	False	False	True	True	True	{'C': 0.05}	0.24313725490196078	193	213	False	3
-1071	0.0005	0.0005	0.99	False	False	True	True	True	{'C': 0.05}	0.23104693140794225	2	26	False	3
-1072	0.0005	0.0003	0.99	False	False	True	True	True	{'C': 0.05}	0.21917808219178084	2	15	False	3
-1073	0.001	0.005	0.99	True	True	False	True	True	{'C': 0.05}	0.24472573839662448	11	449	False	3
-1074	0.003	0.001	0.99	True	True	False	True	True	{'C': 0.05}	0.2649572649572649	80	62	False	3
-1075	0.001	0.0005	0.99	True	True	False	True	True	{'C': 0.05}	0.2338709677419355	11	26	False	3
-1076	0.005	0.005	0.99	True	True	False	True	True	{'C': 0.05}	0.26666666666666666	193	449	False	3
-1077	0.005	0.001	0.99	True	True	False	True	True	{'C': 0.05}	0.26612903225806445	193	62	False	3
-1078	0.007	0.003	0.99	True	True	False	True	True	{'C': 0.05}	0.24603174603174605	301	213	False	3
-1079	0.003	0.003	0.99	True	False	False	True	True	{'C': 0.05}	0.22784810126582278	80	213	False	3
-1080	0.03	0.01	0.99	True	False	False	True	True	{'C': 0.12}	0.2752293577981651	2820	1190	False	3
-1081	0.001	0.001	0.99	True	False	False	True	True	{'C': 0.05}	0.24892703862660945	11	62	False	3
-1082	0.005	0.003	0.99	True	False	False	True	True	{'C': 0.05}	0.24313725490196078	193	213	False	3
-1083	0.0005	0.0005	0.99	True	False	False	True	True	{'C': 0.05}	0.23104693140794225	2	26	False	3
-1084	0.0005	0.0003	0.99	True	False	False	True	True	{'C': 0.05}	0.21917808219178084	2	15	False	3
-1085	0.001	0.005	0.99	False	True	False	True	True	{'C': 0.05}	0.24472573839662448	11	449	False	3
-1086	0.003	0.001	0.99	False	True	False	True	True	{'C': 0.05}	0.2649572649572649	80	62	False	3
-1087	0.001	0.0005	0.99	False	True	False	True	True	{'C': 0.05}	0.2338709677419355	11	26	False	3
-1088	0.005	0.005	0.99	False	True	False	True	True	{'C': 0.05}	0.26666666666666666	193	449	False	3
-1089	0.005	0.001	0.99	False	True	False	True	True	{'C': 0.05}	0.26612903225806445	193	62	False	3
-1090	0.007	0.003	0.99	False	True	False	True	True	{'C': 0.05}	0.24603174603174605	301	213	False	3
-1091	0.003	0.003	0.99	False	False	False	True	True	{'C': 0.05}	0.22784810126582278	80	213	False	3
-1092	0.03	0.01	0.99	False	False	False	True	True	{'C': 0.12}	0.2831050228310502	2820	1190	False	3
-1093	0.001	0.001	0.99	False	False	False	True	True	{'C': 0.05}	0.24892703862660945	11	62	False	3
-1094	0.005	0.003	0.99	False	False	False	True	True	{'C': 0.05}	0.24313725490196078	193	213	False	3
-1095	0.0005	0.0005	0.99	False	False	False	True	True	{'C': 0.05}	0.23104693140794225	2	26	False	3
-1096	0.0005	0.0003	0.99	False	False	False	True	True	{'C': 0.05}	0.21917808219178084	2	15	False	3
+,score1,score2,tol,remove_stop,fuzzy,no_dist,svm,compress,best,f1,words_pos,words_neg,concatenate,word_emebdding
+1056,0.03,0.01,0.99,True,False,True,True,True,{'C': 0.12},0.294930875576037,2848,1197,False,3
+1068,0.03,0.01,0.99,False,False,True,True,True,{'C': 0.05},0.283185840707965,2848,1197,False,3
+1092,0.03,0.01,0.99,False,False,False,True,True,{'C': 0.12},0.28310502283105,2820,1190,False,3
+1080,0.03,0.01,0.99,True,False,False,True,True,{'C': 0.12},0.275229357798165,2820,1190,False,3
+1052,0.005,0.005,0.99,True,True,True,True,True,{'C': 0.05},0.266666666666667,193,449,False,3
+1064,0.005,0.005,0.99,False,True,True,True,True,{'C': 0.05},0.266666666666667,193,449,False,3
+1076,0.005,0.005,0.99,True,True,False,True,True,{'C': 0.05},0.266666666666667,193,449,False,3
+1088,0.005,0.005,0.99,False,True,False,True,True,{'C': 0.05},0.266666666666667,193,449,False,3
+1053,0.005,0.001,0.99,True,True,True,True,True,{'C': 0.05},0.266129032258064,193,62,False,3
+1065,0.005,0.001,0.99,False,True,True,True,True,{'C': 0.05},0.266129032258064,193,62,False,3
+1077,0.005,0.001,0.99,True,True,False,True,True,{'C': 0.05},0.266129032258064,193,62,False,3
+1089,0.005,0.001,0.99,False,True,False,True,True,{'C': 0.05},0.266129032258064,193,62,False,3
+1050,0.003,0.001,0.99,True,True,True,True,True,{'C': 0.05},0.264957264957265,80,62,False,3
+1062,0.003,0.001,0.99,False,True,True,True,True,{'C': 0.05},0.264957264957265,80,62,False,3
+1074,0.003,0.001,0.99,True,True,False,True,True,{'C': 0.05},0.264957264957265,80,62,False,3
+1086,0.003,0.001,0.99,False,True,False,True,True,{'C': 0.05},0.264957264957265,80,62,False,3
+1057,0.001,0.001,0.99,True,False,True,True,True,{'C': 0.05},0.248927038626609,11,62,False,3
+1069,0.001,0.001,0.99,False,False,True,True,True,{'C': 0.05},0.248927038626609,11,62,False,3
+1081,0.001,0.001,0.99,True,False,False,True,True,{'C': 0.05},0.248927038626609,11,62,False,3
+1093,0.001,0.001,0.99,False,False,False,True,True,{'C': 0.05},0.248927038626609,11,62,False,3
+1054,0.007,0.003,0.99,True,True,True,True,True,{'C': 0.05},0.246031746031746,301,213,False,3
+1066,0.007,0.003,0.99,False,True,True,True,True,{'C': 0.05},0.246031746031746,301,213,False,3
+1078,0.007,0.003,0.99,True,True,False,True,True,{'C': 0.05},0.246031746031746,301,213,False,3
+1090,0.007,0.003,0.99,False,True,False,True,True,{'C': 0.05},0.246031746031746,301,213,False,3
+1049,0.001,0.005,0.99,True,True,True,True,True,{'C': 0.05},0.244725738396624,11,449,False,3
+1061,0.001,0.005,0.99,False,True,True,True,True,{'C': 0.05},0.244725738396624,11,449,False,3
+1073,0.001,0.005,0.99,True,True,False,True,True,{'C': 0.05},0.244725738396624,11,449,False,3
+1085,0.001,0.005,0.99,False,True,False,True,True,{'C': 0.05},0.244725738396624,11,449,False,3
+1058,0.005,0.003,0.99,True,False,True,True,True,{'C': 0.05},0.243137254901961,193,213,False,3
+1070,0.005,0.003,0.99,False,False,True,True,True,{'C': 0.05},0.243137254901961,193,213,False,3
+1082,0.005,0.003,0.99,True,False,False,True,True,{'C': 0.05},0.243137254901961,193,213,False,3
+1094,0.005,0.003,0.99,False,False,False,True,True,{'C': 0.05},0.243137254901961,193,213,False,3
+1051,0.001,0.0005,0.99,True,True,True,True,True,{'C': 0.05},0.233870967741935,11,26,False,3
+1063,0.001,0.0005,0.99,False,True,True,True,True,{'C': 0.05},0.233870967741935,11,26,False,3
+1075,0.001,0.0005,0.99,True,True,False,True,True,{'C': 0.05},0.233870967741935,11,26,False,3
+1087,0.001,0.0005,0.99,False,True,False,True,True,{'C': 0.05},0.233870967741935,11,26,False,3
+1059,0.0005,0.0005,0.99,True,False,True,True,True,{'C': 0.05},0.231046931407942,2,26,False,3
+1071,0.0005,0.0005,0.99,False,False,True,True,True,{'C': 0.05},0.231046931407942,2,26,False,3
+1083,0.0005,0.0005,0.99,True,False,False,True,True,{'C': 0.05},0.231046931407942,2,26,False,3
+1095,0.0005,0.0005,0.99,False,False,False,True,True,{'C': 0.05},0.231046931407942,2,26,False,3
+1055,0.003,0.003,0.99,True,False,True,True,True,{'C': 0.05},0.227848101265823,80,213,False,3
+1067,0.003,0.003,0.99,False,False,True,True,True,{'C': 0.05},0.227848101265823,80,213,False,3
+1079,0.003,0.003,0.99,True,False,False,True,True,{'C': 0.05},0.227848101265823,80,213,False,3
+1091,0.003,0.003,0.99,False,False,False,True,True,{'C': 0.05},0.227848101265823,80,213,False,3
+1060,0.0005,0.0003,0.99,True,False,True,True,True,{'C': 0.05},0.219178082191781,2,15,False,3
+1072,0.0005,0.0003,0.99,False,False,True,True,True,{'C': 0.05},0.219178082191781,2,15,False,3
+1084,0.0005,0.0003,0.99,True,False,False,True,True,{'C': 0.05},0.219178082191781,2,15,False,3
+1096,0.0005,0.0003,0.99,False,False,False,True,True,{'C': 0.05},0.219178082191781,2,15,False,3

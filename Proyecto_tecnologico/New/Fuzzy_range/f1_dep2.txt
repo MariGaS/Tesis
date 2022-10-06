@@ -1,0 +1,485 @@
+
+519,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.5606694560669456,{'C': 1}
+783,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.2496570644718793,{'C': 0.05}
+541,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.4037558685446009,{'C': 0.05}
+805,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.32671081677704195,{'C': 0.12}
+343,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,binary,0.15587044534412955,{'C': 0.25}
+563,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.5,{'C': 0.05}
+827,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.44518272425249167,{'C': 0.05}
+585,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.28125,{'C': 1}
+365,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,binary,0.30000000000000004,{'C': 2}
+849,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.2152777777777778,{'C': 0.12}
+607,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.5494505494505494,{'C': 0.05}
+871,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.3943661971830986,{'C': 0.05}
+387,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,binary,0.2574257425742575,{'C': 0.05}
+629,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.2604920405209841,{'C': 0.25}
+651,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5638766519823789,{'C': 4}
+893,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.3333333333333333,{'C': 0.12}
+409,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,binary,0.49844236760124616,{'C': 4}
+673,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.43665768194070087,{'C': 0.05}
+915,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.44512195121951226,{'C': 0.05}
+695,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.4375,{'C': 0.05}
+937,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.3259911894273128,{'C': 0.05}
+717,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.575609756097561,{'C': 0.05}
+431,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,tf,0.4081632653061224,{'C': 1}
+959,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.04195804195804196,{'C': 0.05}
+739,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.1852216748768473,{'C': 0.05}
+981,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.052631578947368425,{'C': 0.05}
+453,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,tf,0.3287671232876712,{'C': 0.12}
+761,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.49498327759197314,{'C': 0.05}
+520,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.511904761904762,{'C': 0.05}
+542,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.5388127853881278,{'C': 1}
+1003,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.4780487804878049,{'C': 0.05}
+564,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.4166666666666667,{'C': 0.05}
+586,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.5164835164835165,{'C': 4}
+608,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.5161290322580645,{'C': 0.12}
+1475,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,tf,0.19387755102040816,{'C': 0.12}
+630,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.47840531561461797,{'C': 0.05}
+1025,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.3492063492063492,{'C': 0.05}
+652,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5213270142180095,{'C': 0.12}
+784,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.4716981132075472,{'C': 0.05}
+674,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.37383177570093457,{'C': 0.12}
+806,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.3926940639269406,{'C': 0.05}
+828,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.45818181818181813,{'C': 0.05}
+696,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.47916666666666663,{'C': 0.05}
+850,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.4381625441696113,{'C': 0.5}
+497,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.31983805668016196,{'C': 0.05}
+872,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.4102564102564103,{'C': 0.05}
+718,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.2965403624382208,{'C': 1}
+894,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.43781094527363185,{'C': 0.05}
+344,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,binary,0.23217247097844113,{'C': 0.05}
+916,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.44982698961937717,{'C': 1}
+740,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.24776119402985075,{'C': 0.25}
+366,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,binary,0.21394230769230768,{'C': 0.25}
+938,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.42537313432835816,{'C': 0.05}
+762,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.2772727272727273,{'C': 4}
+521,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.5032258064516129,{'C': 4}
+960,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.3225806451612903,{'C': 0.05}
+388,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,binary,0.32857142857142857,{'C': 0.05}
+543,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.38461538461538464,{'C': 0.12}
+982,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.4932432432432432,{'C': 0.05}
+410,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,binary,0.06611570247933884,{'C': 0.05}
+565,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.5446808510638297,{'C': 2}
+587,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.36206896551724144,{'C': 0.05}
+1004,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.277027027027027,{'C': 0.05}
+432,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,tf,0.23398328690807801,{'C': 0.12}
+609,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.2393162393162393,{'C': 0.12}
+1026,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.22477650063856958,{'C': 1}
+454,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,tf,0.2877959927140255,{'C': 4}
+631,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.4556962025316456,{'C': 0.25}
+785,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.28301886792452824,{'C': 0.05}
+653,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.6,{'C': 0.05}
+1476,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,tf,0.22707423580786024,{'C': 0.05}
+807,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.4316109422492401,{'C': 0.05}
+675,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.5811965811965812,{'C': 0.05}
+829,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.25396825396825395,{'C': 0.05}
+498,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.31067961165048547,{'C': 0.5}
+697,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.20512820512820512,{'C': 1}
+851,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.2902711323763955,{'C': 4}
+719,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.3794642857142857,{'C': 0.05}
+873,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.2530487804878048,{'C': 0.05}
+345,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.4376899696048632,{'C': 2}
+741,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.33671399594320495,{'C': 0.12}
+895,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.25449515905947445,{'C': 0.05}
+367,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.5945945945945945,{'C': 0.05}
+763,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.44077134986225897,{'C': 0.05}
+917,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.5112107623318386,{'C': 0.05}
+522,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.4697986577181208,{'C': 0.05}
+939,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.21271393643031783,{'C': 0.05}
+544,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.26262626262626265,{'C': 0.05}
+389,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.31729055258467026,{'C': 0.5}
+566,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.49367088607594933,{'C': 0.05}
+961,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.23829787234042552,{'C': 0.05}
+588,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.20869565217391303,{'C': 0.05}
+411,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.3609022556390977,{'C': 0.12}
+983,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.2868686868686869,{'C': 0.05}
+610,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.3111111111111111,{'C': 0.25}
+632,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.297029702970297,{'C': 0.5}
+1005,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.35696821515892424,{'C': 0.05}
+433,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.1611535199321459,{'C': 0.12}
+654,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5649717514124293,{'C': 0.05}
+676,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.6168224299065421,{'C': 0.05}
+1027,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.4697986577181208,{'C': 0.05}
+455,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.47058823529411764,{'C': 0.05}
+698,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.44514106583072105,{'C': 0.12}
+786,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.22141997593261134,{'C': 0.05}
+720,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.6079295154185023,{'C': 0.05}
+808,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.47384615384615386,{'C': 0.05}
+1477,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.11016949152542373,{'C': 2}
+742,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.3550561797752809,{'C': 0.12}
+830,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.47407407407407404,{'C': 0.05}
+764,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.5170068027210885,{'C': 0.05}
+852,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.4275862068965517,{'C': 2}
+499,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.3279352226720648,{'C': 0.12}
+523,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.5822784810126582,{'C': 0.25}
+874,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.5526315789473685,{'C': 0.05}
+545,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.3463687150837989,{'C': 4}
+346,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,binary,0.29523809523809524,{'C': 0.25}
+896,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.11235955056179775,{'C': 0.05}
+567,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.553030303030303,{'C': 0.05}
+918,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.35268817204301073,{'C': 0.05}
+368,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,binary,0.3023758099352052,{'C': 0.05}
+589,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.5340909090909092,{'C': 0.05}
+940,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.43866171003717475,{'C': 0.05}
+962,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.4221105527638191,{'C': 0.05}
+390,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,binary,0.4829931972789116,{'C': 0.05}
+611,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.5440613026819924,{'C': 0.25}
+984,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.3387755102040817,{'C': 0.05}
+412,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,binary,0.4171779141104294,{'C': 1}
+633,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.23181257706535144,{'C': 1}
+1006,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.22857142857142856,{'C': 0.25}
+655,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.6120689655172413,{'C': 0.05}
+1028,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.31693989071038253,{'C': 1}
+434,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,tf,0.3056603773584906,{'C': 0.05}
+677,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.33707865168539325,{'C': 0.05}
+787,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.07633587786259542,{'C': 0.12}
+456,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,tf,0.4807692307692307,{'C': 0.05}
+699,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.4705882352941177,{'C': 1}
+809,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.47023809523809523,{'C': 0.05}
+721,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.528169014084507,{'C': 0.05}
+1478,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,tf,0.49557522123893805,{'C': 0.12}
+831,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.48175182481751816,{'C': 0.05}
+743,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.19542619542619544,{'C': 4}
+853,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.46846846846846857,{'C': 0.05}
+500,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.3046875,{'C': 0.25}
+765,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.304,{'C': 0.05}
+524,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.547486033519553,{'C': 0.05}
+875,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.21324354657687994,{'C': 0.25}
+546,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.4799999999999999,{'C': 0.05}
+347,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.16019818331957061,{'C': 0.05}
+897,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+568,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.5898617511520737,{'C': 1}
+369,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.5531914893617021,{'C': 1}
+919,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.4835164835164836,{'C': 0.25}
+590,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.5593220338983051,{'C': 0.12}
+941,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.5118110236220472,{'C': 0.05}
+612,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.5494505494505495,{'C': 0.05}
+391,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.11965811965811965,{'C': 4}
+963,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.2998236331569665,{'C': 0.05}
+634,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.3157894736842105,{'C': 0.12}
+656,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.5966386554621849,{'C': 0.05}
+985,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.4615384615384615,{'C': 1}
+678,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.5783132530120482,{'C': 0.05}
+413,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.36619718309859156,{'C': 0.5}
+700,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.49032258064516115,{'C': 0.05}
+1007,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.48854961832061067,{'C': 0.12}
+722,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.5238095238095237,{'C': 0.05}
+435,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.31868131868131866,{'C': 2}
+1029,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.47706422018348627,{'C': 0.25}
+744,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.4566473988439307,{'C': 0.05}
+788,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.13043478260869565,{'C': 0.05}
+766,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.5858585858585857,{'C': 0.12}
+457,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.1636520241171404,{'C': 1}
+810,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.5259259259259259,{'C': 0.05}
+525,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.47318611987381703,{'C': 0.05}
+832,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.4093959731543624,{'C': 0.5}
+547,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.22727272727272727,{'C': 0.12}
+1479,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.252400548696845,{'C': 4}
+569,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.5319148936170212,{'C': 0.05}
+854,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.2120866590649943,{'C': 0.12}
+591,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.4458598726114649,{'C': 1}
+876,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.2867647058823529,{'C': 0.05}
+613,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.22707423580786024,{'C': 0.12}
+501,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.14473684210526316,{'C': 0.05}
+898,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.25,{'C': 0.05}
+635,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.2233128834355828,{'C': 0.05}
+920,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.4835164835164836,{'C': 0.5}
+657,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.5392156862745098,{'C': 0.5}
+348,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.5748502994011976,{'C': 0.5}
+679,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.33864541832669326,{'C': 0.05}
+942,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.4584717607973422,{'C': 0.05}
+370,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.020202020202020204,{'C': 0.05}
+701,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.4874551971326164,{'C': 0.05}
+964,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.4842105263157894,{'C': 2}
+723,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.22328931572629052,{'C': 0.5}
+986,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.5194805194805195,{'C': 0.05}
+392,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.30150753768844224,{'C': 2}
+745,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.29443447037701975,{'C': 0.05}
+1008,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.2693498452012384,{'C': 0.12}
+414,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.20867526377491208,{'C': 0.5}
+767,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.38071065989847713,{'C': 0.05}
+1030,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.34210526315789475,{'C': 0.12}
+526,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.5071770334928231,{'C': 1}
+789,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.37825059101654845,{'C': 0.05}
+548,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.3052631578947368,{'C': 0.12}
+811,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.3641791044776119,{'C': 0.05}
+436,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.1696113074204947,{'C': 0.12}
+570,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.41836734693877553,{'C': 1}
+833,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.24076607387140903,{'C': 0.25}
+592,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.3108108108108108,{'C': 0.12}
+458,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.36139630390143734,{'C': 0.05}
+855,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.24324324324324326,{'C': 0.05}
+614,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.1856459330143541,{'C': 4}
+877,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.20377358490566036,{'C': 0.05}
+636,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.20155038759689925,{'C': 4}
+1480,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.28618421052631576,{'C': 0.12}
+658,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.48,{'C': 4}
+899,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.4277777777777778,{'C': 0.05}
+680,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.52,{'C': 0.05}
+921,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.4102564102564103,{'C': 0.05}
+702,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.46560846560846564,{'C': 0.25}
+502,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.4787234042553192,{'C': 0.25}
+943,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.33999999999999997,{'C': 0.25}
+724,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.44198895027624313,{'C': 1}
+746,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.26542056074766357,{'C': 4}
+965,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.33793103448275863,{'C': 0.25}
+349,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.4050632911392405,{'C': 0.25}
+768,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.3636363636363636,{'C': 2}
+987,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.3003003003003003,{'C': 0.12}
+527,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.5730337078651685,{'C': 0.05}
+371,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.40191387559808617,{'C': 0.12}
+549,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.05769230769230769,{'C': 0.05}
+1009,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.1970649895178197,{'C': 0.12}
+571,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.519774011299435,{'C': 0.05}
+393,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.19161676646706588,{'C': 0.5}
+593,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.5555555555555556,{'C': 0.05}
+1031,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.2288557213930348,{'C': 4}
+615,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.5317919075144508,{'C': 0.05}
+790,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.39676113360323884,{'C': 1}
+415,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.3345724907063198,{'C': 1}
+637,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.3961352657004831,{'C': 0.25}
+812,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.30852994555353896,{'C': 0.12}
+659,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.588235294117647,{'C': 0.12}
+681,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.21835075493612077,{'C': 0.05}
+834,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.317948717948718,{'C': 0.05}
+437,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.07009345794392523,{'C': 1}
+703,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.21602787456445993,{'C': 0.05}
+856,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.38333333333333336,{'C': 0.05}
+725,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.5785123966942148,{'C': 0.05}
+459,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.37168141592920356,{'C': 4}
+747,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.42181818181818176,{'C': 0.05}
+878,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.42181818181818176,{'C': 0.5}
+769,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.5355648535564853,{'C': 0.05}
+528,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.5,{'C': 0.05}
+900,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.3561643835616438,{'C': 0.05}
+1481,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.2820097244732577,{'C': 0.05}
+922,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.3855421686746988,{'C': 0.05}
+550,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.29370629370629375,{'C': 0.05}
+572,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.10810810810810811,{'C': 0.05}
+944,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.4700460829493087,{'C': 0.05}
+503,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.27439024390243905,{'C': 0.12}
+594,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.5744680851063829,{'C': 0.05}
+966,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.4457478005865103,{'C': 0.5}
+616,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.3401109057301294,{'C': 0.12}
+988,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.35616438356164387,{'C': 0.05}
+350,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.01818181818181818,{'C': 0.25}
+638,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.5352112676056339,{'C': 0.05}
+1010,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.3252595155709343,{'C': 0.05}
+372,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.0,{'C': 2}
+660,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5844748858447489,{'C': 0.05}
+682,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.5513513513513514,{'C': 0.12}
+1032,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.44897959183673475,{'C': 0.05}
+791,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.3943661971830985,{'C': 0.12}
+394,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.3595505617977528,{'C': 0.5}
+704,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.4842767295597484,{'C': 0.05}
+726,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.47491638795986624,{'C': 0.12}
+813,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.5018450184501846,{'C': 0.5}
+416,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.1839080459770115,{'C': 0.25}
+835,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.4641350210970464,{'C': 0.05}
+748,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.26031746031746034,{'C': 0.25}
+857,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.4021739130434782,{'C': 0.12}
+770,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.5829145728643216,{'C': 0.05}
+529,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.1592920353982301,{'C': 0.05}
+438,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.12711864406779663,{'C': 0.05}
+879,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.49264705882352944,{'C': 0.25}
+551,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.48181818181818187,{'C': 0.05}
+460,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.03592814371257485,{'C': 0.05}
+901,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.38922155688622756,{'C': 0.12}
+573,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.37344398340248963,{'C': 0.05}
+923,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.456953642384106,{'C': 0.25}
+595,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.0,{'C': 0.05}
+945,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.4030612244897959,{'C': 0.05}
+1482,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.1958762886597938,{'C': 1}
+617,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.4429967426710097,{'C': 0.5}
+967,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.3734015345268542,{'C': 0.12}
+639,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.20578778135048234,{'C': 0.05}
+989,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.2933333333333333,{'C': 0.05}
+504,1700,1500,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.32380952380952377,{'C': 0.05}
+661,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.5991902834008097,{'C': 0.05}
+683,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.5866666666666666,{'C': 0.12}
+1011,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.41666666666666663,{'C': 2}
+705,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.21621621621621623,{'C': 0.12}
+351,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.2861491628614916,{'C': 4}
+1033,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.4092664092664093,{'C': 0.12}
+727,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.39716312056737585,{'C': 4}
+792,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.4340659340659341,{'C': 0.05}
+373,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.43113772455089827,{'C': 0.05}
+749,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.3807531380753138,{'C': 0.5}
+814,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.3648960739030023,{'C': 0.05}
+771,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.5310734463276836,{'C': 0.05}
+395,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.5,{'C': 0.05}
+836,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.32258064516129037,{'C': 0.05}
+530,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.5688888888888889,{'C': 0.05}
+552,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.45161290322580644,{'C': 0.05}
+417,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.07619047619047617,{'C': 2}
+858,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.4277777777777778,{'C': 0.05}
+574,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.4,{'C': 0.05}
+596,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.25757575757575757,{'C': 0.05}
+880,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.36717062634989195,{'C': 0.05}
+439,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.3732718894009217,{'C': 4}
+618,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.2647482014388489,{'C': 0.05}
+902,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.3333333333333333,{'C': 0.05}
+640,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.39215686274509803,{'C': 0.05}
+461,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.19469026548672563,{'C': 2}
+924,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.45033112582781454,{'C': 0.05}
+662,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.4925373134328358,{'C': 0.05}
+684,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.53551912568306,{'C': 4}
+946,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.3033707865168539,{'C': 0.05}
+706,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.35443037974683544,{'C': 0.05}
+1483,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.19217081850533807,{'C': 0.05}
+968,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.4724409448818898,{'C': 0.05}
+728,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.4276729559748428,{'C': 0.05}
+750,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.4606741573033708,{'C': 0.25}
+505,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.3225806451612903,{'C': 0.05}
+990,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.452054794520548,{'C': 0.05}
+772,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.4195804195804196,{'C': 0.05}
+531,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.26016260162601623,{'C': 0.05}
+1012,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.3115384615384616,{'C': 0.12}
+352,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,binary,0.019999999999999997,{'C': 2}
+553,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.4366197183098592,{'C': 0.05}
+1034,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.39325842696629215,{'C': 0.05}
+575,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.4444444444444445,{'C': 0.12}
+374,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,binary,0.018691588785046728,{'C': 0.05}
+793,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,tf,0.44673539518900335,{'C': 0.05}
+597,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.5833333333333334,{'C': 0.05}
+815,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,tf,0.38036809815950917,{'C': 0.05}
+619,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.3694267515923567,{'C': 0.05}
+396,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,binary,0.23404255319148937,{'C': 0.05}
+837,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,tf,0.4387464387464388,{'C': 0.05}
+641,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.5422535211267606,{'C': 4}
+663,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5153846153846154,{'C': 4}
+859,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,tf,0.26074498567335247,{'C': 0.05}
+418,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,binary,0.1624790619765494,{'C': 0.5}
+685,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.5701754385964912,{'C': 0.05}
+881,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,tf,0.21076233183856505,{'C': 4}
+707,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.27514792899408286,{'C': 0.05}
+440,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,tf,0.27999999999999997,{'C': 1}
+903,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,tf,0.35634743875278396,{'C': 0.12}
+729,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.4691358024691358,{'C': 0.05}
+925,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,tf,0.4805653710247349,{'C': 0.05}
+751,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.20398009950248758,{'C': 0.12}
+462,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,tf,0.356234096692112,{'C': 0.05}
+947,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,tf,0.49166666666666664,{'C': 0.05}
+773,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.4457831325301205,{'C': 4}
+532,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.572972972972973,{'C': 0.05}
+969,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,tf,0.4104234527687297,{'C': 0.25}
+1484,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,tf,0.20191285866099892,{'C': 0.05}
+554,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.3650793650793651,{'C': 0.05}
+991,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,tf,0.3598130841121495,{'C': 4}
+576,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.48677248677248675,{'C': 0.05}
+598,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.1896551724137931,{'C': 0.05}
+506,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.2106703146374829,{'C': 0.25}
+1013,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,tf,0.39705882352941174,{'C': 0.12}
+620,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.314176245210728,{'C': 0.05}
+642,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.4267782426778243,{'C': 0.05}
+1035,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,tf,0.45588235294117646,{'C': 0.05}
+664,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5073529411764706,{'C': 0.05}
+353,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,binary,0.0,{'C': 0.05}
+794,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.46835443037974683,{'C': 0.5}
+686,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.5641025641025641,{'C': 0.05}
+708,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.48605577689243035,{'C': 4}
+816,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.35207823960880197,{'C': 0.05}
+375,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,binary,0.373134328358209,{'C': 0.05}
+730,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.45697329376854606,{'C': 4}
+838,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.3612334801762115,{'C': 0.05}
+752,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.4016393442622951,{'C': 0.05}
+774,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.3612334801762115,{'C': 0.12}
+860,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.22222222222222224,{'C': 0.05}
+397,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,binary,0.49275362318840576,{'C': 0.12}
+533,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,binary,0.25210084033613445,{'C': 0.05}
+882,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.4907975460122699,{'C': 0.05}
+555,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,binary,0.33402061855670107,{'C': 0.05}
+419,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,binary,0.4747081712062257,{'C': 2}
+577,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,binary,0.3821656050955414,{'C': 4}
+904,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.4080604534005038,{'C': 0.05}
+599,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,binary,0.45933014354066987,{'C': 0.05}
+926,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.3716814159292035,{'C': 0.05}
+441,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level post lowercase,tf,0.20543093270365997,{'C': 0.25}
+621,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,binary,0.36290322580645157,{'C': 0.05}
+948,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.4666666666666667,{'C': 0.05}
+643,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,binary,0.41509433962264153,{'C': 0.05}
+970,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.38442822384428227,{'C': 0.25}
+463,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level post lowercase,tf,0.16589861751152077,{'C': 1}
+665,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,binary,0.5739130434782608,{'C': 2}
+992,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.3910614525139664,{'C': 0.05}
+687,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,binary,0.3555555555555556,{'C': 0.05}
+1014,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.07272727272727272,{'C': 0.05}
+709,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,binary,0.563265306122449,{'C': 0.05}
+1485,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level post lowercase,tf,0.17464788732394368,{'C': 1}
+731,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,binary,0.3445378151260504,{'C': 0.05}
+1036,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.3387096774193548,{'C': 0.05}
+795,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.4980842911877395,{'C': 0.05}
+753,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,binary,0.5114155251141552,{'C': 0.12}
+507,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level post lowercase,tf,0.22309711286089237,{'C': 4}
+817,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.37320574162679426,{'C': 0.05}
+775,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,binary,0.4961832061068703,{'C': 1}
+534,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.23529411764705882,{'C': 0.05}
+354,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,binary,0.25663716814159293,{'C': 2}
+839,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.3684210526315789,{'C': 0.05}
+556,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.4746835443037975,{'C': 0.05}
+376,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,binary,0.1953488372093023,{'C': 0.05}
+861,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.178714859437751,{'C': 0.5}
+578,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.5081081081081081,{'C': 0.05}
+600,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.5877551020408163,{'C': 0.5}
+398,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,binary,0.48251748251748255,{'C': 0.05}
+883,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.4069767441860465,{'C': 0.05}
+622,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.23989218328840972,{'C': 0.05}
+420,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,binary,0.21454112038140644,{'C': 0.05}
+905,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.3864406779661017,{'C': 0.05}
+644,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.3062730627306273,{'C': 4}
+927,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.47311827956989244,{'C': 0.12}
+666,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.5752212389380531,{'C': 2}
+442,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,tf,0.228310502283105,{'C': 2}
+688,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.5592417061611374,{'C': 2}
+949,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.34523809523809523,{'C': 0.12}
+710,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.5150501672240801,{'C': 0.05}
+464,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,tf,0.32549728752260393,{'C': 0.5}
+971,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.36781609195402304,{'C': 0.12}
+732,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.5524861878453039,{'C': 0.05}
+993,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.2981132075471698,{'C': 0.25}
+1486,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,tf,0.18200408997955012,{'C': 2}
+754,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.4,{'C': 1}
+776,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.3697478991596639,{'C': 0.05}
+1015,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.33718244803695147,{'C': 0.12}
+508,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.1878121878121878,{'C': 0.05}
+535,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.1111111111111111,{'C': 0.05}
+1037,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.14869888475836432,{'C': 2}
+557,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.27419354838709675,{'C': 0.05}
+796,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.3911980440097799,{'C': 2}
+355,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,binary,0.16986301369863013,{'C': 4}
+579,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.326241134751773,{'C': 0.05}
+818,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.28717948717948716,{'C': 0.05}
+601,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.36470588235294116,{'C': 2}
+377,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,binary,0.4864864864864865,{'C': 1}
+840,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.35046728971962615,{'C': 2}
+623,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.3188405797101449,{'C': 2}
+862,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.13846153846153847,{'C': 1}
+399,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,binary,0.4422110552763819,{'C': 0.05}
+645,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level post lowercase,binary,0.3665158371040724,{'C': 0.05}
+884,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level user lowercase,tf,0.2175925925925926,{'C': 0.5}
+667,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level post lowercase,binary,0.5764192139737991,{'C': 0.05}
+906,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10-20,Depression Model,Level user lowercase,tf,0.16949152542372883,{'C': 4}
+689,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level post lowercase,binary,0.5833333333333334,{'C': 0.05}
+421,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,binary,0.3568075117370892,{'C': 0.05}
+928,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5,Depression Model,Level user lowercase,tf,0.39480519480519477,{'C': 0.05}
+711,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level post lowercase,binary,0.5829145728643216,{'C': 0.05}
+950,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10,Depression Model,Level user lowercase,tf,0.5274725274725275,{'C': 0.05}
+733,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level post lowercase,binary,0.4413793103448275,{'C': 0.12}
+972,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,20,Depression Model,Level user lowercase,tf,0.28153564899451555,{'C': 0.05}
+443,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10-20,Depression Model,Level user lowercase,tf,0.08536585365853659,{'C': 0.05}
+994,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-10,Depression Model,Level user lowercase,tf,0.39378238341968913,{'C': 0.05}
+755,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level post lowercase,binary,0.31597845601436264,{'C': 0.12}
+465,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-10,Depression Model,Level user lowercase,tf,0.5475285171102662,{'C': 0.05}
+1016,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,10-20,Depression Model,Level user lowercase,tf,0.28294573643410853,{'C': 0.05}
+777,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level post lowercase,binary,0.4364640883977901,{'C': 0.05}
+536,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level post lowercase,binary,0.32167832167832167,{'C': 0.05}
+1038,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,negative,5-20,Depression Model,Level user lowercase,tf,0.29649595687331537,{'C': 0.05}
+797,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5,Depression Model,Level user lowercase,tf,0.2633996937212863,{'C': 0.05}
+558,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level post lowercase,binary,0.3187390542907181,{'C': 0.05}
+1487,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,10-20,Depression Model,Level user lowercase,tf,0.1652892561983471,{'C': 0.5}
+580,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level post lowercase,binary,0.4619718309859155,{'C': 0.05}
+819,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,20,Depression Model,Level user lowercase,tf,0.42346938775510207,{'C': 0.05}
+602,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level post lowercase,binary,0.4657534246575342,{'C': 0.05}
+841,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.4652567975830816,{'C': 2}
+509,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.5275590551181102,{'C': 2}
+624,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.36619718309859156,{'C': 0.05}

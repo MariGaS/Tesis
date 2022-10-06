@@ -2155,3 +2155,829 @@
 2360,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.6732673267326732,{'C': 0.12}
 4106,1000,1200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5822784810126583,{'C': 0.05}
 2384,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.6666666666666665,{'C': 0.05}
+4130,1000,1200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6666666666666666,{'C': 0.05}
+798,2000,2000,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6315789473684211,{'C': 0.05}
+4154,1000,1200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6315789473684211,{'C': 0.05}
+822,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 0.05}
+2795,1000,800,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6136363636363638,{'C': 0.05}
+2819,1000,800,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.611764705882353,{'C': 0.05}
+846,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5797101449275363,{'C': 0.25}
+2843,1000,800,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6493506493506495,{'C': 0.05}
+2867,1000,800,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6233766233766234,{'C': 0.05}
+870,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6301369863013699,{'C': 0.05}
+2891,1000,800,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5038167938931297,{'C': 0.05}
+894,2000,2000,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7096774193548387,{'C': 0.05}
+2915,1000,800,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5116279069767442,{'C': 0.05}
+2939,1000,800,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6966292134831461,{'C': 0.05}
+918,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7356321839080461,{'C': 0.05}
+2963,1000,800,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6122448979591836,{'C': 0.05}
+2987,1000,800,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5217391304347827,{'C': 0.05}
+942,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.46846846846846846,{'C': 0.05}
+3011,1000,800,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5333333333333333,{'C': 0.05}
+3035,1000,800,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7692307692307692,{'C': 0.05}
+966,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.4642857142857143,{'C': 0.05}
+799,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5416666666666666,{'C': 0.05}
+3059,1000,800,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7692307692307692,{'C': 0.05}
+823,100,100,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5436893203883495,{'C': 0.05}
+847,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5952380952380952,{'C': 1}
+3083,1000,800,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.56,{'C': 0.05}
+871,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.627906976744186,{'C': 0.5}
+895,100,100,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6601941747572816,{'C': 0.25}
+4107,1000,800,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5205479452054794,{'C': 0.05}
+919,100,100,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666665,{'C': 0.05}
+943,100,100,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.12}
+967,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5961538461538461,{'C': 0.05}
+4131,1000,800,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6153846153846153,{'C': 0.05}
+800,200,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5813953488372093,{'C': 0.12}
+824,200,100,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6153846153846154,{'C': 0.12}
+4155,1000,800,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6578947368421052,{'C': 0.05}
+848,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.05}
+872,200,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5617977528089888,{'C': 0.05}
+2796,1500,1000,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6097560975609756,{'C': 0.05}
+896,200,100,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6086956521739131,{'C': 0.05}
+920,200,100,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6194690265486725,{'C': 0.05}
+944,200,100,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5858585858585859,{'C': 0.5}
+2820,1500,1000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.05}
+968,200,100,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.594059405940594,{'C': 0.12}
+801,100,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5434782608695652,{'C': 0.25}
+825,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5684210526315789,{'C': 0.05}
+2844,1500,1000,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5714285714285714,{'C': 0.05}
+849,100,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.575,{'C': 0.25}
+873,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6352941176470588,{'C': 0.05}
+897,100,200,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6407766990291263,{'C': 0.05}
+2868,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6486486486486487,{'C': 0.05}
+921,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6538461538461539,{'C': 0.05}
+945,100,200,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6138613861386139,{'C': 0.05}
+969,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.62,{'C': 0.05}
+2892,1500,1000,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5,{'C': 0.05}
+802,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6,{'C': 0.05}
+826,500,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6097560975609756,{'C': 0.05}
+2916,1500,1000,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5040650406504065,{'C': 0.05}
+850,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6172839506172839,{'C': 0.05}
+874,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6506024096385543,{'C': 0.05}
+2940,1500,1000,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.45871559633027525,{'C': 0.05}
+898,500,200,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6,{'C': 0.05}
+922,500,200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6,{'C': 0.12}
+2964,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.4464285714285714,{'C': 0.05}
+946,500,200,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5869565217391304,{'C': 0.05}
+970,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6105263157894738,{'C': 0.12}
+2988,1500,1000,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.47761194029850756,{'C': 0.05}
+803,500,2000,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.605263157894737,{'C': 0.05}
+3012,1500,1000,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.46715328467153283,{'C': 0.05}
+827,500,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6499999999999999,{'C': 0.12}
+3036,1500,1000,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6095238095238096,{'C': 0.05}
+851,500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6000000000000001,{'C': 0.05}
+3060,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6336633663366336,{'C': 0.05}
+875,500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6486486486486487,{'C': 0.05}
+3084,1500,1000,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5866666666666668,{'C': 0.05}
+899,500,2000,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5961538461538461,{'C': 1}
+4108,1500,1000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5866666666666668,{'C': 0.05}
+923,500,2000,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6037735849056605,{'C': 0.05}
+4132,1500,1000,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6666666666666667,{'C': 0.05}
+2396,300,700,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5542168674698796,{'C': 0.12}
+2444,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5411764705882354,{'C': 0.12}
+947,500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6739130434782609,{'C': 0.5}
+4156,1500,1000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6753246753246753,{'C': 0.05}
+2468,300,700,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.12}
+971,500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6813186813186813,{'C': 0.05}
+2797,1500,1200,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6097560975609756,{'C': 0.05}
+2492,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.12}
+804,300,700,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5925925925925926,{'C': 0.12}
+2516,300,700,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.30158730158730157,{'C': 0.25}
+828,300,700,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5714285714285714,{'C': 0.12}
+2821,1500,1200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6024096385542169,{'C': 0.05}
+2540,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.2654867256637168,{'C': 1}
+852,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6265060240963854,{'C': 0.05}
+2564,300,700,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.16981132075471697,{'C': 0.12}
+876,300,700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6506024096385543,{'C': 0.05}
+2845,1500,1200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5507246376811594,{'C': 0.05}
+2588,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17582417582417587,{'C': 0.05}
+900,300,700,0.99,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 2}
+924,300,700,0.99,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 0.05}
+2612,300,700,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6265060240963854,{'C': 0.05}
+2869,1500,1200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5833333333333334,{'C': 0.05}
+948,300,700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6966292134831461,{'C': 0.12}
+2636,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6172839506172839,{'C': 0.05}
+2893,1500,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5,{'C': 0.05}
+972,300,700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6966292134831461,{'C': 2}
+2660,300,700,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.605263157894737,{'C': 0.05}
+805,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6341463414634146,{'C': 0.05}
+2684,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6133333333333334,{'C': 0.05}
+2917,1500,1200,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5039370078740157,{'C': 0.05}
+2708,300,700,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2559241706161137,{'C': 0.05}
+829,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.625,{'C': 0.05}
+2732,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2465753424657534,{'C': 0.05}
+2941,1500,1200,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5102040816326531,{'C': 0.05}
+2756,300,700,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.11267605633802817,{'C': 0.05}
+853,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.588235294117647,{'C': 0.05}
+2780,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1044776119402985,{'C': 0.05}
+2965,1500,1200,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5208333333333334,{'C': 0.05}
+877,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6301369863013699,{'C': 0.05}
+2397,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.625,{'C': 0.05}
+2989,1500,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5,{'C': 0.05}
+901,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6534653465346535,{'C': 0.05}
+2445,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6075949367088608,{'C': 0.05}
+3013,1500,1200,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5038167938931297,{'C': 0.05}
+925,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6597938144329897,{'C': 0.05}
+2469,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6756756756756757,{'C': 4}
+949,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6741573033707865,{'C': 0.05}
+3037,1500,1200,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6213592233009708,{'C': 0.05}
+2493,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6933333333333332,{'C': 0.05}
+973,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6818181818181819,{'C': 0.05}
+3061,1500,1200,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6095238095238096,{'C': 0.05}
+2517,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.4444444444444444,{'C': 0.05}
+806,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5641025641025641,{'C': 0.05}
+3085,1500,1200,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.605263157894737,{'C': 0.05}
+2541,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.4297520661157025,{'C': 0.05}
+830,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6172839506172839,{'C': 0.05}
+4109,1500,1200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.56,{'C': 0.05}
+2565,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.42857142857142855,{'C': 0.05}
+854,1000,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5797101449275363,{'C': 0.05}
+4133,1500,1200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6666666666666666,{'C': 0.05}
+2589,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.40277777777777773,{'C': 0.05}
+878,1000,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6216216216216217,{'C': 0.05}
+902,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6595744680851064,{'C': 0.12}
+2613,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6315789473684211,{'C': 0.05}
+4157,1500,1200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6315789473684211,{'C': 0.05}
+926,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 0.05}
+2637,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6493506493506495,{'C': 0.05}
+2798,2000,2000,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5681818181818181,{'C': 0.05}
+950,1000,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 0.05}
+2661,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6842105263157895,{'C': 0.25}
+974,1000,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6896551724137931,{'C': 0.05}
+2685,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.736842105263158,{'C': 0.12}
+2822,2000,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.611764705882353,{'C': 0.05}
+807,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6172839506172839,{'C': 0.05}
+2709,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.3609022556390977,{'C': 0.05}
+831,1000,800,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6024096385542169,{'C': 0.25}
+2733,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.3609022556390977,{'C': 0.05}
+2846,2000,2000,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5507246376811594,{'C': 0.05}
+855,1000,800,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.64,{'C': 0.05}
+2757,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.4954128440366972,{'C': 0.05}
+879,1000,800,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6410256410256411,{'C': 0.05}
+2781,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.48648648648648646,{'C': 0.12}
+903,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7291666666666666,{'C': 0.05}
+2870,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5797101449275363,{'C': 0.05}
+2398,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.625,{'C': 0.05}
+927,1000,800,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7216494845360826,{'C': 0.05}
+2894,2000,2000,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5245901639344263,{'C': 0.05}
+2446,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6097560975609756,{'C': 0.05}
+951,1000,800,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6739130434782609,{'C': 0.05}
+975,1000,800,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.62,{'C': 0.05}
+2470,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.12}
+2918,2000,2000,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5245901639344263,{'C': 0.05}
+808,1500,1000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6153846153846153,{'C': 0.05}
+2494,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6923076923076923,{'C': 0.25}
+832,1500,1000,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.625,{'C': 0.05}
+2518,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.42735042735042733,{'C': 0.05}
+2942,2000,2000,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.42735042735042733,{'C': 0.12}
+2542,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.43103448275862066,{'C': 0.05}
+856,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6000000000000001,{'C': 0.05}
+2566,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.37974683544303794,{'C': 0.05}
+880,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6575342465753423,{'C': 0.05}
+2966,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.45045045045045046,{'C': 0.05}
+2590,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.37267080745341613,{'C': 0.05}
+904,1500,1000,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7010309278350515,{'C': 0.05}
+2990,2000,2000,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5070422535211268,{'C': 0.05}
+2614,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6410256410256411,{'C': 0.25}
+928,1500,1000,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7252747252747254,{'C': 0.05}
+2638,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6666666666666667,{'C': 0.05}
+952,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.48695652173913045,{'C': 0.05}
+3014,2000,2000,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5106382978723404,{'C': 0.05}
+2662,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7105263157894737,{'C': 0.12}
+976,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.4821428571428571,{'C': 0.05}
+2686,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7466666666666667,{'C': 0.12}
+3038,2000,2000,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6868686868686867,{'C': 0.05}
+809,1500,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.605263157894737,{'C': 0.05}
+2710,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2711864406779661,{'C': 0.05}
+2734,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.27322404371584696,{'C': 0.05}
+833,1500,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.625,{'C': 0.05}
+3062,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7021276595744681,{'C': 0.05}
+2758,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.4954128440366972,{'C': 0.12}
+857,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5797101449275363,{'C': 0.05}
+2782,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.4821428571428571,{'C': 0.05}
+3086,2000,2000,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6410256410256411,{'C': 0.05}
+881,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.638888888888889,{'C': 0.05}
+2399,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6499999999999999,{'C': 0.05}
+905,1500,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.711111111111111,{'C': 0.05}
+2447,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6265060240963854,{'C': 0.05}
+4110,2000,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5974025974025975,{'C': 0.05}
+929,1500,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7191011235955055,{'C': 0.05}
+2471,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.7088607594936709,{'C': 0.05}
+4134,2000,2000,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6216216216216217,{'C': 0.12}
+2495,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.725,{'C': 0.12}
+953,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5454545454545454,{'C': 0.05}
+2519,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.2522522522522523,{'C': 0.05}
+977,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.509433962264151,{'C': 0.05}
+2543,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.2522522522522523,{'C': 0.05}
+4158,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6578947368421052,{'C': 0.05}
+2799,100,100,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6153846153846154,{'C': 4}
+2823,100,100,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5233644859813085,{'C': 0.05}
+2567,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3057324840764331,{'C': 0.05}
+810,2000,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6315789473684211,{'C': 0.05}
+2847,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5952380952380952,{'C': 1}
+2871,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.627906976744186,{'C': 0.5}
+2591,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.30065359477124187,{'C': 0.05}
+2895,100,100,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6470588235294118,{'C': 0.25}
+834,2000,2000,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 0.05}
+2919,100,100,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6534653465346535,{'C': 0.05}
+2615,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6842105263157895,{'C': 0.05}
+2943,100,100,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.12}
+2639,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6666666666666666,{'C': 0.05}
+2967,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5961538461538461,{'C': 0.05}
+2991,100,100,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6095238095238096,{'C': 0.05}
+858,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5797101449275363,{'C': 0.25}
+3015,100,100,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5925925925925926,{'C': 0.05}
+2663,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.736842105263158,{'C': 0.05}
+3039,100,100,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.05}
+3063,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.05}
+2687,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7179487179487181,{'C': 0.25}
+3087,100,100,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5806451612903226,{'C': 0.12}
+882,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6301369863013699,{'C': 0.05}
+4111,100,100,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5393258426966292,{'C': 0.12}
+2711,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2,{'C': 0.05}
+4135,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.5714285714285714,{'C': 0.05}
+4159,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6236559139784946,{'C': 0.5}
+2735,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.19310344827586204,{'C': 0.05}
+906,2000,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7096774193548387,{'C': 0.05}
+2800,200,100,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6436781609195402,{'C': 0.25}
+2824,200,100,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5869565217391304,{'C': 0.25}
+2759,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.40384615384615385,{'C': 0.05}
+2848,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.05}
+930,2000,2000,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.7356321839080461,{'C': 0.05}
+2872,200,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5617977528089888,{'C': 0.05}
+2783,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.3762376237623763,{'C': 0.05}
+2896,200,100,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5391304347826087,{'C': 0.05}
+2920,200,100,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5535714285714285,{'C': 0.05}
+2400,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6136363636363638,{'C': 0.12}
+2944,200,100,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5858585858585859,{'C': 0.5}
+954,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.46846846846846846,{'C': 0.05}
+2968,200,100,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.594059405940594,{'C': 0.12}
+2448,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.627906976744186,{'C': 0.05}
+2992,200,100,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5688073394495413,{'C': 2}
+3016,200,100,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5714285714285714,{'C': 0.05}
+978,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.4642857142857143,{'C': 0.05}
+3040,200,100,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.05}
+2472,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6478873239436621,{'C': 0.05}
+811,100,100,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5306122448979592,{'C': 0.05}
+3064,200,100,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.12}
+835,100,100,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5490196078431373,{'C': 0.05}
+3088,200,100,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5617977528089888,{'C': 0.05}
+859,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5813953488372093,{'C': 0.05}
+4112,200,100,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5111111111111111,{'C': 0.05}
+2496,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6944444444444445,{'C': 0.05}
+883,100,100,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.627906976744186,{'C': 0.5}
+4136,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6,{'C': 0.25}
+907,100,100,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6601941747572816,{'C': 0.25}
+4160,200,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.5777777777777778,{'C': 0.05}
+2520,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.3650793650793651,{'C': 0.05}
+931,100,100,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666665,{'C': 0.05}
+2801,100,200,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5894736842105263,{'C': 0.05}
+955,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.12}
+2825,100,200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5531914893617021,{'C': 0.25}
+979,100,100,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5961538461538461,{'C': 0.05}
+2544,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.36065573770491804,{'C': 0.05}
+2849,100,200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.575,{'C': 0.25}
+812,200,100,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.25}
+2873,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6352941176470588,{'C': 0.05}
+836,200,100,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6153846153846154,{'C': 0.12}
+2897,100,200,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.64,{'C': 0.05}
+2568,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.4122137404580153,{'C': 0.05}
+860,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.05}
+2921,100,200,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6464646464646465,{'C': 0.05}
+884,200,100,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5617977528089888,{'C': 0.05}
+908,200,100,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6086956521739131,{'C': 0.05}
+2945,100,200,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6138613861386139,{'C': 0.05}
+2592,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.4094488188976378,{'C': 0.05}
+932,200,100,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6194690265486725,{'C': 0.05}
+2969,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.62,{'C': 0.05}
+956,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5858585858585859,{'C': 0.5}
+2993,100,200,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6213592233009708,{'C': 0.05}
+2616,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6582278481012659,{'C': 0.05}
+3017,100,200,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.627450980392157,{'C': 0.05}
+980,200,100,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.594059405940594,{'C': 0.12}
+3041,100,200,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.05}
+813,100,200,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5434782608695652,{'C': 0.25}
+2640,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6582278481012659,{'C': 0.12}
+3065,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.12}
+837,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.574468085106383,{'C': 0.05}
+3089,100,200,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5681818181818181,{'C': 2}
+861,100,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.575,{'C': 0.25}
+4113,100,200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5111111111111111,{'C': 0.05}
+2664,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7123287671232876,{'C': 0.05}
+885,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6352941176470588,{'C': 0.05}
+4137,100,200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6190476190476191,{'C': 0.25}
+909,100,200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6407766990291263,{'C': 0.05}
+4161,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.5909090909090909,{'C': 0.05}
+933,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6538461538461539,{'C': 0.05}
+2688,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7027027027027027,{'C': 0.12}
+2802,500,200,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6436781609195402,{'C': 0.05}
+957,100,200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6138613861386139,{'C': 0.05}
+981,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.62,{'C': 0.05}
+2826,500,200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5777777777777778,{'C': 0.25}
+2712,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.27692307692307694,{'C': 0.05}
+814,500,200,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6,{'C': 0.05}
+2850,500,200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6172839506172839,{'C': 0.05}
+838,500,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6097560975609756,{'C': 0.05}
+2736,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2905982905982906,{'C': 0.05}
+2874,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6506024096385543,{'C': 0.05}
+862,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6172839506172839,{'C': 0.05}
+2898,500,200,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.547008547008547,{'C': 0.05}
+2760,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.4835164835164836,{'C': 4}
+886,500,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6506024096385543,{'C': 0.05}
+2922,500,200,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5614035087719298,{'C': 1}
+910,500,200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5945945945945947,{'C': 0.05}
+2946,500,200,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5869565217391304,{'C': 0.05}
+2784,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.4666666666666667,{'C': 0.05}
+934,500,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6,{'C': 0.12}
+2970,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6105263157894738,{'C': 0.12}
+958,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5869565217391304,{'C': 0.05}
+2401,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6067415730337078,{'C': 0.05}
+2994,500,200,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4822695035460994,{'C': 0.05}
+982,500,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6105263157894738,{'C': 0.12}
+3018,500,200,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.49275362318840576,{'C': 0.05}
+2449,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6,{'C': 0.05}
+3042,500,200,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.5}
+815,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.605263157894737,{'C': 0.05}
+3066,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.761904761904762,{'C': 0.05}
+839,500,2000,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6499999999999999,{'C': 0.12}
+2473,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.5}
+3090,500,200,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5176470588235295,{'C': 0.05}
+4114,500,200,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5641025641025641,{'C': 0.12}
+863,500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6000000000000001,{'C': 0.05}
+4138,500,200,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6190476190476191,{'C': 0.05}
+2497,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666666,{'C': 0.05}
+4162,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6024096385542169,{'C': 0.05}
+2521,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.44067796610169496,{'C': 0.05}
+887,500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6486486486486487,{'C': 0.05}
+2803,500,2000,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6086956521739131,{'C': 0.05}
+911,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5961538461538461,{'C': 1}
+2545,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.3888888888888889,{'C': 0.05}
+935,500,2000,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.611111111111111,{'C': 0.05}
+2827,500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6153846153846154,{'C': 0.05}
+2569,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.48979591836734687,{'C': 0.05}
+959,500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6739130434782609,{'C': 0.5}
+2851,500,2000,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5833333333333334,{'C': 0.05}
+2593,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.45000000000000007,{'C': 0.05}
+983,500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6813186813186813,{'C': 0.05}
+2617,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6582278481012659,{'C': 0.05}
+2875,500,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6301369863013699,{'C': 0.05}
+816,300,700,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5925925925925926,{'C': 0.12}
+2641,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6582278481012659,{'C': 0.05}
+840,300,700,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5714285714285714,{'C': 0.12}
+2899,500,2000,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5161290322580645,{'C': 0.12}
+864,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6265060240963854,{'C': 0.05}
+2665,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7123287671232876,{'C': 0.05}
+888,300,700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6506024096385543,{'C': 0.05}
+2923,500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.543859649122807,{'C': 0.12}
+912,300,700,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 2}
+2689,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7123287671232876,{'C': 0.05}
+936,300,700,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6666666666666667,{'C': 0.05}
+2947,500,2000,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6593406593406594,{'C': 0.05}
+2713,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.28409090909090906,{'C': 0.05}
+960,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6966292134831461,{'C': 0.12}
+984,300,700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6966292134831461,{'C': 2}
+2737,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.28901734104046245,{'C': 0.05}
+2971,500,2000,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6666666666666666,{'C': 0.05}
+2761,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.5208333333333334,{'C': 0.05}
+2995,500,2000,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4918032786885245,{'C': 0.05}
+2785,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.5319148936170213,{'C': 0.12}
+3019,500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4918032786885245,{'C': 0.05}
+2402,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.611764705882353,{'C': 0.05}
+3043,500,2000,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7356321839080461,{'C': 0.05}
+3067,500,2000,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7356321839080461,{'C': 0.05}
+2450,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.611764705882353,{'C': 0.05}
+3091,500,2000,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6133333333333334,{'C': 0.05}
+2474,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.05}
+4115,500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6301369863013699,{'C': 0.05}
+2498,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6571428571428573,{'C': 0.05}
+4139,500,2000,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.64,{'C': 0.05}
+2522,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.5357142857142857,{'C': 0.05}
+4163,500,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6410256410256411,{'C': 0.05}
+1,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,binary,0.3916083916083916,{'C': 0.5}
+2804,300,700,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6067415730337078,{'C': 0.05}
+2546,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.5357142857142857,{'C': 0.05}
+2828,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6190476190476191,{'C': 0.05}
+9,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,binary,0.36585365853658536,{'C': 0.05}
+2852,300,700,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6499999999999999,{'C': 0.05}
+2570,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.5217391304347826,{'C': 1}
+2876,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6419753086419754,{'C': 0.12}
+2900,300,700,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5486725663716815,{'C': 0.05}
+2924,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5254237288135593,{'C': 0.05}
+17,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,binary,0.3851851851851852,{'C': 2}
+2594,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.5106382978723404,{'C': 0.12}
+2948,300,700,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6818181818181819,{'C': 0.25}
+2618,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6493506493506495,{'C': 0.05}
+2972,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6896551724137931,{'C': 0.5}
+25,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,binary,0.3741007194244605,{'C': 0.25}
+2996,300,700,0.95,No difference,Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.64,{'C': 0.12}
+2642,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6756756756756757,{'C': 0.05}
+3020,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.64,{'C': 0.12}
+3044,300,700,0.95,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.05}
+2666,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6111111111111112,{'C': 0.12}
+3068,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.25}
+33,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,binary,0.6930693069306931,{'C': 0.12}
+3092,300,700,0.95,No difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.4761904761904762,{'C': 0.25}
+4116,300,700,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.55,{'C': 0.05}
+2690,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6571428571428573,{'C': 0.05}
+4140,300,700,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6024096385542169,{'C': 0.05}
+41,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,binary,0.7692307692307692,{'C': 0.12}
+2714,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.5161290322580645,{'C': 0.05}
+4164,300,700,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6172839506172839,{'C': 0.05}
+2805,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6436781609195402,{'C': 0.05}
+2738,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.512,{'C': 0.05}
+49,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase v2,binary,0.36619718309859156,{'C': 0.12}
+2829,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6588235294117647,{'C': 0.12}
+2762,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.5747126436781609,{'C': 0.5}
+2853,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5797101449275363,{'C': 0.05}
+57,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,binary,0.3537414965986394,{'C': 0.05}
+2786,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.5581395348837209,{'C': 0.05}
+2877,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6111111111111112,{'C': 0.05}
+2403,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.47191011235955055,{'C': 0.12}
+2451,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.4301075268817205,{'C': 0.05}
+2901,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5196850393700788,{'C': 0.05}
+2475,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5405405405405406,{'C': 0.05}
+2499,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5277777777777778,{'C': 0.05}
+2523,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.2556390977443609,{'C': 0.12}
+2925,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.515625,{'C': 0.05}
+65,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.5321100917431193,{'C': 0.25}
+2547,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.26865671641791045,{'C': 0.12}
+2571,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3125,{'C': 0.25}
+2949,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6741573033707865,{'C': 0.05}
+2595,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.31707317073170727,{'C': 0.12}
+2619,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.3561643835616438,{'C': 1}
+2643,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.36619718309859156,{'C': 0.5}
+2667,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4473684210526316,{'C': 0.05}
+2973,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6590909090909092,{'C': 0.05}
+2691,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.42857142857142855,{'C': 4}
+73,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.5420560747663551,{'C': 0.5}
+2715,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2896551724137931,{'C': 0.05}
+2997,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6226415094339622,{'C': 0.12}
+2739,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2647058823529412,{'C': 0.5}
+2763,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.28125,{'C': 0.05}
+3021,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6226415094339622,{'C': 0.25}
+2787,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.28125,{'C': 0.12}
+2404,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.55,{'C': 4}
+2452,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5176470588235295,{'C': 0.05}
+3045,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7865168539325843,{'C': 0.05}
+81,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3352601156069364,{'C': 0.05}
+2476,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4415584415584415,{'C': 0.25}
+2500,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.45333333333333337,{'C': 0.05}
+3069,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7777777777777778,{'C': 0.05}
+2524,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.3142857142857143,{'C': 0.5}
+2548,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.3259259259259259,{'C': 0.5}
+3093,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6329113924050632,{'C': 0.05}
+2572,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.2566844919786096,{'C': 0.05}
+2596,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.26455026455026454,{'C': 0.5}
+89,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.31460674157303375,{'C': 0.05}
+4117,1000,1500,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5945945945945946,{'C': 0.05}
+2620,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.5813953488372093,{'C': 0.5}
+2644,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.5925925925925926,{'C': 2}
+2668,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.5263157894736842,{'C': 0.5}
+4141,1000,1500,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6493506493506495,{'C': 0.05}
+2692,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.5,{'C': 0.05}
+2716,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2295081967213115,{'C': 1}
+2740,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2295081967213115,{'C': 0.25}
+4165,1000,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6410256410256411,{'C': 0.25}
+97,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6326530612244897,{'C': 0.12}
+2764,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.36129032258064514,{'C': 0.05}
+2788,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.3439490445859873,{'C': 0.05}
+2806,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6222222222222223,{'C': 0.05}
+2405,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.4146341463414634,{'C': 0.12}
+2453,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.4473684210526316,{'C': 4}
+2830,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6206896551724138,{'C': 0.05}
+2477,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5352112676056339,{'C': 1}
+2501,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5352112676056339,{'C': 0.05}
+105,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7191011235955055,{'C': 0.05}
+2854,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5428571428571429,{'C': 0.12}
+2525,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.2878787878787879,{'C': 0.25}
+2549,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.27692307692307694,{'C': 0.25}
+2573,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.18421052631578946,{'C': 0.05}
+2878,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6216216216216217,{'C': 0.05}
+2597,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.2360248447204969,{'C': 0.05}
+2621,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.54320987654321,{'C': 0.5}
+2902,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5116279069767442,{'C': 0.05}
+2645,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.5714285714285714,{'C': 0.25}
+113,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase v2,tf,0.34117647058823536,{'C': 0.12}
+2669,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.5352112676056339,{'C': 0.5}
+2926,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5116279069767442,{'C': 0.05}
+2693,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.5205479452054794,{'C': 0.05}
+2717,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.28776978417266186,{'C': 0.05}
+2741,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.30434782608695654,{'C': 0.25}
+2950,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6896551724137931,{'C': 0.05}
+2765,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.22033898305084748,{'C': 0.5}
+2789,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.21848739495798317,{'C': 0.25}
+121,515,5745,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,tf,0.327683615819209,{'C': 0.25}
+2974,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6818181818181819,{'C': 0.05}
+2406,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6499999999999999,{'C': 0.05}
+2454,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6419753086419754,{'C': 0.05}
+2998,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.660377358490566,{'C': 0.25}
+2478,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5753424657534246,{'C': 0.25}
+2,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,binary,0.3916083916083916,{'C': 0.5}
+3022,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.660377358490566,{'C': 0.05}
+2502,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6027397260273972,{'C': 0.12}
+2526,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.291970802919708,{'C': 0.05}
+3046,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7865168539325843,{'C': 0.05}
+2550,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.30656934306569344,{'C': 0.25}
+10,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,binary,0.36585365853658536,{'C': 0.05}
+2574,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.2125,{'C': 0.12}
+3070,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7777777777777778,{'C': 0.05}
+2598,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.2545454545454545,{'C': 0.05}
+3094,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.625,{'C': 2}
+2622,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.5714285714285714,{'C': 2}
+18,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,binary,0.3851851851851852,{'C': 2}
+2646,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6024096385542169,{'C': 0.25}
+4118,1000,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5822784810126583,{'C': 0.05}
+2670,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6419753086419754,{'C': 0.25}
+2694,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6329113924050632,{'C': 0.12}
+4142,1000,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6666666666666666,{'C': 0.05}
+26,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,binary,0.3741007194244605,{'C': 0.25}
+2718,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2898550724637681,{'C': 0.5}
+2742,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.2896551724137931,{'C': 0.05}
+4166,1000,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6315789473684211,{'C': 0.05}
+2766,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.25196850393700787,{'C': 0.12}
+2807,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6206896551724138,{'C': 0.05}
+2790,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.267515923566879,{'C': 0.05}
+34,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,binary,0.6930693069306931,{'C': 0.12}
+2831,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.627906976744186,{'C': 0.12}
+2407,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6190476190476191,{'C': 0.05}
+2855,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6315789473684211,{'C': 0.05}
+42,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,binary,0.7692307692307692,{'C': 0.12}
+2455,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.6506024096385543,{'C': 0.05}
+2879,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6410256410256411,{'C': 0.05}
+2479,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6913580246913581,{'C': 0.05}
+2903,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5038167938931297,{'C': 0.05}
+50,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase v2,binary,0.36619718309859156,{'C': 0.12}
+2927,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5076923076923078,{'C': 0.05}
+2503,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.7088607594936709,{'C': 0.05}
+58,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,binary,0.3537414965986394,{'C': 0.05}
+2951,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6966292134831461,{'C': 0.05}
+2527,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.3576158940397351,{'C': 2}
+2975,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6122448979591836,{'C': 0.05}
+2551,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.3421052631578948,{'C': 0.05}
+2999,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5333333333333333,{'C': 0.05}
+66,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.5321100917431193,{'C': 0.25}
+2575,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.34108527131782945,{'C': 0.05}
+3023,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5333333333333333,{'C': 0.05}
+3047,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7692307692307692,{'C': 0.05}
+2599,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3111111111111111,{'C': 0.12}
+74,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.5420560747663551,{'C': 0.5}
+3071,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7692307692307692,{'C': 0.05}
+2623,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6666666666666666,{'C': 0.05}
+3095,1000,800,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.56,{'C': 0.05}
+2647,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6578947368421052,{'C': 0.25}
+4119,1000,800,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5205479452054794,{'C': 0.05}
+82,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3352601156069364,{'C': 0.05}
+2671,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7012987012987012,{'C': 0.05}
+4143,1000,800,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6153846153846153,{'C': 0.05}
+4167,1000,800,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6578947368421052,{'C': 0.05}
+2695,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.7012987012987012,{'C': 0.12}
+90,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.31460674157303375,{'C': 0.05}
+2719,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.3152173913043478,{'C': 0.05}
+2808,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6265060240963854,{'C': 0.12}
+2743,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.3157894736842105,{'C': 0.05}
+2832,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6046511627906976,{'C': 0.05}
+2767,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.366412213740458,{'C': 0.05}
+98,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6326530612244897,{'C': 0.12}
+2856,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5714285714285714,{'C': 0.05}
+2791,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.35658914728682173,{'C': 0.25}
+2880,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6486486486486487,{'C': 0.05}
+2408,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5542168674698796,{'C': 0.12}
+106,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7191011235955055,{'C': 0.05}
+2456,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5581395348837209,{'C': 0.25}
+2904,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5,{'C': 0.05}
+2480,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.12}
+2928,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5040650406504065,{'C': 0.05}
+2504,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.6666666666666667,{'C': 0.12}
+114,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase v2,tf,0.34117647058823536,{'C': 0.12}
+2528,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.304,{'C': 0.12}
+2952,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.47619047619047616,{'C': 0.05}
+2552,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user upercase,tf,0.2654867256637168,{'C': 1}
+2576,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.16981132075471697,{'C': 0.12}
+2976,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.4464285714285714,{'C': 0.05}
+122,515,5745,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,tf,0.327683615819209,{'C': 0.25}
+2600,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17582417582417587,{'C': 0.05}
+3000,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.47761194029850756,{'C': 0.05}
+2624,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6265060240963854,{'C': 0.25}
+2648,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.6172839506172839,{'C': 0.05}
+3024,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4429530201342282,{'C': 0.05}
+2672,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.5866666666666668,{'C': 0.05}
+3048,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6095238095238096,{'C': 0.05}
+3,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,binary,0.38095238095238093,{'C': 2}
+2696,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.6133333333333334,{'C': 0.05}
+2720,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.30057803468208094,{'C': 0.05}
+3072,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6153846153846154,{'C': 0.05}
+2744,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level user lowercase,tf,0.25,{'C': 0.05}
+2768,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.11267605633802817,{'C': 0.05}
+3096,1500,1000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5866666666666668,{'C': 0.05}
+11,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,binary,0.36601307189542487,{'C': 0.5}
+2792,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.10526315789473685,{'C': 0.05}
+4120,1500,1000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5866666666666668,{'C': 0.05}
+4144,1500,1000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6666666666666667,{'C': 0.05}
+19,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,binary,0.36619718309859156,{'C': 0.12}
+4168,1500,1000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6753246753246753,{'C': 0.05}
+2809,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6265060240963854,{'C': 0.05}
+27,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,binary,0.37142857142857144,{'C': 0.25}
+2833,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5952380952380952,{'C': 0.05}
+2857,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5507246376811594,{'C': 0.05}
+35,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,binary,0.6862745098039217,{'C': 0.05}
+2881,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5833333333333334,{'C': 0.05}
+2905,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5039370078740157,{'C': 0.05}
+43,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,binary,0.7692307692307692,{'C': 0.12}
+2929,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5039370078740157,{'C': 0.05}
+2953,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5048543689320388,{'C': 0.05}
+51,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase v2,binary,0.3561643835616438,{'C': 0.12}
+2977,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5263157894736843,{'C': 0.05}
+3001,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5038167938931297,{'C': 0.05}
+59,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,binary,0.3561643835616438,{'C': 0.25}
+3025,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5038167938931297,{'C': 0.05}
+3049,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6213592233009708,{'C': 0.05}
+3073,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6095238095238096,{'C': 0.05}
+67,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.5370370370370371,{'C': 0.12}
+3097,1500,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5866666666666668,{'C': 0.12}
+4121,1500,1200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.56,{'C': 0.05}
+75,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.5272727272727273,{'C': 0.05}
+4145,1500,1200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6666666666666666,{'C': 0.05}
+4169,1500,1200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6315789473684211,{'C': 0.05}
+83,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3174603174603175,{'C': 0.05}
+2810,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5747126436781609,{'C': 0.05}
+2834,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.611764705882353,{'C': 0.05}
+91,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.3246073298429319,{'C': 0.05}
+2858,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5714285714285714,{'C': 0.05}
+2882,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5714285714285714,{'C': 0.05}
+99,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6391752577319588,{'C': 0.12}
+2906,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5245901639344263,{'C': 0.05}
+2930,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5245901639344263,{'C': 0.05}
+107,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7356321839080461,{'C': 0.05}
+2954,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.42735042735042733,{'C': 0.12}
+115,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase v2,tf,0.3522727272727273,{'C': 0.05}
+2978,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.45045045045045046,{'C': 0.05}
+3002,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5034965034965035,{'C': 0.05}
+123,515,5745,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,tf,0.3466666666666667,{'C': 0.05}
+3026,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5263157894736842,{'C': 0.05}
+3050,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.6868686868686867,{'C': 0.05}
+4,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,binary,0.38095238095238093,{'C': 2}
+3074,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7021276595744681,{'C': 0.05}
+12,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,binary,0.36601307189542487,{'C': 0.5}
+3098,2000,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6410256410256411,{'C': 0.05}
+20,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,binary,0.36619718309859156,{'C': 0.12}
+4122,2000,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5974025974025975,{'C': 0.05}
+28,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,binary,0.37142857142857144,{'C': 0.25}
+4146,2000,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6216216216216217,{'C': 0.12}
+36,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,binary,0.6862745098039217,{'C': 0.05}
+4170,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6578947368421052,{'C': 0.05}
+2811,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6153846153846154,{'C': 1}
+2835,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5333333333333333,{'C': 0.05}
+2859,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5813953488372093,{'C': 0.05}
+44,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,binary,0.7692307692307692,{'C': 0.12}
+2883,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.627906976744186,{'C': 0.5}
+2907,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6534653465346535,{'C': 0.5}
+2931,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6534653465346535,{'C': 0.05}
+2955,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.12}
+2979,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5961538461538461,{'C': 0.05}
+52,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase v2,binary,0.3561643835616438,{'C': 0.12}
+3003,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6095238095238096,{'C': 0.05}
+3027,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6153846153846154,{'C': 0.05}
+3051,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.05}
+3075,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.05}
+60,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,binary,0.3561643835616438,{'C': 0.25}
+3099,100,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5652173913043477,{'C': 0.25}
+4123,100,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5581395348837209,{'C': 0.5}
+4147,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.5714285714285714,{'C': 0.05}
+4171,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6105263157894738,{'C': 0.05}
+2812,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6436781609195402,{'C': 0.25}
+2836,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5869565217391304,{'C': 0.25}
+68,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.5370370370370371,{'C': 0.12}
+2860,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5882352941176471,{'C': 0.05}
+2884,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5617977528089888,{'C': 0.05}
+2908,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5486725663716815,{'C': 1}
+2932,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5535714285714285,{'C': 0.05}
+76,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.5272727272727273,{'C': 0.05}
+2956,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5858585858585859,{'C': 0.5}
+2980,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.594059405940594,{'C': 0.12}
+3004,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5688073394495413,{'C': 0.5}
+3028,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5714285714285714,{'C': 0.05}
+3052,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.05}
+3076,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.12}
+84,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.3174603174603175,{'C': 0.05}
+3100,200,100,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5777777777777778,{'C': 0.05}
+4124,200,100,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.4888888888888889,{'C': 2}
+4148,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6,{'C': 0.25}
+4172,200,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.5652173913043477,{'C': 0.05}
+92,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.3246073298429319,{'C': 0.05}
+2813,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5806451612903226,{'C': 0.05}
+2837,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.5806451612903226,{'C': 0.12}
+2861,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.575,{'C': 0.25}
+2885,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6352941176470588,{'C': 0.05}
+2909,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.64,{'C': 0.05}
+100,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6391752577319588,{'C': 0.12}
+2933,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.6464646464646465,{'C': 0.05}
+2957,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6138613861386139,{'C': 0.05}
+2981,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.62,{'C': 0.05}
+3005,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6213592233009708,{'C': 0.05}
+3029,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.6336633663366336,{'C': 0.25}
+108,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7356321839080461,{'C': 0.05}
+3053,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.05}
+3077,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.12}
+3101,100,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5681818181818181,{'C': 4}
+4125,100,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5111111111111111,{'C': 0.05}
+4149,100,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6190476190476191,{'C': 0.25}
+116,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase v2,tf,0.3522727272727273,{'C': 0.05}
+4173,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.5842696629213483,{'C': 0.05}
+2814,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6436781609195402,{'C': 0.05}
+2838,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6046511627906976,{'C': 0.05}
+2862,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6172839506172839,{'C': 0.05}
+124,515,5745,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase v2,tf,0.3466666666666667,{'C': 0.05}
+2886,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6506024096385543,{'C': 0.05}
+5,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post upercase,binary,0.6829268292682927,{'C': 0.05}
+13,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post lowercase,binary,0.6595744680851064,{'C': 0.05}
+21,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,binary,0.410958904109589,{'C': 0.05}
+2910,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5517241379310345,{'C': 0.05}
+29,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,binary,0.2857142857142857,{'C': 0.05}
+37,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,binary,0.7594936708860759,{'C': 0.25}
+45,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,binary,0.7333333333333334,{'C': 0.05}
+53,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase v2,binary,0.368421052631579,{'C': 0.05}
+2934,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5614035087719298,{'C': 0.05}
+61,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase v2,binary,0.2631578947368421,{'C': 0.25}
+69,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post upercase,tf,0.5523809523809524,{'C': 0.05}
+2958,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.5869565217391304,{'C': 0.05}
+77,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post lowercase,tf,0.5869565217391304,{'C': 2}
+85,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5194805194805195,{'C': 0.05}
+2982,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6105263157894738,{'C': 0.12}
+93,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.36363636363636365,{'C': 0.05}
+101,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6041666666666666,{'C': 0.05}
+3006,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4822695035460994,{'C': 0.05}
+109,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5050505050505051,{'C': 0.5}
+3030,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4857142857142857,{'C': 0.05}
+117,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase v2,tf,0.5581395348837209,{'C': 0.05}
+125,32,82,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase v2,tf,0.45098039215686275,{'C': 0.5}
+6,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post upercase,binary,0.6829268292682927,{'C': 0.05}
+3054,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.5}
+14,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post lowercase,binary,0.6595744680851064,{'C': 0.05}
+22,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,binary,0.410958904109589,{'C': 0.05}
+30,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,binary,0.2857142857142857,{'C': 0.05}
+38,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,binary,0.7594936708860759,{'C': 0.25}
+3078,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.761904761904762,{'C': 0.05}
+46,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,binary,0.7333333333333334,{'C': 0.05}
+54,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase v2,binary,0.368421052631579,{'C': 0.05}
+62,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase v2,binary,0.2666666666666666,{'C': 0.25}
+3102,500,200,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5116279069767442,{'C': 0.05}
+70,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post upercase,tf,0.5523809523809524,{'C': 0.05}
+78,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level post lowercase,tf,0.5869565217391304,{'C': 1}
+4126,500,200,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5822784810126583,{'C': 0.05}
+86,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5194805194805195,{'C': 0.05}
+94,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.36363636363636365,{'C': 0.05}
+4150,500,200,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6190476190476191,{'C': 0.05}
+102,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6041666666666666,{'C': 0.05}
+4174,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6024096385542169,{'C': 0.05}
+110,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5102040816326531,{'C': 0.5}
+118,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user upercase v2,tf,0.5581395348837209,{'C': 0.05}
+126,32,82,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level user lowercase v2,tf,0.45098039215686275,{'C': 0.5}
+7,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level post upercase,binary,0.6511627906976744,{'C': 0.05}
+2815,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6236559139784946,{'C': 0.05}
+15,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level post lowercase,binary,0.6875,{'C': 0.05}
+23,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,binary,0.4556962025316456,{'C': 0.05}
+31,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,binary,0.28235294117647053,{'C': 0.05}
+39,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,binary,0.7209302325581395,{'C': 0.05}
+47,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,binary,0.6744186046511628,{'C': 0.25}
+55,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase v2,binary,0.3846153846153847,{'C': 0.05}
+2839,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6436781609195402,{'C': 0.05}
+63,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase v2,binary,0.2857142857142857,{'C': 0.25}
+71,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level post upercase,tf,0.5934065934065934,{'C': 1}
+79,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level post lowercase,tf,0.5473684210526316,{'C': 0.05}
+87,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase,tf,0.5128205128205128,{'C': 0.12}
+2863,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.5915492957746479,{'C': 0.05}
+95,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase,tf,0.40404040404040403,{'C': 0.12}
+103,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.58,{'C': 0.05}
+111,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.5490196078431373,{'C': 0.25}
+119,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user upercase v2,tf,0.5882352941176471,{'C': 0.12}
+2887,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6301369863013699,{'C': 0.05}
+127,32,82,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level user lowercase v2,tf,0.46938775510204084,{'C': 0.25}
+2911,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5565217391304348,{'C': 0.12}
+2935,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5309734513274336,{'C': 0.12}
+2959,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6593406593406594,{'C': 0.05}
+2983,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6666666666666666,{'C': 0.05}
+3007,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.5084745762711864,{'C': 0.05}
+3031,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.4918032786885245,{'C': 0.05}
+3055,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7356321839080461,{'C': 0.05}
+3079,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7356321839080461,{'C': 0.05}
+3103,500,2000,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6216216216216217,{'C': 0.05}
+4127,500,2000,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.6486486486486487,{'C': 0.5}
+4151,500,2000,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.64,{'C': 0.05}
+4175,500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6410256410256411,{'C': 0.05}
+2816,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6067415730337078,{'C': 0.05}
+2840,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation upercase,tf,0.6190476190476191,{'C': 0.05}
+2864,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6499999999999999,{'C': 0.05}
+2888,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.6499999999999999,{'C': 0.12}
+2912,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5333333333333333,{'C': 0.05}
+2936,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation upercase,tf,0.5299145299145299,{'C': 0.05}
+2960,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6818181818181819,{'C': 0.25}
+2984,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.6896551724137931,{'C': 0.5}
+3008,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.64,{'C': 0.12}
+3032,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Compression,Anorexia Model,Level concatenation lowercase,tf,0.64,{'C': 0.12}
+3056,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7441860465116279,{'C': 0.05}
+3080,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.7529411764705882,{'C': 0.25}
+3104,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.4761904761904762,{'C': 0.25}
+4128,300,700,0.95,No difference,Not Fuzzy,Not removed stopwords,Full matrix,Anorexia Model,Level concatenation lowercase,tf,0.54320987654321,{'C': 0.05}
+4152,300,700,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6024096385542169,{'C': 0.05}
+4176,300,700,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.6172839506172839,{'C': 0.05}

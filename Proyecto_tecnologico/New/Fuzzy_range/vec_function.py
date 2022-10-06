@@ -1,7 +1,4 @@
-from importlib.resources import path
-from tkinter.tix import Tree
-from turtle import right
-from typing import final
+from grp import struct_group
 from gensim.parsing.preprocessing import remove_stopwords
 from nltk import TweetTokenizer
 import nltk
@@ -18,10 +15,8 @@ import fasttext
 import fasttext.util
 import pickle
 import logging
+from clustering import clutering_addition
 
-
-from text_functions import (get_text_labels,
-                            get_text_test)
 tokenizer = TweetTokenizer()
 model_anxia = FastText.load(
     '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Models/anxia.model')
@@ -92,9 +87,7 @@ def get_fdist(text, num_feat):
     fdist = fdist[:num_feat]
     return fdist
 
-
-def get_fuzzy_rep(words_user, dictionary, option, epsilon):
-
+def get_dictionary_matrix(dictionary, option):
     dictionary_vec = np.zeros((len(set(dictionary)), 300), dtype=float)     
     for i in range(dictionary_vec.shape[0]):
         w1 = dictionary[i]
@@ -104,6 +97,12 @@ def get_fuzzy_rep(words_user, dictionary, option, epsilon):
             dictionary_vec[i] = model_dep.wv[w1]
         if option == 3: 
             dictionary_vec[i] = model_pre.get_word_vector(w1)
+        if option == 4: 
+            dictionary_vec[i] = model_emo.wv[w1]
+    return dictionary_vec
+
+
+def get_fuzzy_rep(words_user, dictionary_vec,epsilon):
     similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(words_user, dictionary_vec)
     # vector de representación
     #vec_representation = np.count_nonzero(similarity_vocab > epsilon, axis=0)
@@ -112,19 +111,7 @@ def get_fuzzy_rep(words_user, dictionary, option, epsilon):
     similarity_rep = np.where(similarity_rep >= epsilon, 1, similarity_rep)
     return similarity_rep
 
-def get_sim_rep(words_user, dictionary,option, epsilon):
-
-    dictionary_vec = np.zeros((len(set(dictionary)),300) ,dtype=float)
-     
-    for i in range(dictionary_vec.shape[0]):
-        w1 = dictionary[i]
-        if option == 1:
-            dictionary_vec[i] = model_anxia.wv[w1]
-        if option == 2:
-            dictionary_vec[i] = model_dep.wv[w1]
-        if option == 3: 
-            dictionary_vec[i] = model_pre.get_word_vector(w1)
-            
+def get_sim_rep(words_user, dictionary_vec, epsilon):
     similarity_vocab = sklearn.metrics.pairwise.cosine_similarity(words_user, dictionary_vec)
 
     vec_representation = np.where(similarity_vocab < epsilon, 0, similarity_vocab)
@@ -357,7 +344,7 @@ def add_groups(add, score1, score2, matrix_add1,matrix_add2, groups):
 
 # function classificator
 def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_test, num_test, num_train, score1, score2, 
-                          di1, di2, tau, chose, groups, add, dif=True,
+                          di1, di2, tau, chose, groups, add, dif=True, clustering = True, 
                           fuzzy=True, compress=True, con = False, tf = True):
     # Parameters:
     # all_path_train: positive data from training data
@@ -380,7 +367,11 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
                        dtype=float)  # matriz tipo document-term
     X_test2 = np.zeros((num_test, len(dictionary2)), dtype=float)
 
-
+    #construct th matrix for the dictionaries
+    #positive dictionary 
+    emb_dic1 = get_dictionary_matrix(dictionary=dictionary1, option =  chose)
+    #ngative_dictionary 
+    emb_dic2 = get_dictionary_matrix(dictionary=dictionary2, option =  chose)
    ### For using svm ####
     X_train1 = np.zeros((num_train, len(dictionary1)), dtype=float)
     X_train2 = np.zeros((num_train, len(dictionary2)), dtype=float)
@@ -392,9 +383,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
             fp.close()
 
         if fuzzy == True:
-            word_repre_user = get_fuzzy_rep(b, dictionary1, option=chose, epsilon=tau)
+            word_repre_user = get_fuzzy_rep(b, emb_dic1, epsilon=tau)
         else:
-            word_repre_user = get_sim_rep(b, dictionary1, option=chose, epsilon=tau)
+            word_repre_user = get_sim_rep(b, emb_dic1, epsilon=tau)
         if tf == True:
             path2 =path_tf_train + '_'+ str(i)
             with open(path2, "rb") as fp:   # Unpickling
@@ -412,11 +403,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
             b = pickle.load(fp)
             fp.close()        
         if fuzzy == True:
-            word_repre_user = get_fuzzy_rep(
-                b, dictionary2, option=chose, epsilon=tau)
+            word_repre_user = get_fuzzy_rep(b, emb_dic2, epsilon=tau)
         else:
-            word_repre_user = get_sim_rep(
-                b, dictionary2, option=chose, epsilon=tau)
+            word_repre_user = get_sim_rep(b, emb_dic2, epsilon=tau)
         if tf == True:
             path2 =path_tf_train + '_'+ str(i)
             with open(path2, "rb") as fp:   # Unpickling
@@ -436,11 +425,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
             b = pickle.load(fp)
             fp.close()    
         if fuzzy == True:
-            word_repre_user = get_fuzzy_rep(
-                    b, dictionary1, option=chose, epsilon=tau)
+            word_repre_user = get_fuzzy_rep(b, emb_dic1, epsilon=tau)
         else:
-            word_repre_user = get_sim_rep(
-                    b, dictionary1, option=chose, epsilon=tau)
+            word_repre_user = get_sim_rep(b,emb_dic1, epsilon=tau)
         if tf == True:
             path2 =path_tf_test + '_'+ str(i)
             with open(path2, "rb") as fp:   # Unpickling
@@ -460,11 +447,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
             b = pickle.load(fp)
             fp.close()    
         if fuzzy == True:
-            word_repre_user = get_fuzzy_rep(
-                b, dictionary2, option=chose, epsilon=tau)
+            word_repre_user = get_fuzzy_rep(b, emb_dic2, epsilon=tau)
         else:
-            word_repre_user = get_sim_rep(
-                b, dictionary2, option=chose, epsilon=tau)
+            word_repre_user = get_sim_rep(b, emb_dic2, epsilon=tau)
         if tf == True:
             path2 =path_tf_test + '_'+ str(i)
             with open(path2, "rb") as fp:   # Unpickling
@@ -481,20 +466,54 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
 
         X_test2 = np.sum(X_test2, axis=1)
 
-        X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)          
+        if clustering == False: 
+            X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)          
+        if clustering == True: 
+            if add == 'both':
+                X_test1 = clutering_addition(X_test1,groups,emb_dic1)
+                X_test2 = clutering_addition(X_test2,groups,emb_dic2)
+            if add == 'positive':
+                X_test1 = clutering_addition(X_test1,groups,emb_dic1)
+            if add == 'negative':
+                X_test2 = clutering_addition(X_test2,groups,emb_dic2)
+
 
         X_test = np.column_stack((X_test1, X_test2))
 
         X_train1 = np.sum(X_train1, axis=1)
         X_train2 = np.sum(X_train2, axis=1)
-        X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups) 
+        
+        if clustering == False: 
+            X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups) 
+        if clustering == True: 
+            if add == 'both':
+                X_train1 = clutering_addition(X_train1,groups,emb_dic1)
+                X_train2 = clutering_addition(X_train2,groups,emb_dic2)
+            if add == 'positive':
+                X_train1 = clutering_addition(X_train1,groups,emb_dic1)
+            if add == 'negative':
+                X_train2 = clutering_addition(X_train2,groups,emb_dic2)
 
         X_train = np.column_stack((X_train1, X_train2))
         print(X_train.shape, X_test.shape)
 
     else:
-        X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)            
-        X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups)
+        if clustering == False:
+            X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)            
+            X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups)
+        else: 
+            if add == 'both':
+                X_test1 = clutering_addition(X_test1,groups,emb_dic1)
+                X_test2 = clutering_addition(X_test2,groups,emb_dic2)
+                X_train1 = clutering_addition(X_train1,groups,emb_dic1)
+                X_train2 = clutering_addition(X_train2,groups,emb_dic2)
+            if add == 'positive':
+                X_train1 = clutering_addition(X_train1,groups,emb_dic1)
+                X_test1 = clutering_addition(X_test1,groups,emb_dic1)
+            if add == 'negative':
+                X_train2 = clutering_addition(X_train2,groups,emb_dic2)
+                X_test2 = clutering_addition(X_test2,groups,emb_dic2)
+        
         X_train = np.concatenate((X_train1, X_train2), axis=1)
         X_test  = np.concatenate((X_test1, X_test2), axis=1)
         print(X_train.shape, X_test.shape)
@@ -505,7 +524,7 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
 
 
 def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,score1, score2,
-                      chose, tau, groups, add,  dif, fuzzy, remove_stop, compress, dic, tf):
+                      chose, tau, groups, add, clustering,  dif, fuzzy, remove_stop, compress, dic, tf):
     print(num_exp)
     logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_a.txt",level=logging.DEBUG)
     logging.debug('\n This is a message from experimet number ' + str(num_exp) )
@@ -622,13 +641,13 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
         path_tf_test = ''
 
     X_test,X_train = classificator_pos_neg(path_train, path_test, path_tf_train, path_tf_test, num_test, num_train,score1,score2,kw1,kw2, 
-        			tau=tau,chose=chose,groups = groups, add= add,dif = dif, fuzzy = fuzzy, compress=compress, con = con, tf = tf)	
+        			tau=tau,chose=chose,groups = groups, add= add, clustering = clustering, dif = dif, fuzzy = fuzzy, compress=compress, con = con, tf = tf)	
         
     if X_test.shape[1] < X_test.shape[0]:
-        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 2000)
+        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 3000)
         
     else: 
-        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 2000)
+        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 3000)
         
     grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
     grid_anorexia.fit(X_train, train_labels)
@@ -660,12 +679,21 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
         weight = 'tf'
     else: 
         weight = 'binary'
-    
+    if clustering == True:
+        clus = 'Clustering'
+    else:
+        clus = 'Simple_compression'
 
+    str_groups = ''
+    for i in range(len(groups)):
+        if i != len(groups)-1:
+            str_groups += str(groups[i]) +'-'
+        else:
+            str_groups += str(groups[i])
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_anorexia.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_anorexia2.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
-            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ',' + add + ',' + str(groups)+  ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
+            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clus+ ','  + add + ',' + str_groups+  ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
     f.close()   
         
     print("done in %fs" % (time() - t_initial))
@@ -673,7 +701,7 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     return f1_score(test_labels, y_pred)
 
 def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, score1, score2,
-                    chose, tau,add, groups, dif, fuzzy, remove_stop, compress, dic, tf ):
+                    chose, tau,add,clustering,  groups, dif, fuzzy, remove_stop, compress, dic, tf ):
 
     logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_dep.txt",level=logging.DEBUG)
     logging.debug('\n This is a message from experimet number ' + str(num_exp) )
@@ -808,9 +836,20 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
         weight = 'tf'
     else: 
         weight = 'binary'
+    if clustering == True:
+        clus = 'Clustering'
+    else:
+        clus = 'Simple_compression'
+
+    str_groups = ''
+    for i in range(len(groups)):
+        if i != len(groups)-1:
+            str_groups += str(groups[i]) +'-'
+        else:
+            str_groups += str(groups[i])
 
     X_test,X_train = classificator_pos_neg(path_train, path_test,path_tf_train, path_tf_test,  num_test, num_train,score1,score2,kw1,kw2, 
-        			tau=tau,chose=chose,add = add, groups = groups,dif = dif, fuzzy = fuzzy, compress = compress, con= con, tf = tf)	
+        			tau=tau,chose=chose,add = add, clustering=clustering, groups = groups,dif = dif, fuzzy = fuzzy, compress = compress, con= con, tf = tf)	
         
     if X_test.shape[1] < X_test.shape[0]:
         svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 6000)
@@ -824,14 +863,14 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     y_pred = grid_dep.predict(X_test)
     a= grid_dep.best_params_
     f1 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_dep2.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
-            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ',' +add + ','+ str(groups)+ ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
+            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clus +',' +add + ','+ str_groups+ ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
     f.close()       
 
     print('The time for this experiment was %fs' % (time() - t_initial))
 
-    return f1,a
+    return f1
         
 
 

@@ -35,47 +35,48 @@ print('Begins experiments')
 
 # En este no importa si hay en común
 for i in range(24):
-    f = run_exp_anxia_sim(i+2385,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=False, dic =3, tf = True)
+    if i > 10: 
+        f = run_exp_anxia_sim(i+2385,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=False, dic =3, tf = True)
 
-    f = run_exp_anxia_sim(i+2433, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=False, dic =3, tf = True)
-    
-    f = run_exp_anxia_sim(i+2457, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=False, dic= 3, tf = True)
+        f = run_exp_anxia_sim(i+2433, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=False, dic =3, tf = True)
+        
+        f = run_exp_anxia_sim(i+2457, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=False, dic= 3, tf = True)
 
-    f= run_exp_anxia_sim(i+2481, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=False, dic = 3, tf = True)
-    f = run_exp_anxia_sim(i+2505,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=True, dic =3, tf = True)
+        f= run_exp_anxia_sim(i+2481, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=False, dic = 3, tf = True)
+        f = run_exp_anxia_sim(i+2505,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=True, dic =3, tf = True)
 
-    f = run_exp_anxia_sim(i+2529, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=True, dic =3, tf = True)
-    
-    f = run_exp_anxia_sim(i+2553, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=True, dic= 3, tf = True)
+        f = run_exp_anxia_sim(i+2529, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=True, dic =3, tf = True)
+        
+        f = run_exp_anxia_sim(i+2553, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=True, dic= 3, tf = True)
 
-    f= run_exp_anxia_sim(i+2577, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=True, dic = 3, tf = True)    
-    f = run_exp_anxia_sim(i+2601,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=False, dic =4, tf = True)
+        f= run_exp_anxia_sim(i+2577, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=True, dic = 3, tf = True)    
+        f = run_exp_anxia_sim(i+2601,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=False, dic =4, tf = True)
 
-    f = run_exp_anxia_sim(i+2625, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=False, dic =4,tf = True)
-    
-    f = run_exp_anxia_sim(i+2649, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=False, dic= 4,tf = True)
+        f = run_exp_anxia_sim(i+2625, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=False, dic =4,tf = True)
+        
+        f = run_exp_anxia_sim(i+2649, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=False, dic= 4,tf = True)
 
-    f= run_exp_anxia_sim(i+2673, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=False, dic = 4,tf = True)
-    f = run_exp_anxia_sim(i+2697,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=True, dic =4,tf = True)
+        f= run_exp_anxia_sim(i+2673, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=False, dic = 4,tf = True)
+        f = run_exp_anxia_sim(i+2697,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=True, compress=True, dic =4,tf = True)
 
-    f = run_exp_anxia_sim(i+2721, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=True, dic =4,tf = True)
-    
-    f = run_exp_anxia_sim(i+2745, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=True, dic= 4,tf = True)
+        f = run_exp_anxia_sim(i+2721, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =1,dif = True, fuzzy= arg5[i],remove_stop=False,compress=True, dic =4,tf = True)
+        
+        f = run_exp_anxia_sim(i+2745, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=True, compress=True, dic= 4,tf = True)
 
-    f= run_exp_anxia_sim(i+2769, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=True, dic = 4,tf = True)
+        f= run_exp_anxia_sim(i+2769, test_labels_anxia, tr_label,num_test, num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =3,dif = False, fuzzy= arg5[i],remove_stop=False,compress=True, dic = 4,tf = True)

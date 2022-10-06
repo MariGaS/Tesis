@@ -483,3 +483,4 @@
 841,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,10,Depression Model,Level user lowercase,tf,0.4652567975830816,{'C': 2}
 509,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Clustering,both,5-20,Depression Model,Level user lowercase,tf,0.5275590551181102,{'C': 2}
 624,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-20,Depression Model,Level post lowercase,binary,0.36619718309859156,{'C': 0.05}
+863,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Clustering,positive,5-10,Depression Model,Level user lowercase,tf,0.24383561643835613,{'C': 0.05}

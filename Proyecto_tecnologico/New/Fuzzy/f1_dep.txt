@@ -999,3 +999,128 @@
 912,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42675159235668786,{'C': 0.05}
 936,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.167870036101083,{'C': 0.05}
 960,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.167870036101083,{'C': 0.05}
+1151,2000,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.41666666666666663,{'C': 2}
+1173,2000,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4709897610921502,{'C': 0.25}
+1195,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6048387096774193,{'C': 0.05}
+1217,2000,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5752212389380531,{'C': 0.05}
+1239,2000,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5358490566037737,{'C': 0.12}
+1261,2000,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4887218045112782,{'C': 0.05}
+1152,2000,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44736842105263164,{'C': 0.05}
+1174,2000,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4842105263157894,{'C': 0.5}
+1196,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.620408163265306,{'C': 0.25}
+1218,2000,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5701754385964912,{'C': 0.5}
+1240,2000,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.555984555984556,{'C': 0.05}
+1262,2000,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5057471264367815,{'C': 0.25}
+1153,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4342105263157895,{'C': 0.12}
+1175,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5019305019305019,{'C': 0.05}
+1197,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.588709677419355,{'C': 0.05}
+1219,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1241,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5227272727272727,{'C': 0.05}
+1263,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4579124579124579,{'C': 0.05}
+1154,1700,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44147157190635455,{'C': 0.12}
+1176,1700,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5214007782101168,{'C': 0.12}
+1198,1700,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6141078838174274,{'C': 0.05}
+1220,1700,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5803571428571428,{'C': 0.05}
+1242,1700,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5333333333333333,{'C': 0.12}
+1264,1700,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5204460966542751,{'C': 1}
+1155,2000,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.41533546325878595,{'C': 4}
+1177,2000,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5187969924812029,{'C': 0.12}
+1199,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5934959349593496,{'C': 0.12}
+1221,2000,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5789473684210525,{'C': 0.05}
+1243,2000,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5236363636363637,{'C': 0.5}
+1265,2000,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4536082474226804,{'C': 0.5}
+1156,2000,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.42580645161290326,{'C': 2}
+1178,2000,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5074626865671642,{'C': 1}
+1200,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.6040816326530613,{'C': 0.05}
+1222,2000,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5851528384279475,{'C': 0.12}
+1244,2000,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5263157894736842,{'C': 0.05}
+1266,2000,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4788732394366197,{'C': 4}
+1157,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4092409240924092,{'C': 0.12}
+1179,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.47583643122676583,{'C': 1}
+1201,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.584,{'C': 0.05}
+1223,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1245,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1267,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4511784511784512,{'C': 0.05}
+1158,1700,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4092409240924092,{'C': 0.05}
+1180,1700,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.544,{'C': 0.05}
+1202,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.592,{'C': 0.05}
+1224,1700,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5676855895196506,{'C': 0.05}
+1246,1700,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5166051660516605,{'C': 0.05}
+1268,1700,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4398625429553265,{'C': 0.12}
+1159,1700,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.43243243243243246,{'C': 0.05}
+1181,1700,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5220883534136546,{'C': 0.25}
+1203,1700,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5983606557377049,{'C': 0.05}
+1225,1700,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5627705627705627,{'C': 0.05}
+1247,1700,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5263157894736842,{'C': 0.05}
+1269,1700,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4685314685314685,{'C': 0.05}
+1160,1700,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44147157190635455,{'C': 0.05}
+1182,1700,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5055762081784386,{'C': 0.12}
+1204,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6065573770491803,{'C': 0.05}
+1226,1700,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5777777777777777,{'C': 0.05}
+1248,1700,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5328185328185328,{'C': 0.5}
+1270,1700,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5073529411764706,{'C': 0.05}
+1161,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.40390879478827363,{'C': 0.25}
+1183,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.483271375464684,{'C': 0.05}
+1205,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.584,{'C': 0.05}
+1227,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1249,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1271,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44147157190635455,{'C': 4}
+1162,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4113924050632911,{'C': 0.25}
+1184,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.47619047619047616,{'C': 4}
+1206,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6,{'C': 1}
+1228,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1250,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.523076923076923,{'C': 0.05}
+1272,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.48251748251748255,{'C': 0.05}
+1163,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4075235109717868,{'C': 0.5}
+1185,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4872727272727273,{'C': 2}
+1229,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1251,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.523076923076923,{'C': 0.05}
+1273,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.48251748251748255,{'C': 0.05}
+1164,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4451612903225806,{'C': 0.25}
+1186,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.49056603773584906,{'C': 0.25}
+1208,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6024096385542169,{'C': 0.5}
+1230,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1252,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.525096525096525,{'C': 0.05}
+1274,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4964539007092199,{'C': 0.05}
+1165,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4451612903225806,{'C': 0.25}
+1187,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4961832061068703,{'C': 0.12}
+1231,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1253,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.525096525096525,{'C': 0.05}
+1275,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4964539007092199,{'C': 0.05}
+1166,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44000000000000006,{'C': 0.25}
+1188,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.479087452471483,{'C': 4}
+1232,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1254,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5227272727272727,{'C': 0.05}
+1276,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4579124579124579,{'C': 0.05}
+1167,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.42000000000000004,{'C': 1}
+1189,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.47583643122676583,{'C': 1}
+1211,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.584,{'C': 0.05}
+1233,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1255,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1277,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44147157190635455,{'C': 0.25}
+1168,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4318936877076412,{'C': 0.05}
+1190,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5019305019305019,{'C': 0.05}
+1234,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1256,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5227272727272727,{'C': 0.05}
+1278,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4579124579124579,{'C': 0.05}
+1169,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44012944983818764,{'C': 0.5}
+1191,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.49056603773584906,{'C': 0.25}
+1235,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1257,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.525096525096525,{'C': 0.05}
+1279,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4964539007092199,{'C': 0.05}
+1170,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4131147540983607,{'C': 2}
+1192,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4776119402985075,{'C': 4}
+1214,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.584,{'C': 0.05}
+1236,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1258,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1280,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44518272425249167,{'C': 0.12}
+1171,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4370860927152318,{'C': 1}
+1193,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5019305019305019,{'C': 0.05}
+1237,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1259,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5227272727272727,{'C': 0.05}
+1281,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4579124579124579,{'C': 0.05}
+1172,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4075235109717868,{'C': 4}
+1194,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4944649446494465,{'C': 0.05}
+1238,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1260,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.523076923076923,{'C': 0.05}
+1282,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.48251748251748255,{'C': 0.05}

@@ -613,27 +613,27 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
             con = False
             kw1 = get_list_key(post_pos_dep1)
             kw2 = get_list_key(post_neg_dep1)
-            dict_str = 'Level post upercase'  
+            dict_str = 'Level post uppercase'  
         if dic == 3: 
             con = False
             kw1 = get_list_key(user_pos_dep1)
             kw2 = get_list_key(user_neg_dep1) 
-            dict_str = 'Level user upercase'  
+            dict_str = 'Level user uppercase'  
         if dic == 5: 
             con = True
             kw1 = get_list_key(con_pos_dep1)
             kw2 = get_list_key(con_neg_dep1)
-            dict_str = 'Level concatenation upercase'  
+            dict_str = 'Level concatenation uppercase'  
         if dic == 7: 
             con = False
             kw1 = get_list_key(user_pos_dep1)
             kw2 = get_list_key(user_neg_dep3) 
-            dict_str = 'Level user upercase v2'  
+            dict_str = 'Level user uppercase v2'  
         if dic == 9: 
             con = True
             kw1 = get_list_key(con_pos_dep1)
             kw2 = get_list_key(con_neg_dep4)
-            dict_str = 'Level concatenation upercase v2'  
+            dict_str = 'Level concatenation uppercase v2'  
     if dic == 2 or dic == 4 or dic == 6 or dic == 8 or dic == 10:         
         if remove_stop == False:
             if chose == 2: 

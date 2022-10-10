@@ -1,0 +1,1093 @@
+1196,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.620408163265306,{'C': 0.25}
+1198,1700,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6141078838174274,{'C': 0.05}
+1204,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6065573770491803,{'C': 0.05}
+1195,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6048387096774193,{'C': 0.05}
+1200,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.6040816326530613,{'C': 0.05}
+1208,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6024096385542169,{'C': 0.5}
+1206,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.6,{'C': 1}
+1203,1700,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5983606557377049,{'C': 0.05}
+1199,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5934959349593496,{'C': 0.12}
+1202,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.592,{'C': 0.05}
+1197,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.588709677419355,{'C': 0.05}
+1222,2000,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5851528384279475,{'C': 0.12}
+1201,1500,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.584,{'C': 0.05}
+1228,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1230,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1238,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5814977973568282,{'C': 0.05}
+1220,1700,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5803571428571428,{'C': 0.05}
+1221,2000,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5789473684210525,{'C': 0.05}
+1226,1700,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5777777777777777,{'C': 0.05}
+1217,2000,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5752212389380531,{'C': 0.05}
+1218,2000,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5701754385964912,{'C': 0.5}
+1224,1700,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5676855895196506,{'C': 0.05}
+1225,1700,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5627705627705627,{'C': 0.05}
+1240,2000,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.555984555984556,{'C': 0.05}
+1219,1500,2000,0.92,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1223,1500,2000,0.92,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5535714285714285,{'C': 0.12}
+1180,1700,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.544,{'C': 0.05}
+1239,2000,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5358490566037737,{'C': 0.12}
+1242,1700,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5333333333333333,{'C': 0.12}
+1248,1700,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5328185328185328,{'C': 0.5}
+1244,2000,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5263157894736842,{'C': 0.05}
+1247,1700,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5263157894736842,{'C': 0.05}
+1252,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.525096525096525,{'C': 0.05}
+1243,2000,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5236363636363637,{'C': 0.5}
+1250,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.523076923076923,{'C': 0.05}
+1260,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.523076923076923,{'C': 0.05}
+1241,1500,2000,0.88,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5227272727272727,{'C': 0.05}
+1181,1700,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5220883534136546,{'C': 0.25}
+1176,1700,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5214007782101168,{'C': 0.12}
+1264,1700,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5204460966542751,{'C': 1}
+1177,2000,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5187969924812029,{'C': 0.12}
+1246,1700,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5166051660516605,{'C': 0.05}
+506,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5116279069767442,{'C': 0.05}
+518,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5116279069767442,{'C': 0.05}
+10,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.5112781954887218,{'C': 0.05}
+34,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.5112781954887218,{'C': 0.05}
+22,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.5112781954887218,{'C': 0.05}
+46,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.5112781954887218,{'C': 0.05}
+482,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5096525096525096,{'C': 0.05}
+494,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5096525096525096,{'C': 0.05}
+106,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.5095057034220533,{'C': 0.5}
+118,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.5095057034220533,{'C': 0.5}
+1245,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1249,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1255,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+1258,1500,2000,0.88,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5093632958801498,{'C': 0.5}
+9,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.5074626865671642,{'C': 0.05}
+21,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.5074626865671642,{'C': 0.05}
+1178,2000,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5074626865671642,{'C': 1}
+2321,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.5073529411764706,{'C': 0.05}
+2333,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.5073529411764706,{'C': 0.05}
+1270,1700,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5073529411764706,{'C': 0.05}
+1262,2000,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5057471264367815,{'C': 0.25}
+491,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5056603773584906,{'C': 0.05}
+515,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5056603773584906,{'C': 0.05}
+503,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5056603773584906,{'C': 0.05}
+527,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5056603773584906,{'C': 0.05}
+410,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+483,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+507,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+33,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.5055762081784386,{'C': 0.05}
+490,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+514,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+422,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+495,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+519,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+45,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.5055762081784386,{'C': 0.05}
+502,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+526,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5055762081784386,{'C': 0.05}
+1182,1700,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.5055762081784386,{'C': 0.12}
+489,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5037037037037037,{'C': 0.05}
+513,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5037037037037037,{'C': 0.05}
+501,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5037037037037037,{'C': 0.05}
+525,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5037037037037037,{'C': 0.05}
+1175,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5019305019305019,{'C': 0.05}
+1190,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5019305019305019,{'C': 0.05}
+1193,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.5019305019305019,{'C': 0.05}
+130,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.5019011406844107,{'C': 0.05}
+142,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.5019011406844107,{'C': 0.05}
+387,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5018181818181817,{'C': 0.05}
+411,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5018181818181817,{'C': 0.05}
+399,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5018181818181817,{'C': 0.05}
+423,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5018181818181817,{'C': 0.05}
+386,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5,{'C': 0.12}
+484,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5,{'C': 0.12}
+508,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5,{'C': 0.12}
+393,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5,{'C': 0.05}
+417,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5,{'C': 0.05}
+418,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5,{'C': 0.12}
+398,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5,{'C': 0.12}
+496,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5,{'C': 0.12}
+520,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5,{'C': 0.12}
+405,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.5,{'C': 0.05}
+429,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5,{'C': 0.05}
+430,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.5,{'C': 0.12}
+388,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49819494584837537,{'C': 2}
+412,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49819494584837537,{'C': 2}
+400,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49819494584837537,{'C': 2}
+424,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49819494584837537,{'C': 2}
+391,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4981412639405204,{'C': 0.05}
+415,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4981412639405204,{'C': 0.05}
+11,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4981412639405204,{'C': 0.05}
+35,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4981412639405204,{'C': 0.05}
+403,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4981412639405204,{'C': 0.05}
+427,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4981412639405204,{'C': 0.05}
+23,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4981412639405204,{'C': 0.05}
+47,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4981412639405204,{'C': 0.05}
+1274,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4964539007092199,{'C': 0.05}
+414,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49635036496350365,{'C': 0.05}
+488,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49635036496350365,{'C': 0.5}
+512,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49635036496350365,{'C': 0.5}
+426,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49635036496350365,{'C': 0.05}
+500,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49635036496350365,{'C': 0.5}
+524,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49635036496350365,{'C': 0.5}
+898,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.49635036496350365,{'C': 0.25}
+910,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.49635036496350365,{'C': 0.25}
+486,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4962962962962963,{'C': 0.25}
+510,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4962962962962963,{'C': 0.25}
+105,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4962962962962963,{'C': 0.05}
+129,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4962962962962963,{'C': 0.05}
+492,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4962962962962963,{'C': 0.05}
+516,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4962962962962963,{'C': 0.05}
+498,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4962962962962963,{'C': 0.25}
+522,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4962962962962963,{'C': 0.25}
+117,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4962962962962963,{'C': 0.05}
+141,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4962962962962963,{'C': 0.05}
+504,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4962962962962963,{'C': 0.05}
+528,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4962962962962963,{'C': 0.05}
+1187,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4961832061068703,{'C': 0.12}
+396,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49462365591397855,{'C': 0.12}
+420,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49462365591397855,{'C': 0.12}
+408,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49462365591397855,{'C': 0.12}
+432,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.49462365591397855,{'C': 0.12}
+394,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49454545454545457,{'C': 0.05}
+406,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49454545454545457,{'C': 0.05}
+874,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.49454545454545457,{'C': 0.25}
+886,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.49454545454545457,{'C': 0.25}
+416,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4944649446494465,{'C': 0.05}
+428,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4944649446494465,{'C': 0.05}
+1194,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4944649446494465,{'C': 0.05}
+390,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4927536231884058,{'C': 0.05}
+402,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4927536231884058,{'C': 0.05}
+392,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49264705882352944,{'C': 0.05}
+404,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.49264705882352944,{'C': 0.05}
+1186,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.49056603773584906,{'C': 0.25}
+395,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4892086330935252,{'C': 0.05}
+419,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4892086330935252,{'C': 0.05}
+407,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4892086330935252,{'C': 0.05}
+431,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4892086330935252,{'C': 0.05}
+1261,2000,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4887218045112782,{'C': 0.05}
+610,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4885993485342019,{'C': 0.05}
+598,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4885993485342019,{'C': 0.05}
+622,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4885993485342019,{'C': 0.05}
+2318,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4881355932203389,{'C': 0.05}
+2330,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4881355932203389,{'C': 0.05}
+225,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.48763250883392223,{'C': 0.05}
+237,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.48763250883392223,{'C': 0.05}
+802,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4874551971326164,{'C': 4}
+814,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4874551971326164,{'C': 4}
+1185,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4872727272727273,{'C': 2}
+586,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.48701298701298706,{'C': 0.05}
+201,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.48591549295774655,{'C': 0.05}
+213,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.48591549295774655,{'C': 0.05}
+778,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.48571428571428577,{'C': 2}
+790,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.48571428571428577,{'C': 2}
+104,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4842105263157894,{'C': 0.12}
+128,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4842105263157894,{'C': 0.12}
+116,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4842105263157894,{'C': 0.12}
+140,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4842105263157894,{'C': 0.12}
+1174,2000,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4842105263157894,{'C': 0.5}
+131,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4835164835164836,{'C': 0.25}
+143,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4835164835164836,{'C': 0.25}
+1183,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.483271375464684,{'C': 0.05}
+126,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.48226950354609927,{'C': 0.05}
+138,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.48226950354609927,{'C': 0.05}
+485,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.48175182481751816,{'C': 0.05}
+509,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.48175182481751816,{'C': 0.05}
+107,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.48175182481751816,{'C': 1}
+497,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.48175182481751816,{'C': 0.05}
+521,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.48175182481751816,{'C': 0.05}
+119,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.48175182481751816,{'C': 1}
+385,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4805653710247349,{'C': 1}
+409,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4805653710247349,{'C': 1}
+102,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4805653710247349,{'C': 0.05}
+397,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4805653710247349,{'C': 1}
+421,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4805653710247349,{'C': 1}
+114,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4805653710247349,{'C': 0.05}
+487,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.48028673835125446,{'C': 0.12}
+511,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.48028673835125446,{'C': 0.12}
+499,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.48028673835125446,{'C': 0.12}
+523,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.48028673835125446,{'C': 0.12}
+1188,1500,2000,0.85,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.479087452471483,{'C': 4}
+389,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4788732394366197,{'C': 0.12}
+413,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4788732394366197,{'C': 0.12}
+401,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.4788732394366197,{'C': 0.12}
+425,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4788732394366197,{'C': 0.12}
+1266,2000,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4788732394366197,{'C': 4}
+7,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4785714285714286,{'C': 0.05}
+31,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4785714285714286,{'C': 0.05}
+19,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4785714285714286,{'C': 0.05}
+43,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4785714285714286,{'C': 0.05}
+1192,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4776119402985075,{'C': 4}
+481,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.47653429602888087,{'C': 0.05}
+493,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user upercase,tf,0.47653429602888087,{'C': 0.05}
+1184,1500,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.47619047619047616,{'C': 4}
+2323,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.47552447552447547,{'C': 0.12}
+2335,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.47552447552447547,{'C': 0.12}
+2316,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4752475247524752,{'C': 0.05}
+2328,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4752475247524752,{'C': 0.05}
+505,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4748201438848921,{'C': 0.05}
+517,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user upercase,tf,0.4748201438848921,{'C': 0.05}
+707,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4745762711864407,{'C': 0.05}
+719,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4745762711864407,{'C': 0.05}
+6,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4734982332155477,{'C': 0.05}
+30,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4734982332155477,{'C': 0.05}
+18,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4734982332155477,{'C': 0.05}
+42,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4734982332155477,{'C': 0.05}
+2319,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.472972972972973,{'C': 0.05}
+2331,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.472972972972973,{'C': 0.05}
+2320,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4724919093851134,{'C': 0.05}
+2332,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4724919093851134,{'C': 0.05}
+706,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4721311475409836,{'C': 0.05}
+718,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4721311475409836,{'C': 0.05}
+99,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4718309859154929,{'C': 0.12}
+123,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4718309859154929,{'C': 0.12}
+124,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4718309859154929,{'C': 0.05}
+111,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4718309859154929,{'C': 0.12}
+135,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4718309859154929,{'C': 0.12}
+136,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4718309859154929,{'C': 0.05}
+202,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4713804713804714,{'C': 1}
+214,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4713804713804714,{'C': 1}
+1173,2000,2000,0.85,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4709897610921502,{'C': 0.25}
+100,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4701754385964912,{'C': 0.05}
+112,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4701754385964912,{'C': 0.05}
+226,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4697986577181208,{'C': 0.5}
+238,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4697986577181208,{'C': 0.5}
+2322,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4693877551020408,{'C': 0.25}
+2334,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4693877551020408,{'C': 0.25}
+708,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4686468646864687,{'C': 0.05}
+720,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4686468646864687,{'C': 0.05}
+1269,1700,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4685314685314685,{'C': 0.05}
+198,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4677966101694915,{'C': 0.05}
+222,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4677966101694915,{'C': 0.05}
+210,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4677966101694915,{'C': 0.05}
+234,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4677966101694915,{'C': 0.05}
+704,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4662162162162163,{'C': 0.05}
+716,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4662162162162163,{'C': 0.05}
+8,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4657534246575342,{'C': 0.05}
+32,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4657534246575342,{'C': 0.05}
+20,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4657534246575342,{'C': 0.05}
+44,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4657534246575342,{'C': 0.05}
+2315,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.46511627906976755,{'C': 0.05}
+2327,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.46511627906976755,{'C': 0.05}
+4,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.46416382252559724,{'C': 0.05}
+28,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.46416382252559724,{'C': 0.05}
+16,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.46416382252559724,{'C': 0.05}
+40,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.46416382252559724,{'C': 0.05}
+103,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.463768115942029,{'C': 0.05}
+127,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.463768115942029,{'C': 0.05}
+115,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.463768115942029,{'C': 0.05}
+139,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.463768115942029,{'C': 0.05}
+700,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4630872483221476,{'C': 0.05}
+712,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4630872483221476,{'C': 0.05}
+196,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4630225080385853,{'C': 0.05}
+220,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4630225080385853,{'C': 0.05}
+208,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4630225080385853,{'C': 0.05}
+232,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4630225080385853,{'C': 0.05}
+605,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4625407166123779,{'C': 0.05}
+584,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4625407166123779,{'C': 0.05}
+617,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4625407166123779,{'C': 0.05}
+596,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4625407166123779,{'C': 0.05}
+203,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4620462046204621,{'C': 0.25}
+227,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4620462046204621,{'C': 0.25}
+215,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4620462046204621,{'C': 0.25}
+239,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4620462046204621,{'C': 0.25}
+699,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4615384615384615,{'C': 0.05}
+711,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4615384615384615,{'C': 0.05}
+603,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.461038961038961,{'C': 0.05}
+604,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.461038961038961,{'C': 0.05}
+581,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.461038961038961,{'C': 0.05}
+615,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.461038961038961,{'C': 0.05}
+616,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.461038961038961,{'C': 0.05}
+593,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.461038961038961,{'C': 0.05}
+705,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.46052631578947373,{'C': 0.05}
+717,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.46052631578947373,{'C': 0.05}
+200,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.45954692556634297,{'C': 0.05}
+224,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.45954692556634297,{'C': 0.05}
+212,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.45954692556634297,{'C': 0.05}
+236,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.45954692556634297,{'C': 0.05}
+580,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+606,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+588,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+612,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+592,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+618,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+600,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+624,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45954692556634297,{'C': 0.05}
+702,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45901639344262296,{'C': 0.12}
+714,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45901639344262296,{'C': 0.12}
+697,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4580645161290322,{'C': 0.12}
+608,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4580645161290322,{'C': 0.12}
+709,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4580645161290322,{'C': 0.12}
+620,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4580645161290322,{'C': 0.12}
+1263,1500,2000,0.83,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4579124579124579,{'C': 0.05}
+98,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4577464788732395,{'C': 0.05}
+122,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4577464788732395,{'C': 0.05}
+110,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4577464788732395,{'C': 0.05}
+134,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4577464788732395,{'C': 0.05}
+3,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4573378839590443,{'C': 0.05}
+15,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4573378839590443,{'C': 0.05}
+2,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.45674740484429066,{'C': 0.12}
+26,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.45674740484429066,{'C': 0.12}
+14,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.45674740484429066,{'C': 0.12}
+38,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.45674740484429066,{'C': 0.12}
+195,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4565916398713826,{'C': 0.05}
+219,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4565916398713826,{'C': 0.05}
+207,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4565916398713826,{'C': 0.05}
+231,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4565916398713826,{'C': 0.05}
+199,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.45637583892617456,{'C': 0.05}
+223,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.45637583892617456,{'C': 0.05}
+211,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.45637583892617456,{'C': 0.05}
+235,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.45637583892617456,{'C': 0.05}
+703,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45484949832775917,{'C': 0.05}
+715,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45484949832775917,{'C': 0.05}
+579,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4545454545454545,{'C': 0.05}
+591,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4545454545454545,{'C': 0.05}
+12,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4542372881355932,{'C': 0.05}
+24,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4542372881355932,{'C': 0.05}
+582,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4536741214057508,{'C': 0.12}
+594,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4536741214057508,{'C': 0.12}
+1265,2000,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4536082474226804,{'C': 0.5}
+36,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4527027027027027,{'C': 0.05}
+48,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4527027027027027,{'C': 0.05}
+698,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4524590163934426,{'C': 0.05}
+710,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4524590163934426,{'C': 0.05}
+108,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.452054794520548,{'C': 0.05}
+132,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.452054794520548,{'C': 0.05}
+120,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.452054794520548,{'C': 0.05}
+144,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.452054794520548,{'C': 0.05}
+193,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4516129032258065,{'C': 0.25}
+217,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4516129032258065,{'C': 0.25}
+205,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4516129032258065,{'C': 0.25}
+229,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4516129032258065,{'C': 0.25}
+1267,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4511784511784512,{'C': 0.05}
+701,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45098039215686275,{'C': 0.05}
+713,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.45098039215686275,{'C': 0.05}
+27,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4505119453924915,{'C': 0.5}
+39,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4505119453924915,{'C': 0.5}
+585,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4487179487179487,{'C': 0.05}
+597,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4487179487179487,{'C': 0.05}
+578,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4480519480519481,{'C': 2}
+602,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4480519480519481,{'C': 4}
+587,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4480519480519481,{'C': 0.25}
+590,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4480519480519481,{'C': 2}
+614,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4480519480519481,{'C': 4}
+599,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.4480519480519481,{'C': 0.25}
+1152,2000,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44736842105263164,{'C': 0.05}
+609,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.44728434504792336,{'C': 0.05}
+621,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.44728434504792336,{'C': 0.05}
+601,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4472049689440994,{'C': 0.25}
+613,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4472049689440994,{'C': 0.25}
+2314,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.44660194174757284,{'C': 0.05}
+2326,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.44660194174757284,{'C': 0.05}
+101,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.44518272425249167,{'C': 0.05}
+125,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.44518272425249167,{'C': 0.05}
+113,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.44518272425249167,{'C': 0.05}
+137,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.44518272425249167,{'C': 0.05}
+1280,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44518272425249167,{'C': 0.12}
+611,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4451612903225806,{'C': 0.25}
+623,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4451612903225806,{'C': 0.25}
+1164,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4451612903225806,{'C': 0.25}
+607,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4429967426710097,{'C': 0.05}
+619,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level user lowercase,tf,0.4429967426710097,{'C': 0.05}
+5,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4422442244224422,{'C': 0.25}
+29,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4422442244224422,{'C': 0.25}
+17,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4422442244224422,{'C': 0.25}
+41,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4422442244224422,{'C': 0.25}
+577,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.44171779141104295,{'C': 0.05}
+589,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.44171779141104295,{'C': 0.05}
+583,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.44155844155844154,{'C': 0.05}
+595,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.44155844155844154,{'C': 0.05}
+1154,1700,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44147157190635455,{'C': 0.12}
+1160,1700,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44147157190635455,{'C': 0.05}
+1271,1500,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44147157190635455,{'C': 4}
+1,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4406779661016949,{'C': 0.12}
+25,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4406779661016949,{'C': 0.12}
+13,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4406779661016949,{'C': 0.12}
+37,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4406779661016949,{'C': 0.12}
+870,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.44012944983818764,{'C': 0.05}
+871,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.44012944983818764,{'C': 0.05}
+895,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.44012944983818764,{'C': 0.05}
+882,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.44012944983818764,{'C': 0.05}
+883,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.44012944983818764,{'C': 0.05}
+907,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.44012944983818764,{'C': 0.05}
+1169,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.44012944983818764,{'C': 0.5}
+1166,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.44000000000000006,{'C': 0.25}
+1268,1700,2000,0.83,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4398625429553265,{'C': 0.12}
+97,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4383561643835616,{'C': 4}
+109,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post upercase,tf,0.4383561643835616,{'C': 4}
+894,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4372990353697749,{'C': 0.05}
+906,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4372990353697749,{'C': 0.05}
+1171,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4370860927152318,{'C': 1}
+204,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.43670886075949367,{'C': 0.12}
+216,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.43670886075949367,{'C': 0.12}
+1083,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4358974358974359,{'C': 0.5}
+194,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4353312302839117,{'C': 0.05}
+218,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4353312302839117,{'C': 0.05}
+206,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.4353312302839117,{'C': 0.05}
+230,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.4353312302839117,{'C': 0.05}
+1084,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.43450479233226835,{'C': 0.12}
+1153,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4342105263157895,{'C': 0.12}
+221,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.43312101910828027,{'C': 0.05}
+233,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.43312101910828027,{'C': 0.05}
+964,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.43312101910828027,{'C': 0.5}
+868,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.43312101910828027,{'C': 0.12}
+880,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.43312101910828027,{'C': 0.12}
+1159,1700,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.43243243243243246,{'C': 0.05}
+2313,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.432258064516129,{'C': 0.05}
+2325,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.432258064516129,{'C': 0.05}
+1085,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.432258064516129,{'C': 0.05}
+1168,1500,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4318936877076412,{'C': 0.05}
+197,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.43174603174603177,{'C': 0.05}
+228,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.43174603174603177,{'C': 0.12}
+209,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.43174603174603177,{'C': 0.05}
+240,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.43174603174603177,{'C': 0.12}
+121,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4315068493150685,{'C': 0.05}
+133,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post upercase,tf,0.4315068493150685,{'C': 0.05}
+987,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4290220820189274,{'C': 0.05}
+988,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4290220820189274,{'C': 1}
+2317,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.42857142857142855,{'C': 0.12}
+2329,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.42857142857142855,{'C': 0.12}
+775,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4268292682926829,{'C': 0.12}
+799,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4268292682926829,{'C': 0.12}
+787,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4268292682926829,{'C': 0.12}
+811,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4268292682926829,{'C': 0.12}
+900,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42675159235668786,{'C': 0.05}
+912,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42675159235668786,{'C': 0.05}
+2324,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.42580645161290326,{'C': 0.12}
+2336,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level post lowercase,tf,0.42580645161290326,{'C': 0.12}
+1156,2000,2000,0.8,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.42580645161290326,{'C': 2}
+876,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4253968253968254,{'C': 0.05}
+888,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4253968253968254,{'C': 0.05}
+962,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.42168674698795183,{'C': 0.12}
+867,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.12}
+891,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.12}
+774,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.05}
+798,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.05}
+879,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.12}
+903,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.12}
+786,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.05}
+810,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.42105263157894735,{'C': 0.05}
+986,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4204204204204205,{'C': 0.12}
+989,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.42038216560509556,{'C': 0.12}
+1167,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.42000000000000004,{'C': 1}
+1082,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4197530864197531,{'C': 0.05}
+890,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4194528875379939,{'C': 0.05}
+902,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4194528875379939,{'C': 0.05}
+892,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.41875,{'C': 0.5}
+904,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.41875,{'C': 0.5}
+963,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.41846153846153844,{'C': 4}
+866,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.41818181818181827,{'C': 0.05}
+878,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.41818181818181827,{'C': 0.05}
+873,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.41666666666666663,{'C': 0.5}
+897,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.41666666666666663,{'C': 0.5}
+885,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.41666666666666663,{'C': 0.5}
+909,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.41666666666666663,{'C': 0.5}
+1151,2000,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.41666666666666663,{'C': 2}
+965,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.41640378548895896,{'C': 0.12}
+1155,2000,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.41533546325878595,{'C': 4}
+1081,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4148606811145511,{'C': 0.05}
+899,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.41379310344827586,{'C': 2}
+911,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.41379310344827586,{'C': 2}
+1170,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4131147540983607,{'C': 2}
+875,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.41250000000000003,{'C': 1}
+887,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.41250000000000003,{'C': 1}
+869,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4121212121212121,{'C': 0.05}
+881,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4121212121212121,{'C': 0.05}
+1162,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4113924050632911,{'C': 0.25}
+893,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4108761329305136,{'C': 0.05}
+905,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4108761329305136,{'C': 0.05}
+1157,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4092409240924092,{'C': 0.12}
+1158,1700,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.4092409240924092,{'C': 0.05}
+1163,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level user lowercase,binary,0.4075235109717868,{'C': 0.5}
+985,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation lowercase,tf,0.4070796460176991,{'C': 0.5}
+794,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4070796460176991,{'C': 0.12}
+806,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4070796460176991,{'C': 0.12}
+795,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4059701492537313,{'C': 0.05}
+807,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4059701492537313,{'C': 0.05}
+770,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4058823529411764,{'C': 0.12}
+782,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4058823529411764,{'C': 0.12}
+961,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.4047619047619047,{'C': 4}
+793,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.404692082111437,{'C': 0.05}
+805,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.404692082111437,{'C': 0.05}
+1161,1500,2000,0.8,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level post lowercase,binary,0.40390879478827363,{'C': 0.25}
+801,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4037854889589905,{'C': 0.5}
+813,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4037854889589905,{'C': 0.5}
+772,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4035608308605342,{'C': 0.05}
+784,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4035608308605342,{'C': 0.05}
+1013,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.4030226700251889,{'C': 0.05}
+777,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4025157232704402,{'C': 0.5}
+789,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4025157232704402,{'C': 0.5}
+779,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4024390243902439,{'C': 1}
+865,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4024024024024024,{'C': 0.12}
+889,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4024024024024024,{'C': 0.12}
+877,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4024024024024024,{'C': 0.12}
+901,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.4024024024024024,{'C': 0.12}
+872,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4,{'C': 4}
+884,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.4,{'C': 4}
+796,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.39999999999999997,{'C': 1}
+776,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39999999999999997,{'C': 0.5}
+800,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.39999999999999997,{'C': 0.5}
+808,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.39999999999999997,{'C': 1}
+788,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39999999999999997,{'C': 0.5}
+812,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.39999999999999997,{'C': 0.5}
+1009,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.39898989898989895,{'C': 0.05}
+780,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.3987915407854985,{'C': 0.05}
+804,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3987915407854985,{'C': 0.05}
+792,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.3987915407854985,{'C': 0.05}
+816,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3987915407854985,{'C': 0.05}
+1037,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.397984886649874,{'C': 0.25}
+771,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39766081871345027,{'C': 1}
+783,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39766081871345027,{'C': 1}
+791,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39755351681957185,{'C': 1}
+896,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3963414634146341,{'C': 2}
+803,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3963414634146341,{'C': 1}
+908,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3963414634146341,{'C': 2}
+815,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3963414634146341,{'C': 1}
+773,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.3954154727793696,{'C': 0.05}
+797,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3954154727793696,{'C': 0.05}
+785,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.3954154727793696,{'C': 0.05}
+809,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Pre_trained Model,Level concatenation upercase,tf,0.3954154727793696,{'C': 0.05}
+769,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39528023598820056,{'C': 0.05}
+781,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Depression Model,Level concatenation upercase,tf,0.39528023598820056,{'C': 0.05}
+1129,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.393939393939394,{'C': 0.05}
+1133,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.39303482587064675,{'C': 1}
+1033,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.3919597989949749,{'C': 0.12}
+1011,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.35634743875278396,{'C': 0.05}
+1035,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.35585585585585583,{'C': 0.12}
+1131,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.3542600896860987,{'C': 0.12}
+1010,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.35214446952595935,{'C': 0.05}
+1034,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.34841628959276016,{'C': 0.05}
+1130,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.34684684684684686,{'C': 0.05}
+1012,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.3415730337078652,{'C': 0.05}
+1132,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.34004474272930646,{'C': 0.05}
+1036,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation lowercase,tf,0.3355704697986577,{'C': 0.05}
+252,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.23453608247422683,{'C': 0.05}
+276,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23453608247422683,{'C': 0.05}
+264,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.23453608247422683,{'C': 0.05}
+288,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23453608247422683,{'C': 0.05}
+154,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.23359580052493437,{'C': 0.05}
+178,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.23359580052493437,{'C': 0.05}
+166,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.23359580052493437,{'C': 0.05}
+190,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.23359580052493437,{'C': 0.05}
+58,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.23328964613368283,{'C': 0.05}
+70,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.23328964613368283,{'C': 0.05}
+365,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23273657289002558,{'C': 0.05}
+377,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23273657289002558,{'C': 0.05}
+245,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.23243933588761173,{'C': 0.05}
+269,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23243933588761173,{'C': 0.05}
+372,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23243933588761173,{'C': 0.05}
+257,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.23243933588761173,{'C': 0.05}
+281,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23243933588761173,{'C': 0.05}
+384,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23243933588761173,{'C': 0.05}
+241,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.23047375160051217,{'C': 0.05}
+265,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23047375160051217,{'C': 0.05}
+253,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.23047375160051217,{'C': 0.05}
+277,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23047375160051217,{'C': 0.05}
+371,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23027166882276842,{'C': 0.05}
+383,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.23027166882276842,{'C': 0.05}
+251,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2300653594771242,{'C': 0.05}
+275,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2300653594771242,{'C': 0.05}
+263,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2300653594771242,{'C': 0.05}
+287,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2300653594771242,{'C': 0.05}
+361,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22929936305732485,{'C': 0.05}
+373,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22929936305732485,{'C': 0.05}
+250,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2276214833759591,{'C': 0.05}
+274,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2276214833759591,{'C': 0.05}
+262,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2276214833759591,{'C': 0.05}
+286,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2276214833759591,{'C': 0.05}
+57,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22756005056890014,{'C': 0.05}
+81,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22756005056890014,{'C': 0.05}
+69,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22756005056890014,{'C': 0.05}
+93,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22756005056890014,{'C': 0.05}
+59,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2269326683291771,{'C': 0.05}
+83,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2269326683291771,{'C': 0.05}
+180,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2269326683291771,{'C': 0.05}
+71,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2269326683291771,{'C': 0.05}
+95,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2269326683291771,{'C': 0.05}
+192,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2269326683291771,{'C': 0.05}
+156,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22665006226650058,{'C': 0.05}
+168,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22665006226650058,{'C': 0.05}
+153,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22641509433962265,{'C': 0.05}
+177,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22641509433962265,{'C': 0.05}
+165,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22641509433962265,{'C': 0.05}
+189,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22641509433962265,{'C': 0.05}
+53,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22580645161290325,{'C': 0.05}
+77,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22580645161290325,{'C': 0.05}
+65,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22580645161290325,{'C': 0.05}
+89,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22580645161290325,{'C': 0.05}
+152,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22552664188351917,{'C': 0.05}
+176,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22552664188351917,{'C': 0.05}
+164,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22552664188351917,{'C': 0.05}
+188,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22552664188351917,{'C': 0.05}
+147,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+171,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+60,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+84,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+159,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+183,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+72,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+96,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22524752475247523,{'C': 0.05}
+82,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.225031605562579,{'C': 0.05}
+94,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.225031605562579,{'C': 0.05}
+56,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2249690976514215,{'C': 0.05}
+80,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2249690976514215,{'C': 0.05}
+68,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2249690976514215,{'C': 0.05}
+92,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2249690976514215,{'C': 0.05}
+51,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+75,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+52,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+76,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+63,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+87,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+64,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+88,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22413793103448273,{'C': 0.05}
+55,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+79,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+155,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+179,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+67,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+91,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+167,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+191,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2236024844720497,{'C': 0.05}
+249,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.22336328626444155,{'C': 0.05}
+273,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22336328626444155,{'C': 0.05}
+261,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.22336328626444155,{'C': 0.05}
+285,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22336328626444155,{'C': 0.05}
+149,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22332506203473945,{'C': 0.05}
+173,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22332506203473945,{'C': 0.05}
+161,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22332506203473945,{'C': 0.05}
+185,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22332506203473945,{'C': 0.05}
+148,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22249690976514214,{'C': 0.05}
+172,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22249690976514214,{'C': 0.05}
+160,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22249690976514214,{'C': 0.05}
+184,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22249690976514214,{'C': 0.05}
+151,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22222222222222224,{'C': 0.05}
+175,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22222222222222224,{'C': 0.05}
+163,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22222222222222224,{'C': 0.05}
+187,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22222222222222224,{'C': 0.05}
+248,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2222222222222222,{'C': 0.05}
+272,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2222222222222222,{'C': 0.05}
+260,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2222222222222222,{'C': 0.05}
+284,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2222222222222222,{'C': 0.05}
+150,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2219482120838471,{'C': 0.05}
+174,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2219482120838471,{'C': 0.05}
+162,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.2219482120838471,{'C': 0.05}
+186,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.2219482120838471,{'C': 0.05}
+145,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22167487684729067,{'C': 0.05}
+169,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22167487684729067,{'C': 0.05}
+243,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.22167487684729067,{'C': 0.05}
+267,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22167487684729067,{'C': 0.05}
+255,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.22167487684729067,{'C': 0.05}
+279,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22167487684729067,{'C': 0.05}
+157,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22167487684729067,{'C': 0.05}
+181,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22167487684729067,{'C': 0.05}
+363,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22140221402214022,{'C': 0.05}
+375,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22140221402214022,{'C': 0.05}
+368,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22139303482587064,{'C': 0.05}
+380,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22139303482587064,{'C': 0.05}
+146,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22031823745410037,{'C': 0.05}
+170,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22031823745410037,{'C': 0.05}
+158,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22031823745410037,{'C': 0.05}
+182,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22031823745410037,{'C': 0.05}
+369,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22025316455696203,{'C': 0.05}
+381,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.22025316455696203,{'C': 0.05}
+54,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22004889975550124,{'C': 0.05}
+78,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22004889975550124,{'C': 0.05}
+66,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.22004889975550124,{'C': 0.05}
+90,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.22004889975550124,{'C': 0.05}
+370,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21975308641975308,{'C': 0.05}
+382,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21975308641975308,{'C': 0.05}
+49,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+73,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+50,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+74,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+61,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+85,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+62,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+86,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post upercase,tf,0.21951219512195122,{'C': 0.05}
+244,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.21921182266009853,{'C': 0.05}
+268,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21921182266009853,{'C': 0.05}
+256,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.21921182266009853,{'C': 0.05}
+280,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21921182266009853,{'C': 0.05}
+364,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21840490797546014,{'C': 0.05}
+376,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21840490797546014,{'C': 0.05}
+242,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.21733821733821734,{'C': 0.05}
+254,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.21733821733821734,{'C': 0.05}
+266,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21707317073170732,{'C': 0.05}
+278,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21707317073170732,{'C': 0.05}
+362,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21654501216545013,{'C': 0.05}
+374,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.21654501216545013,{'C': 0.05}
+246,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2119047619047619,{'C': 0.05}
+270,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2119047619047619,{'C': 0.05}
+258,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.2119047619047619,{'C': 0.05}
+282,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2119047619047619,{'C': 0.05}
+366,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2099056603773585,{'C': 0.05}
+378,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2099056603773585,{'C': 0.05}
+367,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2045977011494253,{'C': 0.05}
+379,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.2045977011494253,{'C': 0.05}
+247,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.20393974507531867,{'C': 0.05}
+259,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.20393974507531867,{'C': 0.05}
+271,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.20370370370370372,{'C': 0.05}
+283,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level post lowercase,tf,0.20370370370370372,{'C': 0.05}
+754,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.18618618618618618,{'C': 0.05}
+766,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.18618618618618618,{'C': 0.05}
+634,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.18529707955689828,{'C': 0.05}
+658,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.18529707955689828,{'C': 0.05}
+646,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.18529707955689828,{'C': 0.05}
+670,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.18529707955689828,{'C': 0.05}
+826,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.18163672654690619,{'C': 0.05}
+838,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.18163672654690619,{'C': 0.05}
+850,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1814556331006979,{'C': 0.05}
+862,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1814556331006979,{'C': 0.05}
+946,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.18019801980198022,{'C': 0.05}
+958,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.18019801980198022,{'C': 0.05}
+922,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.18001978239366964,{'C': 0.05}
+934,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.18001978239366964,{'C': 0.05}
+538,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17904761904761904,{'C': 0.05}
+562,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17904761904761904,{'C': 0.05}
+550,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17904761904761904,{'C': 0.05}
+574,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17904761904761904,{'C': 0.05}
+630,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17884615384615385,{'C': 0.05}
+654,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17884615384615385,{'C': 0.05}
+642,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17884615384615385,{'C': 0.05}
+666,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17884615384615385,{'C': 0.05}
+442,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17870722433460076,{'C': 0.05}
+466,3100,3500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17870722433460076,{'C': 0.05}
+454,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17870722433460076,{'C': 0.05}
+478,3100,3500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17870722433460076,{'C': 0.05}
+629,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17821782178217824,{'C': 0.05}
+653,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17821782178217824,{'C': 0.05}
+641,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17821782178217824,{'C': 0.05}
+665,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17821782178217824,{'C': 0.05}
+636,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17769002961500494,{'C': 0.05}
+660,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17769002961500494,{'C': 0.05}
+648,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17769002961500494,{'C': 0.05}
+672,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17769002961500494,{'C': 0.05}
+753,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17756097560975612,{'C': 0.05}
+765,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17756097560975612,{'C': 0.05}
+748,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17743490838958537,{'C': 0.05}
+760,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17743490838958537,{'C': 0.05}
+628,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17738791423001946,{'C': 0.05}
+652,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17738791423001946,{'C': 0.05}
+640,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17738791423001946,{'C': 0.05}
+664,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17738791423001946,{'C': 0.05}
+635,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17733990147783252,{'C': 0.05}
+659,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17733990147783252,{'C': 0.05}
+647,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17733990147783252,{'C': 0.05}
+671,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17733990147783252,{'C': 0.05}
+750,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17731172545281218,{'C': 0.05}
+762,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17731172545281218,{'C': 0.05}
+755,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17699115044247787,{'C': 0.05}
+767,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17699115044247787,{'C': 0.05}
+632,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17647058823529413,{'C': 0.05}
+644,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17647058823529413,{'C': 0.05}
+747,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1763565891472868,{'C': 0.05}
+759,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1763565891472868,{'C': 0.05}
+627,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+651,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+749,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+656,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+633,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+639,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+663,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+761,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+668,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+645,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.1762977473065622,{'C': 0.05}
+441,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17619493908153702,{'C': 0.05}
+465,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17619493908153702,{'C': 0.05}
+453,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17619493908153702,{'C': 0.05}
+477,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17619493908153702,{'C': 0.05}
+752,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17618586640851885,{'C': 0.05}
+764,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17618586640851885,{'C': 0.05}
+625,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.05}
+649,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.05}
+657,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.25}
+756,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.05}
+637,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.05}
+661,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.05}
+669,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.25}
+768,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1761252446183953,{'C': 0.05}
+745,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1760154738878143,{'C': 0.05}
+757,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.1760154738878143,{'C': 0.05}
+631,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17547169811320754,{'C': 0.05}
+655,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17547169811320754,{'C': 0.05}
+643,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17547169811320754,{'C': 0.05}
+667,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17547169811320754,{'C': 0.05}
+626,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17492711370262393,{'C': 0.05}
+650,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17492711370262393,{'C': 0.05}
+638,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.17492711370262393,{'C': 0.05}
+662,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17492711370262393,{'C': 0.05}
+537,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17472118959107805,{'C': 0.05}
+561,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17472118959107805,{'C': 0.05}
+549,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17472118959107805,{'C': 0.05}
+573,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17472118959107805,{'C': 0.05}
+751,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17464788732394368,{'C': 0.05}
+763,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.17464788732394368,{'C': 0.05}
+746,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.174496644295302,{'C': 0.05}
+758,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user lowercase,tf,0.174496644295302,{'C': 0.05}
+467,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17448405253283303,{'C': 0.05}
+479,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17448405253283303,{'C': 0.05}
+437,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17439703153988867,{'C': 0.12}
+461,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17439703153988867,{'C': 0.12}
+449,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17439703153988867,{'C': 0.12}
+473,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17439703153988867,{'C': 0.12}
+443,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17415730337078653,{'C': 0.25}
+455,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17415730337078653,{'C': 0.25}
+444,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17391304347826086,{'C': 0.05}
+468,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17391304347826086,{'C': 0.05}
+456,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17391304347826086,{'C': 0.05}
+480,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17391304347826086,{'C': 0.05}
+539,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17366946778711487,{'C': 0.05}
+563,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17366946778711487,{'C': 0.05}
+551,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17366946778711487,{'C': 0.05}
+575,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17366946778711487,{'C': 0.05}
+533,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1732718894009216,{'C': 0.05}
+545,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1732718894009216,{'C': 0.05}
+557,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1731123388581952,{'C': 0.05}
+569,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1731123388581952,{'C': 0.05}
+440,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1725417439703154,{'C': 0.05}
+464,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1725417439703154,{'C': 0.05}
+452,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1725417439703154,{'C': 0.05}
+476,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1725417439703154,{'C': 0.05}
+540,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17216117216117216,{'C': 0.05}
+564,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17216117216117216,{'C': 0.05}
+552,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17216117216117216,{'C': 0.05}
+576,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17216117216117216,{'C': 0.05}
+435,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17190388170055454,{'C': 1}
+459,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17190388170055454,{'C': 2}
+447,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17190388170055454,{'C': 1}
+471,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17190388170055454,{'C': 2}
+436,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1715867158671587,{'C': 0.05}
+460,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1715867158671587,{'C': 0.05}
+448,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1715867158671587,{'C': 0.05}
+472,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1715867158671587,{'C': 0.05}
+825,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17153628652214892,{'C': 0.05}
+849,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17153628652214892,{'C': 0.05}
+837,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17153628652214892,{'C': 0.05}
+861,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17153628652214892,{'C': 0.05}
+529,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17137648131267091,{'C': 0.05}
+541,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17137648131267091,{'C': 0.05}
+827,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17137476459510362,{'C': 0.05}
+851,1500,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17137476459510362,{'C': 0.05}
+839,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17137476459510362,{'C': 0.05}
+863,1500,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17137476459510362,{'C': 0.05}
+433,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17127071823204418,{'C': 0.05}
+457,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17127071823204418,{'C': 0.05}
+445,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17127071823204418,{'C': 0.05}
+469,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17127071823204418,{'C': 0.05}
+553,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17122040072859743,{'C': 0.05}
+565,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17122040072859743,{'C': 0.05}
+434,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17116279069767443,{'C': 0.05}
+458,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17116279069767443,{'C': 0.05}
+446,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17116279069767443,{'C': 0.05}
+470,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17116279069767443,{'C': 0.05}
+438,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+462,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+536,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+560,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+450,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+474,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+548,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+572,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17111315547378106,{'C': 0.05}
+531,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1710646041856233,{'C': 0.05}
+555,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1710646041856233,{'C': 0.05}
+543,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1710646041856233,{'C': 0.05}
+567,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1710646041856233,{'C': 0.05}
+921,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17057169634489222,{'C': 0.05}
+945,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17057169634489222,{'C': 0.05}
+933,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17057169634489222,{'C': 0.05}
+957,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17057169634489222,{'C': 0.05}
+530,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17048579285059579,{'C': 0.05}
+554,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17048579285059579,{'C': 0.05}
+542,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17048579285059579,{'C': 0.05}
+566,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17048579285059579,{'C': 0.05}
+923,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17041198501872662,{'C': 0.05}
+947,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17041198501872662,{'C': 0.05}
+935,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17041198501872662,{'C': 0.05}
+959,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17041198501872662,{'C': 0.05}
+824,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17037037037037037,{'C': 0.05}
+848,1500,1700,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17037037037037037,{'C': 0.05}
+836,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17037037037037037,{'C': 0.05}
+860,1500,1700,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17037037037037037,{'C': 0.05}
+822,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17032967032967034,{'C': 0.05}
+846,2500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17032967032967034,{'C': 0.05}
+834,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.17032967032967034,{'C': 0.05}
+858,2500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.17032967032967034,{'C': 0.05}
+532,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17001828153564896,{'C': 0.05}
+556,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17001828153564896,{'C': 0.05}
+544,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.17001828153564896,{'C': 0.05}
+568,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.17001828153564896,{'C': 0.05}
+820,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16927322907083717,{'C': 0.05}
+832,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16927322907083717,{'C': 0.05}
+535,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.16924476797088261,{'C': 0.05}
+547,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.16924476797088261,{'C': 0.05}
+844,1700,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1691176470588235,{'C': 0.05}
+856,1700,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1691176470588235,{'C': 0.05}
+534,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1690909090909091,{'C': 0.05}
+558,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1690909090909091,{'C': 0.05}
+559,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1690909090909091,{'C': 0.05}
+546,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1690909090909091,{'C': 0.05}
+570,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1690909090909091,{'C': 0.05}
+571,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1690909090909091,{'C': 0.05}
+828,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16878402903811254,{'C': 0.05}
+852,1000,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.16878402903811254,{'C': 0.05}
+840,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16878402903811254,{'C': 0.05}
+864,1000,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.16878402903811254,{'C': 0.05}
+819,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1683440073193047,{'C': 0.05}
+843,1500,1500,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1683440073193047,{'C': 0.05}
+831,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1683440073193047,{'C': 0.05}
+855,1500,1500,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1683440073193047,{'C': 0.05}
+439,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1680517082179132,{'C': 0.05}
+463,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1680517082179132,{'C': 0.05}
+451,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level user upercase,tf,0.1680517082179132,{'C': 0.05}
+475,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level user upercase,tf,0.1680517082179132,{'C': 0.05}
+920,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1680517082179132,{'C': 0.05}
+944,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1680517082179132,{'C': 0.05}
+932,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1680517082179132,{'C': 0.05}
+956,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1680517082179132,{'C': 0.05}
+924,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.167870036101083,{'C': 0.05}
+948,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.167870036101083,{'C': 0.05}
+936,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.167870036101083,{'C': 0.05}
+960,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.167870036101083,{'C': 0.05}
+916,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16666666666666666,{'C': 0.05}
+928,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16666666666666666,{'C': 0.05}
+940,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1665141811527905,{'C': 0.05}
+952,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1665141811527905,{'C': 0.05}
+918,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1659070191431176,{'C': 0.05}
+942,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1659070191431176,{'C': 0.05}
+930,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1659070191431176,{'C': 0.05}
+954,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1659070191431176,{'C': 0.05}
+915,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1657559198542805,{'C': 0.05}
+939,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1657559198542805,{'C': 0.05}
+927,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1657559198542805,{'C': 0.05}
+951,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1657559198542805,{'C': 0.05}
+821,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16562778272484416,{'C': 0.05}
+845,1000,1300,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.16562778272484416,{'C': 0.05}
+833,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16562778272484416,{'C': 0.05}
+857,1000,1300,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.16562778272484416,{'C': 0.05}
+917,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1646017699115044,{'C': 0.05}
+941,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1646017699115044,{'C': 0.05}
+929,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.1646017699115044,{'C': 0.05}
+953,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1646017699115044,{'C': 0.05}
+823,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16258741258741258,{'C': 0.05}
+835,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.16258741258741258,{'C': 0.05}
+847,3000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.16244541484716157,{'C': 0.05}
+859,3000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.16244541484716157,{'C': 0.05}
+817,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15999999999999998,{'C': 0.05}
+841,1000,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15999999999999998,{'C': 0.05}
+829,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15999999999999998,{'C': 0.05}
+853,1000,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15999999999999998,{'C': 0.05}
+818,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15950920245398773,{'C': 0.05}
+842,1500,1000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15950920245398773,{'C': 0.05}
+830,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15950920245398773,{'C': 0.05}
+854,1500,1000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15950920245398773,{'C': 0.05}
+913,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15903197925669837,{'C': 0.05}
+937,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15903197925669837,{'C': 0.05}
+925,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15903197925669837,{'C': 0.05}
+949,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15903197925669837,{'C': 0.05}
+914,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15895196506550222,{'C': 0.05}
+938,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15895196506550222,{'C': 0.05}
+926,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15895196506550222,{'C': 0.05}
+950,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.15895196506550222,{'C': 0.05}
+943,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1572052401746725,{'C': 0.05}
+955,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Pre_trained Model,Level concatenation upercase,tf,0.1572052401746725,{'C': 0.05}
+919,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15706806282722516,{'C': 0.05}
+931,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation upercase,tf,0.15706806282722516,{'C': 0.05}
+337,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+338,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+339,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+340,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+341,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+342,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+343,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+344,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+345,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+346,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+347,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+348,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+349,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+350,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+351,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+352,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+353,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+354,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+355,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+356,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+357,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+358,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+359,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+360,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level post lowercase,tf,0.13092852371409486,{'C': 0.05}
+721,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+722,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+723,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+724,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+725,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+726,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+727,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+728,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+729,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+730,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+731,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+732,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+733,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+734,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+735,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+736,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+737,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+738,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+739,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+740,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+741,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+742,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+743,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+744,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,Depression Model,Level user lowercase,tf,0.13092852371409486,{'C': 0.05}
+289,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+290,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+291,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+292,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+293,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+294,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+295,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+296,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+297,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+298,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.25}
+299,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+300,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+301,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+302,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+303,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+304,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+305,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+306,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+307,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+308,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+309,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.05}
+310,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.25}
+311,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+312,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level post lowercase,tf,0.0,{'C': 0.12}
+673,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.12}
+1057,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+1105,1000,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+674,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+1058,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+1106,1500,1000,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+675,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+1059,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+1107,1500,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.12}
+676,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+1060,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.12}
+1108,1700,1500,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+677,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+1061,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.05}
+1109,1000,1300,0.99,Difference,Fuzzy,Removed stopwords,Compression,Depression Model,Level concatenation lowercase,tf,0.0,{'C': 0.12}
+678,2500,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+679,3000,1000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+680,1500,1700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+681,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+682,3100,3500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.5}
+683,1500,2000,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+684,1000,1500,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+685,1000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.12}
+686,1500,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+687,1500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+688,1700,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+689,1000,1300,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+690,2500,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+691,3000,1000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+692,1500,1700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+693,2000,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+694,3100,3500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.5}
+695,1500,2000,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}
+696,1000,1500,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,Depression Model,Level user lowercase,tf,0.0,{'C': 0.05}

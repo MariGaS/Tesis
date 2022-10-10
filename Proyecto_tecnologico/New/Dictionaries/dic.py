@@ -16,8 +16,9 @@ def get_list_key(path):
     return b
 
 
-def dict_scores(d1, d2, feature1, feature2, no_distintc, con):
 
+def dict_scores(d1, d2, feature1, feature2, no_distintc, con):
+    
     if no_distintc == True:
         # obtain the
         kw1 = d1[:feature1]
@@ -60,7 +61,6 @@ def dict_scores(d1, d2, feature1, feature2, no_distintc, con):
         dictionary2 = [x for x in l2 if x not in dictionary1][:feature2]
     return dictionary1, dictionary2
 
-
 def write_dictionary(path, dic):
     with open(path, "w") as f:
         for i in range(len(dic)):
@@ -69,8 +69,15 @@ def write_dictionary(path, dic):
 
 
 def get_dictionary(name_path1, name_path2, dic1, dic2, score1, score2, no_distintic, con):
-    dictionary1, dictionary2 = dict_scores(dic1,dic2,score1, score2, no_distintc=no_distintic, con = con)
+    dictionary1, dictionary2 = dict_scores(dic1,dic2,score1, score2, no_distintc=no_distintic, con = True)
 
     write_dictionary(name_path1, dictionary1)
     write_dictionary(name_path2, dictionary2)
+    # with open(name_path1, "rb") as fp:   # pickling
+    #     pickle.dump(dictionary1, fp)
+    #     fp.close()
+
+    # with open(name_path2, "rb") as fp:   # pickling
+    #     pickle.dump(dictionary2, fp)
+    #     fp.close()
 

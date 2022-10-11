@@ -408,9 +408,7 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
     
     dictionary1, dictionary2 = dict_scores(
         di1, di2, score1, score2, no_distintc=dif, con=con)
-    X_test1 = np.zeros((num_test, len(dictionary1)),
-                       dtype=float)  # matriz tipo document-term
-    X_test2 = np.zeros((num_test, len(dictionary2)), dtype=float)
+
 
     #construct th matrix for the dictionaries
     #positive dictionary 
@@ -440,7 +438,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
     X_train1 = np.zeros((num_train, len(emb_dic1)), dtype=float)
     X_train2 = np.zeros((num_train, len(emb_dic2)), dtype=float)
     
-
+    X_test1 = np.zeros((num_test, len(emb_dic1)),
+                       dtype=float)  # matriz tipo document-term
+    X_test2 = np.zeros((num_test, len(emb_dic2)), dtype=float)
 
     for i in range(num_train):
         path =all_path_train + '_'+ str(i)

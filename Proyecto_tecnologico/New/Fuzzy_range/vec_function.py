@@ -1,4 +1,5 @@
 from grp import struct_group
+from turtle import pos
 from gensim.parsing.preprocessing import remove_stopwords
 from nltk import TweetTokenizer
 import nltk
@@ -338,14 +339,58 @@ def add_groups(add, score1, score2, matrix_add1,matrix_add2, groups):
     return matrix_add1, matrix_add2              
 
 
+def get_matrix_cluster(num_cluster, num_dic, chose, positive, ex_type):
+    if num_cluster == 5: 
+        path_cluster = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/5-Cluster'
+    if num_cluster == 10: 
+        path_cluster = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/10-Cluster'
+    if num_cluster == 20: 
+        path_cluster = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/20-Cluster'
+    
+    if chose == 1: 
+        emb = 'anxia'
+    if chose == 2: 
+        emb = 'dep'
+    if chose == 3: 
+        emb = 'pre'
+    if chose == 4: 
+        emb = 'emo'
 
+    if num_dic == 1 or num_dic == 2: 
+        path_cluster = path_cluster+ '/post_'
+    if num_dic == 3 or num_dic == 4: 
+        path_cluster = path_cluster+ '/user_'
+    if num_dic == 5 or num_dic == 6: 
+        path_cluster = path_cluster+ '/con_' 
+    
+    if positive == False:
+        path_cluster = path_cluster+ 'neg_'
+    if ex_type == 'depression':
+        if chose == 3:
+            path_cluster = path_cluster + 'dep_'
+        if chose == 4: 
+            path_cluster = path_cluster + 'dep_'
 
+    path_cluster = path_cluster + emb + '_'
+    if num_dic == 1 or num_dic == 3 or num_dic == 5: 
+        path_cluster = path_cluster + 'uppercase'
+    if num_dic == 2 or num_dic == 4 or num_dic == 6:
+        path_cluster = path_cluster + 'lowercase'
+    with open(path_cluster, "rb") as fp:   # Unpickling
+        centers = pickle.load(fp)
+        fp.close()    
+    
+    list_centers = list(centers.values())
+    matrix_centers = get_dictionary_matrix(list_centers, option= chose)
 
+    return matrix_centers
+
+    
 
 # function classificator
 def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_test, num_test, num_train, score1, score2, 
-                          di1, di2, tau, chose, groups, add, dif=True, clustering = True, 
-                          fuzzy=True, compress=True, con = False, tf = True):
+                          di1, di2, tau, chose, groups, add,num_dic, ex_type,dif=True, clustering = True, 
+                          fuzzy=True, compress=True, con = False, tf = True, w_clustering = False):
     # Parameters:
     # all_path_train: positive data from training data
     # all_path_test: negative data fromo training data
@@ -372,10 +417,31 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
     emb_dic1 = get_dictionary_matrix(dictionary=dictionary1, option =  chose)
     #ngative_dictionary 
     emb_dic2 = get_dictionary_matrix(dictionary=dictionary2, option =  chose)
+
+    if w_clustering == True: 
+        if add == 'positive':
+            for i in range(len(groups)):
+                matrix_cluster = get_matrix_cluster(num_cluster=groups[i], num_dic=num_dic, positive=True, ex_type= ex_type,chose = chose)
+                emb_dic1 = np.vstack((emb_dic1, matrix_cluster))
+        if add == 'negative':
+            for i in range(len(groups)):
+                matrix_cluster = get_matrix_cluster(num_cluster=groups[i], num_dic=num_dic, positive=False, ex_type= ex_type, chose = chose)
+                emb_dic2 = np.vstack((emb_dic2, matrix_cluster))
+        if add == 'both':
+            for i in range(len(groups)):
+                matrix_cluster1 = get_matrix_cluster(num_cluster=groups[i], num_dic=num_dic, positive=True, ex_type= ex_type, chose = chose)
+                emb_dic1 = np.vstack((emb_dic1, matrix_cluster1))
+                matrix_cluster2 = get_matrix_cluster(num_cluster=groups[i], num_dic=num_dic, positive=False, ex_type= ex_type, chose= chose)
+                emb_dic2 = np.vstack((emb_dic2, matrix_cluster2))            
+
+
+
    ### For using svm ####
-    X_train1 = np.zeros((num_train, len(dictionary1)), dtype=float)
-    X_train2 = np.zeros((num_train, len(dictionary2)), dtype=float)
+    X_train1 = np.zeros((num_train, len(emb_dic1)), dtype=float)
+    X_train2 = np.zeros((num_train, len(emb_dic2)), dtype=float)
     
+
+
     for i in range(num_train):
         path =all_path_train + '_'+ str(i)
         with open(path, "rb") as fp:   # Unpickling
@@ -461,6 +527,11 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
         final_rep = np.sum(word_repre_user, axis=0)
         X_test2[i] = final_rep
 ## AUGMENTATION OF MATRIX
+
+
+        
+
+
     if compress == True:
         X_test1 = np.sum(X_test1, axis=1)
 
@@ -524,9 +595,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
 
 
 def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,score1, score2,
-                      chose, tau, groups, add, clustering,  dif, fuzzy, remove_stop, compress, dic, tf):
+                      chose, tau, groups, add, clustering,  dif, fuzzy, remove_stop, compress, dic, tf, w_clustering):
     print(num_exp)
-    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_a.txt",level=logging.DEBUG)
+    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_a2.txt",level=logging.DEBUG)
     logging.debug('\n This is a message from experimet number ' + str(num_exp) )
     logging.info('\n This is a message for info')
     logging.captureWarnings(True)
@@ -641,7 +712,8 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
         path_tf_test = ''
 
     X_test,X_train = classificator_pos_neg(path_train, path_test, path_tf_train, path_tf_test, num_test, num_train,score1,score2,kw1,kw2, 
-        			tau=tau,chose=chose,groups = groups, add= add, clustering = clustering, dif = dif, fuzzy = fuzzy, compress=compress, con = con, tf = tf)	
+        			tau=tau,chose=chose,groups = groups, add= add,num_dic=dic, ex_type='anorexia', clustering = clustering, dif = dif, fuzzy = fuzzy, 
+                    compress=compress, con = con, tf = tf, w_clustering= w_clustering)	
         
     if X_test.shape[1] < X_test.shape[0]:
         svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 3000)
@@ -691,7 +763,7 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
         else:
             str_groups += str(groups[i])
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_anorexia2.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_anorexia3.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clus+ ','  + add + ',' + str_groups+  ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
     f.close()   
@@ -701,7 +773,7 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     return f1_score(test_labels, y_pred)
 
 def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, score1, score2,
-                    chose, tau,add,clustering,  groups, dif, fuzzy, remove_stop, compress, dic, tf ):
+                    chose, tau,add,clustering,  groups, dif, fuzzy, remove_stop, compress, dic, tf, w_clustering ):
 
     logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_dep.txt",level=logging.DEBUG)
     logging.debug('\n This is a message from experimet number ' + str(num_exp) )
@@ -836,6 +908,8 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
         weight = 'tf'
     else: 
         weight = 'binary'
+    if clustering == 'None':
+        clus = 'None'
     if clustering == True:
         clus = 'Clustering'
     else:
@@ -849,7 +923,8 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
             str_groups += str(groups[i])
 
     X_test,X_train = classificator_pos_neg(path_train, path_test,path_tf_train, path_tf_test,  num_test, num_train,score1,score2,kw1,kw2, 
-        			tau=tau,chose=chose,add = add, clustering=clustering, groups = groups,dif = dif, fuzzy = fuzzy, compress = compress, con= con, tf = tf)	
+        			tau=tau,chose=chose,add = add, num_dic=dic, ex_type='depression', clustering=clustering, groups = groups,dif = dif, 
+                    fuzzy = fuzzy, compress = compress, con= con, tf = tf, w_clustering= w_clustering)	
         
     if X_test.shape[1] < X_test.shape[0]:
         svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 6000)

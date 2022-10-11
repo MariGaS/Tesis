@@ -1,0 +1,18 @@
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1
+DEBUG:root:
+ This is a message from experimet number 1
+INFO:root:
+ This is a message for info
+WARNING:root:
+ Warning message for experiment number 1

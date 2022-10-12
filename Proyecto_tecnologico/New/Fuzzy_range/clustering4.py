@@ -424,17 +424,17 @@ post_anxia1 = get_represententing_words(post_anxia_emb_matrix_pos1, 20, words_po
 
 
 
-post_anxia4 = get_represententing_words(post_anxia_emb_matrix_neg4, 20, words_neg_anxia2)
-with open(cluster_path_5+'/post_neg_anxia_lowercase', "wb") as fp:
-    pickle.dump(post_anxia4, fp)
-    fp.close()
+# post_anxia4 = get_represententing_words(post_anxia_emb_matrix_neg4, 20, words_neg_anxia2)
+# with open(cluster_path_5+'/post_neg_anxia_lowercase', "wb") as fp:
+#     pickle.dump(post_anxia4, fp)
+#     fp.close()
 
-post_anxia5 = get_represententing_words(post_anxia_emb_matrix_neg5, 20, words_neg_anxia2)
-with open(cluster_path_5+'/post_neg_pre_lowercase', "wb") as fp:
-    pickle.dump(post_anxia5, fp)
-    fp.close()
+# post_anxia5 = get_represententing_words(post_anxia_emb_matrix_neg5, 20, words_neg_anxia2)
+# with open(cluster_path_5+'/post_neg_pre_lowercase', "wb") as fp:
+#     pickle.dump(post_anxia5, fp)
+#     fp.close()
 
-post_anxia6 = get_represententing_words(post_anxia_emb_matrix_pos6, 20, words_neg_anxia2)
+post_anxia6 = get_represententing_words(post_anxia_emb_matrix_neg6, 20, words_neg_anxia2)
 with open(cluster_path_5+'/post_neg_emo_lowercase', "wb") as fp:
     pickle.dump(post_anxia6, fp)
     fp.close()

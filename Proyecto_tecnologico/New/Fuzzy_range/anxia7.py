@@ -23,35 +23,90 @@ num_test = len(test_labels_anxia)
 num_train= 152
 
 
-arg1 = [100,100,100,100,100,100,100,100,100,100,500,500,200,100,200,100,200,100,200,100,300,300] #score1 
-arg2 = [100,100,100,100,100,100,200,200,100,100,200,200,100,200,100,200,100,200,100,200,700,700] #score2
-arg3 = [0.99,0.99,0.95,0.95,0.9,0.9,0.99,0.99,0.9,0.9,0.9,0.9,0.99,0.99,0.99,0.99,0.95,0.95,0.95,0.95,0.95,0.95]
-arg4 = [3,3,3,3,3,3,1,1,3,3,3,3,3,3,3,3,3,3,3,3,3,3]
-arg5 = [False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False] #fuzzy
-arg6 = [True,False,True,False,True,False,True,False,True,False,True,False,True,True,False,False,True,True,False,False,True,False]
-arg7 = [True,True,True,True,True,True,False,False,False,False,True,True,True,False,True,False,True,False,True,False,False,False]
-arg8 = [1,1,1,1,1,1,2,2,2,2,2,2,2,1,2,1,2,1,2,1,2,1]
+arg1 = [1000,1000, 1000,1500,1500,2000,100,200,100,500,500,300,1000,1000, 1000,1500,1500,2000,100,200,100,500,500,300 ] #score1 
+arg2 = [1500,1200,800,1000,1200,2000,100,100,200,200,2000,700,1500,1200,800,1000,1200,2000,100,100,200,200,2000,700] #score2
+
 print('Begins experiments')
 
 
 # En este no importa si hay en común
-for i in range(22):
-    f = run_exp_anxia_sim(i+1,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='both',groups=[5], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = False, clustering= 'None', w_clustering= True)
-    f = run_exp_anxia_sim(i+23,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='both',groups=[5,10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = False,clustering='None', w_clustering=True)
-    f = run_exp_anxia_sim(i+45,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='both',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = False,clustering='None', w_clustering=True)
-    f = run_exp_anxia_sim(i+67,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='both',groups=[5], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering='None', w_clustering=True)
-    f = run_exp_anxia_sim(i+89,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='both',groups=[5,10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering='None', w_clustering=True)
-    f = run_exp_anxia_sim(i+111,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='both',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering='None', w_clustering=True)
+for i in range(24):
+    f = run_exp_anxia_sim(i,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = True, fuzzy= True,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+24,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = False, fuzzy= True,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*2),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = True, fuzzy= False,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*3),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = False, fuzzy= False,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
 
+    f = run_exp_anxia_sim(i+(24*4),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = True, fuzzy= True,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*5),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = False, fuzzy= True,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*6),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = True, fuzzy= False,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*7),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='both',groups=[5], dif = False, fuzzy= False,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+
+
+    f = run_exp_anxia_sim(i+(24*8),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = True, fuzzy= True,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*9),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = False, fuzzy= True,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*10),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = True, fuzzy= False,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*11),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = False, fuzzy= False,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+
+    f = run_exp_anxia_sim(i+(24*12),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = True, fuzzy= True,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*13),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = False, fuzzy= True,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*14),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = True, fuzzy= False,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*15),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='positive',groups=[5], dif = False, fuzzy= False,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+
+
+    f = run_exp_anxia_sim(i+(24*16),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = True, fuzzy= True,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*17),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = False, fuzzy= True,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*18),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = True, fuzzy= False,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*19),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = False, fuzzy= False,remove_stop=True, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+
+    f = run_exp_anxia_sim(i+(24*21),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = True, fuzzy= True,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*22),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = False, fuzzy= True,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*24),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = True, fuzzy= False,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)
+    f = run_exp_anxia_sim(i+(24*25),test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=0.99,
+                            chose =1,add ='negative',groups=[5], dif = False, fuzzy= False,remove_stop=False, 
+                            compress=False, dic =1, tf = False, clustering= 'None', w_clustering= True)

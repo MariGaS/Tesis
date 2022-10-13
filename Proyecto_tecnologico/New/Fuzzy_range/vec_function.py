@@ -389,7 +389,7 @@ def get_matrix_cluster(num_cluster, num_dic, chose, positive, ex_type):
 
 # function classificator
 def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_test, num_test, num_train, score1, score2, 
-                          di1, di2, tau, chose, groups, add,num_dic, ex_type,dif=True, clustering = True, 
+                          di1, di2, tau, chose, groups, add,num_dic, ex_type, clustering, dif=True, 
                           fuzzy=True, compress=True, con = False, tf = True, w_clustering = False):
     # Parameters:
     # all_path_train: positive data from training data
@@ -415,6 +415,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
     emb_dic1 = get_dictionary_matrix(dictionary=dictionary1, option =  chose)
     #ngative_dictionary 
     emb_dic2 = get_dictionary_matrix(dictionary=dictionary2, option =  chose)
+    #num of columns in the emb_dic1
+    n_col1 = emb_dic1.shape[1]
+    n_col2 = emb_dic2.shape[1]
 
     if w_clustering == True: 
         if add == 'positive':
@@ -537,9 +540,9 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
 
         X_test2 = np.sum(X_test2, axis=1)
 
-        if clustering == False: 
+        if clustering == 'simple': 
             X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)          
-        if clustering == True: 
+        if clustering == 'clustering': 
             if add == 'both':
                 X_test1 = clutering_addition(X_test1,groups,emb_dic1)
                 X_test2 = clutering_addition(X_test2,groups,emb_dic2)
@@ -547,16 +550,16 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
                 X_test1 = clutering_addition(X_test1,groups,emb_dic1)
             if add == 'negative':
                 X_test2 = clutering_addition(X_test2,groups,emb_dic2)
-
+        
 
         X_test = np.column_stack((X_test1, X_test2))
 
         X_train1 = np.sum(X_train1, axis=1)
         X_train2 = np.sum(X_train2, axis=1)
         
-        if clustering == False: 
+        if clustering == 'simple': 
             X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups) 
-        if clustering == True: 
+        if clustering == 'clustering': 
             if add == 'both':
                 X_train1 = clutering_addition(X_train1,groups,emb_dic1)
                 X_train2 = clutering_addition(X_train2,groups,emb_dic2)
@@ -716,10 +719,10 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
                     compress=compress, con = con, tf = tf, w_clustering= w_clustering)	
         
     if X_test.shape[1] < X_test.shape[0]:
-        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 3000)
+        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 8000)
         
     else: 
-        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 3000)
+        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 8000)
         
     grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
     grid_anorexia.fit(X_train, train_labels)
@@ -751,11 +754,10 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
         weight = 'tf'
     else: 
         weight = 'binary'
-    if clustering == True:
-        clus = 'Clustering'
+    if w_clustering == True:
+        w_clus = 'add topic'
     else:
-        clus = 'Simple_compression'
-
+        w_clus = 'no_topic'
     str_groups = ''
     for i in range(len(groups)):
         if i != len(groups)-1:
@@ -765,7 +767,8 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
 
     f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_anorexia3.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
-            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clus+ ','  + add + ',' + str_groups+  ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
+            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
     f.close()   
         
     print("done in %fs" % (time() - t_initial))

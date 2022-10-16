@@ -291,18 +291,19 @@ def add_group(score, group, matrix_add):
 
 
 
-def add_groups(add, score1, score2, matrix_add1,matrix_add2, groups):
+def add_groups(add, score1, score2, matrix_add1,matrix_add2, groups, num_col1, num_col2):
+    
     if add == 'both':
         #only one number of group
         if len(groups) == 1: 
-            add_1 = add_group(score1, groups[0], matrix_add1)
-            add_2 = add_group(score2, groups[0], matrix_add2)
+            add_1 = add_group(score1, groups[0], matrix_add1[:,:num_col1])
+            add_2 = add_group(score2, groups[0], matrix_add2[:,:num_col2])
 
             matrix_add1 = np.column_stack((matrix_add1, add_1))
             matrix_add2 = np.column_stack((matrix_add2, add_2))
         else: 
-            temp_1 = matrix_add1
-            temp_2 = matrix_add2
+            temp_1 = matrix_add1[:, :num_col1]
+            temp_2 = matrix_add2[:, :num_col2]
 
             for i in range(len(groups)):
                 add_1 = add_group(score1, groups[i], temp_1)
@@ -313,11 +314,11 @@ def add_groups(add, score1, score2, matrix_add1,matrix_add2, groups):
     if add == 'negative':
         #only one number of group
         if len(groups) == 1: 
-            add_2 = add_group(score2, groups[0], matrix_add2)
+            add_2 = add_group(score2, groups[0], matrix_add2[:,:num_col2])
 
             matrix_add2 = np.column_stack((matrix_add2, add_2))
         else: 
-            temp_2 = matrix_add2
+            temp_2 = matrix_add2[:,:num_col2]
 
             for i in range(len(groups)):
                 add_2 = add_group(score2, groups[i], temp_2)
@@ -326,11 +327,11 @@ def add_groups(add, score1, score2, matrix_add1,matrix_add2, groups):
     if add == 'positive':
         #only one number of group
         if len(groups) == 1: 
-            add_1 = add_group(score2, groups[0], matrix_add1)
+            add_1 = add_group(score2, groups[0], matrix_add1[:,:num_col1])
 
             matrix_add1 = np.column_stack((matrix_add1, add_1))
         else: 
-            temp_1 = matrix_add1
+            temp_1 = matrix_add1[:,:num_col1]
 
             for i in range(len(groups)):
                 add_1 = add_group(score1, groups[i], temp_1)
@@ -541,7 +542,7 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
         X_test2 = np.sum(X_test2, axis=1)
 
         if clustering == 'simple': 
-            X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)          
+            X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups, n_col1, n_col2)          
         if clustering == 'clustering': 
             if add == 'both':
                 X_test1 = clutering_addition(X_test1,groups,emb_dic1)
@@ -558,7 +559,8 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
         X_train2 = np.sum(X_train2, axis=1)
         
         if clustering == 'simple': 
-            X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups) 
+            
+            X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups, n_col1, n_col2) 
         if clustering == 'clustering': 
             if add == 'both':
                 X_train1 = clutering_addition(X_train1,groups,emb_dic1)
@@ -573,8 +575,8 @@ def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_
 
     else:
         if clustering == False:
-            X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups)            
-            X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups)
+            X_test1, X_test2 = add_groups(add, score1, score2, X_test1, X_test2, groups, n_col1, n_col2)            
+            X_train1, X_train2 = add_groups(add, score1, score2, X_train1, X_train2, groups, n_col1, n_col2)
         else: 
             if add == 'both':
                 X_test1 = clutering_addition(X_test1,groups,emb_dic1)
@@ -636,17 +638,17 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
             con = False
             kw1 = get_list_key(post_pos_anxia1)
             kw2 = get_list_key(post_neg_anxia1)  
-            dict_str = 'Level post upercase'      
+            dict_str = 'Level post uppercase'      
         if dic == 3:
             con = False
             kw1 = get_list_key(user_pos_anxia1)
             kw2 = get_list_key(user_neg_anxia1) 
-            dict_str = 'Level user upercase'
+            dict_str = 'Level user uppercase'
         if dic == 5:
             con = True
             kw1 = get_list_key(con_pos_anxia1)
             kw2 = get_list_key(con_neg_anxia1)
-            dict_str = 'Level concatenation upercase'
+            dict_str = 'Level concatenation uppercase'
 
         if dic == 7: 
             con = False
@@ -778,7 +780,7 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
 def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, score1, score2,
                     chose, tau,add,clustering,  groups, dif, fuzzy, remove_stop, compress, dic, tf, w_clustering ):
 
-    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_dep.txt",level=logging.DEBUG)
+    logging.basicConfig(filename="/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/w_dep2.txt",level=logging.DEBUG)
     logging.debug('\n This is a message from experimet number ' + str(num_exp) )
     logging.info('\n This is a message for info')
     logging.captureWarnings(True)
@@ -941,7 +943,7 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     y_pred = grid_dep.predict(X_test)
     a= grid_dep.best_params_
     f1 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_dep2.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_dep3.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clus +',' +add + ','+ str_groups+ ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
     f.close()       

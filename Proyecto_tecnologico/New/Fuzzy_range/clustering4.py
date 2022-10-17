@@ -387,7 +387,7 @@ def get_represententing_words(word_embedding_matrix, num_clusters, dictionary):
 
 ## Level post : 5 cluster 
 
-cluster_path_5 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/5-Cluster'
+cluster_path_5 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/20-Cluster'
 
 
 # post_anxia1 = get_represententing_words(post_anxia_emb_matrix_pos1, 20, words_pos_anxia1)
@@ -502,32 +502,42 @@ cluster_path_5 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New
 #     pickle.dump(user_dep6, fp)
 #     fp.close()
 
-con_dep1 = get_represententing_words(con_dep_emb_matrix_neg1, 5, words_neg_dep5)
-with open(cluster_path_5+'/con_neg_dep_uppercase', "wb") as fp:
-    pickle.dump(con_dep1, fp)
+# con_dep1 = get_represententing_words(con_dep_emb_matrix_neg1, 5, words_neg_dep5)
+# with open(cluster_path_5+'/con_neg_dep_uppercase', "wb") as fp:
+#     pickle.dump(con_dep1, fp)
+#     fp.close()
+
+# con_dep2 = get_represententing_words(con_dep_emb_matrix_neg2, 5, words_neg_dep5)
+# with open(cluster_path_5+'/con_neg_dep_pre_uppercase', "wb") as fp:
+#     pickle.dump(con_dep2, fp)
+#     fp.close()
+
+# con_dep3 = get_represententing_words(con_dep_emb_matrix_neg3, 5, words_neg_dep5)
+# with open(cluster_path_5+'/con_neg_dep_emo_uppercase', "wb") as fp:
+#     pickle.dump(con_dep3, fp)
+#     fp.close()
+
+# con_dep4 = get_represententing_words(con_dep_emb_matrix_neg4, 5, words_neg_dep6)
+# with open(cluster_path_5+'/con_neg_dep_lowercase', "wb") as fp:
+#     pickle.dump(con_dep4, fp)
+#     fp.close()
+
+# con_dep5 = get_represententing_words(user_dep_emb_matrix_neg5, 5, words_neg_dep6)
+# with open(cluster_path_5+'/con_neg_dep_pre_lowercase', "wb") as fp:
+#     pickle.dump(con_dep5, fp)
+#     fp.close()
+
+# con_dep6 = get_represententing_words(con_dep_emb_matrix_neg6, 5, words_neg_dep6)
+# with open(cluster_path_5+'/con_neg_dep_emo_lowercase', "wb") as fp:
+#     pickle.dump(con_dep6, fp)
+#     fp.close()
+
+post_dep1 = get_represententing_words(post_dep_emb_matrix_neg1, 20, words_neg_dep1)
+with open(cluster_path_5+'/post_neg_dep_uppercase', "wb") as fp:
+    pickle.dump(post_dep1, fp)
     fp.close()
 
-con_dep2 = get_represententing_words(con_dep_emb_matrix_neg2, 5, words_neg_dep5)
-with open(cluster_path_5+'/con_neg_dep_pre_uppercase', "wb") as fp:
-    pickle.dump(con_dep2, fp)
-    fp.close()
-
-con_dep3 = get_represententing_words(con_dep_emb_matrix_neg3, 5, words_neg_dep5)
-with open(cluster_path_5+'/con_neg_dep_emo_uppercase', "wb") as fp:
-    pickle.dump(con_dep3, fp)
-    fp.close()
-
-con_dep4 = get_represententing_words(con_dep_emb_matrix_neg4, 5, words_neg_dep6)
-with open(cluster_path_5+'/con_neg_dep_lowercase', "wb") as fp:
-    pickle.dump(con_dep4, fp)
-    fp.close()
-
-con_dep5 = get_represententing_words(user_dep_emb_matrix_neg5, 5, words_neg_dep6)
-with open(cluster_path_5+'/con_neg_dep_pre_lowercase', "wb") as fp:
-    pickle.dump(con_dep5, fp)
-    fp.close()
-
-con_dep6 = get_represententing_words(con_dep_emb_matrix_neg6, 5, words_neg_dep6)
-with open(cluster_path_5+'/con_neg_dep_emo_lowercase', "wb") as fp:
-    pickle.dump(con_dep6, fp)
+post_dep2 = get_represententing_words(post_dep_emb_matrix_neg2, 20, words_neg_dep1)
+with open(cluster_path_5+'/post_neg_dep_pre_uppercase', "wb") as fp:
+    pickle.dump(post_dep2, fp)
     fp.close()

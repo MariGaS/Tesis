@@ -65,3 +65,290 @@
 595,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,binary,0.2852664576802508,{'C': 0.25}
 310,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5050505050505051,{'C': 0.25}
 815,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.3057324840764331,{'C': 0.12}
+286,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,tf,0.40835266821345706,{'C': 0.05}
+837,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.2993762993762994,{'C': 0.12}
+1232,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.4666666666666666,{'C': 0.12}
+1540,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,tf,0.4147727272727273,{'C': 0.05}
+859,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.09248554913294797,{'C': 0.25}
+1,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10-20,Depression Model,Level user lowercase,binary,0.15586546349466773,{'C': 0.05}
+1254,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,binary,0.3483606557377049,{'C': 0.05}
+1562,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,tf,0.3791469194312796,{'C': 0.25}
+23,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10,Depression Model,Level user lowercase,binary,0.2891566265060241,{'C': 4}
+924,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10-20,Depression Model,Level user lowercase,binary,0.33333333333333337,{'C': 0.25}
+881,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.3132075471698113,{'C': 0.5}
+1276,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.4078947368421053,{'C': 0.05}
+1584,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,tf,0.3960396039603961,{'C': 0.05}
+45,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10-20,Depression Model,Level user lowercase,binary,0.33887043189368776,{'C': 0.05}
+1298,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.0,{'C': 0.5}
+903,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.2820919175911252,{'C': 0.05}
+946,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10,Depression Model,Level user lowercase,binary,0.4257703081232493,{'C': 0.05}
+1606,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,tf,0.17017383348581883,{'C': 0.05}
+67,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-20,Depression Model,Level user lowercase,binary,0.425531914893617,{'C': 0.12}
+618,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,tf,0.45999999999999996,{'C': 0.05}
+1320,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,binary,0.5283018867924528,{'C': 0.05}
+89,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5,Depression Model,Level user lowercase,binary,0.4405797101449276,{'C': 0.12}
+111,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10,Depression Model,Level user lowercase,binary,0.5,{'C': 0.12}
+1628,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,tf,0.43343653250774,{'C': 0.05}
+1342,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,binary,0.22033898305084745,{'C': 0.05}
+968,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10-20,Depression Model,Level user lowercase,binary,0.16337059329320722,{'C': 0.05}
+133,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,binary,0.20689655172413793,{'C': 2}
+1650,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,tf,0.2828282828282828,{'C': 0.25}
+1364,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,binary,0.44372990353697755,{'C': 1}
+155,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10-20,Depression Model,Level user lowercase,tf,0.014814814814814814,{'C': 4}
+990,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-20,Depression Model,Level user lowercase,binary,0.3972602739726027,{'C': 0.05}
+1386,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,binary,0.5478260869565218,{'C': 4}
+177,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10,Depression Model,Level user lowercase,tf,0.5333333333333333,{'C': 0.25}
+1672,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,tf,0.14173228346456693,{'C': 0.05}
+1012,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5,Depression Model,Level user lowercase,binary,0.5434782608695652,{'C': 0.25}
+1408,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,binary,0.5737051792828686,{'C': 0.12}
+1694,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.4771929824561404,{'C': 0.05}
+199,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10-20,Depression Model,Level user lowercase,tf,0.35179153094462545,{'C': 0.25}
+1034,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10,Depression Model,Level user lowercase,binary,0.3557692307692308,{'C': 0.05}
+1430,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,binary,0.5581395348837209,{'C': 0.05}
+1716,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.43601895734597157,{'C': 0.05}
+221,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-20,Depression Model,Level user lowercase,tf,0.10566037735849056,{'C': 0.12}
+1452,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,binary,0.4709677419354839,{'C': 0.25}
+243,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5,Depression Model,Level user lowercase,tf,0.3584905660377358,{'C': 0.05}
+1056,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,binary,0.36496350364963503,{'C': 0.12}
+1738,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.421455938697318,{'C': 0.05}
+265,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10,Depression Model,Level user lowercase,tf,0.27035830618892515,{'C': 2}
+1474,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,binary,0.40399002493765584,{'C': 0.05}
+1760,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.29565217391304355,{'C': 0.25}
+287,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,tf,0.31746031746031744,{'C': 0.05}
+1496,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,binary,0.5439330543933054,{'C': 0.05}
+1078,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10-20,Depression Model,Level user lowercase,tf,0.3175182481751825,{'C': 0.05}
+1782,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.05714285714285714,{'C': 0.5}
+1518,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,binary,0.40922190201729103,{'C': 0.05}
+1233,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.5067873303167421,{'C': 0.25}
+1255,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,binary,0.4919354838709678,{'C': 0.12}
+1100,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10,Depression Model,Level user lowercase,tf,0.2042648709315376,{'C': 0.05}
+1804,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.2303030303030303,{'C': 0.12}
+1277,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.3697478991596639,{'C': 0.05}
+1299,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.5,{'C': 0.05}
+1321,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,binary,0.516949152542373,{'C': 0.05}
+1343,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,binary,0.41379310344827586,{'C': 0.05}
+1365,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,binary,0.31693989071038253,{'C': 0.5}
+1826,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.3636363636363637,{'C': 0.05}
+1387,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,binary,0.4924242424242424,{'C': 0.25}
+1541,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,tf,0.4748201438848921,{'C': 0.5}
+1409,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,binary,0.49425287356321834,{'C': 0.5}
+1122,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10-20,Depression Model,Level user lowercase,tf,0.20045558086560367,{'C': 0.05}
+1563,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,tf,0.46792452830188674,{'C': 0.05}
+1585,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,tf,0.4444444444444444,{'C': 0.12}
+1431,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,binary,0.27906976744186046,{'C': 0.12}
+1607,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,tf,0.469055374592834,{'C': 0.05}
+1629,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,tf,0.4408163265306123,{'C': 0.12}
+1453,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,binary,0.19191919191919193,{'C': 0.05}
+1651,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,tf,0.2629107981220657,{'C': 0.05}
+1144,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-20,Depression Model,Level user lowercase,tf,0.3640661938534279,{'C': 0.5}
+1673,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,tf,0.3128491620111732,{'C': 0.05}
+1475,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,binary,0.4125560538116592,{'C': 1}
+1695,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.42296072507552873,{'C': 0.5}
+1166,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5,Depression Model,Level user lowercase,tf,0.3238512035010941,{'C': 0.05}
+1717,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.3160377358490566,{'C': 0.05}
+1497,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,binary,0.3613861386138614,{'C': 0.05}
+1739,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.3824451410658308,{'C': 0.05}
+1188,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10,Depression Model,Level user lowercase,tf,0.38759689922480617,{'C': 0.05}
+1519,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,binary,0.25105782792665726,{'C': 0.05}
+1761,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.3701657458563536,{'C': 1}
+1234,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5929203539823009,{'C': 0.05}
+1783,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.295774647887324,{'C': 0.05}
+1210,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,tf,0.3245614035087719,{'C': 0.05}
+1805,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.23904382470119528,{'C': 2}
+925,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10-20,Depression Model,Level user lowercase,binary,0.19164118246687054,{'C': 0.05}
+947,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10,Depression Model,Level user lowercase,binary,0.1881785283474065,{'C': 1}
+1827,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.3141993957703928,{'C': 0.05}
+1542,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,tf,0.44514106583072105,{'C': 0.05}
+969,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10-20,Depression Model,Level user lowercase,binary,0.334056399132321,{'C': 0.05}
+991,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-20,Depression Model,Level user lowercase,binary,0.16393442622950824,{'C': 0.05}
+1013,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5,Depression Model,Level user lowercase,binary,0.4692737430167598,{'C': 0.05}
+1035,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10,Depression Model,Level user lowercase,binary,0.23423423423423423,{'C': 0.25}
+1057,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,binary,0.3913043478260869,{'C': 0.05}
+1079,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10-20,Depression Model,Level user lowercase,tf,0.3194748358862145,{'C': 0.5}
+1101,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-10,Depression Model,Level user lowercase,tf,0.30578512396694213,{'C': 0.12}
+1123,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10-20,Depression Model,Level user lowercase,tf,0.23107569721115537,{'C': 0.05}
+1145,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5-20,Depression Model,Level user lowercase,tf,0.19512195121951217,{'C': 0.05}
+1167,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,5,Depression Model,Level user lowercase,tf,0.4162162162162162,{'C': 0.05}
+1189,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,10,Depression Model,Level user lowercase,tf,0.41509433962264153,{'C': 0.05}
+1211,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,both,20,Depression Model,Level user lowercase,tf,0.3737024221453287,{'C': 0.05}
+2156,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.3239171374764595,{'C': 0.05}
+2200,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.4657534246575342,{'C': 0.25}
+2222,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.0,{'C': 1}
+2310,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.36470588235294116,{'C': 0.12}
+2332,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.4961832061068703,{'C': 0.05}
+2376,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.30150753768844224,{'C': 0.05}
+2157,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.3229357798165138,{'C': 0.25}
+2201,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.4583333333333333,{'C': 0.05}
+2223,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.19599578503688092,{'C': 4}
+2311,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.48163265306122444,{'C': 0.05}
+2333,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.423841059602649,{'C': 0.05}
+2377,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.3840749414519906,{'C': 0.05}
+2158,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.568421052631579,{'C': 1}
+2202,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.48543689320388356,{'C': 0.05}
+2224,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.5387755102040817,{'C': 4}
+2312,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.5096525096525096,{'C': 2}
+2334,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.4609929078014184,{'C': 0.05}
+2378,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.44897959183673475,{'C': 0.05}
+2159,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.6082474226804124,{'C': 0.05}
+2203,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.5700000000000001,{'C': 0.25}
+2225,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.5783132530120482,{'C': 2}
+2313,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.3690987124463519,{'C': 1}
+2335,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.3820224719101123,{'C': 0.05}
+2379,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.26728110599078336,{'C': 0.5}
+2160,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5863453815261044,{'C': 2}
+2204,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.6168224299065421,{'C': 0.05}
+2226,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.23030303030303031,{'C': 0.05}
+2314,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.4742268041237113,{'C': 0.05}
+2336,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.4659498207885304,{'C': 0.12}
+2380,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.30570902394106814,{'C': 1}
+2161,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5971563981042654,{'C': 0.05}
+2205,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.5564516129032259,{'C': 1}
+2227,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.0,{'C': 0.05}
+2315,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.3163841807909605,{'C': 1}
+2337,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.45768025078369906,{'C': 0.05}
+2381,2000,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.3646408839779005,{'C': 0.05}
+2162,1500,2000,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.530909090909091,{'C': 0.05}
+2206,1500,2000,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.29714285714285715,{'C': 1}
+2228,1500,2000,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.256,{'C': 0.25}
+2316,1500,2000,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.45201238390092885,{'C': 2}
+2338,1500,2000,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.35532994923857864,{'C': 0.25}
+2382,1500,2000,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.4375,{'C': 0.12}
+1234,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.10619469026548672,{'C': 0.05}
+1848,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.5482625482625483,{'C': 0.05}
+1540,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,tf,0.49491525423728805,{'C': 0.05}
+2163,1700,1500,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.4636678200692041,{'C': 0.5}
+1278,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.33802816901408456,{'C': 0.5}
+1892,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.4180790960451978,{'C': 0.05}
+1584,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,tf,0.411764705882353,{'C': 0.05}
+2207,1700,1500,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.3294117647058824,{'C': 0.05}
+1300,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.48666666666666664,{'C': 2}
+1388,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,binary,0.546448087431694,{'C': 0.05}
+2229,1700,1500,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.48091603053435117,{'C': 0.05}
+1914,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.05769230769230769,{'C': 0.05}
+1606,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,tf,0.43571428571428567,{'C': 0.05}
+1410,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,binary,0.20474137931034483,{'C': 0.05}
+2317,1700,1500,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.48148148148148145,{'C': 2}
+1694,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.32929782082324455,{'C': 0.05}
+2002,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.4391691394658753,{'C': 0.12}
+1454,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,binary,0.1111111111111111,{'C': 0.05}
+2339,1700,1500,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.41496598639455784,{'C': 0.25}
+1235,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.5153374233128835,{'C': 0.05}
+1716,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.35668789808917195,{'C': 0.05}
+2024,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.3487544483985765,{'C': 2}
+1279,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.39702233250620345,{'C': 0.05}
+2383,1700,1500,0.9,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.29787234042553196,{'C': 0.05}
+2164,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.4642857142857143,{'C': 0.12}
+1301,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.37593984962406013,{'C': 0.05}
+1760,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.4796380090497738,{'C': 0.12}
+2208,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.42307692307692313,{'C': 0.25}
+1389,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,binary,0.2576866764275256,{'C': 0.05}
+2068,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.2640449438202247,{'C': 0.25}
+1411,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,binary,0.5207100591715976,{'C': 0.05}
+2230,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.0,{'C': 0.25}
+1782,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.43621399176954734,{'C': 0.05}
+1455,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,binary,0.310077519379845,{'C': 1}
+2318,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.4605678233438486,{'C': 0.12}
+2090,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.3780068728522337,{'C': 0.25}
+2340,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.5019011406844107,{'C': 0.05}
+1257,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,binary,0.32061068702290074,{'C': 0.05}
+1804,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.16822429906542055,{'C': 0.05}
+2384,1700,1500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.3910891089108911,{'C': 0.05}
+1323,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,binary,0.352112676056338,{'C': 0.05}
+2112,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.2448979591836735,{'C': 0.05}
+2165,1700,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.4672897196261682,{'C': 0.05}
+1345,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,binary,0.5333333333333333,{'C': 1}
+1826,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.21476510067114093,{'C': 4}
+2209,1700,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.5698924731182796,{'C': 2}
+2231,1700,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.3601694915254237,{'C': 1}
+1367,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,binary,0.38150289017341044,{'C': 0.05}
+2134,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.2648401826484018,{'C': 0.05}
+1738,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.43382352941176466,{'C': 0.05}
+2319,1700,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.4610591900311526,{'C': 0.05}
+1433,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,binary,0.5317460317460317,{'C': 0.12}
+2341,1700,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.40875912408759124,{'C': 0.05}
+2046,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.43298969072164956,{'C': 0.05}
+1477,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,binary,0.3339449541284404,{'C': 1}
+1628,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,tf,0.4090909090909091,{'C': 4}
+2385,1700,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.21052631578947367,{'C': 0.05}
+1499,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,binary,0.21016949152542372,{'C': 0.25}
+2166,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.46629213483146076,{'C': 0.05}
+1980,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,binary,0.35862068965517246,{'C': 0.05}
+1650,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,tf,0.2857142857142857,{'C': 0.05}
+1521,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,binary,0.3214285714285715,{'C': 0.12}
+2210,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.4105960264900662,{'C': 0.05}
+1236,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5665236051502146,{'C': 0.05}
+1936,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,binary,0.35728952772073924,{'C': 0.05}
+2232,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.2809917355371901,{'C': 0.05}
+1672,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,tf,0.47976878612716767,{'C': 0.12}
+2320,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,tf,0.45045045045045046,{'C': 0.05}
+1280,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.5980392156862745,{'C': 0.05}
+1958,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,binary,0.18867924528301885,{'C': 0.05}
+1562,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,tf,0.3143418467583497,{'C': 0.05}
+2342,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,tf,0.41379310344827586,{'C': 0.12}
+1302,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.5847457627118644,{'C': 0.05}
+1541,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,tf,0.45098039215686275,{'C': 0.05}
+1585,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,tf,0.30712979890310793,{'C': 0.05}
+2386,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,tf,0.4245810055865922,{'C': 0.05}
+1390,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,binary,0.4875,{'C': 0.05}
+1870,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,binary,0.23809523809523814,{'C': 0.05}
+1607,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,tf,0.41624365482233505,{'C': 0.25}
+2167,1500,1000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.5836575875486381,{'C': 0.05}
+1849,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.4854368932038834,{'C': 0.05}
+1695,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.43278688524590164,{'C': 0.5}
+1893,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.29457364341085274,{'C': 0.12}
+1412,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,binary,0.4,{'C': 0.25}
+2211,1500,1000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.5639097744360901,{'C': 0.5}
+1915,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.4983606557377049,{'C': 0.05}
+1717,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.48062015503875977,{'C': 0.05}
+2003,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.47826086956521746,{'C': 0.12}
+2233,1500,1000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.18410852713178297,{'C': 1}
+1456,2000,2000,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,binary,0.374025974025974,{'C': 0.05}
+1761,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.2380952380952381,{'C': 0.05}
+2321,1500,1000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.4353312302839117,{'C': 1}
+2025,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.4292237442922374,{'C': 0.05}
+1237,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5933014354066986,{'C': 0.05}
+2343,1500,1000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.3167701863354037,{'C': 0.12}
+1783,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.26582278481012656,{'C': 0.5}
+1281,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.5803108808290155,{'C': 0.05}
+2069,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.27230046948356806,{'C': 0.12}
+2387,1500,1000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.22878228782287824,{'C': 0.05}
+1303,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.5714285714285714,{'C': 0.12}
+2168,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.5775862068965517,{'C': 0.05}
+1805,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.3218806509945751,{'C': 0.05}
+2091,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-20,Depression Model,Level user lowercase,tf,0.2359550561797753,{'C': 0.12}
+1391,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,binary,0.6,{'C': 0.05}
+2212,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.16071428571428573,{'C': 0.5}
+1413,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,binary,0.19599578503688092,{'C': 0.12}
+2234,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.21311475409836064,{'C': 0.05}
+2113,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10-20,Depression Model,Level user lowercase,tf,0.1869158878504673,{'C': 0.05}
+1827,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.4444444444444444,{'C': 0.05}
+2322,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.4575163398692811,{'C': 0.12}
+1457,2000,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level post lowercase,binary,0.3114754098360656,{'C': 0.05}
+1739,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.35454545454545455,{'C': 0.05}
+1238,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5671641791044776,{'C': 0.05}
+1629,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,tf,0.3539445628997868,{'C': 0.05}
+2135,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10-20,Depression Model,Level user lowercase,tf,0.31223628691983124,{'C': 0.05}
+2344,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.4742268041237113,{'C': 4}
+1651,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,tf,0.32179226069246436,{'C': 0.25}
+1282,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.27419354838709675,{'C': 0.05}
+1673,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,tf,0.3276836158192091,{'C': 0.5}
+2047,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,20,Depression Model,Level user lowercase,tf,0.23214285714285715,{'C': 0.12}
+2388,1500,1500,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5-10,Depression Model,Level user lowercase,tf,0.46341463414634143,{'C': 0.12}
+1563,200,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,tf,0.2485549132947977,{'C': 0.25}
+1981,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10-20,Depression Model,Level user lowercase,binary,0.19076305220883533,{'C': 0.05}
+2169,1500,1000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level user lowercase,binary,0.5674418604651164,{'C': 0.05}
+1304,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,binary,0.19298245614035087,{'C': 1}
+1937,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-20,Depression Model,Level user lowercase,binary,0.4246575342465753,{'C': 0.25}
+1542,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,tf,0.32122370936902483,{'C': 0.5}
+2213,1500,1000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level user lowercase,binary,0.5000000000000001,{'C': 0.25}
+1959,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10-20,Depression Model,Level user lowercase,binary,0.22822085889570554,{'C': 0.05}
+1392,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level post lowercase,binary,0.40540540540540543,{'C': 0.5}
+1871,200,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,20,Depression Model,Level user lowercase,binary,0.30579964850615116,{'C': 0.05}
+2235,1500,1000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level user lowercase,binary,0.3453815261044177,{'C': 2}
+1586,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,tf,0.4615384615384615,{'C': 0.12}
+1850,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5,Depression Model,Level post lowercase,binary,0.5316455696202532,{'C': 0.05}
+2323,1500,1000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,5,Depression Model,Level user lowercase,tf,0.4715447154471545,{'C': 0.05}
+1414,1500,2000,0.95,No difference,Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level post lowercase,binary,0.5063291139240507,{'C': 0.05}
+1608,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,5-10,Depression Model,Level post lowercase,tf,0.5328185328185328,{'C': 0.05}
+1894,1500,2000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,positive,10,Depression Model,Level post lowercase,binary,0.6057692307692308,{'C': 0.05}
+2345,1500,1000,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,Simple_compression,negative,10,Depression Model,Level user lowercase,tf,0.3364485981308411,{'C': 0.05}

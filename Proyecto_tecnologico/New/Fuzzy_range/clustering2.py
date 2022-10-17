@@ -438,19 +438,29 @@ cluster_path_5 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New
 #     pickle.dump(user_anxia3, fp)
 #     fp.close()
 
-user_anxia4 = get_represententing_words(user_anxia_emb_matrix_neg4, 20, words_neg_anxia4)
-with open(cluster_path_5+'/user_neg_anxia_lowercase', "wb") as fp:
-    pickle.dump(user_anxia4, fp)
+# user_anxia4 = get_represententing_words(user_anxia_emb_matrix_neg4, 20, words_neg_anxia4)
+# with open(cluster_path_5+'/user_neg_anxia_lowercase', "wb") as fp:
+#     pickle.dump(user_anxia4, fp)
+#     fp.close()
+
+# user_anxia5 = get_represententing_words(user_anxia_emb_matrix_neg5,20, words_neg_anxia4)
+# with open(cluster_path_5+'/user_neg_pre_lowercase', "wb") as fp:
+#     pickle.dump(user_anxia5, fp)
+#     fp.close()
+
+# user_anxia6 = get_represententing_words(user_anxia_emb_matrix_neg6, 20, words_neg_anxia4)
+# with open(cluster_path_5+'/user_neg_emo_lowercase', "wb") as fp:
+#     pickle.dump(user_anxia6, fp)
+#     fp.close()
+
+
+post_dep3 = get_represententing_words(post_dep_emb_matrix_pos3, 20, words_pos_dep1)
+with open(cluster_path_5+'/post_dep_emo_uppercase', "wb") as fp:
+    pickle.dump(post_dep3, fp)
     fp.close()
 
-user_anxia5 = get_represententing_words(user_anxia_emb_matrix_neg5,20, words_neg_anxia4)
-with open(cluster_path_5+'/user_neg_pre_lowercase', "wb") as fp:
-    pickle.dump(user_anxia5, fp)
+post_dep4 = get_represententing_words(post_dep_emb_matrix_pos4, 20, words_pos_dep2)
+with open(cluster_path_5+'/post_dep_lowercase', "wb") as fp:
+    pickle.dump(post_dep4, fp)
     fp.close()
-
-user_anxia6 = get_represententing_words(user_anxia_emb_matrix_neg6, 20, words_neg_anxia4)
-with open(cluster_path_5+'/user_neg_emo_lowercase', "wb") as fp:
-    pickle.dump(user_anxia6, fp)
-    fp.close()
-
 

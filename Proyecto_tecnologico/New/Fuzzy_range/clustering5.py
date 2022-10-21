@@ -451,10 +451,10 @@ cluster_path_5 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New
 #     fp.close()
 
 
-post_dep3 = get_represententing_words(post_dep_emb_matrix_neg3, 20, words_neg_dep1)
-with open(cluster_path_5+'/post_neg_emo_uppercase', "wb") as fp:
-    pickle.dump(post_dep3, fp)
-    fp.close()
+# post_dep3 = get_represententing_words(post_dep_emb_matrix_neg3, 20, words_neg_dep1)
+# with open(cluster_path_5+'/post_neg_dep_emo_uppercase', "wb") as fp:
+#     pickle.dump(post_dep3, fp)
+#     fp.close()
 
 post_dep4 = get_represententing_words(post_dep_emb_matrix_neg4, 20, words_neg_dep2)
 with open(cluster_path_5+'/post_neg_dep_lowercase', "wb") as fp:

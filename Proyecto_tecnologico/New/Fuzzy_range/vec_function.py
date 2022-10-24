@@ -913,19 +913,17 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
         weight = 'tf'
     else: 
         weight = 'binary'
-    if clustering == 'None':
-        clus = 'None'
-    if clustering == True:
-        clus = 'Clustering'
+    if w_clustering == True:
+        w_clus = 'add topic'
     else:
-        clus = 'Simple_compression'
-
+        w_clus = 'no_topic'
     str_groups = ''
     for i in range(len(groups)):
         if i != len(groups)-1:
             str_groups += str(groups[i]) +'-'
         else:
             str_groups += str(groups[i])
+
 
     X_test,X_train = classificator_pos_neg(path_train, path_test,path_tf_train, path_tf_test,  num_test, num_train,score1,score2,kw1,kw2, 
         			tau=tau,chose=chose,add = add, num_dic=dic, ex_type='depression', clustering=clustering, groups = groups,dif = dif, 
@@ -945,7 +943,8 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     f1 = f1_score(test_labels, y_pred)
     f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_range/f1_dep3.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
-            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clus +',' +add + ','+ str_groups+ ',' + w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
+            +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(f1) + ',' + str(a)) 
     f.close()       
 
     print('The time for this experiment was %fs' % (time() - t_initial))

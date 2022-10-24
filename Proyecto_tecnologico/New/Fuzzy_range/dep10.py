@@ -48,7 +48,6 @@ print('Begins experiments')
 
 # En este no importa si hay en común
 for i in range(22):
-    if i>1:
 
 
         f = run_exp_dep_sim(i+(22*43),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
@@ -75,8 +74,6 @@ for i in range(22):
                                 chose =arg4[i],add ='both',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
 
-
-    if i>1 and arg8[i] != 2:
         f = run_exp_dep_sim(i+(22*42),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
                                 chose =arg4[i],add ='both',groups=[5,10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = False,clustering= 'None', w_clustering= True)

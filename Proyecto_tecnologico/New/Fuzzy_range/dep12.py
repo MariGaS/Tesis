@@ -47,54 +47,55 @@ print('Begins experiments')
 
 
 for i in range(22):
-    f = run_exp_dep_sim(i+(22*70),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='positive',groups=[5], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-
-    f = run_exp_dep_sim(i+(22*72),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='positive',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-
-    f = run_exp_dep_sim(i+(22*73),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='positive',groups=[5,10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-
-
-
-
-
-    f = run_exp_dep_sim(i+(22*77),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='negative',groups=[5], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf =True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*78),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='negative',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-
-    f = run_exp_dep_sim(i+(22*80),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='negative',groups=[5,10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*81),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='negative',groups=[5,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*82),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='negative',groups=[10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-
-    f = run_exp_dep_sim(i+(22*83),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                            chose =arg4[i],add ='negative',groups=[5,10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
-                            compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*79),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                                chose =arg4[i],add ='negative',groups=[20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+    if i >16:
+        f = run_exp_dep_sim(i+(22*70),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='positive',groups=[5], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*74),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                                chose =arg4[i],add ='positive',groups=[5,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+
+        f = run_exp_dep_sim(i+(22*72),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='positive',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*75),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                                chose =arg4[i],add ='positive',groups=[10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+
+        f = run_exp_dep_sim(i+(22*73),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='positive',groups=[5,10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*76),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                                chose =arg4[i],add ='positive',groups=[5,10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+
+
+
+
+
+        f = run_exp_dep_sim(i+(22*77),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='negative',groups=[5], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                compress=False, dic =arg8[i], tf =True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*78),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='negative',groups=[10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
-    f = run_exp_dep_sim(i+(22*71),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
-                                chose =arg4[i],add ='positive',groups=[20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+
+        f = run_exp_dep_sim(i+(22*80),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='negative',groups=[5,10], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
                                 compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*81),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='negative',groups=[5,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*82),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='negative',groups=[10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+
+        f = run_exp_dep_sim(i+(22*83),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                chose =arg4[i],add ='negative',groups=[5,10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*79),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                    chose =arg4[i],add ='negative',groups=[20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                    compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*74),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                    chose =arg4[i],add ='positive',groups=[5,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                    compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*75),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                    chose =arg4[i],add ='positive',groups=[10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                    compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*76),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                    chose =arg4[i],add ='positive',groups=[5,10,20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                    compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)
+        f = run_exp_dep_sim(i+(22*71),test_labels, train_y,num_test,num_train,arg1[i],arg2[i],tau=arg3[i],
+                                    chose =arg4[i],add ='positive',groups=[20], dif = arg5[i], fuzzy= arg6[i],remove_stop=arg7[i], 
+                                    compress=False, dic =arg8[i], tf = True,clustering= 'None', w_clustering= True)

@@ -1,5 +1,4 @@
-from grp import struct_group
-from turtle import pos
+
 from gensim.parsing.preprocessing import remove_stopwords
 from nltk import TweetTokenizer
 import nltk
@@ -7,6 +6,7 @@ import numpy as np
 from time import time
 import re
 from gensim.models import FastText
+from sklearn.naive_bayes import MultinomialNB
 import sklearn
 from sklearn import svm
 from sklearn.metrics import  f1_score
@@ -756,46 +756,56 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
 
         
-    if X_test.shape[1] < X_test.shape[0]:
-        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 8000)
+    # if X_test.shape[1] < X_test.shape[0]:
+    #     svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 8000)
         
-    else: 
-        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 8000)
+    # else: 
+    #     svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 8000)
         
-
 
     seeds = []
     # create seed 1
     seed_value = random.randrange(1000)
     np.random.seed(seed_value)
-    seeds.append(seed_value)
-    grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_anorexia.fit(X_train, train_labels)
+    # seeds.append(seed_value)
+    # grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_anorexia.fit(X_train, train_labels)
 
-    y_pred = grid_anorexia.predict(X_test)
-    a = grid_anorexia.best_params_
+    # y_pred = grid_anorexia.predict(X_test)
+    # a = grid_anorexia.best_params_
+
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
+
     f1 = f1_score(test_labels, y_pred)
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+','+ str(f1) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+','+ str(f1) )     
     f.close()
 
     # create  seed 2
     seed_value = random.randrange(1000)
     np.random.seed(seed_value)
     seeds.append(seed_value)
-    grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_anorexia.fit(X_train, train_labels)
+    # grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_anorexia.fit(X_train, train_labels)
 
-    y_pred = grid_anorexia.predict(X_test)
-    a = grid_anorexia.best_params_
+    # y_pred = grid_anorexia.predict(X_test)
+    # a = grid_anorexia.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
+
     f2 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f2) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f2))     
     f.close()
 
     # create  seed 3
@@ -803,16 +813,21 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     np.random.seed(seed_value)
     seeds.append(seed_value)
 
-    grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_anorexia.fit(X_train, train_labels)
+    # grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_anorexia.fit(X_train, train_labels)
 
-    y_pred = grid_anorexia.predict(X_test)
-    a = grid_anorexia.best_params_
+    # y_pred = grid_anorexia.predict(X_test)
+    # a = grid_anorexia.best_params_
+
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f3 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f3) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f3))     
     f.close()
 
     # create seed 4
@@ -820,37 +835,45 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     np.random.seed(seed_value)
     seeds.append(seed_value)
 
-    grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_anorexia.fit(X_train, train_labels)
+    # grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_anorexia.fit(X_train, train_labels)
 
-    y_pred = grid_anorexia.predict(X_test)
-    a = grid_anorexia.best_params_
+    # y_pred = grid_anorexia.predict(X_test)
+    # a = grid_anorexia.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f4 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+str(f4) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+str(f4))     
     f.close()
     # create seed 5
     seed_value = random.randrange(1000)
     np.random.seed(seed_value)
     seeds.append(seed_value)
 
-    grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_anorexia.fit(X_train, train_labels)
+    # grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_anorexia.fit(X_train, train_labels)
 
-    y_pred = grid_anorexia.predict(X_test)
-    a = grid_anorexia.best_params_
+    # y_pred = grid_anorexia.predict(X_test)
+    # a = grid_anorexia.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f5 = f1_score(test_labels, y_pred)
 
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f5) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f5))     
     f.close()
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/fuzzy_var.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/fuzzy_var.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var([f1,f2,f3,f4,f5])) + ',' + str(np.std([f1,f2,f3,f4,f5]))) 
     f.close()
 
@@ -1012,11 +1035,11 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
         			tau=tau,chose=chose,add = add, num_dic=dic, ex_type='depression', clustering=clustering, groups = groups,dif = dif, 
                     fuzzy = fuzzy, compress = compress, con= con, tf = tf, w_clustering= w_clustering)	
         
-    if X_test.shape[1] < X_test.shape[0]:
-        svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 6000)
-        
-    else: 
-        svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 6000)
+    #if X_test.shape[1] < X_test.shape[0]:
+    #    svr = svm.LinearSVC(class_weight='balanced', dual=False, max_iter = 6000)
+    #    
+    #else: 
+    #    svr = svm.LinearSVC(class_weight='balanced', dual=True, max_iter = 6000)
 
 
     seeds = []
@@ -1025,33 +1048,41 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     np.random.seed(seed_value)
     seeds.append(seed_value)    
         
-    grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_dep.fit(X_train, train_labels)
+    # grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_dep.fit(X_train, train_labels)
 
-    y_pred = grid_dep.predict(X_test)
-    a= grid_dep.best_params_
+    # y_pred = grid_dep.predict(X_test)
+    # a= grid_dep.best_params_
+    # f1 = f1_score(test_labels, y_pred)
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f1 = f1_score(test_labels, y_pred)
-
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+','+ str(f1) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+','+ str(f1))     
     f.close()
 
     # create  seed 2
     seed_value = random.randrange(1000)
     np.random.seed(seed_value)
     seeds.append(seed_value)
-    grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_dep.fit(X_train, train_labels)
+    # grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_dep.fit(X_train, train_labels)
 
-    y_pred = grid_dep.predict(X_test)
-    a = grid_dep.best_params_
+    # y_pred = grid_dep.predict(X_test)
+    # a = grid_dep.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f2 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f2) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f2))     
     f.close()
 
     # create  seed 3
@@ -1059,16 +1090,20 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     np.random.seed(seed_value)
     seeds.append(seed_value)
 
-    grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_dep.fit(X_train, train_labels)
+    # grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_dep.fit(X_train, train_labels)
 
-    y_pred = grid_dep.predict(X_test)
-    a = grid_dep.best_params_
+    # y_pred = grid_dep.predict(X_test)
+    # a = grid_dep.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f3 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f3) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f3))     
     f.close()
 
     # create seed 4
@@ -1076,36 +1111,44 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     np.random.seed(seed_value)
     seeds.append(seed_value)
 
-    grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_dep.fit(X_train, train_labels)
+    # grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_dep.fit(X_train, train_labels)
 
-    y_pred = grid_dep.predict(X_test)
-    a = grid_dep.best_params_
+    # y_pred = grid_dep.predict(X_test)
+    # a = grid_dep.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f4 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+str(f4) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+str(f4))     
     f.close()
     # create seed 5
     seed_value = random.randrange(1000)
     np.random.seed(seed_value)
     seeds.append(seed_value)
 
-    grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
-    grid_dep.fit(X_train, train_labels)
+    # grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)
+    # grid_dep.fit(X_train, train_labels)
 
-    y_pred = grid_dep.predict(X_test)
-    a = grid_dep.best_params_
+    # y_pred = grid_dep.predict(X_test)
+    # a = grid_dep.best_params_
+
+    model = MultinomialNB()
+    model.fit(X_train, train_labels)
+    y_pred = model.predict(X_test)
     f5 = f1_score(test_labels, y_pred)
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
-            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f5) + ',' + str(a))     
+            +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f5))     
     f.close()
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Check/dep_var.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/NB/dep_var.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var([f1,f2,f3,f4,f5])) + ',' + str(np.std([f1,f2,f3,f4,f5]))) 
     f.close()
 

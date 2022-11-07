@@ -162,6 +162,6 @@ arg12 =[1,2,5,2,1,1,1,2,1,2,1,2,2,1,1,2,2,2,2,2]#dic
 
 
 for i in range(20):
-    f = run_exp_anxia_sim(i+80,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg4[i],
+    f = run_exp_anxia_sim(i+140,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg4[i],
                             chose =arg3[i],add =arg6[i],groups=arg5[i], dif = arg8[i], fuzzy= arg9[i],remove_stop=arg10[i], 
                             compress=arg11[i], dic =arg12[i], tf = False, clustering= arg7[i], w_clustering= True)

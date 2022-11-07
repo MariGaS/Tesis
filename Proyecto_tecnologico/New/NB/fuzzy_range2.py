@@ -148,6 +148,6 @@ arg14 = [False]*20 #wclustering
 
 for i in range(20):
     if i>18:
-        f = run_exp_anxia_sim(i+60,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg4[i],
+        f = run_exp_anxia_sim(i+100,test_labels_anxia, tr_label,num_test,num_train,arg1[i],arg2[i],tau=arg4[i],
                                 chose =arg3[i],add =arg6[i],groups=arg5[i], dif = arg8[i], fuzzy= arg9[i],remove_stop=arg10[i], 
                                 compress=arg11[i], dic =arg12[i], tf = arg13[i], clustering= arg7, w_clustering= arg14[i])

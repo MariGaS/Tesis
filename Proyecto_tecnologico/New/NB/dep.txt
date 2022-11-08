@@ -294,3 +294,468 @@
 35,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,688,0.3026086956521739
 35,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,129,0.3026086956521739
 35,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,542,0.3026086956521739
+18,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,358,0.29048414023372293
+18,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,418,0.29048414023372293
+18,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,130,0.29048414023372293
+18,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,579,0.29048414023372293
+18,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,165,0.29048414023372293
+25,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,49,0.3026086956521739
+25,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,513,0.3026086956521739
+25,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,774,0.3026086956521739
+25,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,398,0.3026086956521739
+25,1700,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,270,0.3026086956521739
+8,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,677,0.1970217640320733
+8,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,329,0.1970217640320733
+8,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,509,0.1970217640320733
+8,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,32,0.1970217640320733
+8,2000,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,536,0.1970217640320733
+68,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,484,0.22222222222222218
+68,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,63,0.22222222222222218
+68,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,7,0.22222222222222218
+68,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,876,0.22222222222222218
+68,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,405,0.22222222222222218
+80,100,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,262,0.4250871080139373
+80,100,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,115,0.4250871080139373
+80,100,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,62,0.4250871080139373
+80,100,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,547,0.4250871080139373
+80,100,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,804,0.4250871080139373
+36,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,993,0.23933975240715266
+36,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,824,0.23933975240715266
+36,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,138,0.23933975240715266
+36,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,381,0.23933975240715266
+36,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,917,0.23933975240715266
+26,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,323,0.23933975240715266
+26,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,326,0.23933975240715266
+26,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,702,0.23933975240715266
+26,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,470,0.23933975240715266
+26,1500,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,103,0.23933975240715266
+19,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,744,0.2613981762917933
+19,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,122,0.2613981762917933
+19,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,21,0.2613981762917933
+19,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,665,0.2613981762917933
+19,1700,1500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,770,0.2613981762917933
+81,700,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,252,0.48293963254593175
+81,700,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,592,0.48293963254593175
+81,700,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,11,0.48293963254593175
+81,700,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,452,0.48293963254593175
+81,700,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,690,0.48293963254593175
+69,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,495,0.27823240589198034
+69,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,192,0.27823240589198034
+69,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,953,0.27823240589198034
+69,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,550,0.27823240589198034
+69,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,700,0.27823240589198034
+9,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,781,0.19296254256526674
+9,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,43,0.19296254256526674
+9,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,842,0.19296254256526674
+9,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,136,0.19296254256526674
+9,1700,2000,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,526,0.19296254256526674
+82,700,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,839,0.4705882352941177
+82,700,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,866,0.4705882352941177
+82,700,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,21,0.4705882352941177
+82,700,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,834,0.4705882352941177
+82,700,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,15,0.4705882352941177
+47,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,487,0.20199778024417314
+47,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,31,0.20199778024417314
+47,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,539,0.20199778024417314
+47,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,890,0.20199778024417314
+47,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,157,0.20199778024417314
+57,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,173,0.2396576319543509
+57,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,876,0.2396576319543509
+57,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,240,0.2396576319543509
+57,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,588,0.2396576319543509
+57,1500,2000,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,354,0.2396576319543509
+37,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,111,0.24147727272727273
+37,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,20,0.24147727272727273
+37,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,476,0.24147727272727273
+37,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,656,0.24147727272727273
+37,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,968,0.24147727272727273
+27,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,247,0.24147727272727273
+27,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,503,0.24147727272727273
+27,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,547,0.24147727272727273
+27,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,78,0.24147727272727273
+27,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,559,0.24147727272727273
+83,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,472,0.3803680981595092
+83,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,947,0.3803680981595092
+83,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,621,0.3803680981595092
+83,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,875,0.3803680981595092
+83,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,371,0.3803680981595092
+84,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,840,0.5574912891986062
+84,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,473,0.5574912891986062
+84,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,845,0.5574912891986062
+84,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,735,0.5574912891986062
+84,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,122,0.5574912891986062
+85,150,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,516,0.40390879478827363
+85,150,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,149,0.40390879478827363
+85,150,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,202,0.40390879478827363
+85,150,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,245,0.40390879478827363
+85,150,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,495,0.40390879478827363
+90,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,765,0.44915254237288144
+90,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,786,0.44915254237288144
+90,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,757,0.44915254237288144
+90,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,754,0.44915254237288144
+90,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,148,0.44915254237288144
+38,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,369,0.24147727272727273
+38,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,761,0.24147727272727273
+38,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,569,0.24147727272727273
+38,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,805,0.24147727272727273
+38,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,464,0.24147727272727273
+86,150,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,253,0.38993710691823896
+86,150,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,584,0.38993710691823896
+86,150,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,453,0.38993710691823896
+86,150,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,25,0.38993710691823896
+86,150,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,915,0.38993710691823896
+91,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,979,0.4444444444444445
+91,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,55,0.4444444444444445
+91,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,436,0.4444444444444445
+91,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,827,0.4444444444444445
+91,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,354,0.4444444444444445
+48,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,927,0.2906574394463668
+48,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,177,0.2906574394463668
+48,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,566,0.2906574394463668
+48,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,660,0.2906574394463668
+48,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,256,0.2906574394463668
+58,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,891,0.27344992050874406
+58,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,169,0.27344992050874406
+58,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,254,0.27344992050874406
+58,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,653,0.27344992050874406
+58,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,75,0.27344992050874406
+28,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,481,0.24147727272727273
+28,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,666,0.24147727272727273
+28,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,340,0.24147727272727273
+28,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,29,0.24147727272727273
+28,1500,1500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,773,0.24147727272727273
+100,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,276,0.44725738396624476
+100,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,86,0.44725738396624476
+100,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,172,0.44725738396624476
+100,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,194,0.44725738396624476
+100,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,6,0.44725738396624476
+87,170,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,861,0.356989247311828
+87,170,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,980,0.356989247311828
+87,170,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,430,0.356989247311828
+87,170,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,463,0.356989247311828
+87,170,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,968,0.356989247311828
+92,150,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,329,0.3812316715542522
+92,150,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,513,0.3812316715542522
+92,150,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,39,0.3812316715542522
+92,150,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,829,0.3812316715542522
+92,150,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,522,0.3812316715542522
+110,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,68,0.44725738396624476
+110,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,675,0.44725738396624476
+110,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,350,0.44725738396624476
+110,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,699,0.44725738396624476
+110,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,392,0.44725738396624476
+101,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,737,0.2941176470588235
+101,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,380,0.2941176470588235
+101,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,569,0.2941176470588235
+101,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,235,0.2941176470588235
+101,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,702,0.2941176470588235
+88,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,276,0.34511434511434513
+88,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,192,0.34511434511434513
+88,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,120,0.34511434511434513
+88,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,586,0.34511434511434513
+88,200,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,190,0.34511434511434513
+111,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,960,0.5365853658536585
+111,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,798,0.5365853658536585
+111,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,97,0.5365853658536585
+111,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,776,0.5365853658536585
+111,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,10,Depression Model,Level post lowercase,binary,132,0.5365853658536585
+93,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,160,0.42713567839195987
+93,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,612,0.42713567839195987
+93,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,280,0.42713567839195987
+93,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,959,0.42713567839195987
+93,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,505,0.42713567839195987
+89,170,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,829,0.3544303797468354
+89,170,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,677,0.3544303797468354
+89,170,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,202,0.3544303797468354
+89,170,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,315,0.3544303797468354
+89,170,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,859,0.3544303797468354
+102,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,291,0.5723684210526315
+102,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,453,0.5723684210526315
+102,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,540,0.5723684210526315
+102,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,846,0.5723684210526315
+102,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,678,0.5723684210526315
+112,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,73,0.324468085106383
+112,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,593,0.324468085106383
+112,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,823,0.324468085106383
+112,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,302,0.324468085106383
+112,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,531,0.324468085106383
+94,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,87,0.41739130434782606
+94,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,816,0.41739130434782606
+94,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,391,0.41739130434782606
+94,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,685,0.41739130434782606
+94,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,183,0.41739130434782606
+103,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,399,0.44725738396624476
+103,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,341,0.44725738396624476
+103,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,66,0.44725738396624476
+103,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,498,0.44725738396624476
+103,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,818,0.44725738396624476
+113,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,987,0.44725738396624476
+113,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,596,0.44725738396624476
+113,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,984,0.44725738396624476
+113,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,28,0.44725738396624476
+113,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level user lowercase,binary,435,0.44725738396624476
+95,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,281,0.4198250728862974
+95,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,450,0.4198250728862974
+95,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,442,0.4198250728862974
+95,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,507,0.4198250728862974
+95,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,411,0.4198250728862974
+104,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,419,0.3796791443850267
+104,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,564,0.3796791443850267
+104,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,442,0.3796791443850267
+104,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,177,0.3796791443850267
+104,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,262,0.3796791443850267
+114,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,416,0.3796791443850267
+114,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,938,0.3796791443850267
+114,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,81,0.3796791443850267
+114,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,996,0.3796791443850267
+114,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,positive,5,Depression Model,Level post lowercase,binary,760,0.3796791443850267
+120,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,316,0.40459770114942534
+120,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,687,0.40459770114942534
+120,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,74,0.40459770114942534
+120,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,529,0.40459770114942534
+120,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,286,0.40459770114942534
+150,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,381,0.2529411764705882
+150,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,266,0.2529411764705882
+150,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,992,0.2529411764705882
+150,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,873,0.2529411764705882
+150,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,890,0.2529411764705882
+140,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,217,0.2529411764705882
+140,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,916,0.2529411764705882
+140,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,733,0.2529411764705882
+140,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,517,0.2529411764705882
+140,700,500,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,20,Depression Model,Level post lowercase,binary,820,0.2529411764705882
+130,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,407,0.43349753694581283
+130,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,435,0.43349753694581283
+130,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,321,0.43349753694581283
+130,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,104,0.43349753694581283
+130,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,10,Depression Model,Level user lowercase,binary,271,0.43349753694581283
+96,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,466,0.5705128205128205
+96,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,562,0.5705128205128205
+96,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,130,0.5705128205128205
+96,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,986,0.5705128205128205
+96,500,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,172,0.5705128205128205
+151,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,46,0.28970331588132636
+151,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,970,0.28970331588132636
+151,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,86,0.28970331588132636
+151,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,564,0.28970331588132636
+151,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,154,0.28970331588132636
+105,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,87,0.39631336405529954
+105,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,722,0.39631336405529954
+105,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,746,0.39631336405529954
+105,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,638,0.39631336405529954
+105,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,109,0.39631336405529954
+121,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,934,0.6320346320346321
+121,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,77,0.6320346320346321
+121,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,525,0.6320346320346321
+121,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,644,0.6320346320346321
+121,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,506,0.6320346320346321
+115,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,164,0.39631336405529954
+115,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,588,0.39631336405529954
+115,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,465,0.39631336405529954
+115,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,475,0.39631336405529954
+115,700,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,negative,5,Depression Model,Level post lowercase,binary,111,0.39631336405529954
+141,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,664,0.28970331588132636
+141,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,709,0.28970331588132636
+141,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,907,0.28970331588132636
+141,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,514,0.28970331588132636
+141,500,200,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level user lowercase,binary,175,0.28970331588132636
+152,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,116,0.3364928909952607
+152,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,206,0.3364928909952607
+152,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,176,0.3364928909952607
+152,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,846,0.3364928909952607
+152,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,338,0.3364928909952607
+131,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,699,0.6212121212121212
+131,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,551,0.6212121212121212
+131,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,823,0.6212121212121212
+131,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,843,0.6212121212121212
+116,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,804,0.3577235772357724
+116,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,736,0.3577235772357724
+131,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Depression Model,Level user lowercase,binary,728,0.6212121212121212
+116,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,888,0.3577235772357724
+116,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,341,0.3577235772357724
+116,100,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,164,0.3577235772357724
+122,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,878,0.37305699481865284
+122,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,599,0.37305699481865284
+122,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,601,0.37305699481865284
+122,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,794,0.37305699481865284
+122,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,37,0.37305699481865284
+97,700,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,305,0.4018475750577367
+97,700,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,766,0.4018475750577367
+97,700,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,672,0.4018475750577367
+97,700,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,551,0.4018475750577367
+97,700,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,704,0.4018475750577367
+142,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,366,0.3364928909952607
+142,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,257,0.3364928909952607
+142,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,46,0.3364928909952607
+142,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,467,0.3364928909952607
+142,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level post lowercase,binary,450,0.3364928909952607
+153,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,564,0.48309178743961356
+153,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,577,0.48309178743961356
+153,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,535,0.48309178743961356
+153,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,648,0.48309178743961356
+153,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,741,0.48309178743961356
+123,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,115,0.2631578947368421
+123,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,310,0.2631578947368421
+123,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,384,0.2631578947368421
+123,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,266,0.2631578947368421
+123,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,669,0.2631578947368421
+98,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,541,0.5683060109289617
+98,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,665,0.5683060109289617
+98,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,474,0.5683060109289617
+98,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,910,0.5683060109289617
+98,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level post lowercase,binary,978,0.5683060109289617
+106,500,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,201,0.350109409190372
+106,500,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,739,0.350109409190372
+106,500,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,915,0.350109409190372
+106,500,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,19,0.350109409190372
+106,500,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level user lowercase,binary,902,0.350109409190372
+143,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,735,0.48309178743961356
+143,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,273,0.48309178743961356
+143,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,675,0.48309178743961356
+143,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,80,0.48309178743961356
+143,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10-20,Depression Model,Level post lowercase,binary,965,0.48309178743961356
+132,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,691,0.3940298507462686
+132,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,737,0.3940298507462686
+132,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,872,0.3940298507462686
+132,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,834,0.3940298507462686
+132,200,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,586,0.3940298507462686
+154,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,540,0.3480662983425415
+154,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,781,0.3480662983425415
+154,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,912,0.3480662983425415
+154,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,106,0.3480662983425415
+154,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,411,0.3480662983425415
+117,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,45,0.282793867120954
+117,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,177,0.282793867120954
+117,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,16,0.282793867120954
+117,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,762,0.282793867120954
+117,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,437,0.282793867120954
+124,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,68,0.3114355231143552
+124,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,651,0.3114355231143552
+124,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,611,0.3114355231143552
+124,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,485,0.3114355231143552
+124,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,464,0.3114355231143552
+144,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,475,0.3480662983425415
+144,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,635,0.3480662983425415
+144,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,460,0.3480662983425415
+144,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,975,0.3480662983425415
+144,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,10,Depression Model,Level post lowercase,binary,604,0.3480662983425415
+133,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,945,0.2631578947368421
+133,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,177,0.2631578947368421
+133,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,418,0.2631578947368421
+133,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,556,0.2631578947368421
+133,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negativenegative,5-10,Depression Model,Level user lowercase,binary,935,0.2631578947368421
+99,100,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,179,0.33248081841432225
+99,100,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,688,0.33248081841432225
+99,100,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,377,0.33248081841432225
+99,100,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,862,0.33248081841432225
+99,100,500,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,,,Depression Model,Level user lowercase,binary,190,0.33248081841432225
+118,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,82,0.32171581769436997
+118,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,335,0.32171581769436997
+118,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,902,0.32171581769436997
+118,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,337,0.32171581769436997
+118,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,235,0.32171581769436997
+155,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,446,0.5936395759717316
+155,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,802,0.5936395759717316
+155,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,569,0.5936395759717316
+155,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,13,0.5936395759717316
+155,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,559,0.5936395759717316
+107,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,905,0.282793867120954
+107,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,735,0.282793867120954
+107,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,208,0.282793867120954
+107,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,241,0.282793867120954
+107,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,552,0.282793867120954
+134,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,188,0.33157894736842103
+134,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,213,0.33157894736842103
+134,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,109,0.33157894736842103
+134,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,170,0.33157894736842103
+134,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,213,0.33157894736842103
+145,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,842,0.5936395759717316
+145,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,310,0.5936395759717316
+145,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,182,0.5936395759717316
+145,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,808,0.5936395759717316
+145,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,91,0.5936395759717316
+125,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,466,0.5972222222222222
+125,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,28,0.5972222222222222
+125,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,80,0.5972222222222222
+125,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,802,0.5972222222222222
+125,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,307,0.5972222222222222
+108,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,199,0.32171581769436997
+108,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,455,0.32171581769436997
+108,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,929,0.32171581769436997
+108,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,288,0.32171581769436997
+108,100,100,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,no_topic,both,5-10,Depression Model,Level post lowercase,binary,393,0.32171581769436997
+156,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,552,0.22575976845151952
+156,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,489,0.22575976845151952
+156,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,412,0.22575976845151952
+156,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,694,0.22575976845151952
+156,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,431,0.22575976845151952
+146,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,538,0.22575976845151952
+146,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,629,0.22575976845151952
+146,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,589,0.22575976845151952
+146,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,184,0.22575976845151952
+146,200,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level post lowercase,binary,413,0.22575976845151952
+126,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,767,0.398576512455516
+126,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,195,0.398576512455516
+126,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,232,0.398576512455516
+126,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,876,0.398576512455516
+126,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,401,0.398576512455516
+135,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,942,0.6013986013986014
+135,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,262,0.6013986013986014
+135,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,906,0.6013986013986014
+135,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,375,0.6013986013986014
+135,500,100,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Depression Model,Level post lowercase,binary,948,0.6013986013986014
+157,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,632,0.4336734693877551
+157,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,417,0.4336734693877551
+157,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,427,0.4336734693877551
+157,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,17,0.4336734693877551
+157,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,201,0.4336734693877551
+147,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,177,0.4336734693877551
+147,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,885,0.4336734693877551
+147,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,943,0.4336734693877551
+147,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,870,0.4336734693877551
+147,500,200,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Depression Model,Level user lowercase,binary,451,0.4336734693877551
+127,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,908,0.543046357615894
+127,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,399,0.543046357615894
+127,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,96,0.543046357615894
+127,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,39,0.543046357615894
+127,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,966,0.543046357615894
+136,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,775,0.3471882640586797
+136,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,946,0.3471882640586797
+136,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,746,0.3471882640586797
+136,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,690,0.3471882640586797
+136,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,both,5,Depression Model,Level post lowercase,binary,226,0.3471882640586797
+158,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,498,0.3576158940397351
+158,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,415,0.3576158940397351
+158,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,404,0.3576158940397351
+158,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,363,0.3576158940397351
+158,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,789,0.3576158940397351
+148,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,588,0.3576158940397351
+148,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,577,0.3576158940397351
+148,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,2,0.3576158940397351
+148,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,12,0.3576158940397351
+148,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,simple,add topic,negative,5,Depression Model,Level user lowercase,binary,266,0.3576158940397351
+159,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,846,0.4222873900293255
+159,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,724,0.4222873900293255
+159,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,152,0.4222873900293255
+159,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,242,0.4222873900293255
+159,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,7,0.4222873900293255
+137,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,164,0.5573770491803278
+137,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,617,0.5573770491803278
+137,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,59,0.5573770491803278
+137,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,823,0.5573770491803278
+137,500,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5-10,Depression Model,Level post lowercase,binary,509,0.5573770491803278
+128,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,959,0.3644251626898048
+128,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,992,0.3644251626898048
+128,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,819,0.3644251626898048
+128,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,873,0.3644251626898048
+128,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,139,0.3644251626898048
+149,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,398,0.4222873900293255
+149,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,740,0.4222873900293255
+149,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,423,0.4222873900293255
+149,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,857,0.4222873900293255
+149,200,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Depression Model,Level post lowercase,binary,79,0.4222873900293255
+138,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,916,0.38694638694638694
+138,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,779,0.38694638694638694
+138,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,241,0.38694638694638694
+138,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,496,0.38694638694638694
+138,500,500,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Depression Model,Level post lowercase,binary,43,0.38694638694638694

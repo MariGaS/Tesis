@@ -1,0 +1,800 @@
+
+60,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,157,0.7142857142857142
+60,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,316,0.6956521739130435
+60,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,74,0.7216494845360826
+60,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,420,0.7021276595744681
+60,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,805,0.7311827956989247
+40,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,615,0.7083333333333334
+40,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,202,0.7070707070707071
+40,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,257,0.6999999999999998
+40,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,736,0.7142857142857142
+40,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,310,0.6736842105263158
+100,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,940,0.6857142857142857
+100,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,218,0.5223880597014926
+100,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,871,0.6868686868686867
+100,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,466,0.6486486486486487
+100,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,712,0.5116279069767442
+80,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,474,0.606060606060606
+80,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,202,0.34408602150537637
+80,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,36,0.3870967741935483
+80,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,199,0.5765765765765766
+80,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5-20,Pre_trained Model,Level post uppercase,binary,55,0.711111111111111
+61,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,366,0.7216494845360826
+61,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,402,0.7142857142857142
+61,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,386,0.6881720430107527
+61,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,617,0.7021276595744681
+61,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,79,0.6881720430107527
+41,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,161,0.7252747252747254
+41,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,235,0.6597938144329897
+41,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,672,0.7333333333333334
+41,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,924,0.7333333333333334
+41,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,700,0.7216494845360826
+140,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,500,0.6739130434782609
+140,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,204,0.6990291262135923
+140,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,520,0.6526315789473683
+140,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,770,0.6739130434782609
+140,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,912,0.6868686868686867
+120,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,885,0.6595744680851064
+120,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,941,0.6875
+120,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,483,0.7021276595744681
+120,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,286,0.6666666666666665
+120,100,100,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,286,0.6666666666666665
+20,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,727,0.6599999999999999
+20,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,724,0.6521739130434783
+20,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,232,0.653061224489796
+20,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,143,0.6862745098039217
+20,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,365,0.6808510638297872
+62,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,454,0.6875
+62,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,951,0.7083333333333334
+62,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,965,0.7446808510638298
+62,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,933,0.7157894736842105
+62,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,217,0.7142857142857142
+42,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,887,0.7096774193548387
+42,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,636,0.7083333333333334
+42,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,661,0.6938775510204082
+42,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,270,0.6938775510204082
+42,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,904,0.6881720430107527
+21,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,649,0.6346153846153846
+21,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,8,0.631578947368421
+21,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,586,0.6326530612244897
+21,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,631,0.6956521739130435
+21,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,532,0.6185567010309277
+63,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,547,0.6799999999999999
+63,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,889,0.7291666666666666
+63,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,906,0.6999999999999998
+63,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,8,0.7010309278350515
+63,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,603,0.7070707070707071
+43,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,641,0.6930693069306931
+43,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,835,0.7142857142857142
+43,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,962,0.6947368421052632
+43,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,366,0.7216494845360826
+43,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,628,0.723404255319149
+141,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,519,0.6470588235294118
+141,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,578,0.7021276595744681
+141,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,258,0.5977011494252873
+141,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,107,0.6799999999999999
+141,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,946,0.6956521739130435
+121,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,292,0.6363636363636364
+121,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,11,0.5869565217391304
+121,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,653,0.6666666666666667
+121,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,157,0.723404255319149
+121,500,200,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,815,0.6599999999999999
+22,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,360,0.6521739130434783
+22,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,643,0.6896551724137931
+22,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,396,0.6326530612244897
+22,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,184,0.711111111111111
+22,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,723,0.6470588235294118
+101,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,0,0.653061224489796
+101,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,669,0.6285714285714286
+101,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,496,0.6226415094339622
+101,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,632,0.6736842105263158
+101,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,335,0.6213592233009708
+81,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,990,0.5617977528089888
+81,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,554,0.6666666666666667
+81,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,153,0.7010309278350515
+81,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,384,0.6521739130434783
+81,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,63,0.5319148936170213
+64,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,407,0.7096774193548387
+64,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,718,0.6666666666666667
+64,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,175,0.6666666666666665
+64,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,311,0.7096774193548387
+64,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,450,0.6862745098039217
+44,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,558,0.7216494845360826
+44,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,873,0.7446808510638298
+44,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,685,0.6808510638297872
+44,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,202,0.7070707070707071
+44,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,152,0.6881720430107527
+23,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,721,0.653061224489796
+23,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,211,0.7191011235955055
+23,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,116,0.673076923076923
+23,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,695,0.6875
+23,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,256,0.711111111111111
+142,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,555,0.6262626262626262
+142,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,913,0.6739130434782609
+142,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,275,0.6666666666666666
+142,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,561,0.6666666666666666
+142,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,296,0.6451612903225806
+122,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,123,0.6597938144329897
+122,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,27,0.7272727272727273
+122,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,490,0.6391752577319588
+122,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,935,0.6086956521739131
+122,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,simple,add topic,positive,5,Anorexia Model,Level concatenation uppercase,binary,286,0.6666666666666667
+65,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,746,0.7083333333333334
+65,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,791,0.6947368421052632
+65,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,748,0.6881720430107527
+65,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,865,0.7252747252747254
+65,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,413,0.6597938144329897
+45,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,895,0.6875
+45,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,248,0.7083333333333334
+45,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,540,0.7083333333333334
+45,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,861,0.7446808510638298
+45,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,10,Pre_trained Model,Level post uppercase,binary,500,0.7070707070707071
+24,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,543,0.6808510638297872
+24,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,164,0.6285714285714286
+24,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,680,0.660377358490566
+24,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,839,0.6597938144329897
+24,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,571,0.7191011235955055
+0,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,620,0.6410256410256411
+0,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,25,0.5348837209302325
+0,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,717,0.625
+0,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,741,0.5238095238095238
+0,2000,2000,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,825,0.6410256410256411
+102,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,979,0.7272727272727273
+102,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,608,0.6947368421052632
+102,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,778,0.5918367346938775
+102,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,814,0.7272727272727273
+102,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,484,0.5806451612903226
+82,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,795,0.64
+82,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,259,0.64
+82,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,728,0.6599999999999999
+82,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,611,0.6804123711340206
+82,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,462,0.5777777777777778
+25,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,123,0.6896551724137931
+25,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,540,0.6808510638297872
+25,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,833,0.7216494845360826
+25,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,390,0.6599999999999999
+25,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post uppercase,binary,35,0.7021276595744681
+66,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,373,0.6999999999999998
+66,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,62,0.7157894736842105
+66,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,501,0.6799999999999999
+66,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,400,0.6153846153846154
+66,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,937,0.6868686868686867
+46,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,352,0.7010309278350515
+46,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,496,0.6588235294117647
+46,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,137,0.7083333333333334
+46,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,34,0.7272727272727273
+46,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,796,0.7010309278350515
+143,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,255,0.6534653465346535
+143,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,864,0.6352941176470588
+143,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,632,0.6666666666666665
+143,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,639,0.6736842105263158
+143,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,487,0.6938775510204082
+123,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,930,0.6732673267326732
+123,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,481,0.6363636363636364
+123,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,418,0.6534653465346535
+123,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,315,0.5806451612903226
+123,500,200,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,537,0.723404255319149
+26,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,437,0.6326530612244897
+26,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,443,0.6185567010309277
+26,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,573,0.6019417475728155
+26,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,313,0.6382978723404255
+26,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,23,0.6391752577319588
+83,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,689,0.6521739130434783
+83,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,640,0.6458333333333333
+83,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,299,0.653061224489796
+83,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,303,0.653061224489796
+83,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,353,0.653061224489796
+103,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,727,0.653061224489796
+103,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,148,0.6521739130434783
+103,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,846,0.6105263157894738
+103,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,16,0.6105263157894738
+103,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Anorexia Model,Level post lowercase,binary,481,0.6326530612244897
+144,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,803,0.6601941747572816
+144,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,628,0.6875
+144,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,194,0.6666666666666665
+144,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,147,0.6808510638297872
+144,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,987,0.6732673267326732
+124,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,507,0.6666666666666667
+124,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,553,0.6734693877551021
+124,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,172,0.6875
+124,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,966,0.6796116504854369
+124,100,200,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,630,0.6732673267326732
+27,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,913,0.6213592233009708
+27,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,13,0.6262626262626262
+27,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,458,0.6336633663366336
+27,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,390,0.6451612903225806
+27,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Anorexia Model,Level post lowercase,binary,472,0.606060606060606
+67,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,983,0.7368421052631579
+67,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,931,0.6947368421052632
+67,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,75,0.6086956521739131
+67,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,421,0.7526881720430108
+67,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,297,0.717391304347826
+47,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,596,0.6041666666666666
+47,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,743,0.7415730337078651
+47,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,59,0.7216494845360826
+47,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,995,0.7010309278350515
+47,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,10,Pre_trained Model,Level post lowercase,binary,899,0.6734693877551021
+68,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,142,0.6868686868686867
+68,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,157,0.711111111111111
+68,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,155,0.7191011235955055
+68,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,533,0.7058823529411764
+68,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,871,0.6813186813186813
+48,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,927,0.6956521739130435
+48,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,418,0.7045454545454545
+48,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,572,0.6875
+48,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,593,0.6966292134831461
+48,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,272,0.723404255319149
+125,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,956,0.6799999999999999
+125,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,397,0.7291666666666666
+125,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,223,0.7499999999999999
+125,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,184,0.7422680412371134
+125,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,775,0.7422680412371134
+145,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,422,0.7578947368421053
+145,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,637,0.7422680412371134
+145,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,240,0.7200000000000001
+145,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,980,0.7578947368421053
+145,100,100,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post uppercase,binary,436,0.7200000000000001
+28,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,341,0.6599999999999999
+28,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,169,0.6734693877551021
+28,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,302,0.6881720430107527
+28,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,789,0.6875
+28,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,493,0.6881720430107527
+69,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,113,0.6346153846153846
+69,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,304,0.6078431372549019
+69,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,741,0.6285714285714286
+69,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,643,0.6
+69,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,961,0.6238532110091743
+104,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,94,0.6734693877551021
+104,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,6,0.7526881720430108
+104,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,977,0.6956521739130435
+104,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,703,0.6601941747572816
+104,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,77,0.7865168539325843
+49,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,612,0.5789473684210527
+49,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,221,0.6732673267326732
+49,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,770,0.5882352941176471
+49,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,956,0.6666666666666665
+49,100,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,431,0.5925925925925926
+84,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,608,0.45637583892617456
+84,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,188,0.44871794871794873
+84,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,97,0.5619834710743802
+84,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,628,0.5196850393700788
+84,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-20,Pre_trained Model,Level concatenation uppercase,binary,344,0.5365853658536585
+29,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,477,0.6736842105263158
+29,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,464,0.6804123711340206
+29,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,66,0.6875
+29,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,761,0.6597938144329897
+29,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,552,0.6336633663366336
+70,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,909,0.6666666666666666
+70,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,425,0.7142857142857142
+70,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,403,0.6888888888888889
+70,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,315,0.6947368421052632
+70,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,694,0.6734693877551021
+50,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,680,0.6666666666666666
+50,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,501,0.6799999999999999
+50,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,278,0.7070707070707071
+50,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,134,0.7083333333333334
+50,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,824,0.6896551724137931
+1,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,559,0.5238095238095238
+1,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,242,0.6410256410256411
+1,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,831,0.6410256410256411
+1,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,112,0.6499999999999999
+1,2000,2000,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,246,0.5238095238095238
+71,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,71,0.6538461538461539
+71,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,742,0.5739130434782609
+71,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,779,0.6599999999999999
+71,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,825,0.6181818181818182
+71,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,126,0.6238532110091743
+51,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,721,0.6037735849056605
+51,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,183,0.5688073394495413
+51,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,222,0.5641025641025641
+51,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,550,0.5794392523364487
+51,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,70,0.5663716814159292
+105,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,226,0.6458333333333333
+105,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,558,0.7209302325581395
+105,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,489,0.7126436781609194
+105,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,495,0.6741573033707865
+105,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,531,0.7045454545454545
+85,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,474,0.3673469387755102
+85,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,336,0.31355932203389825
+85,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,551,0.3378995433789954
+85,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,955,0.30638297872340425
+85,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,20,Pre_trained Model,Level concatenation uppercase,binary,169,0.375
+30,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,955,0.6956521739130435
+30,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,526,0.6947368421052632
+30,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,828,0.7045454545454545
+30,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,48,0.6875
+30,500,200,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,580,0.6599999999999999
+72,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,131,0.6956521739130435
+72,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,910,0.6881720430107527
+72,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,932,0.6813186813186813
+72,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,343,0.7216494845360826
+72,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,948,0.7096774193548387
+52,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,739,0.6804123711340206
+52,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,863,0.6976744186046511
+52,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,769,0.6881720430107527
+52,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,167,0.6956521739130435
+52,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,512,0.7157894736842105
+73,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,483,0.6017699115044247
+73,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,120,0.6415094339622641
+73,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,451,0.653061224489796
+73,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,692,0.6017699115044247
+73,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,367,0.6336633663366336
+31,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,523,0.6947368421052632
+31,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,536,0.6736842105263158
+31,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,461,0.5842696629213483
+31,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,779,0.6804123711340206
+31,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level post lowercase,binary,933,0.5894736842105263
+53,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,966,0.6481481481481481
+53,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,776,0.6363636363636365
+53,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,539,0.6796116504854369
+53,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,181,0.591304347826087
+53,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,518,0.5925925925925926
+106,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,14,0.3417085427135679
+106,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,34,0.45454545454545453
+106,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,150,0.3908045977011494
+106,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,567,0.3771428571428571
+106,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,926,0.31527093596059114
+86,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,615,0.5904761904761905
+86,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,16,0.5945945945945947
+86,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,460,0.3451776649746193
+86,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,380,0.5904761904761905
+86,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,865,0.5904761904761905
+74,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,174,0.7191011235955055
+74,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,459,0.7126436781609194
+74,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,642,0.7209302325581395
+74,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,709,0.7157894736842105
+74,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,911,0.6938775510204082
+32,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,33,0.7021276595744681
+32,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,212,0.6999999999999998
+32,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,501,0.717391304347826
+32,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,549,0.7010309278350515
+54,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,702,0.7209302325581395
+32,200,100,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,903,0.7415730337078651
+54,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,875,0.6956521739130435
+54,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,889,0.7252747252747254
+54,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,522,0.7045454545454545
+54,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,204,0.6881720430107527
+107,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,949,0.6481481481481481
+107,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,33,0.6382978723404255
+107,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,696,0.6741573033707865
+107,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,763,0.6734693877551021
+107,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,641,0.6875
+87,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,926,0.6938775510204082
+87,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,963,0.6862745098039217
+87,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,499,0.6732673267326732
+87,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,934,0.6666666666666665
+87,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,630,0.7021276595744681
+75,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,683,0.5892857142857143
+75,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,342,0.6470588235294118
+75,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,337,0.5961538461538461
+75,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,661,0.5739130434782609
+75,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,784,0.6732673267326732
+55,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,32,0.5945945945945947
+55,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,967,0.6285714285714286
+55,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,347,0.6391752577319588
+55,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,855,0.5663716814159292
+55,100,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,59,0.6126126126126126
+126,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,368,0.631578947368421
+126,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,765,0.6122448979591836
+126,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,961,0.6021505376344086
+126,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,261,0.6249999999999999
+126,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,33,0.5894736842105263
+146,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,514,0.6222222222222223
+146,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,597,0.6086956521739131
+146,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,69,0.606060606060606
+146,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,129,0.631578947368421
+146,2000,2000,0.99,No difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,20,Anorexia Model,Level post uppercase,binary,995,0.6021505376344086
+76,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,341,0.7096774193548387
+76,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,469,0.6966292134831461
+76,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,130,0.6875
+76,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,298,0.6741573033707865
+76,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,165,0.6947368421052632
+56,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,896,0.6956521739130435
+56,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,885,0.7032967032967035
+56,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,512,0.7157894736842105
+56,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,394,0.6666666666666666
+56,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,900,0.6947368421052632
+33,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,89,0.7126436781609194
+33,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,408,0.6739130434782609
+33,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,397,0.7294117647058823
+108,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,985,0.6896551724137931
+108,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,738,0.6666666666666667
+33,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,275,0.7126436781609194
+108,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,868,0.7228915662650603
+108,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,482,0.6818181818181819
+108,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,875,0.6818181818181819
+88,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,341,0.5585585585585585
+88,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,718,0.5614035087719298
+88,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,564,0.5486725663716815
+88,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,247,0.5688073394495413
+88,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,428,0.543859649122807
+2,1500,1200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,534,0.6582278481012659
+2,1500,1200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,639,0.6499999999999999
+2,1500,1200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,186,0.6582278481012659
+2,1500,1200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,394,0.6666666666666667
+2,1500,1200,0.99,Difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,35,0.6410256410256411
+77,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,146,0.6019417475728155
+77,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,775,0.6326530612244897
+77,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,759,0.653061224489796
+77,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,78,0.6422018348623854
+77,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,452,0.5765765765765766
+57,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,359,0.5849056603773585
+57,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,813,0.6037735849056605
+57,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,802,0.6037735849056605
+57,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,147,0.6037735849056605
+57,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,320,0.5391304347826087
+34,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,585,0.7446808510638298
+34,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,70,0.6862745098039217
+34,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,341,0.7157894736842105
+34,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,727,0.6804123711340206
+34,200,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,977,0.6930693069306931
+127,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,359,0.6875
+127,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,861,0.6415094339622641
+127,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,81,0.6734693877551021
+127,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,788,0.6407766990291263
+127,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,651,0.627906976744186
+147,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,94,0.7333333333333334
+147,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,218,0.6956521739130435
+147,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,728,0.6956521739130435
+147,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,549,0.6136363636363638
+147,300,700,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post lowercase,binary,391,0.6055045871559633
+109,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,872,0.6881720430107527
+109,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,227,0.6956521739130435
+109,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,883,0.6818181818181819
+109,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,551,0.7070707070707071
+109,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,896,0.6666666666666666
+89,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,587,0.3908045977011494
+89,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,875,0.5982905982905983
+89,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,788,0.38095238095238093
+89,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,592,0.3715846994535519
+89,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post uppercase,binary,746,0.3905325443786982
+78,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,384,0.6999999999999998
+78,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,49,0.717391304347826
+78,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,940,0.7191011235955055
+78,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,963,0.6938775510204082
+78,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,464,0.7045454545454545
+58,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,111,0.7045454545454545
+58,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,233,0.6947368421052632
+58,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,31,0.6875
+58,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,290,0.711111111111111
+58,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,positive,5,Pre_trained Model,Level post uppercase,binary,492,0.7252747252747254
+128,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,211,0.6262626262626262
+128,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,189,0.6938775510204082
+128,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,563,0.6595744680851064
+128,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,220,0.6595744680851064
+128,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,569,0.6804123711340206
+35,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,774,0.6966292134831461
+35,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,456,0.6888888888888889
+35,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,492,0.6595744680851064
+35,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,796,0.6526315789473683
+35,100,200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,390,0.6595744680851064
+148,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,130,0.6346153846153846
+148,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,61,0.6808510638297872
+148,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,216,0.6526315789473683
+148,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,48,0.7216494845360826
+148,100,200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,397,0.6796116504854369
+79,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,354,0.5565217391304348
+79,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,200,0.5981308411214953
+79,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,283,0.5794392523364487
+79,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,496,0.603448275862069
+79,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,699,0.6422018348623854
+110,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,776,0.7346938775510203
+110,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,801,0.7126436781609194
+110,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,171,0.7126436781609194
+110,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,786,0.7368421052631579
+110,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,851,0.7058823529411764
+90,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,671,0.7021276595744681
+90,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,305,0.7021276595744681
+90,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,701,0.7021276595744681
+90,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,609,0.7021276595744681
+90,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,10,Pre_trained Model,Level post lowercase,binary,653,0.7021276595744681
+59,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,941,0.6407766990291263
+59,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,335,0.6138613861386139
+59,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,272,0.5849056603773585
+59,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,993,0.5892857142857143
+59,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,276,0.6599999999999999
+36,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,987,0.7157894736842105
+36,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,849,0.6736842105263158
+36,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,730,0.6355140186915889
+36,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,986,0.6538461538461539
+36,200,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,533,0.7021276595744681
+129,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,558,0.6296296296296297
+129,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,189,0.7191011235955055
+129,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,937,0.6415094339622641
+129,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,49,0.6136363636363638
+129,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,472,0.5894736842105263
+149,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,6,0.6476190476190476
+149,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,577,0.7252747252747254
+149,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,226,0.6352941176470588
+149,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,431,0.6808510638297872
+149,300,700,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,836,0.5909090909090909
+111,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,313,0.43971631205673756
+111,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,583,0.7216494845360826
+111,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,48,0.44776119402985076
+111,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,783,0.49655172413793097
+111,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,714,0.5585585585585585
+37,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,613,0.7209302325581395
+37,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,285,0.7142857142857143
+37,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,764,0.7228915662650603
+37,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,989,0.6888888888888889
+37,100,200,0.95,Difference,Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,35,0.6451612903225806
+91,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,862,0.2681992337164751
+91,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,33,0.2825278810408922
+91,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,729,0.28044280442804426
+91,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,137,0.06956521739130433
+91,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,10-20,Pre_trained Model,Level post uppercase,binary,496,0.2825278810408922
+38,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,998,0.711111111111111
+38,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,481,0.6799999999999999
+38,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,82,0.6999999999999998
+38,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,878,0.6938775510204082
+38,200,100,0.95,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,400,0.7555555555555555
+112,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,801,0.7058823529411764
+112,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,736,0.7045454545454545
+112,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,913,0.6666666666666667
+112,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,59,0.7228915662650603
+112,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,354,0.6888888888888889
+3,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,913,0.6499999999999999
+3,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,63,0.6410256410256411
+3,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,398,0.6410256410256411
+3,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,524,0.6666666666666667
+3,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,562,0.6410256410256411
+92,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,28,0.6593406593406594
+92,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,284,0.7209302325581395
+92,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,66,0.7380952380952381
+92,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,252,0.6739130434782609
+92,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,positive,5,Pre_trained Model,Level concatenation uppercase,binary,723,0.6526315789473683
+39,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,253,0.6666666666666667
+39,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,69,0.7142857142857143
+39,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,182,0.6595744680851064
+39,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,790,0.6888888888888889
+39,100,200,0.95,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,no_topic,None,[],Pre_trained Model,Level concatenation uppercase,binary,353,0.7045454545454545
+113,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,917,0.7191011235955055
+113,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,33,0.6666666666666667
+113,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,873,0.7356321839080461
+113,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,660,0.7191011235955055
+113,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,111,0.6804123711340206
+93,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,251,0.6739130434782609
+93,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,908,0.7252747252747254
+93,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,779,0.6947368421052632
+93,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,662,0.711111111111111
+93,100,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level concatenation uppercase,binary,307,0.7252747252747254
+130,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,470,0.5957446808510638
+130,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,55,0.6249999999999999
+130,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,674,0.6222222222222223
+130,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,444,0.5773195876288659
+130,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,309,0.6122448979591836
+150,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,381,0.6153846153846154
+150,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,674,0.6222222222222223
+150,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,636,0.6185567010309277
+150,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,438,0.6021505376344086
+150,1500,1200,0.99,Difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post uppercase,binary,96,0.6249999999999999
+114,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,574,0.6938775510204082
+114,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,406,0.5070422535211268
+114,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,98,0.5689655172413793
+114,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,525,0.5648854961832062
+114,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,358,0.5619834710743802
+94,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,359,0.49645390070921985
+94,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,795,0.5079365079365079
+94,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,856,0.5112781954887218
+94,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,719,0.5035971223021583
+94,100,100,0.95,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,positive,5-10,Pre_trained Model,Level post uppercase,binary,209,0.5789473684210527
+115,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,389,0.7047619047619048
+115,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,304,0.7157894736842105
+115,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,861,0.6938775510204082
+115,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,855,0.6862745098039217
+115,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,616,0.6666666666666667
+95,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,696,0.7142857142857143
+95,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,416,0.6666666666666667
+95,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,221,0.6458333333333333
+95,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,563,0.6185567010309277
+95,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,681,0.6590909090909092
+116,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,604,0.5546218487394957
+116,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,838,0.5546218487394957
+116,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,236,0.540983606557377
+116,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,605,0.5739130434782609
+116,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,537,0.5663716814159292
+96,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,164,0.5641025641025641
+96,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,429,0.5689655172413793
+96,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,765,0.5486725663716815
+96,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,208,0.5423728813559323
+96,100,100,0.9,Difference,Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,20,Pre_trained Model,Level post lowercase,binary,482,0.6226415094339622
+131,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,95,0.7252747252747254
+131,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,808,0.7252747252747254
+131,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,944,0.7096774193548387
+131,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,6,0.7021276595744681
+131,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,43,0.6956521739130435
+151,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,630,0.6947368421052632
+151,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,368,0.5625
+151,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,557,0.7252747252747254
+151,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,875,0.6808510638297872
+151,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Full matrix,None,add topic,positive,5,Anorexia Model,Level post lowercase,binary,677,0.6352941176470588
+117,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,31,0.6736842105263158
+117,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,465,0.6808510638297872
+117,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,221,0.6808510638297872
+117,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,254,0.6938775510204082
+117,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,874,0.6956521739130435
+97,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,377,0.5483870967741935
+97,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,44,0.6336633663366336
+97,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,669,0.5439999999999999
+97,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,411,0.6470588235294118
+97,100,100,0.9,Difference,Not Fuzzy,Not removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post lowercase,binary,862,0.5365853658536585
+118,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,641,0.2490566037735849
+118,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,52,0.31304347826086953
+118,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,396,0.29955947136563876
+118,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,729,0.4428571428571429
+118,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,387,0.26119402985074625
+98,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,507,0.6804123711340206
+98,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,637,0.6470588235294118
+98,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,761,0.6538461538461539
+98,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,545,0.6296296296296297
+98,100,100,0.9,Difference,Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,5,Pre_trained Model,Level post uppercase,binary,838,0.6238532110091743
+132,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,652,0.5434782608695652
+132,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,778,0.5977011494252873
+132,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,194,0.6
+4,1500,1200,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,608,0.5866666666666668
+4,1500,1200,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,53,0.5405405405405406
+4,1500,1200,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,259,0.5675675675675675
+4,1500,1200,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,191,0.5405405405405406
+4,1500,1200,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,816,0.5405405405405406
+132,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,901,0.6666666666666667
+132,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,485,0.6391752577319588
+152,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,757,0.631578947368421
+152,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,317,0.5454545454545454
+152,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,630,0.5617977528089888
+152,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,868,0.6373626373626374
+152,1000,800,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,5,Pre_trained Model,Level post lowercase,binary,132,0.6391752577319588
+133,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,755,0.6868686868686867
+133,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,541,0.6888888888888889
+133,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,950,0.6888888888888889
+133,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,496,0.7311827956989247
+133,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,213,0.6799999999999999
+119,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,513,0.58
+119,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,423,0.631578947368421
+119,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,339,0.6373626373626374
+119,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,245,0.6122448979591836
+119,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,718,0.6122448979591836
+99,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,578,0.7021276595744681
+99,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,109,0.7586206896551724
+99,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,290,0.6956521739130435
+99,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,308,0.7200000000000001
+99,100,100,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,clustering,no_topic,negative,10,Pre_trained Model,Level post uppercase,binary,817,0.7415730337078651
+153,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,850,0.6796116504854369
+153,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,7,0.7157894736842105
+153,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,461,0.6990291262135923
+153,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,767,0.6851851851851852
+153,100,100,0.99,Difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post uppercase,binary,426,0.6597938144329897
+134,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,498,0.6595744680851064
+134,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,89,0.653061224489796
+134,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,891,0.6734693877551021
+134,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,468,0.6734693877551021
+134,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,313,0.6597938144329897
+154,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,792,0.6526315789473683
+154,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,975,0.62
+154,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,939,0.6
+154,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,475,0.6534653465346535
+154,500,200,0.99,Difference,Fuzzy,Not removed stopwords,Full matrix,None,add topic,negative,10,Anorexia Model,Level post uppercase,binary,43,0.6470588235294118
+135,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,155,0.7032967032967035
+135,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,118,0.6808510638297872
+135,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,720,0.7096774193548387
+135,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,949,0.6938775510204082
+135,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,223,0.7311827956989247
+155,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,862,0.7010309278350515
+155,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,583,0.6956521739130435
+155,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,153,0.6153846153846154
+155,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,318,0.6666666666666666
+155,500,200,0.99,No difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Anorexia Model,Level post lowercase,binary,207,0.6666666666666666
+5,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,836,0.5277777777777778
+5,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,579,0.5789473684210527
+5,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,606,0.5405405405405406
+5,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,749,0.5277777777777778
+5,1500,1200,0.99,Difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,703,0.5405405405405406
+136,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,629,0.6499999999999999
+136,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,165,0.6024096385542169
+136,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,257,0.5581395348837209
+136,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,336,0.6881720430107527
+136,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,685,0.54320987654321
+156,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,484,0.6590909090909092
+156,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,400,0.6
+156,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,877,0.6363636363636364
+156,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,894,0.6666666666666666
+156,300,700,0.95,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,both,5,Anorexia Model,Level post lowercase,binary,304,0.5853658536585366
+137,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,169,0.6956521739130435
+137,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,427,0.5842696629213483
+137,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,666,0.6336633663366336
+137,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,272,0.6136363636363638
+137,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,665,0.6808510638297872
+157,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,19,0.6597938144329897
+157,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,870,0.6428571428571429
+157,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,859,0.6326530612244897
+157,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,165,0.6875
+157,1000,800,0.99,Difference,Fuzzy,Removed stopwords,Full matrix,None,add topic,positive,10,Anorexia Model,Level post lowercase,binary,144,0.711111111111111
+138,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,889,0.6067415730337078
+138,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,16,0.6666666666666665
+138,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,4,0.6599999999999999
+138,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,715,0.5957446808510638
+138,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,737,0.6599999999999999
+158,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,723,0.574468085106383
+158,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,91,0.6868686868686867
+158,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,967,0.6021505376344086
+158,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,835,0.6534653465346535
+158,500,2000,0.99,No difference,Not Fuzzy,Removed stopwords,Full matrix,None,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,874,0.6875
+139,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,146,0.6
+139,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,376,0.6808510638297872
+139,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,255,0.6136363636363638
+139,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,250,0.6868686868686867
+139,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,399,0.6
+6,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,426,0.6756756756756757
+6,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,497,0.6756756756756757
+6,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,321,0.6666666666666666
+6,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,955,0.6842105263157895
+6,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,447,0.6923076923076923
+159,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,536,0.6206896551724138
+159,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,194,0.7021276595744681
+159,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,153,0.5684210526315789
+159,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,280,0.6292134831460675
+159,500,200,0.9,Difference,Not Fuzzy,Removed stopwords,Full matrix,simple,add topic,negative,5,Pre_trained Model,Level post lowercase,binary,672,0.6804123711340206
+7,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,720,0.6842105263157895
+7,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,729,0.6923076923076923
+7,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,116,0.6666666666666666
+7,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,475,0.6923076923076923
+7,2000,2000,0.99,Difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Anorexia Model,Level concatenation lowercase,tf,316,0.6842105263157895
+8,1000,1500,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,637,0.29090909090909095
+8,1000,1500,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,610,0.28070175438596495
+8,1000,1500,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,336,0.28070175438596495
+8,1000,1500,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,364,0.29090909090909095
+8,1000,1500,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,670,0.22950819672131145
+9,1000,1200,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,378,0.25
+9,1000,1200,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,824,0.18867924528301888
+9,1000,1200,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,723,0.2745098039215686
+9,1000,1200,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,428,0.18867924528301888
+9,1000,1200,0.99,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,107,0.339622641509434
+10,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,582,0.29090909090909095
+10,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,807,0.22222222222222224
+10,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,803,0.22950819672131145
+10,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,687,0.22950819672131145
+10,1000,1500,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,781,0.22222222222222224
+11,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,234,0.2222222222222222
+11,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,799,0.27999999999999997
+11,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,808,0.25
+11,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,831,0.25
+11,1000,1200,0.99,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,170,0.25925925925925924
+12,1000,1500,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,711,0.29090909090909095
+12,1000,1500,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,472,0.29090909090909095
+12,1000,1500,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,896,0.22950819672131145
+12,1000,1500,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,611,0.28070175438596495
+12,1000,1500,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,838,0.29090909090909095
+13,1000,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,289,0.2222222222222222
+13,1000,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,298,0.339622641509434
+13,1000,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,444,0.3137254901960785
+13,1000,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,313,0.2857142857142857
+13,1000,1200,0.95,No difference,Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,780,0.3018867924528301
+14,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,602,0.28070175438596495
+14,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,229,0.28070175438596495
+14,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,619,0.29090909090909095
+14,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,589,0.28070175438596495
+14,1000,1500,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,191,0.28070175438596495
+15,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,473,0.25
+15,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,285,0.2857142857142857
+15,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,742,0.2857142857142857
+15,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,116,0.2745098039215686
+15,1000,1200,0.95,No difference,Not Fuzzy,Removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,613,0.339622641509434
+16,1000,1500,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,847,0.3018867924528301
+16,1000,1500,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,518,0.3018867924528301
+16,1000,1500,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,850,0.23529411764705882
+16,1000,1500,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,961,0.2641509433962264
+16,1000,1500,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,709,0.2692307692307692
+17,1000,1200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,297,0.2641509433962264
+17,1000,1200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,235,0.23076923076923073
+17,1000,1200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,590,0.34615384615384615
+17,1000,1200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,692,0.2641509433962264
+17,1000,1200,0.99,No difference,Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,346,0.3137254901960785
+18,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,189,0.2692307692307692
+18,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,512,0.3018867924528301
+18,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,1,0.3018867924528301
+18,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,862,0.2641509433962264
+18,1000,1500,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,868,0.23076923076923073
+19,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,267,0.2641509433962264
+19,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,367,0.27999999999999997
+19,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,312,0.27999999999999997
+19,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,413,0.2641509433962264
+19,1000,1200,0.99,No difference,Not Fuzzy,Not removed stopwords,Compression,None,no_topic,None,[],Pre_trained Model,Level concatenation lowercase,tf,375,0.23076923076923073

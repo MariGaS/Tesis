@@ -1,0 +1,383 @@
+255,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,NB,0.6822429906542057,None
+253,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,NB,0.6790697674418604,None
+304,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.676923076923077,None
+336,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.676923076923077,None
+306,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.676923076923077,None
+338,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.676923076923077,None
+257,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,NB,0.6607142857142858,None
+259,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,NB,0.6607142857142858,None
+368,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6591760299625468,None
+370,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6591760299625468,None
+364,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6561264822134387,None
+365,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6561264822134387,None
+332,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6538461538461537,None
+333,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6538461538461537,None
+334,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6538461538461537,None
+335,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6538461538461537,None
+366,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6535433070866142,None
+367,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6535433070866142,None
+305,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6518518518518518,None
+337,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6518518518518518,None
+307,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6518518518518518,None
+339,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6518518518518518,None
+300,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6486486486486486,None
+301,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6486486486486486,None
+302,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6486486486486486,None
+303,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.6486486486486486,None
+369,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6470588235294119,None
+371,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.6470588235294119,None
+209,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,NB,0.6423357664233577,None
+211,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,NB,0.6423357664233577,None
+205,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,NB,0.6273062730627306,None
+207,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,NB,0.6273062730627306,None
+247,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,NB,0.6054054054054054,None
+245,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,NB,0.6021505376344085,None
+243,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,NB,0.5830721003134796,None
+241,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,NB,0.58125,None
+164,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5766423357664234,{'C': 0.05}
+165,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5766423357664234,{'C': 0.05}
+166,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5766423357664234,{'C': 0.05}
+167,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5766423357664234,{'C': 0.05}
+296,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+328,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+297,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+329,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+298,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+330,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+299,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+331,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5700934579439252,None
+168,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5567765567765568,{'C': 0.05}
+172,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5567765567765568,{'C': 0.05}
+169,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5567765567765568,{'C': 0.05}
+173,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5567765567765568,{'C': 0.05}
+170,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5567765567765568,{'C': 0.05}
+171,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5567765567765568,{'C': 0.05}
+360,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5550239234449761,None
+361,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5550239234449761,None
+362,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5550239234449761,None
+363,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.5550239234449761,None
+174,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5527272727272727,{'C': 0.05}
+175,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5527272727272727,{'C': 0.05}
+239,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,NB,0.5525525525525525,None
+176,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5517241379310345,{'C': 0.05}
+178,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5517241379310345,{'C': 0.05}
+136,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+104,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+137,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+105,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+106,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+138,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+107,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+139,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5514705882352942,{'C': 0.05}
+21,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,SVM,0.549520766773163,{'C': 0.05}
+23,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,SVM,0.549520766773163,{'C': 0.05}
+237,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,NB,0.5492537313432835,None
+201,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,NB,0.547085201793722,None
+203,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,NB,0.547085201793722,None
+132,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+100,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+133,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+101,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+134,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+102,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+103,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+135,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.5461254612546125,{'C': 0.12}
+161,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5389221556886227,{'C': 0.05}
+129,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5389221556886227,{'C': 0.05}
+163,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5389221556886227,{'C': 0.05}
+131,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5389221556886227,{'C': 0.05}
+324,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+293,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+325,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+294,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+326,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+295,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+327,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5371900826446281,None
+140,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5367647058823529,{'C': 0.05}
+142,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5367647058823529,{'C': 0.05}
+148,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+116,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+149,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+117,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+118,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+150,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+151,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+119,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5362776025236593,{'C': 0.05}
+193,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5357142857142857,{'C': 0.05}
+141,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5347985347985349,{'C': 0.05}
+143,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5347985347985349,{'C': 0.05}
+177,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5324232081911263,{'C': 0.05}
+33,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,SVM,0.5313432835820895,{'C': 0.05}
+35,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,SVM,0.5313432835820895,{'C': 0.05}
+356,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5311203319502075,None
+357,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5311203319502075,None
+358,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5311203319502075,None
+359,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.5311203319502075,None
+182,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5308641975308642,{'C': 0.05}
+183,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5308641975308642,{'C': 0.05}
+190,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5285285285285285,{'C': 0.05}
+191,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5285285285285285,{'C': 0.05}
+186,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.5279503105590062,{'C': 0.05}
+187,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.5279503105590062,{'C': 0.05}
+179,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5273972602739726,{'C': 0.05}
+192,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5259938837920489,{'C': 0.12}
+194,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5259938837920489,{'C': 0.12}
+180,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5246913580246914,{'C': 0.12}
+184,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.5246913580246914,{'C': 0.05}
+181,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.5246913580246914,{'C': 0.12}
+185,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.5246913580246914,{'C': 0.05}
+145,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5244755244755245,{'C': 0.05}
+113,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5244755244755245,{'C': 0.05}
+147,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5244755244755245,{'C': 0.05}
+115,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5244755244755245,{'C': 0.05}
+108,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5236363636363637,{'C': 0.05}
+109,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5236363636363637,{'C': 0.05}
+110,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5236363636363637,{'C': 0.05}
+111,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5236363636363637,{'C': 0.05}
+188,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5225225225225225,{'C': 0.05}
+189,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5225225225225225,{'C': 0.05}
+156,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5194029850746269,{'C': 0.05}
+157,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5194029850746269,{'C': 0.05}
+158,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5194029850746269,{'C': 0.05}
+159,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5194029850746269,{'C': 0.05}
+29,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,SVM,0.5165165165165165,{'C': 0.05}
+31,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,SVM,0.5165165165165165,{'C': 0.05}
+195,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5165165165165165,{'C': 0.12}
+13,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,SVM,0.5154639175257733,{'C': 0.05}
+15,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,SVM,0.5154639175257733,{'C': 0.05}
+124,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5149700598802395,{'C': 0.05}
+125,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5149700598802395,{'C': 0.05}
+126,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5149700598802395,{'C': 0.05}
+127,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.5149700598802395,{'C': 0.05}
+144,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5140845070422536,{'C': 0.05}
+112,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5140845070422536,{'C': 0.05}
+114,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5140845070422536,{'C': 0.05}
+146,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5140845070422536,{'C': 0.05}
+197,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,NB,0.5138339920948617,None
+199,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,NB,0.5138339920948617,None
+160,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5137614678899083,{'C': 0.12}
+128,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5137614678899083,{'C': 0.12}
+130,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5137614678899083,{'C': 0.12}
+162,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.5137614678899083,{'C': 0.12}
+9,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,SVM,0.5084745762711864,{'C': 0.05}
+11,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,SVM,0.5084745762711864,{'C': 0.05}
+229,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,NB,0.5028571428571428,None
+231,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,NB,0.5028571428571428,None
+17,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,SVM,0.5016722408026756,{'C': 0.05}
+19,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,SVM,0.5016722408026756,{'C': 0.05}
+25,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,SVM,0.4942528735632184,{'C': 0.05}
+27,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,SVM,0.4942528735632184,{'C': 0.05}
+235,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,NB,0.49411764705882355,None
+5,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,SVM,0.4930555555555555,{'C': 0.12}
+7,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,SVM,0.4930555555555555,{'C': 0.12}
+152,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+120,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+153,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+121,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+122,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+154,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+155,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+123,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.4896755162241888,{'C': 0.12}
+233,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,NB,0.4869565217391304,None
+67,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,SVM,0.4680851063829787,{'C': 0.05}
+65,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,SVM,0.4615384615384616,{'C': 0.05}
+97,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,SVM,0.45820433436532504,{'C': 0.05}
+99,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,SVM,0.45783132530120485,{'C': 0.05}
+55,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,SVM,0.4554973821989529,{'C': 0.05}
+53,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,SVM,0.4479166666666666,{'C': 0.05}
+275,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,NB,0.44444444444444453,None
+93,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,SVM,0.44378698224852065,{'C': 0.05}
+57,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,SVM,0.4411764705882353,{'C': 0.05}
+63,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,SVM,0.4405797101449276,{'C': 0.05}
+59,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,SVM,0.4398826979472141,{'C': 0.05}
+61,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,SVM,0.4393063583815029,{'C': 0.05}
+273,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,NB,0.4380952380952381,None
+89,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,SVM,0.43804034582132567,{'C': 0.05}
+225,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,NB,0.4360902255639098,None
+227,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,NB,0.4360902255639098,None
+320,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+352,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+321,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+353,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+322,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+354,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+323,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+387,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+355,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.43410852713178294,None
+95,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,SVM,0.4327485380116959,{'C': 0.05}
+385,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.4307692307692308,None
+91,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,SVM,0.42696629213483145,{'C': 0.05}
+384,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.421875,None
+386,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.421875,None
+85,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,SVM,0.4215938303341902,{'C': 0.05}
+87,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,SVM,0.4215938303341902,{'C': 0.05}
+249,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,NB,0.40579710144927533,None
+251,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,NB,0.40579710144927533,None
+271,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,NB,0.40088105726872253,None
+269,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,NB,0.4,None
+263,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,NB,0.3921568627450981,None
+261,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,NB,0.3896103896103897,None
+267,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,NB,0.3877995642701525,None
+221,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,NB,0.3779527559055118,None
+223,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,NB,0.3779527559055118,None
+265,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,NB,0.37791932059447986,None
+39,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,SVM,0.37745098039215685,{'C': 0.05}
+37,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,SVM,0.37652811735941316,{'C': 0.05}
+45,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,SVM,0.3674540682414698,{'C': 0.12}
+51,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,SVM,0.36734693877551017,{'C': 2}
+49,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,SVM,0.36298932384341637,{'C': 2}
+43,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,SVM,0.3532219570405728,{'C': 0.05}
+41,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,SVM,0.3526570048309179,{'C': 0.05}
+47,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,SVM,0.35014836795252224,{'C': 1}
+316,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.34426229508196726,None
+318,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.34426229508196726,None
+317,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.33057851239669417,None
+319,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.33057851239669417,None
+73,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,SVM,0.31901840490797545,{'C': 0.12}
+279,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,NB,0.31578947368421056,None
+71,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,SVM,0.31556503198294245,{'C': 0.05}
+83,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,SVM,0.31347962382445144,{'C': 0.05}
+69,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict1,500,SVM,0.31157894736842107,{'C': 0.05}
+348,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.3064516129032258,None
+349,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.3064516129032258,None
+350,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.3064516129032258,None
+351,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.3064516129032258,None
+75,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict2,2000,SVM,0.3003003003003003,{'C': 0.25}
+277,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,NB,0.29684601113172543,None
+79,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,SVM,0.2967359050445104,{'C': 0.12}
+382,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.2950819672131148,None
+383,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.2950819672131148,None
+380,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.29268292682926833,None
+381,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.29268292682926833,None
+81,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict4,1500,SVM,0.2900302114803625,{'C': 0.05}
+372,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.288135593220339,None
+373,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.288135593220339,None
+374,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.288135593220339,None
+375,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.288135593220339,None
+77,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict3,1500,SVM,0.28735632183908044,{'C': 0.12}
+291,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,NB,0.2705167173252279,None
+213,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,NB,0.2644628099173554,None
+215,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict1,500,NB,0.2644628099173554,None
+289,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict4,1500,NB,0.26176470588235295,None
+308,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+340,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+309,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+341,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+310,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+342,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+311,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+343,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.2564102564102564,None
+287,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,NB,0.25316455696202533,None
+285,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict3,1500,NB,0.24456521739130432,None
+283,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,NB,0.24082232011747431,None
+281,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,NB,0.23295454545454547,None
+4,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,SVM,0.0,{'C': 0.12}
+36,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,SVM,0.0,{'C': 0.05}
+68,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,SVM,0.0,{'C': 0.05}
+228,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,NB,0.0,None
+196,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,NB,0.0,None
+40,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,SVM,0.0,{'C': 0.5}
+8,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,SVM,0.0,{'C': 0.05}
+72,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,SVM,0.0,{'C': 0.05}
+232,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,NB,0.0,None
+200,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,NB,0.0,None
+44,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,SVM,0.0,{'C': 0.05}
+12,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,SVM,0.0,{'C': 0.05}
+76,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,SVM,0.0,{'C': 0.12}
+236,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,NB,0.0,None
+204,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,NB,0.0,None
+48,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,SVM,0.0,{'C': 0.05}
+52,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,SVM,0.0,{'C': 0.05}
+16,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,SVM,0.0,{'C': 0.05}
+80,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,SVM,0.0,{'C': 2}
+20,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,SVM,0.0,{'C': 0.05}
+240,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,NB,0.0,None
+84,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,SVM,0.0,{'C': 0.05}
+208,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,NB,0.0,None
+244,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,NB,0.0,None
+212,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,NB,0.0,None
+56,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,SVM,0.0,{'C': 0.05}
+24,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,SVM,0.0,{'C': 0.05}
+88,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,SVM,0.0,{'C': 0.12}
+248,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+60,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,SVM,0.0,{'C': 0.05}
+216,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+28,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,SVM,0.0,{'C': 0.05}
+92,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,SVM,0.0,{'C': 0.05}
+252,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,NB,0.0,None
+64,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,SVM,0.0,{'C': 0.05}
+220,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,NB,0.0,None
+32,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,SVM,0.0,{'C': 0.05}
+96,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,SVM,0.0,{'C': 0.05}
+256,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,NB,0.0,None
+224,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,NB,0.0,None
+217,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+38,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,SVM,0.0,{'C': 0.05}
+198,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,NB,0.0,None
+230,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,NB,0.0,None
+70,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,SVM,0.0,{'C': 0.05}
+42,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,SVM,0.0,{'C': 0.05}
+6,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,SVM,0.0,{'C': 0.12}
+202,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,NB,0.0,None
+234,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,NB,0.0,None
+46,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,SVM,0.0,{'C': 1}
+74,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,SVM,0.0,{'C': 0.12}
+10,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,SVM,0.0,{'C': 0.05}
+206,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,NB,0.0,None
+238,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,NB,0.0,None
+50,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,SVM,0.0,{'C': 0.05}
+78,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,SVM,0.0,{'C': 0.12}
+54,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,SVM,0.0,{'C': 0.05}
+210,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,NB,0.0,None
+14,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,SVM,0.0,{'C': 0.05}
+242,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,NB,0.0,None
+82,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,SVM,0.0,{'C': 1}
+214,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,NB,0.0,None
+58,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,SVM,0.0,{'C': 0.05}
+246,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,NB,0.0,None
+86,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,SVM,0.0,{'C': 0.05}
+62,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,SVM,0.0,{'C': 0.05}
+18,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,SVM,0.0,{'C': 0.05}
+218,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+250,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+22,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,SVM,0.0,{'C': 0.05}
+90,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,SVM,0.0,{'C': 0.05}
+66,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,SVM,0.0,{'C': 0.05}
+222,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,NB,0.0,None
+254,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,NB,0.0,None
+94,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,SVM,0.0,{'C': 0.05}
+26,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,SVM,0.0,{'C': 0.05}
+226,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,NB,0.0,None
+258,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,NB,0.0,None
+98,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,SVM,0.0,{'C': 0.05}
+30,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,SVM,0.0,{'C': 0.05}
+34,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,SVM,0.0,{'C': 0.05}
+219,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+260,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,NB,0.0,None
+264,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,NB,0.0,None
+268,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,NB,0.0,None
+272,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,NB,0.0,None
+276,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,NB,0.0,None
+280,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+284,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,NB,0.0,None
+312,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+344,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+288,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,NB,0.0,None
+376,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+313,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+377,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+345,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+262,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict1,500,NB,0.0,None
+266,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict2,2000,NB,0.0,None
+270,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict3,1500,NB,0.0,None
+274,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict4,1500,NB,0.0,None
+278,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict1,500,NB,0.0,None
+282,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict2,2000,NB,0.0,None
+286,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict3,1500,NB,0.0,None
+290,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict4,1500,NB,0.0,None
+314,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+378,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+346,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+315,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+379,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None
+347,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.0,None

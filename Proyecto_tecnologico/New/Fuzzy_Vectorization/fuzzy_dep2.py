@@ -39,26 +39,26 @@ arg5 = [ True, True, False, False]
 arg6 = [True, False, True, False]
 # En este no importa si hay en común
 for i in range(4):
-    f = run_exp_dep_sim(i+4*9,test_labels, train_y,num_test,num_train,name_dic='dict1',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*105,test_labels, train_y,num_test,num_train,name_dic='dict5',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*10,test_labels, train_y,num_test,num_train,name_dic='dict2',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*106,test_labels, train_y,num_test,num_train,name_dic='dict6',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*11,test_labels, train_y,num_test,num_train,name_dic='dict3',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*107,test_labels, train_y,num_test,num_train,name_dic='dict7',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*12,test_labels, train_y,num_test,num_train,name_dic='dict4',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*108,test_labels, train_y,num_test,num_train,name_dic='dict8',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*13,test_labels, train_y,num_test,num_train,name_dic='dict1',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*109,test_labels, train_y,num_test,num_train,name_dic='dict5',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*14,test_labels, train_y,num_test,num_train,name_dic='dict2',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*110,test_labels, train_y,num_test,num_train,name_dic='dict6',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*15,test_labels,train_y,num_test,num_train,name_dic='dict3',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*111,test_labels,train_y,num_test,num_train,name_dic='dict7',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False,classificator='SVM')
 
-    f = run_exp_dep_sim(i+4*16,test_labels, train_y,num_test,num_train,name_dic='dict4',tau=arg3[i],
+    f = run_exp_dep_sim(i+4*112,test_labels, train_y,num_test,num_train,name_dic='dict8',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False,classificator='SVM')

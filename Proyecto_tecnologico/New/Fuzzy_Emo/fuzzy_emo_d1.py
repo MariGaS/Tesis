@@ -63,25 +63,25 @@ for i in range(4):
     f = run_exp_dep_sim(i+4*56,test_labels, train_y,num_test,num_train,name_dic='dict8',tau=arg3[i],
                             chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
     f = run_exp_dep_sim(i+4*57,test_labels, train_y,num_test,num_train,name_dic='dict5',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = True,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = True,classificator='NB')
 
     f = run_exp_dep_sim(i+4*58,test_labels, train_y,num_test,num_train,name_dic='dict6',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = True,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = True,classificator='NB')
 
     f = run_exp_dep_sim(i+4*59,test_labels, train_y,num_test,num_train,name_dic='dict7',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = True,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = True,classificator='NB')
 
     f = run_exp_dep_sim(i+4*60,test_labels, train_y,num_test,num_train,name_dic='dict8',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False,  tf = True,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False,  tf = True,classificator='NB')
 
     f = run_exp_dep_sim(i+4*61,test_labels, train_y,num_test,num_train,name_dic='dict5',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
 
     f = run_exp_dep_sim(i+4*62,test_labels, train_y,num_test,num_train,name_dic='dict6',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
 
     f = run_exp_dep_sim(i+4*63,test_labels,train_y,num_test,num_train,name_dic='dict7',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
 
     f = run_exp_dep_sim(i+4*64,test_labels, train_y,num_test,num_train,name_dic='dict8',tau=arg3[i],
-                            chose =2, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False, tf = False,classificator='NB')

@@ -1,0 +1,19 @@
+
+260,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.0,None
+196,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.0,None
+324,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.0,None
+200,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.0,None
+264,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.0,None
+204,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.0,None
+268,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.0,None
+328,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.0,None
+332,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.0,None
+208,0.99,Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
+272,0.9,Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
+212,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.0,None
+276,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.0,None
+216,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.0,None
+280,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.0,None
+220,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
+336,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
+284,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None

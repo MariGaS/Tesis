@@ -31,28 +31,28 @@ print('Begins experiments')
 # En este no importa si hay en común
 for i in range(4):
     f = run_exp_anxia_sim(i+4*81,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict1',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False, classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False, classificator='NB')
 
     f = run_exp_anxia_sim(i+4*82,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict2',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
 
     f = run_exp_anxia_sim(i+4*83,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict3',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
 
     f = run_exp_anxia_sim(i+4*84,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict4',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
 
     f = run_exp_anxia_sim(i+4*85,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict1',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
 
     f = run_exp_anxia_sim(i+4*86,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict2',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
 
     f = run_exp_anxia_sim(i+4*87,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict3',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
 
     f = run_exp_anxia_sim(i+4*88,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict4',tau=arg3[i],
-                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
+                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  tf = False, only_bow=False,classificator='NB')
     f = run_exp_anxia_sim(i+4*89,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict1',tau=arg3[i],
                             chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  tf = True, only_bow=False,classificator='NB')
 

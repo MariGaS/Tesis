@@ -55,25 +55,25 @@ for i in range(4):
                             chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*9,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict1',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],only_bow=False,  tf = True,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],only_bow=False,  tf = True,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*10,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict2',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = True,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = True,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*11,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict3',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = True,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = True,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*12,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict4',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False,tf = True,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i],  only_bow=False,tf = True,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*13,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict1',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*14,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict2',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*15,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict3',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
 
     f = run_exp_anxia_sim(i+4*16,test_labels_anxia, tr_label,num_test,num_train,name_dic='dict4',tau=arg3[i],
-                            chose =1, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')
+                            chose =3, fuzzy= arg5[i],remove_stop=arg6[i], only_bow=False, tf = False,classificator='SVM')

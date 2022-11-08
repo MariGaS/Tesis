@@ -360,7 +360,7 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,na
     f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_Emo/f1_anorexia.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(tau)  
             +','+ fuzzy_str+','+ remove_stop_str 
-            +','+ w_e + ','+ weight + ',' + name_dic+  ',' + str(len_dict) + b+  +  ',' + classificator + ','+ str(f1) + ',' + str(a)) 
+            +','+ w_e + ','+ weight + ',' + name_dic+  ',' + str(len_dict) +  ',' + b  +  ',' + classificator + ','+ str(f1) + ',' + str(a)) 
     f.close()   
         
     print("done in %fs" % (time() - t_initial))
@@ -471,7 +471,7 @@ def run_exp_dep_sim(num_exp, test_labels, train_labels, num_test, num_train,name
     f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Fuzzy_Emo/f1_dep.txt','a')
     f.write('\n' + str(num_exp) +',' + str(tau)
             +','+ fuzzy_str+','+ remove_stop_str
-            +','+ w_e + ','+ weight + ',' + name_dic + ',' + str(len_dic)+ ',' +b+ + classificator+','  + str(f1) + ',' + str(a)) 
+            +','+ w_e + ','+ weight + ',' + name_dic + ',' + str(len_dic)+ ',' +b+ ',' + classificator+','  + str(f1) + ',' + str(a)) 
     f.close()       
 
     print('The time for this experiment was %fs' % (time() - t_initial))

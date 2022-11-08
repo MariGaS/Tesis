@@ -1,0 +1,385 @@
+
+36,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.5714285714285714,{'C': 0.5}
+68,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.5833333333333334,{'C': 0.05}
+4,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6133333333333334,{'C': 0.05}
+100,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+164,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.05}
+132,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+40,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.547945205479452,{'C': 0.12}
+72,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.6172839506172839,{'C': 0.05}
+8,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.638888888888889,{'C': 1}
+104,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+136,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+168,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.547945205479452,{'C': 0.25}
+44,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.4470588235294118,{'C': 0.12}
+76,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.5777777777777778,{'C': 0.05}
+12,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.6315789473684211,{'C': 0.05}
+108,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+140,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+172,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.547945205479452,{'C': 0.25}
+48,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5866666666666668,{'C': 0.12}
+52,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.43478260869565216,{'C': 0.25}
+80,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.4615384615384615,{'C': 0.05}
+16,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5945945945945946,{'C': 2}
+112,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5915492957746479,{'C': 0.05}
+144,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5915492957746479,{'C': 0.05}
+176,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5277777777777778,{'C': 0.25}
+84,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.6,{'C': 0.12}
+20,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.7317073170731707,{'C': 0.12}
+116,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+148,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+180,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7560975609756099,{'C': 0.05}
+56,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.5079365079365079,{'C': 0.05}
+24,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.7692307692307694,{'C': 0.05}
+120,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+88,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.575,{'C': 0.5}
+152,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+184,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7317073170731707,{'C': 0.05}
+60,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.4411764705882353,{'C': 0.05}
+28,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.72,{'C': 0.05}
+124,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+156,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+92,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.6419753086419754,{'C': 0.05}
+188,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7272727272727273,{'C': 0.05}
+64,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5588235294117647,{'C': 0.05}
+32,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.6666666666666666,{'C': 0.25}
+128,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6315789473684211,{'C': 0.05}
+37,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.5753424657534246,{'C': 1}
+160,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6315789473684211,{'C': 0.05}
+192,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.7027027027027027,{'C': 0.05}
+96,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5609756097560976,{'C': 0.25}
+5,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6133333333333334,{'C': 0.05}
+69,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6086956521739131,{'C': 0.12}
+165,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.05}
+133,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+101,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+41,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.5142857142857142,{'C': 0.05}
+45,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.4634146341463415,{'C': 0.05}
+73,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.6024096385542169,{'C': 0.05}
+137,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+169,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.547945205479452,{'C': 0.25}
+105,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+9,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.638888888888889,{'C': 1}
+49,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5301204819277109,{'C': 1}
+77,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.6,{'C': 0.05}
+53,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.5070422535211268,{'C': 0.12}
+109,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+141,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+13,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.6315789473684211,{'C': 0.05}
+173,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.547945205479452,{'C': 0.25}
+81,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.48837209302325585,{'C': 0.25}
+57,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.4838709677419355,{'C': 0.12}
+113,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5633802816901409,{'C': 0.05}
+145,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5633802816901409,{'C': 0.05}
+17,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5789473684210527,{'C': 0.05}
+177,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5714285714285714,{'C': 0.05}
+85,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.6,{'C': 0.05}
+117,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+149,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+21,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.7317073170731707,{'C': 0.12}
+181,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7560975609756099,{'C': 0.05}
+61,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.41791044776119407,{'C': 0.05}
+89,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.5384615384615384,{'C': 0.05}
+153,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+121,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+25,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.7692307692307694,{'C': 0.05}
+185,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7317073170731707,{'C': 0.05}
+65,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5,{'C': 0.25}
+38,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.5797101449275363,{'C': 0.25}
+157,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+125,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+29,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.72,{'C': 0.05}
+93,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.6499999999999999,{'C': 0.05}
+189,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7272727272727273,{'C': 0.05}
+161,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6493506493506495,{'C': 0.05}
+129,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6493506493506495,{'C': 0.05}
+33,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.6933333333333332,{'C': 0.05}
+193,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6944444444444445,{'C': 0.05}
+42,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.5405405405405406,{'C': 0.12}
+97,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5476190476190476,{'C': 0.25}
+134,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+102,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+6,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6133333333333334,{'C': 0.05}
+166,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.05}
+70,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.5957446808510638,{'C': 0.05}
+46,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.4470588235294118,{'C': 0.12}
+138,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+106,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+10,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.638888888888889,{'C': 1}
+170,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.547945205479452,{'C': 0.25}
+50,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5866666666666668,{'C': 0.12}
+74,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.6172839506172839,{'C': 0.12}
+54,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.5142857142857142,{'C': 0.12}
+142,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+110,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+14,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.6315789473684211,{'C': 0.05}
+174,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.547945205479452,{'C': 0.25}
+78,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.5777777777777778,{'C': 0.25}
+58,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.5079365079365079,{'C': 0.05}
+62,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.44776119402985076,{'C': 0.05}
+146,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5915492957746479,{'C': 0.05}
+114,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5915492957746479,{'C': 0.05}
+18,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5945945945945946,{'C': 2}
+82,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.48101265822784817,{'C': 0.05}
+178,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5555555555555556,{'C': 0.25}
+150,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+118,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+22,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.7317073170731707,{'C': 0.12}
+86,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.6067415730337078,{'C': 0.12}
+182,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.746987951807229,{'C': 0.05}
+66,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5588235294117647,{'C': 0.05}
+39,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6000000000000001,{'C': 0.25}
+154,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+122,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+26,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.7692307692307694,{'C': 0.05}
+186,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7317073170731707,{'C': 0.05}
+90,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.5609756097560976,{'C': 0.5}
+158,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+126,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+30,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.72,{'C': 0.05}
+190,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7272727272727273,{'C': 0.05}
+94,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.6419753086419754,{'C': 0.05}
+43,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.5352112676056339,{'C': 0.05}
+162,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6315789473684211,{'C': 0.05}
+130,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6315789473684211,{'C': 0.05}
+34,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.6666666666666666,{'C': 0.25}
+194,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.7027027027027027,{'C': 0.05}
+98,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5476190476190476,{'C': 0.12}
+135,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+7,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6133333333333334,{'C': 0.05}
+103,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.12}
+47,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.4691358024691358,{'C': 0.05}
+167,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,SVM,0.6153846153846153,{'C': 0.05}
+71,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,SVM,0.6086956521739131,{'C': 0.05}
+51,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5384615384615384,{'C': 0.05}
+139,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+11,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.638888888888889,{'C': 1}
+55,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.48484848484848486,{'C': 0.25}
+107,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.5974025974025975,{'C': 0.12}
+171,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,SVM,0.547945205479452,{'C': 0.25}
+75,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,SVM,0.6097560975609756,{'C': 0.05}
+59,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.5079365079365079,{'C': 0.12}
+143,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+15,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.6315789473684211,{'C': 0.05}
+111,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.5675675675675675,{'C': 0.12}
+175,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,SVM,0.547945205479452,{'C': 0.25}
+79,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,SVM,0.6,{'C': 0.05}
+63,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.4545454545454546,{'C': 0.05}
+19,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.5789473684210527,{'C': 0.05}
+147,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5633802816901409,{'C': 0.05}
+115,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5633802816901409,{'C': 0.05}
+179,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,SVM,0.5714285714285714,{'C': 0.05}
+67,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5,{'C': 0.25}
+23,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.7317073170731707,{'C': 0.12}
+151,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+83,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,SVM,0.48837209302325585,{'C': 0.05}
+119,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.7058823529411764,{'C': 0.05}
+183,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,SVM,0.746987951807229,{'C': 0.05}
+87,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,SVM,0.6,{'C': 0.05}
+27,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.7692307692307694,{'C': 0.05}
+155,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+123,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7160493827160495,{'C': 0.12}
+187,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,SVM,0.7317073170731707,{'C': 0.05}
+91,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,SVM,0.5384615384615384,{'C': 0.05}
+31,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.72,{'C': 0.05}
+159,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+127,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7105263157894737,{'C': 0.12}
+191,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,SVM,0.7272727272727273,{'C': 0.05}
+95,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,SVM,0.6419753086419754,{'C': 0.05}
+35,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.6933333333333332,{'C': 0.05}
+163,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6493506493506495,{'C': 0.05}
+131,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6493506493506495,{'C': 0.05}
+195,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,SVM,0.6944444444444445,{'C': 0.05}
+99,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,SVM,0.5714285714285714,{'C': 0.05}
+228,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,NB,0.7297297297297297,None
+196,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,NB,0.723404255319149,None
+292,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+324,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+260,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,NB,0.72,None
+356,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.6542056074766355,None
+232,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7567567567567567,None
+200,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7777777777777778,None
+296,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+328,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+264,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7294117647058823,None
+360,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4444444444444444,None
+236,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7222222222222222,None
+204,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7865168539325843,None
+300,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5205479452054795,None
+332,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5306122448979591,None
+268,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7407407407407408,None
+364,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.536231884057971,None
+240,0.95,Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7042253521126761,None
+244,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,NB,0.746987951807229,None
+208,0.99,Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.8192771084337348,None
+212,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,NB,0.767123287671233,None
+304,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7422680412371134,None
+336,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7422680412371134,None
+272,0.9,Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.72,None
+368,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7291666666666666,None
+308,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+340,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+276,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,NB,0.6666666666666667,None
+372,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6478873239436621,None
+248,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.6301369863013699,None
+216,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5573770491803278,None
+312,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+344,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+280,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5714285714285714,None
+376,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6666666666666667,None
+252,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.6904761904761904,None
+220,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.5573770491803278,None
+348,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6363636363636365,None
+316,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6153846153846153,None
+380,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6969696969696971,None
+284,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.5669291338582677,None
+256,0.95,Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6410256410256411,None
+229,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,NB,0.7123287671232876,None
+224,0.99,Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.4727272727272727,None
+320,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.48148148148148145,None
+352,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.48148148148148145,None
+384,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.48148148148148145,None
+288,0.9,Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6071428571428571,None
+197,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,NB,0.723404255319149,None
+293,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+325,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+357,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.6542056074766355,None
+261,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,NB,0.736842105263158,None
+233,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7567567567567567,None
+297,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+201,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7777777777777778,None
+329,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+361,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4444444444444444,None
+237,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7222222222222222,None
+265,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7294117647058823,None
+301,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5205479452054795,None
+205,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7865168539325843,None
+333,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5306122448979591,None
+365,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.536231884057971,None
+241,0.95,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7042253521126761,None
+269,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7407407407407408,None
+245,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,NB,0.7317073170731707,None
+305,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7157894736842105,None
+337,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7157894736842105,None
+209,0.99,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7816091954022988,None
+309,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+369,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.723404255319149,None
+341,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+213,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,NB,0.767123287671233,None
+373,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6478873239436621,None
+273,0.9,Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7532467532467532,None
+249,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.6216216216216217,None
+277,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,NB,0.6666666666666667,None
+313,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+345,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+377,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6666666666666667,None
+217,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5573770491803278,None
+253,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.6829268292682927,None
+317,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6153846153846153,None
+281,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5714285714285714,None
+349,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6363636363636365,None
+381,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6969696969696971,None
+257,0.95,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6410256410256411,None
+221,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.5573770491803278,None
+321,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.45283018867924524,None
+285,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.56,None
+230,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,NB,0.7297297297297297,None
+353,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.45283018867924524,None
+385,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.45283018867924524,None
+294,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+225,0.99,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.4727272727272727,None
+326,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+358,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.6542056074766355,None
+289,0.9,Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6017699115044247,None
+198,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,NB,0.723404255319149,None
+234,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7567567567567567,None
+262,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict1,500,NB,0.736842105263158,None
+298,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+330,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+362,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4444444444444444,None
+238,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7222222222222222,None
+202,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7777777777777778,None
+266,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7294117647058823,None
+302,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5205479452054795,None
+334,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5306122448979591,None
+366,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5323741007194245,None
+242,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7042253521126761,None
+206,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7865168539325843,None
+246,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,NB,0.746987951807229,None
+306,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7422680412371134,None
+270,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7407407407407408,None
+310,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+338,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7422680412371134,None
+370,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7368421052631579,None
+250,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.6301369863013699,None
+210,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.8192771084337348,None
+342,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+374,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6478873239436621,None
+214,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,NB,0.767123287671233,None
+274,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7027027027027027,None
+314,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+254,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.6829268292682927,None
+278,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict1,500,NB,0.6666666666666667,None
+346,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+378,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6666666666666667,None
+318,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6153846153846153,None
+218,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5573770491803278,None
+258,0.95,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6410256410256411,None
+350,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6363636363636365,None
+382,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.7076923076923077,None
+282,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5666666666666667,None
+231,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,NB,0.7297297297297297,None
+322,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.48148148148148145,None
+222,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.5573770491803278,None
+386,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.48148148148148145,None
+354,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.48148148148148145,None
+286,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.5625,None
+295,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+226,0.99,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.4727272727272727,None
+359,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.6542056074766355,None
+327,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict1,500,NB,0.591304347826087,None
+290,0.9,Not Fuzzy,Removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6071428571428571,None
+235,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7567567567567567,None
+199,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,NB,0.723404255319149,None
+263,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict1,500,NB,0.736842105263158,None
+299,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+239,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7222222222222222,None
+363,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4444444444444444,None
+331,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict2,2000,NB,0.4,None
+203,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7777777777777778,None
+303,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5205479452054795,None
+267,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict2,2000,NB,0.7294117647058823,None
+243,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7222222222222222,None
+367,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5323741007194245,None
+335,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict3,1500,NB,0.5306122448979591,None
+247,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,NB,0.7317073170731707,None
+207,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7865168539325843,None
+307,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7157894736842105,None
+271,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict3,1500,NB,0.7407407407407408,None
+311,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+251,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.6301369863013699,None
+371,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.723404255319149,None
+339,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict4,1500,NB,0.7157894736842105,None
+375,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6478873239436621,None
+211,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7816091954022988,None
+343,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict1,500,NB,0.6666666666666667,None
+215,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,NB,0.767123287671233,None
+255,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.6829268292682927,None
+275,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,tf,dict4,1500,NB,0.7532467532467532,None
+315,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+279,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict1,500,NB,0.6666666666666667,None
+379,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6666666666666667,None
+347,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict2,2000,NB,0.6216216216216217,None
+259,0.95,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6410256410256411,None
+319,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6153846153846153,None
+219,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5573770491803278,None
+383,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.7076923076923077,None
+283,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict2,2000,NB,0.5714285714285714,None
+351,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict3,1500,NB,0.6363636363636365,None
+323,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.45283018867924524,None
+223,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.5573770491803278,None
+387,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.45283018867924524,None
+287,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict3,1500,NB,0.564516129032258,None
+355,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict4,1500,NB,0.45283018867924524,None
+227,0.99,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.4727272727272727,None
+291,0.9,Not Fuzzy,Not removed stopwords,Anorexia Model,binary,dict4,1500,NB,0.6126126126126126,None

@@ -720,3 +720,49 @@
 718,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,500,NB,0.48704663212435234,None
 694,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1000,NB,0.5471698113207547,None
 722,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,100,NB,0.5993265993265993,None
+698,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,500,NB,0.5622119815668203,None
+674,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict8,1700,NB,0.0,None
+702,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,100,NB,0.5918367346938775,None
+758,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1700,NB,0.329246935201401,None
+762,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1000,NB,0.5462962962962964,None
+706,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1700,NB,0.5446009389671361,None
+726,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1700,NB,0.33098591549295775,None
+766,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,500,NB,0.5504587155963303,None
+647,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1000,NB,0.37826961770623735,None
+770,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,100,NB,0.5888324873096447,None
+730,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1000,NB,0.5539906103286385,None
+651,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict6,500,NB,0.41685144124168516,None
+734,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,500,NB,0.5688073394495414,None
+774,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1700,NB,0.5321100917431193,None
+738,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,100,NB,0.5918367346938775,None
+679,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1000,NB,0.40358744394618834,None
+655,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict7,100,NB,0.5565749235474006,None
+742,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1700,NB,0.5420560747663551,None
+683,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,500,NB,0.5,None
+747,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1000,NB,0.39909297052154197,None
+687,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,100,NB,0.5973154362416107,None
+659,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1700,NB,0.3494423791821561,None
+663,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1000,NB,0.2888198757763975,None
+715,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1000,NB,0.40625,None
+751,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,500,NB,0.48793565683646123,None
+667,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict6,500,NB,0.3702213279678069,None
+671,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict7,100,NB,0.555223880597015,None
+755,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,100,NB,0.6033898305084745,None
+691,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1700,NB,0.33574007220216606,None
+719,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,500,NB,0.4986876640419947,None
+695,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1000,NB,0.5308056872037914,None
+723,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,100,NB,0.5993265993265993,None
+675,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1700,NB,0.2566995768688294,None
+699,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,500,NB,0.5648148148148147,None
+703,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,100,NB,0.5918367346938775,None
+759,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1700,NB,0.33752244165170553,None
+763,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1000,NB,0.5302325581395348,None
+727,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1700,NB,0.33574007220216606,None
+707,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1700,NB,0.5333333333333333,None
+767,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,500,NB,0.5488372093023256,None
+771,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,100,NB,0.5888324873096447,None
+731,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1000,NB,0.5402843601895735,None
+735,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,500,NB,0.5581395348837209,None
+739,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,100,NB,0.5918367346938775,None
+775,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1700,NB,0.5345622119815667,None
+743,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1700,NB,0.5283018867924528,None

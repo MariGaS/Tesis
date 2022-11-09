@@ -17,3 +17,176 @@
 220,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
 336,0.95,Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
 284,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
+340,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.0,None
+224,0.99,Fuzzy,Removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.0,None
+344,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.0,None
+288,0.9,Fuzzy,Removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.0,None
+348,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
+228,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.3982683982683982,None
+352,0.95,Fuzzy,Removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.0,None
+292,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.3982300884955752,None
+232,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4881889763779528,None
+296,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4905660377358491,None
+356,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.3982683982683982,None
+300,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6327272727272727,None
+236,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+360,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4881889763779528,None
+304,0.9,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.33333333333333326,None
+364,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+240,0.99,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.3327433628318584,None
+308,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5596330275229358,None
+244,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5566037735849058,None
+312,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5844748858447489,None
+316,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6116504854368933,None
+248,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5981308411214952,None
+252,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+368,0.95,Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.3339253996447602,None
+320,0.9,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5370370370370371,None
+256,0.99,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5592417061611374,None
+372,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5700934579439252,None
+376,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.6046511627906976,None
+380,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+197,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.39911308203991136,None
+261,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.37375745526838966,None
+384,0.95,Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5514018691588785,None
+201,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.49462365591397844,None
+265,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.4086956521739131,None
+269,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.512396694214876,Nonene
+325,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.4115044247787611,None
+329,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.46153846153846156,None
+209,0.99,Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.3270223752151463,None
+273,0.9,Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.3494423791821561,None
+333,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.635036496350365,None
+213,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.5961538461538461,None
+277,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.2831050228310502,None
+217,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.5915492957746479,None
+281,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.3452157598499062,None
+221,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.6504854368932039,None
+285,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.4881889763779528,None
+337,0.95,Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.36647173489278756,None
+225,0.99,Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.5687203791469194,None
+289,0.9,Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.25277777777777777,None
+341,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.5,None
+345,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.638655462184874,None
+349,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.6666666666666666,None
+229,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.4053452115812917,None
+293,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.39909297052154197,None
+353,0.95,Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.5041095890410959,None
+233,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.5067385444743935,None
+297,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4958677685950413,None
+301,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6327272727272727,None
+237,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+357,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.4053452115812917,None
+241,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.33513513513513515,None
+305,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.3339317773788151,None
+361,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.5067385444743935,None
+245,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5566037735849058,None
+365,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+309,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5596330275229358,None
+249,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5981308411214952,None
+313,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5844748858447489,None
+253,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+317,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6116504854368933,None
+369,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.33574007220216606,None
+257,0.99,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5523809523809524,None
+321,0.9,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5504587155963303,None
+373,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5700934579439252,None
+377,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.6046511627906976,None
+198,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.0,None
+381,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+262,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.0,None
+266,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.0,None
+202,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.0,None
+385,0.95,Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5514018691588785,None
+270,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.0,None
+206,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.0,None
+326,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.0,None
+274,0.9,Not Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
+210,0.99,Not Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
+278,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.0,None
+214,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.0,None
+330,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.0,None
+282,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.0,None
+218,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.0,None
+286,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
+222,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
+334,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.0,None
+290,0.9,Not Fuzzy,Removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.0,None
+226,0.99,Not Fuzzy,Removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.0,None
+338,0.95,Not Fuzzy,Removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.0,None
+342,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.0,None
+230,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.3982683982683982,None
+294,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.40088105726872253,None
+346,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.0,None
+350,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.0,None
+298,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.48793565683646123,None
+234,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4881889763779528,None
+354,0.95,Not Fuzzy,Removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.0,None
+238,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+302,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6373626373626374,None
+358,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.3982683982683982,None
+242,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.3327433628318584,None
+306,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.33215547703180215,None
+246,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5566037735849058,None
+310,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5596330275229358,None
+250,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5981308411214952,None
+362,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4881889763779528,None
+314,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5871559633027523,None
+254,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+318,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6116504854368933,None
+366,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+258,0.99,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5592417061611374,None
+322,0.9,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5370370370370371,None
+370,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.3339253996447602,None
+263,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.376,None
+199,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.39911308203991136,None
+374,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5700934579439252,None
+378,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.6046511627906976,None
+382,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+267,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.41048034934497823,None
+203,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.4972972972972973,None
+271,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.5227272727272728,None
+386,0.95,Not Fuzzy,Removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5514018691588785,None
+207,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.6591760299625468,None
+275,0.9,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.3494423791821561,None
+327,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict5,1010,Emotions and words,NB,0.4115044247787611,None
+211,0.99,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.32758620689655166,None
+279,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.28571428571428564,None
+215,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.5961538461538461,None
+283,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.35249042145593873,None
+219,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.5915492957746479,None
+287,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.4973262032085562,None
+331,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict6,510,Emotions and words,NB,0.46511627906976744,None
+223,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.6504854368932039,None
+335,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict7,110,Emotions and words,NB,0.6373626373626374,None
+291,0.9,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.2531293463143255,None
+227,0.99,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.5687203791469194,None
+339,0.95,Not Fuzzy,Not removed stopwords,Depression Model,tf,dict8,1710,Emotions and words,NB,0.3679060665362035,None
+231,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.4053452115812917,None
+295,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.39819004524886875,None
+343,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict5,1010,Emotions and words,NB,0.5094850948509486,None
+347,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict6,510,Emotions and words,NB,0.638655462184874,None
+299,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.4931506849315068,None
+235,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.5067385444743935,None
+351,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict7,110,Emotions and words,NB,0.669811320754717,None
+239,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+303,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6373626373626374,None
+355,0.95,Not Fuzzy,Not removed stopwords,Depression Model,binary,dict8,1710,Emotions and words,NB,0.5082872928176796,None
+243,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.33513513513513515,None
+307,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.3339317773788151,None
+247,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5566037735849058,None
+359,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict5,1010,Emotions and words,NB,0.4053452115812917,None
+311,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5622119815668203,None
+251,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5981308411214952,None
+315,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.5844748858447489,None
+255,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+319,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6116504854368933,None
+363,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict6,510,Emotions and words,NB,0.5094850948509486,None
+259,0.99,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5523809523809524,None
+323,0.9,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5504587155963303,None
+367,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict7,110,Emotions and words,NB,0.6420664206642066,None
+371,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,tf,dict8,1710,Emotions and words,NB,0.33574007220216606,None
+375,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict5,1010,Emotions and words,NB,0.5700934579439252,None
+379,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict6,510,Emotions and words,NB,0.6046511627906976,None
+383,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict7,110,Emotions and words,NB,0.6249999999999999,None
+387,0.95,Not Fuzzy,Not removed stopwords,Pre_trained Model,binary,dict8,1710,Emotions and words,NB,0.5514018691588785,None

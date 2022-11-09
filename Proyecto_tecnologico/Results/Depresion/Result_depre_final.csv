@@ -1,0 +1,5 @@
+	min	max	num_feat	weighting	best_parameter	f1
+1	1	1	1000	stopwords	{'C': 4}	0.6454183266932271
+2	1	1	500	stopwords	{'C': 1}	0.6187050359712231
+3	1	1	100	stopwords	{'C': 4}	0.6116838487972509
+4	1	1	1700	tf_stop	{'C': 2}	0.6332046332046332

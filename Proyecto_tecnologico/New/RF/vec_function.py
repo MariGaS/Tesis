@@ -16,7 +16,7 @@ import fasttext.util
 import random
 import pickle
 import logging
-from sklearn import tree
+from sklearn.ensemble import RandomForestClassifier
 from clustering import clutering_addition
 
 tokenizer = TweetTokenizer()
@@ -775,13 +775,13 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     # a = grid_anorexia.best_params_
 
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
 
     f1 = f1_score(test_labels, y_pred)
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+','+ str(f1) )     
@@ -797,12 +797,12 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     # y_pred = grid_anorexia.predict(X_test)
     # a = grid_anorexia.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
 
     f2 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f2))     
@@ -820,11 +820,11 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     # a = grid_anorexia.best_params_
 
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f3 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f3))     
@@ -841,11 +841,11 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     # y_pred = grid_anorexia.predict(X_test)
     # a = grid_anorexia.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f4 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+str(f4))     
@@ -861,19 +861,19 @@ def run_exp_anxia_sim(num_exp, test_labels, train_labels, num_test, num_train,sc
     # y_pred = grid_anorexia.predict(X_test)
     # a = grid_anorexia.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f5 = f1_score(test_labels, y_pred)
 
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/fuzzy.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/fuzzy.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f5))     
     f.close()
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/fuzzy_var.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/fuzzy_var.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var([f1,f2,f3,f4,f5])) + ',' + str(np.std([f1,f2,f3,f4,f5]))) 
     f.close()
 
@@ -1055,11 +1055,11 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     # a= grid_dep.best_params_
     # f1 = f1_score(test_labels, y_pred)
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f1 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+','+ str(f1))     
@@ -1075,11 +1075,11 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     # y_pred = grid_dep.predict(X_test)
     # a = grid_dep.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f2 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f2))     
@@ -1096,11 +1096,11 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     # y_pred = grid_dep.predict(X_test)
     # a = grid_dep.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f3 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f3))     
@@ -1117,11 +1117,11 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     # y_pred = grid_dep.predict(X_test)
     # a = grid_dep.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f4 = f1_score(test_labels, y_pred)
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+str(f4))     
@@ -1137,18 +1137,18 @@ def run_exp_dep_sim(num_exp,  test_labels, train_labels,num_test,num_train, scor
     # y_pred = grid_dep.predict(X_test)
     # a = grid_dep.best_params_
 
-    model = tree.DecisionTreeClassifier()
+    model = RandomForestClassifier()
     model.fit(X_train, train_labels)
     y_pred = model.predict(X_test)
     f5 = f1_score(test_labels, y_pred)
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/dep.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/dep.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(score1) + ',' + str(score2) +',' + str(tau) +',' + dif_str 
             +','+ fuzzy_str+','+ remove_stop_str +','+ compress_str+ ','+ clustering+ ',' + w_clus+',' + add + ',' + str_groups
             +','+ w_e + ','+ dict_str + ','+ weight + ',' + str(seed_value)+ ','+ str(f5))     
     f.close()
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/DT/dep_var.txt','a')
+    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/RF/dep_var.txt','a')
     f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var([f1,f2,f3,f4,f5])) + ',' + str(np.std([f1,f2,f3,f4,f5]))) 
     f.close()
 

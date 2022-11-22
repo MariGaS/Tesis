@@ -82,21 +82,21 @@ num_features = [100, 200, 500, 700, 1000, 1500, 1700, 2000, 2500, 3000, 3200, 35
 for i in range(12):
 
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*24, 1, 2,num_features[i], 'tf_stop', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*25, 1, 2, num_features[i], 'tf', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*26, 1, 2, num_features[i], 'stopwords', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*27, 1, 2, num_features[i], 'tf_idf', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*28, 1, 2, num_features[i], 'binary', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*84, 1, 2,num_features[i], 'tf_stop', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*85, 1, 2, num_features[i], 'tf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*86, 1, 2, num_features[i], 'stopwords', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*87, 1, 2, num_features[i], 'tf_idf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*88, 1, 2, num_features[i], 'binary', 'svm')
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*29, 1, 3, num_features[i], 'tf_stop', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*30, 1, 3, num_features[i], 'tf', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*31, 1, 3, num_features[i], 'stopwords', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*32, 1, 3, num_features[i], 'tf_idf', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*33, 1, 3, num_features[i], 'binary', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*89, 1, 3, num_features[i], 'tf_stop', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*90, 1, 3, num_features[i], 'tf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*91, 1, 3, num_features[i], 'stopwords', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*92, 1, 3, num_features[i], 'tf_idf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*93, 1, 3, num_features[i], 'binary', 'svm')
 
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*34, 2, 3, num_features[i], 'tf_stop', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*35, 2, 3, num_features[i], 'tf', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*36, 2, 3, num_features[i], 'stopwords', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*37, 2, 3, num_features[i], 'tf_idf', 'svm')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*38, 2, 3, num_features[i], 'binary', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*94, 2, 3, num_features[i], 'tf_stop', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*95, 2, 3, num_features[i], 'tf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*96, 2, 3, num_features[i], 'stopwords', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*97, 2, 3, num_features[i], 'tf_idf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*98, 2, 3, num_features[i], 'binary', 'svm')

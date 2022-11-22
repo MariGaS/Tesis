@@ -18,9 +18,9 @@ from ekphrasis.dicts.emoticons import emoticons
 from sklearn.naive_bayes import MultinomialNB
 import emoji
 import string
-
+import random 
 tokenizer = TweetTokenizer()
-nltk.download('punkt')
+# nltk.download('punkt')
 stemmer = nltk.stem.porter.PorterStemmer()
 tt = nltk.tokenize.TweetTokenizer()
 hashtag_segmenter = TextPreProcessor(segmenter="twitter", unpack_hashtags=True)
@@ -165,37 +165,45 @@ num_exp, min, max, num_feat, weight, classifier):
         x_train, y, x_test, chi, features_name = building_bow(data=data, labels=label, ntrain=ntrain, min=min, max=max,
                                                               num_feat=num_feat,
                                                               stopwords=True,verbose=False)
-    else:
+    elif weight == 'tf_idf':
         x_train, y, x_test, chi, features_name = building_bow(data=data, labels=label, ntrain=ntrain, min=min, max=max,
                                                               num_feat=num_feat,
                                                               tf_idf=True,  verbose=False)
-    if classifier == 'svm':
-        parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
-        svr = svm.LinearSVC(class_weight='balanced')
-        grid_anorexia = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)       
-        grid_anorexia.fit(x_train, y)
-        y_pred = grid_anorexia.predict(x_test)
-        a1 = grid_anorexia.best_params_
+    for i in range(5):
+        seeds = []
+        f_scores = []
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        seeds.append(seed_value)    
+        if classifier == 'svm':
+            parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
+            svr = svm.LinearSVC(class_weight='balanced')
+            grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)       
+            grid_dep.fit(x_train, y)
+            y_pred = grid_dep.predict(x_test)
+            a1 = grid_dep.best_params_
 
-    if classifier == 'NB':
-        model = MultinomialNB()
-        model.fit(x_train, y)
-        y_pred = model.predict(x_test)
-        a1 = 'None'
-    f1 = f1_score(test_labels, y_pred)
-    path_name_features = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/Dictionaries/Anorexia' + '/features_words_' + str(num_exp) + '.txt'
+        if classifier == 'NB':
+            model = MultinomialNB()
+            model.fit(x_train, y)
+            y_pred = model.predict(x_test)
+            a1 = 'None'
+        
+        f1 = f1_score(test_labels, y_pred)
+        f_scores.append(f1)
 
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/f1_anorexia.txt','a')
-    f.write('\n' + str(num_exp) + ',' + str(num_feat) + ',' + str(min) +',' + str(max) +',' + str(weight) + ',' + str(classifier)+ 
-                                ',' + str(f1) + ',' + str(a1))
-    f.close()
-
-    with open(path_name_features, "w") as f:
-        f.write("Experimento de anorexia número: " + str(num_exp) + '\n')
-        for word in features_name:
-            f.write(str(word) + '\n')
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/test_anxia.txt','a')
+        f.write('\n' + str(num_exp) + ',' + str(num_feat) + ',' + str(min) +',' + str(max) +',' + str(weight) + ',' + str(classifier)+ 
+                                '.' + str(seed_value) + ',' + str(f1) + ',' + str(a1))
+        f.close() 
         f.close()
-	
+        if i == 4:
+
+            f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/anxia_var.txt','a')
+            f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
+            f.close()
+
+
 
 
 
@@ -219,35 +227,41 @@ num_exp, min, max, num_feat, weight, classifier):
         x_train, y, x_test, chi, features_name = building_bow(data=data, labels=label, ntrain=ntrain, min=min, max=max, num_feat=num_feat,
                                           tf_idf=True,  verbose=False)
     else:
-        print("Include the name of the weightinh")
+        print("Include the name of the weighting")
         exit()
+       
+    for i in range(5):
+        seeds = []
+        f_scores = []
+        seed_value = random.randrange(1000)
+        np.random.seed(seed_value)
+        seeds.append(seed_value)    
+        if classifier == 'svm':
+            parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
+            svr = svm.LinearSVC(class_weight='balanced')
+            grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)       
+            grid_dep.fit(x_train, y)
+            y_pred = grid_dep.predict(x_test)
+            a1 = grid_dep.best_params_
 
-    if classifier == 'svm':
-        parameters = {'C': [.05, .12, .25, .5, 1, 2, 4]}
-        svr = svm.LinearSVC(class_weight='balanced')
-        grid_dep = GridSearchCV(estimator=svr, param_grid=parameters, n_jobs=8, scoring='f1_macro', cv=5)       
-        grid_dep.fit(x_train, y)
-        y_pred = grid_dep.predict(x_test)
-        a1 = grid_dep.best_params_
+        if classifier == 'NB':
+            model = MultinomialNB()
+            model.fit(x_train, y)
+            y_pred = model.predict(x_test)
+            a1 = 'None'
+        
+        f1 = f1_score(test_labels, y_pred)
+        f_scores.append(f1)
 
-    if classifier == 'NB':
-        model = MultinomialNB()
-        model.fit(x_train, y)
-        y_pred = model.predict(x_test)
-        a1 = 'None'
-    f1 = f1_score(test_labels, y_pred)
+        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/test_dep.txt','a')
 
-
-    path_name_features = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/Dictionaries/Depression' + '/features_words_' + str(num_exp) + '.txt'
-
-    f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/f1_dep.txt','a')
-    f.write('\n' + str(num_exp) + ',' + str(num_feat) + ',' + str(min) +',' + str(max) +',' + str(weight) + ',' + str(classifier)+ 
-                                ',' + str(f1) + ',' + str(a1))
-    f.close()
-
-    with open(path_name_features, "w") as f:
-        f.write("Experimento de anorexia número: " + str(num_exp) + '\n')
-        for word in features_name:
-            f.write(str(word) + '\n')
+        f.write('\n' + str(num_exp) + ',' + str(num_feat) + ',' + str(min) +',' + str(max) +',' + str(weight) + ',' + str(classifier)+ 
+                                '.' + str(seed_value) + ',' + str(f1) + ',' + str(a1))
         f.close()
-	
+        if i == 4:
+
+            f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline/dep_var.txt','a')
+            f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
+            f.close()
+
+

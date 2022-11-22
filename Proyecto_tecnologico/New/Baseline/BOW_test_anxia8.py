@@ -84,21 +84,21 @@ num_features = [100, 200, 500, 700, 1000, 1500, 1700, 2000, 2500, 3000, 3200, 35
 for i in range(12):
 
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*54, 1, 2,num_features[i], 'tf_stop', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*55, 1, 2, num_features[i], 'tf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*56, 1, 2, num_features[i], 'stopwords', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*57, 1, 2, num_features[i], 'tf_idf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*58, 1, 2, num_features[i], 'binary', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*114, 1, 2,num_features[i], 'tf_stop', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*115, 1, 2, num_features[i], 'tf', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*116, 1, 2, num_features[i], 'stopwords', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*117, 1, 2, num_features[i], 'tf_idf', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*118, 1, 2, num_features[i], 'binary', 'NB')
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*59, 1, 3, num_features[i], 'tf_stop', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*60, 1, 3, num_features[i], 'tf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*61, 1, 3, num_features[i], 'stopwords', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*62, 1, 3, num_features[i], 'tf_idf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*63, 1, 3, num_features[i], 'binary', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*119, 1, 3, num_features[i], 'tf_stop', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*120, 1, 3, num_features[i], 'tf', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*121, 1, 3, num_features[i], 'stopwords', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*122, 1, 3, num_features[i], 'tf_idf', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*123, 1, 3, num_features[i], 'binary', 'NB')
 
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*64, 2, 3, num_features[i], 'tf_stop', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*65, 2, 3, num_features[i], 'tf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*66, 2, 3, num_features[i], 'stopwords', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*67, 2, 3, num_features[i], 'tf_idf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*68, 2, 3, num_features[i], 'binary', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*124, 2, 3, num_features[i], 'tf_stop', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*125, 2, 3, num_features[i], 'tf', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*126, 2, 3, num_features[i], 'stopwords', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*127, 2, 3, num_features[i], 'tf_idf', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*128, 2, 3, num_features[i], 'binary', 'NB')

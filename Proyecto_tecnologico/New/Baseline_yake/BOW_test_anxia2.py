@@ -1,7 +1,9 @@
-from vec_functions import (run_experiment_anorexia, my_preprocessor)
+from vec_functions import (run_experiment_anorexia)
+from vec_functions import(ekphrasis_processor)
+
 from text_functions import (get_text_chunk,
                             get_text_test_anorexia)
-from BOW_functions import (ekphrasis_processor)
+
 from time import time
 ### ANOREXIA'S EXPERIMENTS ####
 anxia_train = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Anorexia_2018/Anorexia_Datasets_1/train'
@@ -74,26 +76,28 @@ labels_anxia = tr_label
 
 data_anxia = train_anxia + test_anxia
 ntrain = len(train_anxia)
-data_anxia = [my_preprocessor(x) for x in data_anxia] 
+data_anxia = [ekphrasis_processor(x) for x in data_anxia]   
 t0 = time()
-
 num_features = [100, 200, 500, 700, 1000, 1500, 1700, 2000, 2500, 3000, 3200, 3500, 4000]
 
 for i in range(12):
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*99, 1, 1, num_features[i], 'tf_stop', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*100, 1, 1, num_features[i], 'tf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*101, 1, 1, num_features[i], 'stopwords', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*102, 1, 1, num_features[i], 'tf_idf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*103, 1, 1, num_features[i], 'binary', 'NB')
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*104, 2, 2, num_features[i], 'tf_stop', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*105, 2, 2, num_features[i], 'tf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*106, 2, 2, num_features[i], 'stopwords', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*107, 2, 2, num_features[i], 'tf_idf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*108, 2, 2, num_features[i], 'binary', 'NB')
 
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+12*109, 3, 3, num_features[i], 'tf_stop', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*110, 3, 3, num_features[i], 'tf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*111, 3, 3, num_features[i], 'stopwords', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12* 112, 3, 3, num_features[i], 'tf_idf', 'NB')
-    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*113, 3, 3, num_features[i], 'binary', 'NB')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*24, 1, 2,num_features[i], 'tf_stop', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*25, 1, 2, num_features[i], 'tf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*26, 1, 2, num_features[i], 'stopwords', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*27, 1, 2, num_features[i], 'tf_idf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*28, 1, 2, num_features[i], 'binary', 'svm')
+
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*29, 1, 3, num_features[i], 'tf_stop', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*30, 1, 3, num_features[i], 'tf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*31, 1, 3, num_features[i], 'stopwords', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i +12*32, 1, 3, num_features[i], 'tf_idf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*33, 1, 3, num_features[i], 'binary', 'svm')
+
+
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*34, 2, 3, num_features[i], 'tf_stop', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*35, 2, 3, num_features[i], 'tf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*36, 2, 3, num_features[i], 'stopwords', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*37, 2, 3, num_features[i], 'tf_idf', 'svm')
+    run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i + 12*38, 2, 3, num_features[i], 'binary', 'svm')

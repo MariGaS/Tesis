@@ -37,7 +37,7 @@ negative_posts = [item for sublist in all_neg for item in sublist]
 
 #STATE YAKE PARAMTERS
 language = "en"
-max_ngram_size = 1
+max_ngram_size = 2
 deduplication_thresold = 0.9
 deduplication_algo = 'seqm'
 windowSize = 1
@@ -67,7 +67,7 @@ final_dic_pos = make_final_dic(dic_pos, n_p)
 #to order from the highest to  the lowest 
 final_dic_pos.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_pos_ver1key30'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_pos_ver1'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_pos, f)
 	f.close()
@@ -94,7 +94,7 @@ final_dic_neg = make_final_dic(dic_neg, n_n)
 #to order from the highest to  the lowest 
 final_dic_neg.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_neg_ver1key30'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_neg_ver1'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_neg, f)
 	f.close()
@@ -131,7 +131,7 @@ final_dic_pos = make_final_dic(dic_pos, n_p)
 #to order from the highest to  the lowest 
 final_dic_pos.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_pos_ver2key30'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_pos_ver2'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_pos, f)
 	f.close()
@@ -159,7 +159,7 @@ final_dic_neg = make_final_dic(dic_neg, n_n)
 #to order from the highest to  the lowest 
 final_dic_neg.sort(key=lambda y: y[1], reverse = True) 
 
-name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/anxia_neg_ver2key30'
+name_key = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_neg_ver2'
 with open(name_key, 'wb') as f:
 	pickle.dump(final_dic_neg, f)
 	f.close()

@@ -249,3 +249,23 @@
 42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,413,0.421875,None
 42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,13,0.421875,None
 42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,664,0.421875,None
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,309,0.525,{'C': 2}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,287,0.525,{'C': 2}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,384,0.525,{'C': 2}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,841,0.525,{'C': 2}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,249,0.525,{'C': 2}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,671,0.5222551928783383,{'C': 0.25}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,541,0.5222551928783383,{'C': 0.25}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,274,0.5222551928783383,{'C': 0.25}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,701,0.5222551928783383,{'C': 0.25}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,492,0.5222551928783383,{'C': 0.25}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,209,0.525,{'C': 2}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,306,0.525,{'C': 2}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,250,0.525,{'C': 2}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,918,0.525,{'C': 2}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,427,0.525,{'C': 2}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,83,0.5222551928783383,{'C': 0.25}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,263,0.5222551928783383,{'C': 0.25}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,627,0.5222551928783383,{'C': 0.25}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,572,0.5222551928783383,{'C': 0.25}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,287,0.5222551928783383,{'C': 0.25}

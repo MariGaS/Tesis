@@ -137,7 +137,7 @@ def define_order_post(count, user_hist, version):
     #count is the array with the negative count of each post 
     #we order by the maximun to the minimum
     values_count = np.unique(count)
-    values_count = values_count[::-1] 
+    #values_count = values_count[::-1] 
     
     if version == 'negative':
         text = ''
@@ -149,8 +149,9 @@ def define_order_post(count, user_hist, version):
     
     if version == 'positive':
         text = ''
+        v = values_count[::-1]
         for i in range(values_count.shape[0]):
-            v = values_count[::-1]
+
             index = np.where(count == v[i])
             for j in range(index[0].shape[0]):
                 ind = index[0][j]

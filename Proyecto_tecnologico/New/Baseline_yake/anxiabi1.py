@@ -78,17 +78,17 @@ data_anxia = [ekphrasis_processor(x) for x in data_anxia ]
 
 arg1 = [100,500,100, 500, 1000, 800, 200, 1000, 1500, 300] #numfeature 1
 arg2 = [100,200,200, 200, 1000, 800, 100, 1200, 1200, 700] #numfeature 2
-arg3 = [1,2,2, 2, 2, 5, 2, 1,2,2]    #dic
+arg3 = [1]*10   #dic
 arg4 = [False,True,True,False, True, False, True, False, False, False]    #dif
 
 for i in range(10):
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'NB', 'ekphrasis_preprocess', bi = True)
+                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'NB', 'ekphrasis_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'NB','ekphrasis_preprocess', bi =  True)
+                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'NB','ekphrasis_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*2, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'NB', 'ekphrasis_preprocess', bi = True)
+                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'NB', 'ekphrasis_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*3, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'NB', 'ekphrasis_preprocess', bi = True)
+                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'NB', 'ekphrasis_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*4, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'NB','ekphrasis_preprocess', bi = True)
+                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'NB','ekphrasis_preprocess')

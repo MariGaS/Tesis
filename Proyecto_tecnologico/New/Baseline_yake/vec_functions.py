@@ -246,43 +246,111 @@ con_neg_dep3= '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Co
 con_pos_dep4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/dep_pos_ver6'
 con_neg_dep4 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Con_dictionary/dep_neg_ver6'
 
-def get_bigrams(corpus):
-
-    dictionary = ngrams(corpus, 2)
-    dictionary = list(dictionary)
-    bigrams = []
-    for i in range(len(dictionary)):
-        w1 = dictionary[i][0][0]
-        w2 = dictionary[i][0][1]
-
-        w = w1 + ' ' + w2
-        bigrams.append(w)
-
-    return list(dictionary)
 
 
+##------------------ BIGRAMS--------------------------##
 
-def building_bow(data, labels, ntrain, d1, d2, dif, con, min=1, max=1, num_feat1=100, num_feat2 = 100,  low = True,binary=False, tf=False, tf_idf=False,
-                 stopwords=False, tf_stop=False, verbose=True, analyzer_char=False, bi = False):
+#POST LEVEL DICTIONARIES 
+#---------------------------ANOREXIA-------------------#
+#version 1
+bi_post_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_pos_ver1'
+bi_post_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_neg_ver1'
+#version 2
+bi_post_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_pos_ver2'
+bi_post_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/anxia_neg_ver2'
+
+#-------------------------DEPRESSION--------------------#
+#version 1 
+bi_post_pos_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/dep_pos_ver1'
+bi_post_neg_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/dep_neg_ver1'
+#version 2
+bi_post_pos_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/dep_pos_ver2'
+bi_post_neg_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/dep_neg_ver2'
+
+
+def bigrams_clean_dictories(d1, d2, feature1, feature2, no_distintc, con):
+
+    if no_distintc == True:
+        l1 = []  #list without bigrams
+        tmp = 0 #temporal variable 
+        for word in d1:
+            if(' ' in word[0]):
+                l1.append(word[0])  
+                tmp +=1
+            if tmp ==  feature1:
+                break
+        
+        l2 = []  #list without bigrams
+        tmp = 0 #temporal variable 
+        for word in d2:
+            if(' ' in word[0]):
+                l2.append(word[0])  
+                tmp +=1
+            if tmp ==  feature2:
+                break
+
+        return l1, l2
+
+    else:
+
+        dictionary1 = []
+        dictionary2 = []
+
+        l1 = get_words_from_kw(d1)
+        l2 = get_words_from_kw(d2)
+        i = 0
+        while len(dictionary1) != feature1:
+            w1 = l1[i]
+            # revisamos si no está en el diccionario negativo y no sea un  unigrama 
+            if (w1 in l2) == False and (' ' in w1):
+                dictionary1.append(w1)
+
+            if (w1 in l2) == True and (' ' in w1):
+                # en donde se encuentra en la lista l2
+                indice = l2.index(w1)
+                # score en la lista 1
+                rel1 = d1[i][1]
+                # score en la lista 2
+                rel2 = d2[indice][1]
+                # si el score de la lista 1 es menor que en la 1 la dejamos en lista 1
+                if con == True: 
+                    if rel1< rel2:
+                        dictionary1.append(w1)
+                else: 
+                    if rel2 < rel1:
+                        dictionary1.append(w1)
+            i +=1 
+        # dictionario negativo son todas las palabras que no están en dictionario positivo
+        dictionary2 = [x for x in l2 if x not in dictionary1]
+        dictionary2 = [x for x in dictionary2 if ' ' in x][:feature2]
+    return dictionary1, dictionary2
+        
+
+def building_bow(data, labels, ntrain, d1, d2, b1, b2, dif, con, min=1, max=1, num_feat1=100, num_feat2 = 100,  low = True,binary=False, tf=False, tf_idf=False,
+                 stopwords=False, tf_stop=False, verbose=True, analyzer_char=False):
     documents = data
 
-    dictionary1, dictionary2 = dict_scores(
-        d1, d2, num_feat1, num_feat2, no_distintc=dif, con=con)
-    dictionary = dictionary1+dictionary2
+    if min == 1 and max == 1:
+        dictionary1, dictionary2 = dict_scores(
+            d1, d2, num_feat1, num_feat2, no_distintc=dif, con=con)
+        dictionary = dictionary1+dictionary2
 
     
     
-    if bi == True: 
-        bi1 = get_bigrams(dictionary1)
-        bi2 = get_bigrams(dictionary2)
+    if min == 1 and max == 2 : 
+        #dictionary1, dictionary2 = dict_scores(d1, d2, num_feat1, num_feat2, no_distintc=dif, con=con)
+        #dictionary = dictionary1+dictionary2
+        bi1, bi2 = dict_scores(
+        b1, b2, num_feat1, num_feat2, no_distintc=dif, con=con)
         bigrams = bi1 + bi2
-        
-    if bi == False:
-        dictionary = set(dictionary)
-    else:
-        dictionary = bigrams+dictionary
-        dictionary = set(dictionary)        
-        
+        dictionary = set(bigrams)       
+    
+    if min == 2 and max == 2: 
+        bi1, bi2 = bigrams_clean_dictories(
+        b1, b2, num_feat1, num_feat2, no_distintc=dif, con=con)
+        bigrams = bi1 + bi2
+        dictionary = bigrams
+        dictionary = set(dictionary)           
         
     dictionary = list(dictionary)
     # split the data
@@ -345,22 +413,23 @@ def building_bow(data, labels, ntrain, d1, d2, dif, con, min=1, max=1, num_feat1
     else:
         ch2 = 0
         X_test = X_val
-	
+        feature_names = dictionary
     if verbose:
         print("Extracting best features by a chi-squared test.. ", X_train.shape, X_test.shape)
-    if bi == False:
-        feature_names = dictionary
+
     return X_train, y, X_test, len(feature_names)
 
 
 
 def run_experiment_anorexia(data, label, ntrain, test_labels, 
-num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor, bi):
+num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor):
     if dic == 1: 
         con = False
         kw1 = get_list_key(post_pos_anxia1)
         kw2 = get_list_key(post_neg_anxia1)  
-        dict_str = 'Level post uppercase'      
+        dict_str = 'Level post uppercase'    
+        bi1 = get_list_key(bi_post_pos_anxia1)  
+        bi2 = get_list_key(bi_post_neg_anxia1)
     if dic == 3:
         con = False
         kw1 = get_list_key(user_pos_anxia1)
@@ -387,6 +456,8 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor
         kw1 = get_list_key(post_pos_anxia2)
         kw2 = get_list_key(post_neg_anxia2)
         dict_str = 'Level post lowercase'
+        bi1 = get_list_key(bi_post_pos_anxia2)  
+        bi2 = get_list_key(bi_post_neg_anxia2)
     if dic == 4: 
         con = False
         kw1 = get_list_key(user_pos_anxia2)
@@ -417,29 +488,30 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor
         x_train, y, x_test, l_dic = building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
                                                               num_feat1=num_feat1, low = low, min=min, max=max,
                                                               num_feat2=num_feat2, con=con, dif = dif,
-                                                              binary=True, verbose=False, bi = bi)
+                                                              binary=True, verbose=False, b1= bi1, b2=bi2)
     elif weight == 'tf_stop':
         x_train, y, x_test, l_dic = building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
                                                               num_feat1=num_feat1, low = low,  min=min, max=max,
                                                               num_feat2=num_feat2, con = con, dif = dif, 
-                                                              tf=True, stopwords=True, verbose=False, bi = bi)
+                                                              tf=True, stopwords=True, verbose=False, b1= bi1, b2=bi2)
     elif weight == 'tf':
         x_train, y, x_test, l_dic = building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
                                                               num_feat1=num_feat1, low = low, min=min, max=max,
                                                               num_feat2=num_feat2, con = con, dif = dif,
-                                                              tf=True,  verbose=False, bi = bi)
+                                                              tf=True,  verbose=False, b1= bi1, b2=bi2)
     elif weight == 'stopwords':
         x_train, y, x_test, l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
                                                               num_feat1=num_feat1, low = low, min=min, max=max,
                                                               num_feat2=num_feat2, con = con, dif= dif,
-                                                              stopwords=True,verbose=False, bi = bi)
+                                                              stopwords=True,verbose=False, b1= bi1, b2=bi2)
     elif weight == 'tf_idf':
         x_train, y, x_test, l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
                                                               num_feat1=num_feat1, low = low, min=min, max=max,
                                                               num_feat2=num_feat2, con = con, dif = dif, 
-                                                              tf_idf=True,  verbose=False, bi = bi)
+                                                            tf_idf=True,  verbose=False, b1= bi1, b2=bi2)
+    seeds = []
     for i in range(5):
-        seeds = []
+
         f_scores = []
         seed_value = random.randrange(1000)
         np.random.seed(seed_value)
@@ -471,9 +543,7 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor
                                 +',' + str(weight) + ',' + dict_str+ ',' + str(l_dic) +  ',' + dif_str+ ',' + str(classifier)+ 
                                     ',' + str(seed_value) + ',' + str(f1) + ',' + str(a1) +  ','+ processor)
             f.close() 
-            f.close()
             if i == 4:
-
                 f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/anxia_var.txt','a')
                 f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
                 f.close()           
@@ -484,10 +554,9 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor
             f.write('\n' + str(num_exp) + ',' + str(num_feat1)  + ',' + str(num_feat2) + ',' + str(min) +',' + str(max) 
                                 +',' + str(weight) + ',' + dict_str+ ',' + str(l_dic) +  ',' + dif_str+ ',' + str(classifier)+ 
                                     ',' + str(seed_value) + ',' + str(f1) + ',' + str(a1) +  ','+ processor)
-            f.close() 
+
             f.close()
             if i == 4:
-
                 f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/anxia_var_bi.txt','a')
                 f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
                 f.close()
@@ -505,6 +574,8 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier):
         kw1 = get_list_key(post_pos_dep2)
         kw2 = get_list_key(post_neg_dep2)
         dict_str = 'Level post lowercase'  
+        bi1 = get_list_key(bi_post_pos_dep2)  
+        bi2 = get_list_key(bi_post_neg_dep2)
     if dic == 4: 
         con = False
         kw1 = get_list_key(user_pos_dep2)
@@ -530,7 +601,9 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier):
         con = False
         kw1 = get_list_key(post_pos_dep1)
         kw2 = get_list_key(post_neg_dep1)
-        dict_str = 'Level post upercase'  
+        dict_str = 'Level post upercase' 
+        bi1 = get_list_key(bi_post_pos_dep1)  
+        bi2 = get_list_key(bi_post_neg_dep1)
     if dic == 3: 
         con = False
         kw1 = get_list_key(user_pos_dep1)
@@ -559,35 +632,36 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier):
         
     if weight == 'binary':
         x_train, y, x_test, l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
-                                                              num_feat1=num_feat1, low = low,  min=min, max=max,
-                                                              num_feat2=num_feat2, con=con, dif = dif,
-                                          binary=True, verbose=False)
+                                                              num_feat1=num_feat1, low = low, min=min, max=max,
+                                                              num_feat2=num_feat2, con = con, dif = dif, 
+                                                            tf_idf=True,  verbose=False, b1= bi1, b2=bi2)
     elif weight == 'tf_stop':
         x_train, y, x_test, l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
                                                               num_feat1=num_feat1, low = low, min=min, max=max,
-                                                              num_feat2=num_feat2, con=con, dif = dif,
-                                          tf=True, stopwords=True, verbose=False)
+                                                              num_feat2=num_feat2, con = con, dif = dif, 
+                                                            tf_idf=True,  verbose=False, b1= bi1, b2=bi2)
     elif weight == 'tf':
         x_train, y, x_test,l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
-                                                              num_feat1=num_feat1, low = low,  min=min, max=max,
-                                                              num_feat2=num_feat2, con=con, dif = dif,
-                                          tf=True, verbose=False)
+                                                              num_feat1=num_feat1, low = low, min=min, max=max,
+                                                              num_feat2=num_feat2, con = con, dif = dif, 
+                                                            tf_idf=True,  verbose=False, b1= bi1, b2=bi2)
     elif weight == 'stopwords':
         x_train, y, x_test,l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
-                                                              num_feat1=num_feat1, low = low,  min=min, max=max,
-                                                              num_feat2=num_feat2, con=con, dif = dif, 
-                                          stopwords=True, verbose=False)
+                                                              num_feat1=num_feat1, low = low, min=min, max=max,
+                                                              num_feat2=num_feat2, con = con, dif = dif, 
+                                                            tf_idf=True,  verbose=False, b1= bi1, b2=bi2)
     elif weight == 'tf_idf':
         x_train, y, x_test, l_dic= building_bow(data=data, labels=label, ntrain=ntrain,d1=kw1, d2=kw2,
-                                                              num_feat1=num_feat1, low = low,  min=min, max=max,
-                                                              num_feat2=num_feat2, con=con, dif = dif,
-                                          tf_idf=True,  verbose=False)
+                                                              num_feat1=num_feat1, low = low, min=min, max=max,
+                                                              num_feat2=num_feat2, con = con, dif = dif, 
+                                                            tf_idf=True,  verbose=False, b1= bi1, b2=bi2)
     else:
         print("Include the name of the weighting")
         exit()
-       
+    
+    seeds = []
     for i in range(5):
-        seeds = []
+
         f_scores = []
         seed_value = random.randrange(1000)
         np.random.seed(seed_value)
@@ -613,16 +687,28 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier):
             dif_str = 'No difference'
         if dif == False:
             dif_str = 'Difference'
-        f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/test_dep.txt','a')
 
-        f.write('\n' + str(num_exp) + ',' + str(num_feat1)  + ',' + str(num_feat2) + ',' + str(min) +',' + str(max) 
-                               +',' + str(weight) + ',' + dict_str+ ',' +  dif_str + ',' + str(classifier)+ 
-                                ',' + str(seed_value) + ',' + str(f1) + ',' + str(a1) )
-        f.close()
-        if i == 4:
 
-            f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/dep_var.txt','a')
-            f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
+        if max == 1:
+            f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/test_dep.txt','a')
+            f.write('\n' + str(num_exp) + ',' + str(num_feat1)  + ',' + str(num_feat2) + ',' + str(min) +',' + str(max) 
+                                +',' + str(weight) + ',' + dict_str+ ',' + str(l_dic) +  ',' + dif_str+ ',' + str(classifier)+ 
+                                    ',' + str(seed_value) + ',' + str(f1) + ',' + str(a1))
             f.close()
+            if i == 4:
 
+                f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/dep_var.txt','a')
+                f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
+                f.close()
 
+        if max == 2: 
+            f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/dep_bi.txt','a')
+            f.write('\n' + str(num_exp) + ',' + str(num_feat1)  + ',' + str(num_feat2) + ',' + str(min) +',' + str(max) 
+                                +',' + str(weight) + ',' + dict_str+ ',' + str(l_dic) +  ',' + dif_str+ ',' + str(classifier)+ 
+                                    ',' + str(seed_value) + ',' + str(f1) + ',' + str(a1))
+
+            f.close()
+            if i == 4:
+                f = open('/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Baseline_yake/dep_var_bi.txt','a')
+                f.write('\n' + str(num_exp) + ',' + str(seeds) + ',' +  str(np.var(f_scores)) + ',' + str(np.std(f_scores))) 
+                f.close()

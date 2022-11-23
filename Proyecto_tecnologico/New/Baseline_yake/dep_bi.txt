@@ -1,0 +1,251 @@
+
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,997,0.14953271028037382,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,301,0.14953271028037382,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,34,0.14953271028037382,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,456,0.14953271028037382,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,509,0.14953271028037382,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,346,0.2456140350877193,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,7,0.2456140350877193,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,148,0.2456140350877193,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,436,0.2456140350877193,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,843,0.2456140350877193,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,768,0.2456140350877193,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,541,0.2456140350877193,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,563,0.2456140350877193,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,270,0.2456140350877193,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,497,0.2456140350877193,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,143,0.14953271028037382,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,126,0.14953271028037382,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,239,0.14953271028037382,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,859,0.14953271028037382,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,281,0.14953271028037382,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,690,0.2456140350877193,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,278,0.2456140350877193,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,167,0.2456140350877193,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,309,0.2456140350877193,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,857,0.2456140350877193,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,587,0.14953271028037382,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,193,0.14953271028037382,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,403,0.14953271028037382,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,597,0.14953271028037382,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,944,0.14953271028037382,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,74,0.2456140350877193,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,424,0.2456140350877193,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,129,0.2456140350877193,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,722,0.2456140350877193,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,627,0.2456140350877193,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,707,0.14953271028037382,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,77,0.14953271028037382,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,305,0.14953271028037382,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,204,0.14953271028037382,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,582,0.14953271028037382,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,659,0.2456140350877193,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,501,0.2456140350877193,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,706,0.2456140350877193,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,396,0.2456140350877193,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,95,0.2456140350877193,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,799,0.14953271028037382,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,79,0.14953271028037382,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,495,0.14953271028037382,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,941,0.14953271028037382,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,945,0.14953271028037382,None
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,383,0.5238095238095237,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,113,0.5238095238095237,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,311,0.5238095238095237,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,782,0.5238095238095237,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,856,0.5238095238095237,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,812,0.5225225225225225,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,610,0.5225225225225225,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,158,0.5225225225225225,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,236,0.5225225225225225,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,431,0.5225225225225225,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,800,0.5238095238095237,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,201,0.5238095238095237,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,188,0.5238095238095237,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,492,0.5238095238095237,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,983,0.5238095238095237,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,52,0.5225225225225225,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,507,0.5225225225225225,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,262,0.5225225225225225,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,849,0.5225225225225225,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,436,0.5225225225225225,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,202,0.5238095238095237,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,570,0.5238095238095237,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,591,0.5238095238095237,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,689,0.5238095238095237,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,431,0.5238095238095237,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,203,0.5225225225225225,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,56,0.5225225225225225,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,676,0.5225225225225225,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,763,0.5225225225225225,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,153,0.5225225225225225,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,817,0.5238095238095237,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,762,0.5238095238095237,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,631,0.5238095238095237,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,168,0.5238095238095237,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,773,0.5238095238095237,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,643,0.5225225225225225,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,102,0.5225225225225225,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,713,0.5225225225225225,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,561,0.5225225225225225,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,3,0.5225225225225225,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,907,0.5238095238095237,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,902,0.5238095238095237,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,286,0.5238095238095237,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,35,0.5238095238095237,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,487,0.5238095238095237,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,432,0.5225225225225225,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,912,0.5225225225225225,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,938,0.5225225225225225,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,757,0.5225225225225225,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,931,0.5225225225225225,{'C': 0.5}
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,771,0.3870967741935484,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,824,0.3870967741935484,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,123,0.3870967741935484,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,808,0.3870967741935484,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,737,0.3870967741935484,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,258,0.319327731092437,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,828,0.319327731092437,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,420,0.319327731092437,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,744,0.319327731092437,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,399,0.319327731092437,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,435,0.3870967741935484,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,605,0.3870967741935484,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,616,0.3870967741935484,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,354,0.3870967741935484,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,190,0.3870967741935484,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,915,0.319327731092437,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,496,0.319327731092437,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,178,0.319327731092437,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,844,0.319327731092437,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,451,0.319327731092437,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,827,0.3870967741935484,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,684,0.3870967741935484,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,986,0.3870967741935484,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,41,0.3870967741935484,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,166,0.3870967741935484,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,872,0.319327731092437,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,217,0.319327731092437,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,381,0.319327731092437,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,603,0.319327731092437,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,163,0.319327731092437,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,594,0.3870967741935484,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,720,0.3870967741935484,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,879,0.3870967741935484,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,921,0.3870967741935484,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,465,0.3870967741935484,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,258,0.319327731092437,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,677,0.319327731092437,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,407,0.319327731092437,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,981,0.319327731092437,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,477,0.319327731092437,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,345,0.3870967741935484,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,851,0.3870967741935484,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,944,0.3870967741935484,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,662,0.3870967741935484,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,66,0.3870967741935484,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,522,0.319327731092437,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,184,0.319327731092437,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,908,0.319327731092437,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,689,0.319327731092437,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,613,0.319327731092437,None
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,955,0.5219941348973607,{'C': 0.5}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,646,0.5219941348973607,{'C': 0.5}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,265,0.5219941348973607,{'C': 0.5}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,213,0.5219941348973607,{'C': 0.5}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,995,0.5219941348973607,{'C': 0.5}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,260,0.5178571428571428,{'C': 1}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,337,0.5178571428571428,{'C': 1}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,155,0.5178571428571428,{'C': 1}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,651,0.5178571428571428,{'C': 1}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,340,0.5178571428571428,{'C': 1}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,666,0.5219941348973607,{'C': 0.5}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,15,0.5219941348973607,{'C': 0.5}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,524,0.5219941348973607,{'C': 0.5}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,741,0.5219941348973607,{'C': 0.5}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,78,0.5219941348973607,{'C': 0.5}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,602,0.5178571428571428,{'C': 1}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,675,0.5178571428571428,{'C': 1}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,294,0.5178571428571428,{'C': 1}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,520,0.5178571428571428,{'C': 1}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,528,0.5178571428571428,{'C': 1}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,3,0.5219941348973607,{'C': 0.5}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,890,0.5219941348973607,{'C': 0.5}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,442,0.5219941348973607,{'C': 0.5}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,206,0.5219941348973607,{'C': 0.5}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,264,0.5219941348973607,{'C': 0.5}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,188,0.5178571428571428,{'C': 1}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,583,0.5178571428571428,{'C': 1}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,560,0.5178571428571428,{'C': 1}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,903,0.5178571428571428,{'C': 1}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,69,0.5178571428571428,{'C': 1}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,536,0.5219941348973607,{'C': 0.5}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,975,0.5219941348973607,{'C': 0.5}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,647,0.5219941348973607,{'C': 0.5}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,585,0.5219941348973607,{'C': 0.5}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,180,0.5219941348973607,{'C': 0.5}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,408,0.5178571428571428,{'C': 1}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,787,0.5178571428571428,{'C': 1}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,368,0.5178571428571428,{'C': 1}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,419,0.5178571428571428,{'C': 1}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,602,0.5178571428571428,{'C': 1}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,45,0.5219941348973607,{'C': 0.5}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,946,0.5219941348973607,{'C': 0.5}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,559,0.5219941348973607,{'C': 0.5}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,392,0.5219941348973607,{'C': 0.5}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,318,0.5219941348973607,{'C': 0.5}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,837,0.5178571428571428,{'C': 1}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,588,0.5178571428571428,{'C': 1}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,614,0.5178571428571428,{'C': 1}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,603,0.5178571428571428,{'C': 1}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,602,0.5178571428571428,{'C': 1}
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,838,0.5248226950354609,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,905,0.5248226950354609,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,491,0.5248226950354609,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,766,0.5248226950354609,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,891,0.5248226950354609,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,802,0.421875,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,721,0.421875,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,509,0.421875,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,785,0.421875,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,744,0.421875,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,28,0.5248226950354609,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,955,0.5248226950354609,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,292,0.5248226950354609,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,395,0.5248226950354609,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,832,0.5248226950354609,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,623,0.421875,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,853,0.421875,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,373,0.421875,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,646,0.421875,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,566,0.421875,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,415,0.5248226950354609,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,542,0.5248226950354609,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,485,0.5248226950354609,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,708,0.5248226950354609,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,864,0.5248226950354609,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,474,0.421875,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,534,0.421875,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,441,0.421875,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,705,0.421875,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,476,0.421875,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,940,0.5248226950354609,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,607,0.5248226950354609,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,546,0.5248226950354609,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,739,0.5248226950354609,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,757,0.5248226950354609,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,730,0.421875,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,285,0.421875,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,447,0.421875,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,807,0.421875,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,849,0.421875,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,778,0.5248226950354609,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,535,0.5248226950354609,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,359,0.5248226950354609,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,479,0.5248226950354609,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,910,0.5248226950354609,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,261,0.421875,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,611,0.421875,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,413,0.421875,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,13,0.421875,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,664,0.421875,None

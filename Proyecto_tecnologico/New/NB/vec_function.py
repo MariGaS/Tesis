@@ -387,7 +387,65 @@ def get_matrix_cluster(num_cluster, num_dic, chose, positive, ex_type):
 
     return matrix_centers
 
+
+
+def dictionaries_to_txt_anorexia(dic, num_feat1, num_feat2, dif):
+    if dic == 1: 
+        con = False
+        kw1 = get_list_key(post_pos_anxia1)
+        kw2 = get_list_key(post_neg_anxia1)  
+        dict_str = 'Level post uppercase'      
+    if dic == 3:
+        con = False
+        kw1 = get_list_key(user_pos_anxia1)
+        kw2 = get_list_key(user_neg_anxia1) 
+        dict_str = 'Level user uppercase'
+    if dic == 5:
+        con = True
+        kw1 = get_list_key(con_pos_anxia1)
+        kw2 = get_list_key(con_neg_anxia1)
+        dict_str = 'Level concatenation uppercase'
+
+    if dic == 7: 
+        con = False
+        kw1 = get_list_key(user_pos_anxia1)
+        kw2 = get_list_key(user_neg_anxia3) 
+        dict_str = 'Level user upercase v2'
+    if dic == 9:
+        con = True
+        kw1 = get_list_key(con_pos_anxia1)
+        kw2 = get_list_key(con_neg_anxia3)
+        dict_str = 'Level concatenation upercase v2'  
+    if dic == 2: 
+        con =  False
+        kw1 = get_list_key(post_pos_anxia2)
+        kw2 = get_list_key(post_neg_anxia2)
+        dict_str = 'Level post lowercase'
+    if dic == 4: 
+        con = False
+        kw1 = get_list_key(user_pos_anxia2)
+        kw2 = get_list_key(user_neg_anxia2)
+        dict_str = 'Level user lowercase'		        
+    elif dic == 6: 
+        con = True
+        kw1 = get_list_key(con_pos_anxia2)
+        kw2 = get_list_key(con_neg_anxia2)
+        dict_str = 'Level concatenation lowercase'
+    if dic == 8: 
+        con = False
+        kw1 = get_list_key(user_pos_anxia2)
+        kw2 = get_list_key(user_neg_anxia4)
+        dict_str = 'Level user lowercase v2'		        
+    elif dic == 10: 
+        con = True
+        kw1 = get_list_key(con_pos_anxia2)
+        kw2 = get_list_key(con_neg_anxia4)
+        dict_str = 'Level concatenation lowercase v2'
+        
+    dictionary1, dictionary2 = dict_scores(
+        kw1, kw2, num_feat1, num_feat2, no_distintc=dif, con=con)
     
+    return dictionary1, dictionary2
 
 # function classificator
 def classificator_pos_neg(all_path_train, all_path_test, path_tf_train, path_tf_test, num_test, num_train, score1, score2, 

@@ -53,10 +53,10 @@ ntrain = len(train)
 
 data_dep = [my_preprocessor(x) for x in data_dep ]
 
-arg1 = [500,500,100, 700, 200] #numfeature 1
-arg2 = [100,200,100, 200, 200] #numfeature 2
-arg3 = [2,2,2, 4, 4]    #dic
-arg4 = [False,False,False,False, False]    #dif
+arg1 = [500,500,100, 700, 200, 500,500,100, 700, 200] #numfeature 1
+arg2 = [100,200,100, 200, 200, 100,200,100, 200, 200] #numfeature 2
+arg3 = [2,2,2,2,2,4,4,4, 4, 4]    #dic
+arg4 = [False] * 10    #dif
 
 for i in range(5):
     run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+5*0, 

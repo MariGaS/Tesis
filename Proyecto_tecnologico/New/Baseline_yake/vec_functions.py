@@ -187,7 +187,7 @@ post_pos_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/Ne
 post_neg_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_neg_ver1key30'
 #version 2
 post_pos_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_pos_ver2key30'
-post_neg_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_neg_ver1key30'
+post_neg_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/post_level/dep_neg_ver2key30'
 
 ##                                         USER VERSION OF THE DICTIONARIES OF THE USERS                        #
 #---------------------------ANOREXIA-------------------#
@@ -266,6 +266,22 @@ bi_post_neg_dep1  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico
 #version 2
 bi_post_pos_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/dep_pos_ver2'
 bi_post_neg_dep2  =  '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/Post_dictionary/bigrams/dep_neg_ver2'
+
+
+#USER LEVEL 
+#---------------------------ANOREXIA-------------------#
+#version 1
+bi_user_pos_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/anxia_pos_ver1'
+bi_user_neg_anxia1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/anxia_neg_ver1'
+#version 2
+bi_user_pos_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/anxia_pos_ver2'
+bi_user_neg_anxia2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/anxia_neg_ver2'
+#---------------------------- DEPRESSION -----------------#
+bi_user_pos_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/dep_pos_ver1'
+bi_user_neg_dep1 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/dep_neg_ver1'
+#version 2
+bi_user_pos_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/dep_pos_ver1'
+bi_user_neg_dep2 = '/home/est_posgrado_maria.garcia/Tesis/Proyecto_tecnologico/New/User_dictionary/Bigrams/dep_neg_ver1'
 
 
 def bigrams_clean_dictories(d1, d2, feature1, feature2, no_distintc, con):
@@ -435,6 +451,8 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor
         kw1 = get_list_key(user_pos_anxia1)
         kw2 = get_list_key(user_neg_anxia1) 
         dict_str = 'Level user uppercase'
+        bi1 = get_list_key(bi_user_pos_anxia1)  
+        bi2 = get_list_key(bi_user_neg_anxia1)
     if dic == 5:
         con = True
         kw1 = get_list_key(con_pos_anxia1)
@@ -462,7 +480,9 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier, processor
         con = False
         kw1 = get_list_key(user_pos_anxia2)
         kw2 = get_list_key(user_neg_anxia2)
-        dict_str = 'Level user lowercase'		        
+        dict_str = 'Level user lowercase'	
+        bi1 = get_list_key(bi_user_pos_anxia2)  
+        bi2 = get_list_key(bi_user_neg_anxia2)	        
     elif dic == 6: 
         con = True
         kw1 = get_list_key(con_pos_anxia2)
@@ -581,6 +601,8 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier):
         kw1 = get_list_key(user_pos_dep2)
         kw2 = get_list_key(user_neg_dep2)
         dict_str = 'Level user lowercase'  
+        bi1 = get_list_key(bi_user_pos_dep2)  
+        bi2 = get_list_key(bi_user_neg_dep2)
     if  dic == 6: 
         con = True
         kw1 = get_list_key(con_pos_dep2)
@@ -609,6 +631,8 @@ num_exp, min, max, num_feat1, num_feat2, dic, dif, weight, classifier):
         kw1 = get_list_key(user_pos_dep1)
         kw2 = get_list_key(user_neg_dep1) 
         dict_str = 'Level user upercase'  
+        bi1 = get_list_key(bi_user_pos_dep2)  
+        bi2 = get_list_key(bi_user_neg_dep2)
     if dic == 5: 
         con = True
         kw1 = get_list_key(con_pos_dep1)

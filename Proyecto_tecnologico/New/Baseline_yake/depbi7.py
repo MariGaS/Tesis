@@ -53,19 +53,20 @@ ntrain = len(train)
 
 data_dep = [my_preprocessor(x) for x in data_dep ]
 
-arg1 = [500,500,100, 700, 200, 500,500,100, 700, 200] #numfeature 1
-arg2 = [100,200,100, 200, 200, 100,200,100, 200, 200] #numfeature 2
-arg3 = [2,2,2,2,2,4,4,4, 4, 4]    #dic
-arg4 = [False] * 10    #dif
+arg1 = [300,500,500,100, 700, 200, 1000, 80, 300] #numfeature 1
+arg2 = [300,100,200,100, 200, 200, 1000, 30, 200] #numfeature 2
+arg3 = [1]*10   #dic
+arg4 = [False]*10    #dif
 
 for i in range(10):
-    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*5, 
-                            1,1,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'svm')
-    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*6, 
-                            1,1,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'svm')
-    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*7, 
-                            1,1,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'svm')
-    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*8, 
-                            1,1,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'svm')
-    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*9, 
-                            1,1,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'svm')
+
+    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*25, 
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'svm')
+    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*26, 
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'svm')
+    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*27, 
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'svm')
+    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*28, 
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'svm')
+    run_experiment_depression(data_dep, labels_dep, ntrain, test_labels, i+10*29, 
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'svm')

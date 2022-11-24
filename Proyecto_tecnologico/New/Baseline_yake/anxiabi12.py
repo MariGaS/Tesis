@@ -83,22 +83,22 @@ arg4 = [False,True,True,False, True, False, True, False, False, False]    #dif
 
 for i in range(10):
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*70, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'NB','normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'NB','normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*71, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'NB', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'NB', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*72, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'NB', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'NB', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*73, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'NB', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'NB', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*74, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'NB', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'NB', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*75, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'svm', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'binary', 'svm', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*76, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'svm', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_stop', 'svm', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*77, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'svm', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf', 'svm', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*78, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'svm', 'normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'stopwords', 'svm', 'normal_preprocess')
     run_experiment_anorexia(data_anxia, labels_anxia, ntrain, test_labels_anxia, i+10*79, 
-                            1,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'svm','normal_preprocess')
+                            2,2,arg1[i],arg2[i],arg3[i],arg4[i],'tf_idf', 'svm','normal_preprocess')

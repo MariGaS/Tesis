@@ -1,0 +1,1675 @@
+106,1000,1000,1,2,binary,Level post lowercase,2000,Difference,NB,47,0.6560846560846562,None
+106,1000,1000,1,2,binary,Level post lowercase,2000,Difference,NB,80,0.6560846560846562,None
+106,1000,1000,1,2,binary,Level post lowercase,2000,Difference,NB,505,0.6560846560846562,None
+106,1000,1000,1,2,binary,Level post lowercase,2000,Difference,NB,353,0.6560846560846562,None
+106,1000,1000,1,2,binary,Level post lowercase,2000,Difference,NB,928,0.6560846560846562,None
+116,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,NB,848,0.6560846560846562,None
+116,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,NB,156,0.6560846560846562,None
+116,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,NB,459,0.6560846560846562,None
+116,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,NB,276,0.6560846560846562,None
+116,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,NB,603,0.6560846560846562,None
+126,1000,1000,1,2,tf,Level post lowercase,2000,Difference,NB,333,0.6560846560846562,None
+126,1000,1000,1,2,tf,Level post lowercase,2000,Difference,NB,863,0.6560846560846562,None
+126,1000,1000,1,2,tf,Level post lowercase,2000,Difference,NB,975,0.6560846560846562,None
+126,1000,1000,1,2,tf,Level post lowercase,2000,Difference,NB,192,0.6560846560846562,None
+126,1000,1000,1,2,tf,Level post lowercase,2000,Difference,NB,511,0.6560846560846562,None
+136,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,NB,685,0.6560846560846562,None
+136,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,NB,532,0.6560846560846562,None
+136,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,NB,620,0.6560846560846562,None
+136,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,NB,923,0.6560846560846562,None
+136,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,NB,623,0.6560846560846562,None
+146,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,NB,104,0.6560846560846562,None
+146,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,NB,124,0.6560846560846562,None
+146,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,NB,0,0.6560846560846562,None
+146,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,NB,789,0.6560846560846562,None
+146,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,NB,694,0.6560846560846562,None
+302,500,200,2,2,binary,Level post lowercase,700,Difference,NB,149,0.5806451612903226,None
+302,500,200,2,2,binary,Level post lowercase,700,Difference,NB,758,0.5806451612903226,None
+302,500,200,2,2,binary,Level post lowercase,700,Difference,NB,505,0.5806451612903226,None
+302,500,200,2,2,binary,Level post lowercase,700,Difference,NB,831,0.5806451612903226,None
+302,500,200,2,2,binary,Level post lowercase,700,Difference,NB,945,0.5806451612903226,None
+312,500,200,2,2,tf_stop,Level post lowercase,700,Difference,NB,819,0.5806451612903226,None
+312,500,200,2,2,tf_stop,Level post lowercase,700,Difference,NB,964,0.5806451612903226,None
+312,500,200,2,2,tf_stop,Level post lowercase,700,Difference,NB,72,0.5806451612903226,None
+312,500,200,2,2,tf_stop,Level post lowercase,700,Difference,NB,256,0.5806451612903226,None
+312,500,200,2,2,tf_stop,Level post lowercase,700,Difference,NB,525,0.5806451612903226,None
+322,500,200,2,2,tf,Level post lowercase,700,Difference,NB,555,0.5806451612903226,None
+322,500,200,2,2,tf,Level post lowercase,700,Difference,NB,933,0.5806451612903226,None
+322,500,200,2,2,tf,Level post lowercase,700,Difference,NB,347,0.5806451612903226,None
+322,500,200,2,2,tf,Level post lowercase,700,Difference,NB,761,0.5806451612903226,None
+322,500,200,2,2,tf,Level post lowercase,700,Difference,NB,770,0.5806451612903226,None
+332,500,200,2,2,stopwords,Level post lowercase,700,Difference,NB,253,0.5806451612903226,None
+332,500,200,2,2,stopwords,Level post lowercase,700,Difference,NB,748,0.5806451612903226,None
+332,500,200,2,2,stopwords,Level post lowercase,700,Difference,NB,99,0.5806451612903226,None
+332,500,200,2,2,stopwords,Level post lowercase,700,Difference,NB,204,0.5806451612903226,None
+332,500,200,2,2,stopwords,Level post lowercase,700,Difference,NB,267,0.5806451612903226,None
+342,500,200,2,2,tf_idf,Level post lowercase,700,Difference,NB,878,0.5806451612903226,None
+342,500,200,2,2,tf_idf,Level post lowercase,700,Difference,NB,976,0.5806451612903226,None
+342,500,200,2,2,tf_idf,Level post lowercase,700,Difference,NB,62,0.5806451612903226,None
+342,500,200,2,2,tf_idf,Level post lowercase,700,Difference,NB,410,0.5806451612903226,None
+342,500,200,2,2,tf_idf,Level post lowercase,700,Difference,NB,666,0.5806451612903226,None
+301,500,100,2,2,binary,Level post lowercase,600,Difference,NB,576,0.5771812080536912,None
+301,500,100,2,2,binary,Level post lowercase,600,Difference,NB,983,0.5771812080536912,None
+301,500,100,2,2,binary,Level post lowercase,600,Difference,NB,203,0.5771812080536912,None
+301,500,100,2,2,binary,Level post lowercase,600,Difference,NB,778,0.5771812080536912,None
+301,500,100,2,2,binary,Level post lowercase,600,Difference,NB,277,0.5771812080536912,None
+311,500,100,2,2,tf_stop,Level post lowercase,600,Difference,NB,179,0.5771812080536912,None
+311,500,100,2,2,tf_stop,Level post lowercase,600,Difference,NB,851,0.5771812080536912,None
+311,500,100,2,2,tf_stop,Level post lowercase,600,Difference,NB,659,0.5771812080536912,None
+311,500,100,2,2,tf_stop,Level post lowercase,600,Difference,NB,574,0.5771812080536912,None
+311,500,100,2,2,tf_stop,Level post lowercase,600,Difference,NB,595,0.5771812080536912,None
+321,500,100,2,2,tf,Level post lowercase,600,Difference,NB,498,0.5771812080536912,None
+321,500,100,2,2,tf,Level post lowercase,600,Difference,NB,510,0.5771812080536912,None
+321,500,100,2,2,tf,Level post lowercase,600,Difference,NB,339,0.5771812080536912,None
+321,500,100,2,2,tf,Level post lowercase,600,Difference,NB,795,0.5771812080536912,None
+321,500,100,2,2,tf,Level post lowercase,600,Difference,NB,627,0.5771812080536912,None
+331,500,100,2,2,stopwords,Level post lowercase,600,Difference,NB,701,0.5771812080536912,None
+331,500,100,2,2,stopwords,Level post lowercase,600,Difference,NB,845,0.5771812080536912,None
+331,500,100,2,2,stopwords,Level post lowercase,600,Difference,NB,776,0.5771812080536912,None
+331,500,100,2,2,stopwords,Level post lowercase,600,Difference,NB,555,0.5771812080536912,None
+331,500,100,2,2,stopwords,Level post lowercase,600,Difference,NB,413,0.5771812080536912,None
+341,500,100,2,2,tf_idf,Level post lowercase,600,Difference,NB,123,0.5771812080536912,None
+341,500,100,2,2,tf_idf,Level post lowercase,600,Difference,NB,740,0.5771812080536912,None
+341,500,100,2,2,tf_idf,Level post lowercase,600,Difference,NB,499,0.5771812080536912,None
+341,500,100,2,2,tf_idf,Level post lowercase,600,Difference,NB,25,0.5771812080536912,None
+341,500,100,2,2,tf_idf,Level post lowercase,600,Difference,NB,557,0.5771812080536912,None
+56,1000,1000,1,2,binary,Level post upercase,2000,Difference,svm,628,0.5733788395904438,{'C': 0.5}
+56,1000,1000,1,2,binary,Level post upercase,2000,Difference,svm,246,0.5733788395904438,{'C': 0.5}
+56,1000,1000,1,2,binary,Level post upercase,2000,Difference,svm,620,0.5733788395904438,{'C': 0.5}
+56,1000,1000,1,2,binary,Level post upercase,2000,Difference,svm,606,0.5733788395904438,{'C': 0.5}
+56,1000,1000,1,2,binary,Level post upercase,2000,Difference,svm,938,0.5733788395904438,{'C': 0.5}
+66,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,svm,512,0.5733788395904438,{'C': 0.5}
+66,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,svm,959,0.5733788395904438,{'C': 0.5}
+66,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,svm,727,0.5733788395904438,{'C': 0.5}
+66,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,svm,368,0.5733788395904438,{'C': 0.5}
+66,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,svm,286,0.5733788395904438,{'C': 0.5}
+76,1000,1000,1,2,tf,Level post upercase,2000,Difference,svm,994,0.5733788395904438,{'C': 0.5}
+76,1000,1000,1,2,tf,Level post upercase,2000,Difference,svm,333,0.5733788395904438,{'C': 0.5}
+76,1000,1000,1,2,tf,Level post upercase,2000,Difference,svm,873,0.5733788395904438,{'C': 0.5}
+76,1000,1000,1,2,tf,Level post upercase,2000,Difference,svm,843,0.5733788395904438,{'C': 0.5}
+76,1000,1000,1,2,tf,Level post upercase,2000,Difference,svm,762,0.5733788395904438,{'C': 0.5}
+86,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,svm,284,0.5733788395904438,{'C': 0.5}
+86,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,svm,736,0.5733788395904438,{'C': 0.5}
+86,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,svm,577,0.5733788395904438,{'C': 0.5}
+86,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,svm,46,0.5733788395904438,{'C': 0.5}
+86,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,svm,961,0.5733788395904438,{'C': 0.5}
+96,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,svm,419,0.5733788395904438,{'C': 0.5}
+96,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,svm,22,0.5733788395904438,{'C': 0.5}
+96,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,svm,221,0.5733788395904438,{'C': 0.5}
+96,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,svm,486,0.5733788395904438,{'C': 0.5}
+96,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,svm,62,0.5733788395904438,{'C': 0.5}
+300,300,300,2,2,binary,Level post lowercase,600,Difference,NB,578,0.569620253164557,None
+300,300,300,2,2,binary,Level post lowercase,600,Difference,NB,756,0.569620253164557,None
+300,300,300,2,2,binary,Level post lowercase,600,Difference,NB,324,0.569620253164557,None
+300,300,300,2,2,binary,Level post lowercase,600,Difference,NB,241,0.569620253164557,None
+300,300,300,2,2,binary,Level post lowercase,600,Difference,NB,356,0.569620253164557,None
+310,300,300,2,2,tf_stop,Level post lowercase,600,Difference,NB,592,0.569620253164557,None
+310,300,300,2,2,tf_stop,Level post lowercase,600,Difference,NB,770,0.569620253164557,None
+310,300,300,2,2,tf_stop,Level post lowercase,600,Difference,NB,39,0.569620253164557,None
+310,300,300,2,2,tf_stop,Level post lowercase,600,Difference,NB,525,0.569620253164557,None
+310,300,300,2,2,tf_stop,Level post lowercase,600,Difference,NB,776,0.569620253164557,None
+320,300,300,2,2,tf,Level post lowercase,600,Difference,NB,693,0.569620253164557,None
+320,300,300,2,2,tf,Level post lowercase,600,Difference,NB,675,0.569620253164557,None
+320,300,300,2,2,tf,Level post lowercase,600,Difference,NB,804,0.569620253164557,None
+320,300,300,2,2,tf,Level post lowercase,600,Difference,NB,744,0.569620253164557,None
+320,300,300,2,2,tf,Level post lowercase,600,Difference,NB,311,0.569620253164557,None
+330,300,300,2,2,stopwords,Level post lowercase,600,Difference,NB,691,0.569620253164557,None
+330,300,300,2,2,stopwords,Level post lowercase,600,Difference,NB,70,0.569620253164557,None
+330,300,300,2,2,stopwords,Level post lowercase,600,Difference,NB,82,0.569620253164557,None
+330,300,300,2,2,stopwords,Level post lowercase,600,Difference,NB,455,0.569620253164557,None
+330,300,300,2,2,stopwords,Level post lowercase,600,Difference,NB,607,0.569620253164557,None
+340,300,300,2,2,tf_idf,Level post lowercase,600,Difference,NB,598,0.569620253164557,None
+340,300,300,2,2,tf_idf,Level post lowercase,600,Difference,NB,364,0.569620253164557,None
+340,300,300,2,2,tf_idf,Level post lowercase,600,Difference,NB,854,0.569620253164557,None
+340,300,300,2,2,tf_idf,Level post lowercase,600,Difference,NB,609,0.569620253164557,None
+340,300,300,2,2,tf_idf,Level post lowercase,600,Difference,NB,574,0.569620253164557,None
+6,1000,1000,1,2,binary,Level post upercase,2000,Difference,NB,375,0.5584415584415584,None
+6,1000,1000,1,2,binary,Level post upercase,2000,Difference,NB,232,0.5584415584415584,None
+6,1000,1000,1,2,binary,Level post upercase,2000,Difference,NB,973,0.5584415584415584,None
+6,1000,1000,1,2,binary,Level post upercase,2000,Difference,NB,925,0.5584415584415584,None
+6,1000,1000,1,2,binary,Level post upercase,2000,Difference,NB,577,0.5584415584415584,None
+16,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,NB,397,0.5584415584415584,None
+16,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,NB,439,0.5584415584415584,None
+16,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,NB,322,0.5584415584415584,None
+16,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,NB,431,0.5584415584415584,None
+16,1000,1000,1,2,tf_stop,Level post upercase,2000,Difference,NB,818,0.5584415584415584,None
+26,1000,1000,1,2,tf,Level post upercase,2000,Difference,NB,575,0.5584415584415584,None
+26,1000,1000,1,2,tf,Level post upercase,2000,Difference,NB,371,0.5584415584415584,None
+26,1000,1000,1,2,tf,Level post upercase,2000,Difference,NB,178,0.5584415584415584,None
+26,1000,1000,1,2,tf,Level post upercase,2000,Difference,NB,326,0.5584415584415584,None
+26,1000,1000,1,2,tf,Level post upercase,2000,Difference,NB,788,0.5584415584415584,None
+36,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,NB,904,0.5584415584415584,None
+36,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,NB,137,0.5584415584415584,None
+36,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,NB,874,0.5584415584415584,None
+36,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,NB,572,0.5584415584415584,None
+36,1000,1000,1,2,stopwords,Level post upercase,2000,Difference,NB,801,0.5584415584415584,None
+46,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,NB,221,0.5584415584415584,None
+46,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,NB,308,0.5584415584415584,None
+46,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,NB,796,0.5584415584415584,None
+46,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,NB,782,0.5584415584415584,None
+46,1000,1000,1,2,tf_idf,Level post upercase,2000,Difference,NB,80,0.5584415584415584,None
+304,700,200,2,2,binary,Level post lowercase,900,Difference,NB,472,0.5584415584415584,None
+304,700,200,2,2,binary,Level post lowercase,900,Difference,NB,473,0.5584415584415584,None
+304,700,200,2,2,binary,Level post lowercase,900,Difference,NB,113,0.5584415584415584,None
+304,700,200,2,2,binary,Level post lowercase,900,Difference,NB,14,0.5584415584415584,None
+304,700,200,2,2,binary,Level post lowercase,900,Difference,NB,542,0.5584415584415584,None
+314,700,200,2,2,tf_stop,Level post lowercase,900,Difference,NB,788,0.5584415584415584,None
+314,700,200,2,2,tf_stop,Level post lowercase,900,Difference,NB,29,0.5584415584415584,None
+314,700,200,2,2,tf_stop,Level post lowercase,900,Difference,NB,419,0.5584415584415584,None
+314,700,200,2,2,tf_stop,Level post lowercase,900,Difference,NB,31,0.5584415584415584,None
+314,700,200,2,2,tf_stop,Level post lowercase,900,Difference,NB,80,0.5584415584415584,None
+324,700,200,2,2,tf,Level post lowercase,900,Difference,NB,59,0.5584415584415584,None
+324,700,200,2,2,tf,Level post lowercase,900,Difference,NB,384,0.5584415584415584,None
+324,700,200,2,2,tf,Level post lowercase,900,Difference,NB,435,0.5584415584415584,None
+324,700,200,2,2,tf,Level post lowercase,900,Difference,NB,116,0.5584415584415584,None
+324,700,200,2,2,tf,Level post lowercase,900,Difference,NB,689,0.5584415584415584,None
+334,700,200,2,2,stopwords,Level post lowercase,900,Difference,NB,272,0.5584415584415584,None
+334,700,200,2,2,stopwords,Level post lowercase,900,Difference,NB,339,0.5584415584415584,None
+334,700,200,2,2,stopwords,Level post lowercase,900,Difference,NB,860,0.5584415584415584,None
+334,700,200,2,2,stopwords,Level post lowercase,900,Difference,NB,838,0.5584415584415584,None
+334,700,200,2,2,stopwords,Level post lowercase,900,Difference,NB,758,0.5584415584415584,None
+344,700,200,2,2,tf_idf,Level post lowercase,900,Difference,NB,357,0.5584415584415584,None
+344,700,200,2,2,tf_idf,Level post lowercase,900,Difference,NB,301,0.5584415584415584,None
+344,700,200,2,2,tf_idf,Level post lowercase,900,Difference,NB,638,0.5584415584415584,None
+344,700,200,2,2,tf_idf,Level post lowercase,900,Difference,NB,479,0.5584415584415584,None
+344,700,200,2,2,tf_idf,Level post lowercase,900,Difference,NB,878,0.5584415584415584,None
+308,300,200,2,2,binary,Level post lowercase,500,Difference,NB,953,0.5526315789473685,None
+308,300,200,2,2,binary,Level post lowercase,500,Difference,NB,809,0.5526315789473685,None
+308,300,200,2,2,binary,Level post lowercase,500,Difference,NB,48,0.5526315789473685,None
+308,300,200,2,2,binary,Level post lowercase,500,Difference,NB,507,0.5526315789473685,None
+308,300,200,2,2,binary,Level post lowercase,500,Difference,NB,741,0.5526315789473685,None
+318,300,200,2,2,tf_stop,Level post lowercase,500,Difference,NB,809,0.5526315789473685,None
+318,300,200,2,2,tf_stop,Level post lowercase,500,Difference,NB,224,0.5526315789473685,None
+318,300,200,2,2,tf_stop,Level post lowercase,500,Difference,NB,960,0.5526315789473685,None
+318,300,200,2,2,tf_stop,Level post lowercase,500,Difference,NB,32,0.5526315789473685,None
+318,300,200,2,2,tf_stop,Level post lowercase,500,Difference,NB,40,0.5526315789473685,None
+328,300,200,2,2,tf,Level post lowercase,500,Difference,NB,166,0.5526315789473685,None
+328,300,200,2,2,tf,Level post lowercase,500,Difference,NB,43,0.5526315789473685,None
+328,300,200,2,2,tf,Level post lowercase,500,Difference,NB,980,0.5526315789473685,None
+328,300,200,2,2,tf,Level post lowercase,500,Difference,NB,948,0.5526315789473685,None
+328,300,200,2,2,tf,Level post lowercase,500,Difference,NB,848,0.5526315789473685,None
+338,300,200,2,2,stopwords,Level post lowercase,500,Difference,NB,550,0.5526315789473685,None
+338,300,200,2,2,stopwords,Level post lowercase,500,Difference,NB,395,0.5526315789473685,None
+338,300,200,2,2,stopwords,Level post lowercase,500,Difference,NB,213,0.5526315789473685,None
+338,300,200,2,2,stopwords,Level post lowercase,500,Difference,NB,167,0.5526315789473685,None
+338,300,200,2,2,stopwords,Level post lowercase,500,Difference,NB,540,0.5526315789473685,None
+348,300,200,2,2,tf_idf,Level post lowercase,500,Difference,NB,211,0.5526315789473685,None
+348,300,200,2,2,tf_idf,Level post lowercase,500,Difference,NB,865,0.5526315789473685,None
+348,300,200,2,2,tf_idf,Level post lowercase,500,Difference,NB,681,0.5526315789473685,None
+348,300,200,2,2,tf_idf,Level post lowercase,500,Difference,NB,501,0.5526315789473685,None
+348,300,200,2,2,tf_idf,Level post lowercase,500,Difference,NB,500,0.5526315789473685,None
+154,700,200,1,2,binary,Level post lowercase,900,Difference,svm,819,0.551948051948052,{'C': 1}
+154,700,200,1,2,binary,Level post lowercase,900,Difference,svm,361,0.551948051948052,{'C': 1}
+154,700,200,1,2,binary,Level post lowercase,900,Difference,svm,403,0.551948051948052,{'C': 1}
+154,700,200,1,2,binary,Level post lowercase,900,Difference,svm,805,0.551948051948052,{'C': 1}
+154,700,200,1,2,binary,Level post lowercase,900,Difference,svm,686,0.551948051948052,{'C': 1}
+164,700,200,1,2,tf_stop,Level post lowercase,900,Difference,svm,573,0.551948051948052,{'C': 1}
+164,700,200,1,2,tf_stop,Level post lowercase,900,Difference,svm,463,0.551948051948052,{'C': 1}
+164,700,200,1,2,tf_stop,Level post lowercase,900,Difference,svm,399,0.551948051948052,{'C': 1}
+164,700,200,1,2,tf_stop,Level post lowercase,900,Difference,svm,180,0.551948051948052,{'C': 1}
+164,700,200,1,2,tf_stop,Level post lowercase,900,Difference,svm,567,0.551948051948052,{'C': 1}
+174,700,200,1,2,tf,Level post lowercase,900,Difference,svm,551,0.551948051948052,{'C': 1}
+174,700,200,1,2,tf,Level post lowercase,900,Difference,svm,319,0.551948051948052,{'C': 1}
+174,700,200,1,2,tf,Level post lowercase,900,Difference,svm,44,0.551948051948052,{'C': 1}
+174,700,200,1,2,tf,Level post lowercase,900,Difference,svm,914,0.551948051948052,{'C': 1}
+174,700,200,1,2,tf,Level post lowercase,900,Difference,svm,640,0.551948051948052,{'C': 1}
+184,700,200,1,2,stopwords,Level post lowercase,900,Difference,svm,54,0.551948051948052,{'C': 1}
+184,700,200,1,2,stopwords,Level post lowercase,900,Difference,svm,81,0.551948051948052,{'C': 1}
+184,700,200,1,2,stopwords,Level post lowercase,900,Difference,svm,879,0.551948051948052,{'C': 1}
+184,700,200,1,2,stopwords,Level post lowercase,900,Difference,svm,573,0.551948051948052,{'C': 1}
+184,700,200,1,2,stopwords,Level post lowercase,900,Difference,svm,311,0.551948051948052,{'C': 1}
+194,700,200,1,2,tf_idf,Level post lowercase,900,Difference,svm,372,0.551948051948052,{'C': 1}
+194,700,200,1,2,tf_idf,Level post lowercase,900,Difference,svm,934,0.551948051948052,{'C': 1}
+194,700,200,1,2,tf_idf,Level post lowercase,900,Difference,svm,382,0.551948051948052,{'C': 1}
+194,700,200,1,2,tf_idf,Level post lowercase,900,Difference,svm,640,0.551948051948052,{'C': 1}
+194,700,200,1,2,tf_idf,Level post lowercase,900,Difference,svm,456,0.551948051948052,{'C': 1}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,56,0.55,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,855,0.55,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,674,0.55,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,318,0.55,{'C': 0.5}
+50,300,300,1,2,binary,Level post upercase,600,Difference,svm,699,0.55,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,699,0.55,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,643,0.55,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,727,0.55,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,528,0.55,{'C': 0.5}
+60,300,300,1,2,tf_stop,Level post upercase,600,Difference,svm,131,0.55,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,697,0.55,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,736,0.55,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,827,0.55,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,5,0.55,{'C': 0.5}
+70,300,300,1,2,tf,Level post upercase,600,Difference,svm,718,0.55,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,83,0.55,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,935,0.55,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,440,0.55,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,962,0.55,{'C': 0.5}
+80,300,300,1,2,stopwords,Level post upercase,600,Difference,svm,99,0.55,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,792,0.55,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,810,0.55,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,180,0.55,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,769,0.55,{'C': 0.5}
+90,300,300,1,2,tf_idf,Level post upercase,600,Difference,svm,705,0.55,{'C': 0.5}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,433,0.5408805031446541,{'C': 0.5}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,775,0.5408805031446541,{'C': 0.5}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,55,0.5408805031446541,{'C': 0.5}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,994,0.5408805031446541,{'C': 0.5}
+152,500,200,1,2,binary,Level post lowercase,700,Difference,svm,862,0.5408805031446541,{'C': 0.5}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,247,0.5408805031446541,{'C': 0.5}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,803,0.5408805031446541,{'C': 0.5}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,381,0.5408805031446541,{'C': 0.5}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,651,0.5408805031446541,{'C': 0.5}
+162,500,200,1,2,tf_stop,Level post lowercase,700,Difference,svm,634,0.5408805031446541,{'C': 0.5}
+172,500,200,1,2,tf,Level post lowercase,700,Difference,svm,662,0.5408805031446541,{'C': 0.5}
+172,500,200,1,2,tf,Level post lowercase,700,Difference,svm,628,0.5408805031446541,{'C': 0.5}
+172,500,200,1,2,tf,Level post lowercase,700,Difference,svm,519,0.5408805031446541,{'C': 0.5}
+172,500,200,1,2,tf,Level post lowercase,700,Difference,svm,551,0.5408805031446541,{'C': 0.5}
+172,500,200,1,2,tf,Level post lowercase,700,Difference,svm,341,0.5408805031446541,{'C': 0.5}
+182,500,200,1,2,stopwords,Level post lowercase,700,Difference,svm,17,0.5408805031446541,{'C': 0.5}
+182,500,200,1,2,stopwords,Level post lowercase,700,Difference,svm,130,0.5408805031446541,{'C': 0.5}
+182,500,200,1,2,stopwords,Level post lowercase,700,Difference,svm,136,0.5408805031446541,{'C': 0.5}
+182,500,200,1,2,stopwords,Level post lowercase,700,Difference,svm,610,0.5408805031446541,{'C': 0.5}
+182,500,200,1,2,stopwords,Level post lowercase,700,Difference,svm,733,0.5408805031446541,{'C': 0.5}
+192,500,200,1,2,tf_idf,Level post lowercase,700,Difference,svm,720,0.5408805031446541,{'C': 0.5}
+192,500,200,1,2,tf_idf,Level post lowercase,700,Difference,svm,899,0.5408805031446541,{'C': 0.5}
+192,500,200,1,2,tf_idf,Level post lowercase,700,Difference,svm,163,0.5408805031446541,{'C': 0.5}
+192,500,200,1,2,tf_idf,Level post lowercase,700,Difference,svm,528,0.5408805031446541,{'C': 0.5}
+192,500,200,1,2,tf_idf,Level post lowercase,700,Difference,svm,256,0.5408805031446541,{'C': 0.5}
+306,1000,1000,2,2,binary,Level post lowercase,2000,Difference,NB,586,0.5394736842105263,None
+306,1000,1000,2,2,binary,Level post lowercase,2000,Difference,NB,304,0.5394736842105263,None
+306,1000,1000,2,2,binary,Level post lowercase,2000,Difference,NB,148,0.5394736842105263,None
+306,1000,1000,2,2,binary,Level post lowercase,2000,Difference,NB,708,0.5394736842105263,None
+306,1000,1000,2,2,binary,Level post lowercase,2000,Difference,NB,33,0.5394736842105263,None
+316,1000,1000,2,2,tf_stop,Level post lowercase,2000,Difference,NB,20,0.5394736842105263,None
+316,1000,1000,2,2,tf_stop,Level post lowercase,2000,Difference,NB,723,0.5394736842105263,None
+316,1000,1000,2,2,tf_stop,Level post lowercase,2000,Difference,NB,989,0.5394736842105263,None
+316,1000,1000,2,2,tf_stop,Level post lowercase,2000,Difference,NB,15,0.5394736842105263,None
+316,1000,1000,2,2,tf_stop,Level post lowercase,2000,Difference,NB,921,0.5394736842105263,None
+326,1000,1000,2,2,tf,Level post lowercase,2000,Difference,NB,97,0.5394736842105263,None
+326,1000,1000,2,2,tf,Level post lowercase,2000,Difference,NB,593,0.5394736842105263,None
+326,1000,1000,2,2,tf,Level post lowercase,2000,Difference,NB,15,0.5394736842105263,None
+326,1000,1000,2,2,tf,Level post lowercase,2000,Difference,NB,725,0.5394736842105263,None
+326,1000,1000,2,2,tf,Level post lowercase,2000,Difference,NB,184,0.5394736842105263,None
+336,1000,1000,2,2,stopwords,Level post lowercase,2000,Difference,NB,133,0.5394736842105263,None
+336,1000,1000,2,2,stopwords,Level post lowercase,2000,Difference,NB,129,0.5394736842105263,None
+336,1000,1000,2,2,stopwords,Level post lowercase,2000,Difference,NB,669,0.5394736842105263,None
+336,1000,1000,2,2,stopwords,Level post lowercase,2000,Difference,NB,301,0.5394736842105263,None
+336,1000,1000,2,2,stopwords,Level post lowercase,2000,Difference,NB,982,0.5394736842105263,None
+346,1000,1000,2,2,tf_idf,Level post lowercase,2000,Difference,NB,445,0.5394736842105263,None
+346,1000,1000,2,2,tf_idf,Level post lowercase,2000,Difference,NB,801,0.5394736842105263,None
+346,1000,1000,2,2,tf_idf,Level post lowercase,2000,Difference,NB,344,0.5394736842105263,None
+346,1000,1000,2,2,tf_idf,Level post lowercase,2000,Difference,NB,587,0.5394736842105263,None
+346,1000,1000,2,2,tf_idf,Level post lowercase,2000,Difference,NB,983,0.5394736842105263,None
+156,1000,1000,1,2,binary,Level post lowercase,2000,Difference,svm,629,0.5375,{'C': 0.25}
+156,1000,1000,1,2,binary,Level post lowercase,2000,Difference,svm,399,0.5375,{'C': 0.25}
+156,1000,1000,1,2,binary,Level post lowercase,2000,Difference,svm,124,0.5375,{'C': 0.25}
+156,1000,1000,1,2,binary,Level post lowercase,2000,Difference,svm,962,0.5375,{'C': 0.25}
+156,1000,1000,1,2,binary,Level post lowercase,2000,Difference,svm,179,0.5375,{'C': 0.25}
+166,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,svm,113,0.5375,{'C': 0.25}
+166,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,svm,382,0.5375,{'C': 0.25}
+166,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,svm,71,0.5375,{'C': 0.25}
+166,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,svm,244,0.5375,{'C': 0.25}
+166,1000,1000,1,2,tf_stop,Level post lowercase,2000,Difference,svm,818,0.5375,{'C': 0.25}
+176,1000,1000,1,2,tf,Level post lowercase,2000,Difference,svm,108,0.5375,{'C': 0.25}
+176,1000,1000,1,2,tf,Level post lowercase,2000,Difference,svm,788,0.5375,{'C': 0.25}
+176,1000,1000,1,2,tf,Level post lowercase,2000,Difference,svm,59,0.5375,{'C': 0.25}
+176,1000,1000,1,2,tf,Level post lowercase,2000,Difference,svm,452,0.5375,{'C': 0.25}
+176,1000,1000,1,2,tf,Level post lowercase,2000,Difference,svm,808,0.5375,{'C': 0.25}
+186,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,svm,662,0.5375,{'C': 0.25}
+186,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,svm,253,0.5375,{'C': 0.25}
+186,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,svm,921,0.5375,{'C': 0.25}
+186,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,svm,855,0.5375,{'C': 0.25}
+186,1000,1000,1,2,stopwords,Level post lowercase,2000,Difference,svm,169,0.5375,{'C': 0.25}
+196,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,svm,936,0.5375,{'C': 0.25}
+196,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,svm,738,0.5375,{'C': 0.25}
+196,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,svm,642,0.5375,{'C': 0.25}
+196,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,svm,95,0.5375,{'C': 0.25}
+196,1000,1000,1,2,tf_idf,Level post lowercase,2000,Difference,svm,655,0.5375,{'C': 0.25}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,792,0.5333333333333333,{'C': 0.5}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,492,0.5333333333333333,{'C': 0.5}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,158,0.5333333333333333,{'C': 0.5}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,845,0.5333333333333333,{'C': 0.5}
+51,500,100,1,2,binary,Level post upercase,600,Difference,svm,867,0.5333333333333333,{'C': 0.5}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,433,0.5333333333333333,{'C': 0.5}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,52,0.5333333333333333,{'C': 0.5}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,747,0.5333333333333333,{'C': 0.5}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,557,0.5333333333333333,{'C': 0.5}
+61,500,100,1,2,tf_stop,Level post upercase,600,Difference,svm,771,0.5333333333333333,{'C': 0.5}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,696,0.5333333333333333,{'C': 0.5}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,625,0.5333333333333333,{'C': 0.5}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,389,0.5333333333333333,{'C': 0.5}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,109,0.5333333333333333,{'C': 0.5}
+71,500,100,1,2,tf,Level post upercase,600,Difference,svm,99,0.5333333333333333,{'C': 0.5}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,881,0.5333333333333333,{'C': 0.5}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,224,0.5333333333333333,{'C': 0.5}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,292,0.5333333333333333,{'C': 0.5}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,107,0.5333333333333333,{'C': 0.5}
+81,500,100,1,2,stopwords,Level post upercase,600,Difference,svm,903,0.5333333333333333,{'C': 0.5}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,77,0.5333333333333333,{'C': 0.5}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,676,0.5333333333333333,{'C': 0.5}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,99,0.5333333333333333,{'C': 0.5}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,787,0.5333333333333333,{'C': 0.5}
+91,500,100,1,2,tf_idf,Level post upercase,600,Difference,svm,348,0.5333333333333333,{'C': 0.5}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,352,0.5278592375366569,{'C': 0.12}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,88,0.5278592375366569,{'C': 0.12}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,724,0.5278592375366569,{'C': 0.12}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,933,0.5278592375366569,{'C': 0.12}
+151,500,100,1,2,binary,Level post lowercase,600,Difference,svm,607,0.5278592375366569,{'C': 0.12}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,998,0.5278592375366569,{'C': 0.12}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,704,0.5278592375366569,{'C': 0.12}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,289,0.5278592375366569,{'C': 0.12}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,807,0.5278592375366569,{'C': 0.12}
+161,500,100,1,2,tf_stop,Level post lowercase,600,Difference,svm,203,0.5278592375366569,{'C': 0.12}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,366,0.5278592375366569,{'C': 0.12}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,998,0.5278592375366569,{'C': 0.12}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,977,0.5278592375366569,{'C': 0.12}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,696,0.5278592375366569,{'C': 0.12}
+171,500,100,1,2,tf,Level post lowercase,600,Difference,svm,436,0.5278592375366569,{'C': 0.12}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,839,0.5278592375366569,{'C': 0.12}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,2,0.5278592375366569,{'C': 0.12}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,33,0.5278592375366569,{'C': 0.12}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,529,0.5278592375366569,{'C': 0.12}
+181,500,100,1,2,stopwords,Level post lowercase,600,Difference,svm,578,0.5278592375366569,{'C': 0.12}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,648,0.5278592375366569,{'C': 0.12}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,244,0.5278592375366569,{'C': 0.12}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,992,0.5278592375366569,{'C': 0.12}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,749,0.5278592375366569,{'C': 0.12}
+191,500,100,1,2,tf_idf,Level post lowercase,600,Difference,svm,842,0.5278592375366569,{'C': 0.12}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,394,0.5269461077844311,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,3,0.5269461077844311,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,574,0.5269461077844311,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,797,0.5269461077844311,{'C': 0.5}
+150,300,300,1,2,binary,Level post lowercase,600,Difference,svm,142,0.5269461077844311,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,178,0.5269461077844311,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,270,0.5269461077844311,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,524,0.5269461077844311,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,646,0.5269461077844311,{'C': 0.5}
+160,300,300,1,2,tf_stop,Level post lowercase,600,Difference,svm,850,0.5269461077844311,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,619,0.5269461077844311,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,419,0.5269461077844311,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,439,0.5269461077844311,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,381,0.5269461077844311,{'C': 0.5}
+170,300,300,1,2,tf,Level post lowercase,600,Difference,svm,261,0.5269461077844311,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,940,0.5269461077844311,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,302,0.5269461077844311,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,847,0.5269461077844311,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,705,0.5269461077844311,{'C': 0.5}
+180,300,300,1,2,stopwords,Level post lowercase,600,Difference,svm,465,0.5269461077844311,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,658,0.5269461077844311,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,94,0.5269461077844311,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,368,0.5269461077844311,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,52,0.5269461077844311,{'C': 0.5}
+190,300,300,1,2,tf_idf,Level post lowercase,600,Difference,svm,539,0.5269461077844311,{'C': 0.5}
+305,200,200,2,2,binary,Level post lowercase,400,Difference,NB,846,0.525,None
+305,200,200,2,2,binary,Level post lowercase,400,Difference,NB,565,0.525,None
+305,200,200,2,2,binary,Level post lowercase,400,Difference,NB,203,0.525,None
+305,200,200,2,2,binary,Level post lowercase,400,Difference,NB,115,0.525,None
+305,200,200,2,2,binary,Level post lowercase,400,Difference,NB,721,0.525,None
+315,200,200,2,2,tf_stop,Level post lowercase,400,Difference,NB,150,0.525,None
+315,200,200,2,2,tf_stop,Level post lowercase,400,Difference,NB,781,0.525,None
+315,200,200,2,2,tf_stop,Level post lowercase,400,Difference,NB,281,0.525,None
+315,200,200,2,2,tf_stop,Level post lowercase,400,Difference,NB,463,0.525,None
+315,200,200,2,2,tf_stop,Level post lowercase,400,Difference,NB,71,0.525,None
+325,200,200,2,2,tf,Level post lowercase,400,Difference,NB,525,0.525,None
+325,200,200,2,2,tf,Level post lowercase,400,Difference,NB,588,0.525,None
+325,200,200,2,2,tf,Level post lowercase,400,Difference,NB,813,0.525,None
+325,200,200,2,2,tf,Level post lowercase,400,Difference,NB,991,0.525,None
+325,200,200,2,2,tf,Level post lowercase,400,Difference,NB,617,0.525,None
+335,200,200,2,2,stopwords,Level post lowercase,400,Difference,NB,425,0.525,None
+335,200,200,2,2,stopwords,Level post lowercase,400,Difference,NB,447,0.525,None
+335,200,200,2,2,stopwords,Level post lowercase,400,Difference,NB,533,0.525,None
+335,200,200,2,2,stopwords,Level post lowercase,400,Difference,NB,793,0.525,None
+335,200,200,2,2,stopwords,Level post lowercase,400,Difference,NB,370,0.525,None
+345,200,200,2,2,tf_idf,Level post lowercase,400,Difference,NB,63,0.525,None
+345,200,200,2,2,tf_idf,Level post lowercase,400,Difference,NB,492,0.525,None
+345,200,200,2,2,tf_idf,Level post lowercase,400,Difference,NB,945,0.525,None
+345,200,200,2,2,tf_idf,Level post lowercase,400,Difference,NB,107,0.525,None
+345,200,200,2,2,tf_idf,Level post lowercase,400,Difference,NB,906,0.525,None
+58,300,200,1,2,binary,Level post upercase,500,Difference,svm,767,0.5196374622356495,{'C': 0.5}
+58,300,200,1,2,binary,Level post upercase,500,Difference,svm,437,0.5196374622356495,{'C': 0.5}
+58,300,200,1,2,binary,Level post upercase,500,Difference,svm,397,0.5196374622356495,{'C': 0.5}
+58,300,200,1,2,binary,Level post upercase,500,Difference,svm,263,0.5196374622356495,{'C': 0.5}
+58,300,200,1,2,binary,Level post upercase,500,Difference,svm,911,0.5196374622356495,{'C': 0.5}
+68,300,200,1,2,tf_stop,Level post upercase,500,Difference,svm,450,0.5196374622356495,{'C': 0.5}
+68,300,200,1,2,tf_stop,Level post upercase,500,Difference,svm,191,0.5196374622356495,{'C': 0.5}
+68,300,200,1,2,tf_stop,Level post upercase,500,Difference,svm,794,0.5196374622356495,{'C': 0.5}
+68,300,200,1,2,tf_stop,Level post upercase,500,Difference,svm,979,0.5196374622356495,{'C': 0.5}
+68,300,200,1,2,tf_stop,Level post upercase,500,Difference,svm,420,0.5196374622356495,{'C': 0.5}
+78,300,200,1,2,tf,Level post upercase,500,Difference,svm,740,0.5196374622356495,{'C': 0.5}
+78,300,200,1,2,tf,Level post upercase,500,Difference,svm,58,0.5196374622356495,{'C': 0.5}
+78,300,200,1,2,tf,Level post upercase,500,Difference,svm,999,0.5196374622356495,{'C': 0.5}
+78,300,200,1,2,tf,Level post upercase,500,Difference,svm,572,0.5196374622356495,{'C': 0.5}
+78,300,200,1,2,tf,Level post upercase,500,Difference,svm,831,0.5196374622356495,{'C': 0.5}
+88,300,200,1,2,stopwords,Level post upercase,500,Difference,svm,194,0.5196374622356495,{'C': 0.5}
+88,300,200,1,2,stopwords,Level post upercase,500,Difference,svm,808,0.5196374622356495,{'C': 0.5}
+88,300,200,1,2,stopwords,Level post upercase,500,Difference,svm,759,0.5196374622356495,{'C': 0.5}
+88,300,200,1,2,stopwords,Level post upercase,500,Difference,svm,535,0.5196374622356495,{'C': 0.5}
+88,300,200,1,2,stopwords,Level post upercase,500,Difference,svm,152,0.5196374622356495,{'C': 0.5}
+98,300,200,1,2,tf_idf,Level post upercase,500,Difference,svm,362,0.5196374622356495,{'C': 0.5}
+98,300,200,1,2,tf_idf,Level post upercase,500,Difference,svm,655,0.5196374622356495,{'C': 0.5}
+98,300,200,1,2,tf_idf,Level post upercase,500,Difference,svm,111,0.5196374622356495,{'C': 0.5}
+98,300,200,1,2,tf_idf,Level post upercase,500,Difference,svm,690,0.5196374622356495,{'C': 0.5}
+98,300,200,1,2,tf_idf,Level post upercase,500,Difference,svm,495,0.5196374622356495,{'C': 0.5}
+54,700,200,1,2,binary,Level post upercase,900,Difference,svm,713,0.5191740412979351,{'C': 0.12}
+54,700,200,1,2,binary,Level post upercase,900,Difference,svm,42,0.5191740412979351,{'C': 0.12}
+54,700,200,1,2,binary,Level post upercase,900,Difference,svm,473,0.5191740412979351,{'C': 0.12}
+54,700,200,1,2,binary,Level post upercase,900,Difference,svm,247,0.5191740412979351,{'C': 0.12}
+54,700,200,1,2,binary,Level post upercase,900,Difference,svm,889,0.5191740412979351,{'C': 0.12}
+64,700,200,1,2,tf_stop,Level post upercase,900,Difference,svm,820,0.5191740412979351,{'C': 0.12}
+64,700,200,1,2,tf_stop,Level post upercase,900,Difference,svm,418,0.5191740412979351,{'C': 0.12}
+64,700,200,1,2,tf_stop,Level post upercase,900,Difference,svm,158,0.5191740412979351,{'C': 0.12}
+64,700,200,1,2,tf_stop,Level post upercase,900,Difference,svm,252,0.5191740412979351,{'C': 0.12}
+64,700,200,1,2,tf_stop,Level post upercase,900,Difference,svm,601,0.5191740412979351,{'C': 0.12}
+74,700,200,1,2,tf,Level post upercase,900,Difference,svm,8,0.5191740412979351,{'C': 0.12}
+74,700,200,1,2,tf,Level post upercase,900,Difference,svm,229,0.5191740412979351,{'C': 0.12}
+74,700,200,1,2,tf,Level post upercase,900,Difference,svm,105,0.5191740412979351,{'C': 0.12}
+74,700,200,1,2,tf,Level post upercase,900,Difference,svm,27,0.5191740412979351,{'C': 0.12}
+74,700,200,1,2,tf,Level post upercase,900,Difference,svm,569,0.5191740412979351,{'C': 0.12}
+84,700,200,1,2,stopwords,Level post upercase,900,Difference,svm,294,0.5191740412979351,{'C': 0.12}
+84,700,200,1,2,stopwords,Level post upercase,900,Difference,svm,81,0.5191740412979351,{'C': 0.12}
+84,700,200,1,2,stopwords,Level post upercase,900,Difference,svm,269,0.5191740412979351,{'C': 0.12}
+84,700,200,1,2,stopwords,Level post upercase,900,Difference,svm,351,0.5191740412979351,{'C': 0.12}
+84,700,200,1,2,stopwords,Level post upercase,900,Difference,svm,165,0.5191740412979351,{'C': 0.12}
+94,700,200,1,2,tf_idf,Level post upercase,900,Difference,svm,250,0.5191740412979351,{'C': 0.12}
+94,700,200,1,2,tf_idf,Level post upercase,900,Difference,svm,306,0.5191740412979351,{'C': 0.12}
+94,700,200,1,2,tf_idf,Level post upercase,900,Difference,svm,516,0.5191740412979351,{'C': 0.12}
+94,700,200,1,2,tf_idf,Level post upercase,900,Difference,svm,315,0.5191740412979351,{'C': 0.12}
+94,700,200,1,2,tf_idf,Level post upercase,900,Difference,svm,491,0.5191740412979351,{'C': 0.12}
+104,700,200,1,2,binary,Level post lowercase,900,Difference,NB,150,0.5135135135135135,None
+104,700,200,1,2,binary,Level post lowercase,900,Difference,NB,335,0.5135135135135135,None
+104,700,200,1,2,binary,Level post lowercase,900,Difference,NB,681,0.5135135135135135,None
+104,700,200,1,2,binary,Level post lowercase,900,Difference,NB,669,0.5135135135135135,None
+104,700,200,1,2,binary,Level post lowercase,900,Difference,NB,155,0.5135135135135135,None
+114,700,200,1,2,tf_stop,Level post lowercase,900,Difference,NB,753,0.5135135135135135,None
+114,700,200,1,2,tf_stop,Level post lowercase,900,Difference,NB,458,0.5135135135135135,None
+114,700,200,1,2,tf_stop,Level post lowercase,900,Difference,NB,223,0.5135135135135135,None
+114,700,200,1,2,tf_stop,Level post lowercase,900,Difference,NB,561,0.5135135135135135,None
+114,700,200,1,2,tf_stop,Level post lowercase,900,Difference,NB,631,0.5135135135135135,None
+124,700,200,1,2,tf,Level post lowercase,900,Difference,NB,425,0.5135135135135135,None
+124,700,200,1,2,tf,Level post lowercase,900,Difference,NB,153,0.5135135135135135,None
+124,700,200,1,2,tf,Level post lowercase,900,Difference,NB,797,0.5135135135135135,None
+124,700,200,1,2,tf,Level post lowercase,900,Difference,NB,21,0.5135135135135135,None
+124,700,200,1,2,tf,Level post lowercase,900,Difference,NB,934,0.5135135135135135,None
+134,700,200,1,2,stopwords,Level post lowercase,900,Difference,NB,843,0.5135135135135135,None
+134,700,200,1,2,stopwords,Level post lowercase,900,Difference,NB,937,0.5135135135135135,None
+134,700,200,1,2,stopwords,Level post lowercase,900,Difference,NB,400,0.5135135135135135,None
+134,700,200,1,2,stopwords,Level post lowercase,900,Difference,NB,183,0.5135135135135135,None
+134,700,200,1,2,stopwords,Level post lowercase,900,Difference,NB,915,0.5135135135135135,None
+144,700,200,1,2,tf_idf,Level post lowercase,900,Difference,NB,762,0.5135135135135135,None
+144,700,200,1,2,tf_idf,Level post lowercase,900,Difference,NB,911,0.5135135135135135,None
+144,700,200,1,2,tf_idf,Level post lowercase,900,Difference,NB,102,0.5135135135135135,None
+144,700,200,1,2,tf_idf,Level post lowercase,900,Difference,NB,906,0.5135135135135135,None
+144,700,200,1,2,tf_idf,Level post lowercase,900,Difference,NB,171,0.5135135135135135,None
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,710,0.5131195335276968,{'C': 0.12}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,430,0.5131195335276968,{'C': 0.12}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,601,0.5131195335276968,{'C': 0.12}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,643,0.5131195335276968,{'C': 0.12}
+52,500,200,1,2,binary,Level post upercase,700,Difference,svm,1,0.5131195335276968,{'C': 0.12}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,815,0.5131195335276968,{'C': 0.12}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,437,0.5131195335276968,{'C': 0.12}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,250,0.5131195335276968,{'C': 0.12}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,707,0.5131195335276968,{'C': 0.12}
+62,500,200,1,2,tf_stop,Level post upercase,700,Difference,svm,309,0.5131195335276968,{'C': 0.12}
+72,500,200,1,2,tf,Level post upercase,700,Difference,svm,732,0.5131195335276968,{'C': 0.12}
+72,500,200,1,2,tf,Level post upercase,700,Difference,svm,263,0.5131195335276968,{'C': 0.12}
+72,500,200,1,2,tf,Level post upercase,700,Difference,svm,487,0.5131195335276968,{'C': 0.12}
+72,500,200,1,2,tf,Level post upercase,700,Difference,svm,51,0.5131195335276968,{'C': 0.12}
+72,500,200,1,2,tf,Level post upercase,700,Difference,svm,919,0.5131195335276968,{'C': 0.12}
+82,500,200,1,2,stopwords,Level post upercase,700,Difference,svm,173,0.5131195335276968,{'C': 0.12}
+82,500,200,1,2,stopwords,Level post upercase,700,Difference,svm,788,0.5131195335276968,{'C': 0.12}
+82,500,200,1,2,stopwords,Level post upercase,700,Difference,svm,200,0.5131195335276968,{'C': 0.12}
+82,500,200,1,2,stopwords,Level post upercase,700,Difference,svm,120,0.5131195335276968,{'C': 0.12}
+82,500,200,1,2,stopwords,Level post upercase,700,Difference,svm,223,0.5131195335276968,{'C': 0.12}
+92,500,200,1,2,tf_idf,Level post upercase,700,Difference,svm,22,0.5131195335276968,{'C': 0.12}
+92,500,200,1,2,tf_idf,Level post upercase,700,Difference,svm,993,0.5131195335276968,{'C': 0.12}
+92,500,200,1,2,tf_idf,Level post upercase,700,Difference,svm,517,0.5131195335276968,{'C': 0.12}
+92,500,200,1,2,tf_idf,Level post upercase,700,Difference,svm,774,0.5131195335276968,{'C': 0.12}
+92,500,200,1,2,tf_idf,Level post upercase,700,Difference,svm,95,0.5131195335276968,{'C': 0.12}
+55,200,200,1,2,binary,Level post upercase,400,Difference,svm,151,0.5070422535211268,{'C': 0.12}
+55,200,200,1,2,binary,Level post upercase,400,Difference,svm,98,0.5070422535211268,{'C': 0.12}
+55,200,200,1,2,binary,Level post upercase,400,Difference,svm,36,0.5070422535211268,{'C': 0.12}
+55,200,200,1,2,binary,Level post upercase,400,Difference,svm,582,0.5070422535211268,{'C': 0.12}
+55,200,200,1,2,binary,Level post upercase,400,Difference,svm,775,0.5070422535211268,{'C': 0.12}
+65,200,200,1,2,tf_stop,Level post upercase,400,Difference,svm,791,0.5070422535211268,{'C': 0.12}
+65,200,200,1,2,tf_stop,Level post upercase,400,Difference,svm,267,0.5070422535211268,{'C': 0.12}
+65,200,200,1,2,tf_stop,Level post upercase,400,Difference,svm,647,0.5070422535211268,{'C': 0.12}
+65,200,200,1,2,tf_stop,Level post upercase,400,Difference,svm,864,0.5070422535211268,{'C': 0.12}
+65,200,200,1,2,tf_stop,Level post upercase,400,Difference,svm,792,0.5070422535211268,{'C': 0.12}
+75,200,200,1,2,tf,Level post upercase,400,Difference,svm,166,0.5070422535211268,{'C': 0.12}
+75,200,200,1,2,tf,Level post upercase,400,Difference,svm,824,0.5070422535211268,{'C': 0.12}
+75,200,200,1,2,tf,Level post upercase,400,Difference,svm,580,0.5070422535211268,{'C': 0.12}
+75,200,200,1,2,tf,Level post upercase,400,Difference,svm,736,0.5070422535211268,{'C': 0.12}
+75,200,200,1,2,tf,Level post upercase,400,Difference,svm,257,0.5070422535211268,{'C': 0.12}
+85,200,200,1,2,stopwords,Level post upercase,400,Difference,svm,647,0.5070422535211268,{'C': 0.12}
+85,200,200,1,2,stopwords,Level post upercase,400,Difference,svm,184,0.5070422535211268,{'C': 0.12}
+85,200,200,1,2,stopwords,Level post upercase,400,Difference,svm,72,0.5070422535211268,{'C': 0.12}
+85,200,200,1,2,stopwords,Level post upercase,400,Difference,svm,240,0.5070422535211268,{'C': 0.12}
+85,200,200,1,2,stopwords,Level post upercase,400,Difference,svm,656,0.5070422535211268,{'C': 0.12}
+95,200,200,1,2,tf_idf,Level post upercase,400,Difference,svm,795,0.5070422535211268,{'C': 0.12}
+95,200,200,1,2,tf_idf,Level post upercase,400,Difference,svm,872,0.5070422535211268,{'C': 0.12}
+95,200,200,1,2,tf_idf,Level post upercase,400,Difference,svm,418,0.5070422535211268,{'C': 0.12}
+95,200,200,1,2,tf_idf,Level post upercase,400,Difference,svm,694,0.5070422535211268,{'C': 0.12}
+95,200,200,1,2,tf_idf,Level post upercase,400,Difference,svm,121,0.5070422535211268,{'C': 0.12}
+158,300,200,1,2,binary,Level post lowercase,500,Difference,svm,385,0.5057471264367817,{'C': 0.5}
+158,300,200,1,2,binary,Level post lowercase,500,Difference,svm,383,0.5057471264367817,{'C': 0.5}
+158,300,200,1,2,binary,Level post lowercase,500,Difference,svm,584,0.5057471264367817,{'C': 0.5}
+158,300,200,1,2,binary,Level post lowercase,500,Difference,svm,228,0.5057471264367817,{'C': 0.5}
+158,300,200,1,2,binary,Level post lowercase,500,Difference,svm,483,0.5057471264367817,{'C': 0.5}
+168,300,200,1,2,tf_stop,Level post lowercase,500,Difference,svm,708,0.5057471264367817,{'C': 0.5}
+168,300,200,1,2,tf_stop,Level post lowercase,500,Difference,svm,969,0.5057471264367817,{'C': 0.5}
+168,300,200,1,2,tf_stop,Level post lowercase,500,Difference,svm,511,0.5057471264367817,{'C': 0.5}
+168,300,200,1,2,tf_stop,Level post lowercase,500,Difference,svm,247,0.5057471264367817,{'C': 0.5}
+168,300,200,1,2,tf_stop,Level post lowercase,500,Difference,svm,808,0.5057471264367817,{'C': 0.5}
+178,300,200,1,2,tf,Level post lowercase,500,Difference,svm,867,0.5057471264367817,{'C': 0.5}
+178,300,200,1,2,tf,Level post lowercase,500,Difference,svm,791,0.5057471264367817,{'C': 0.5}
+178,300,200,1,2,tf,Level post lowercase,500,Difference,svm,549,0.5057471264367817,{'C': 0.5}
+178,300,200,1,2,tf,Level post lowercase,500,Difference,svm,50,0.5057471264367817,{'C': 0.5}
+178,300,200,1,2,tf,Level post lowercase,500,Difference,svm,425,0.5057471264367817,{'C': 0.5}
+188,300,200,1,2,stopwords,Level post lowercase,500,Difference,svm,998,0.5057471264367817,{'C': 0.5}
+188,300,200,1,2,stopwords,Level post lowercase,500,Difference,svm,91,0.5057471264367817,{'C': 0.5}
+188,300,200,1,2,stopwords,Level post lowercase,500,Difference,svm,216,0.5057471264367817,{'C': 0.5}
+188,300,200,1,2,stopwords,Level post lowercase,500,Difference,svm,948,0.5057471264367817,{'C': 0.5}
+188,300,200,1,2,stopwords,Level post lowercase,500,Difference,svm,789,0.5057471264367817,{'C': 0.5}
+198,300,200,1,2,tf_idf,Level post lowercase,500,Difference,svm,418,0.5057471264367817,{'C': 0.5}
+198,300,200,1,2,tf_idf,Level post lowercase,500,Difference,svm,857,0.5057471264367817,{'C': 0.5}
+198,300,200,1,2,tf_idf,Level post lowercase,500,Difference,svm,351,0.5057471264367817,{'C': 0.5}
+198,300,200,1,2,tf_idf,Level post lowercase,500,Difference,svm,583,0.5057471264367817,{'C': 0.5}
+198,300,200,1,2,tf_idf,Level post lowercase,500,Difference,svm,834,0.5057471264367817,{'C': 0.5}
+57,80,30,1,2,binary,Level post upercase,110,Difference,svm,176,0.4972067039106145,{'C': 0.5}
+57,80,30,1,2,binary,Level post upercase,110,Difference,svm,914,0.4972067039106145,{'C': 0.5}
+57,80,30,1,2,binary,Level post upercase,110,Difference,svm,229,0.4972067039106145,{'C': 0.5}
+57,80,30,1,2,binary,Level post upercase,110,Difference,svm,406,0.4972067039106145,{'C': 0.5}
+57,80,30,1,2,binary,Level post upercase,110,Difference,svm,578,0.4972067039106145,{'C': 0.5}
+67,80,30,1,2,tf_stop,Level post upercase,110,Difference,svm,157,0.4972067039106145,{'C': 0.5}
+67,80,30,1,2,tf_stop,Level post upercase,110,Difference,svm,91,0.4972067039106145,{'C': 0.5}
+67,80,30,1,2,tf_stop,Level post upercase,110,Difference,svm,908,0.4972067039106145,{'C': 0.5}
+67,80,30,1,2,tf_stop,Level post upercase,110,Difference,svm,142,0.4972067039106145,{'C': 0.5}
+67,80,30,1,2,tf_stop,Level post upercase,110,Difference,svm,538,0.4972067039106145,{'C': 0.5}
+77,80,30,1,2,tf,Level post upercase,110,Difference,svm,18,0.4972067039106145,{'C': 0.5}
+77,80,30,1,2,tf,Level post upercase,110,Difference,svm,747,0.4972067039106145,{'C': 0.5}
+77,80,30,1,2,tf,Level post upercase,110,Difference,svm,217,0.4972067039106145,{'C': 0.5}
+77,80,30,1,2,tf,Level post upercase,110,Difference,svm,989,0.4972067039106145,{'C': 0.5}
+77,80,30,1,2,tf,Level post upercase,110,Difference,svm,476,0.4972067039106145,{'C': 0.5}
+87,80,30,1,2,stopwords,Level post upercase,110,Difference,svm,400,0.4972067039106145,{'C': 0.5}
+87,80,30,1,2,stopwords,Level post upercase,110,Difference,svm,266,0.4972067039106145,{'C': 0.5}
+87,80,30,1,2,stopwords,Level post upercase,110,Difference,svm,608,0.4972067039106145,{'C': 0.5}
+87,80,30,1,2,stopwords,Level post upercase,110,Difference,svm,428,0.4972067039106145,{'C': 0.5}
+87,80,30,1,2,stopwords,Level post upercase,110,Difference,svm,560,0.4972067039106145,{'C': 0.5}
+97,80,30,1,2,tf_idf,Level post upercase,110,Difference,svm,628,0.4972067039106145,{'C': 0.5}
+97,80,30,1,2,tf_idf,Level post upercase,110,Difference,svm,549,0.4972067039106145,{'C': 0.5}
+97,80,30,1,2,tf_idf,Level post upercase,110,Difference,svm,266,0.4972067039106145,{'C': 0.5}
+97,80,30,1,2,tf_idf,Level post upercase,110,Difference,svm,159,0.4972067039106145,{'C': 0.5}
+97,80,30,1,2,tf_idf,Level post upercase,110,Difference,svm,675,0.4972067039106145,{'C': 0.5}
+205,200,200,2,2,binary,Level post upercase,400,Difference,NB,907,0.4962406015037593,None
+205,200,200,2,2,binary,Level post upercase,400,Difference,NB,441,0.4962406015037593,None
+205,200,200,2,2,binary,Level post upercase,400,Difference,NB,420,0.4962406015037593,None
+205,200,200,2,2,binary,Level post upercase,400,Difference,NB,74,0.4962406015037593,None
+205,200,200,2,2,binary,Level post upercase,400,Difference,NB,69,0.4962406015037593,None
+215,200,200,2,2,tf_stop,Level post upercase,400,Difference,NB,955,0.4962406015037593,None
+215,200,200,2,2,tf_stop,Level post upercase,400,Difference,NB,974,0.4962406015037593,None
+215,200,200,2,2,tf_stop,Level post upercase,400,Difference,NB,981,0.4962406015037593,None
+215,200,200,2,2,tf_stop,Level post upercase,400,Difference,NB,67,0.4962406015037593,None
+215,200,200,2,2,tf_stop,Level post upercase,400,Difference,NB,284,0.4962406015037593,None
+225,200,200,2,2,tf,Level post upercase,400,Difference,NB,391,0.4962406015037593,None
+225,200,200,2,2,tf,Level post upercase,400,Difference,NB,93,0.4962406015037593,None
+225,200,200,2,2,tf,Level post upercase,400,Difference,NB,768,0.4962406015037593,None
+225,200,200,2,2,tf,Level post upercase,400,Difference,NB,728,0.4962406015037593,None
+225,200,200,2,2,tf,Level post upercase,400,Difference,NB,198,0.4962406015037593,None
+235,200,200,2,2,stopwords,Level post upercase,400,Difference,NB,208,0.4962406015037593,None
+235,200,200,2,2,stopwords,Level post upercase,400,Difference,NB,854,0.4962406015037593,None
+235,200,200,2,2,stopwords,Level post upercase,400,Difference,NB,489,0.4962406015037593,None
+235,200,200,2,2,stopwords,Level post upercase,400,Difference,NB,126,0.4962406015037593,None
+235,200,200,2,2,stopwords,Level post upercase,400,Difference,NB,44,0.4962406015037593,None
+245,200,200,2,2,tf_idf,Level post upercase,400,Difference,NB,636,0.4962406015037593,None
+245,200,200,2,2,tf_idf,Level post upercase,400,Difference,NB,651,0.4962406015037593,None
+245,200,200,2,2,tf_idf,Level post upercase,400,Difference,NB,438,0.4962406015037593,None
+245,200,200,2,2,tf_idf,Level post upercase,400,Difference,NB,954,0.4962406015037593,None
+245,200,200,2,2,tf_idf,Level post upercase,400,Difference,NB,647,0.4962406015037593,None
+157,80,30,1,2,binary,Level post lowercase,110,Difference,svm,990,0.4957264957264957,{'C': 0.05}
+157,80,30,1,2,binary,Level post lowercase,110,Difference,svm,311,0.4957264957264957,{'C': 0.05}
+157,80,30,1,2,binary,Level post lowercase,110,Difference,svm,822,0.4957264957264957,{'C': 0.05}
+157,80,30,1,2,binary,Level post lowercase,110,Difference,svm,262,0.4957264957264957,{'C': 0.05}
+157,80,30,1,2,binary,Level post lowercase,110,Difference,svm,452,0.4957264957264957,{'C': 0.05}
+167,80,30,1,2,tf_stop,Level post lowercase,110,Difference,svm,772,0.4957264957264957,{'C': 0.05}
+167,80,30,1,2,tf_stop,Level post lowercase,110,Difference,svm,115,0.4957264957264957,{'C': 0.05}
+167,80,30,1,2,tf_stop,Level post lowercase,110,Difference,svm,212,0.4957264957264957,{'C': 0.05}
+167,80,30,1,2,tf_stop,Level post lowercase,110,Difference,svm,12,0.4957264957264957,{'C': 0.05}
+167,80,30,1,2,tf_stop,Level post lowercase,110,Difference,svm,395,0.4957264957264957,{'C': 0.05}
+177,80,30,1,2,tf,Level post lowercase,110,Difference,svm,432,0.4957264957264957,{'C': 0.05}
+177,80,30,1,2,tf,Level post lowercase,110,Difference,svm,734,0.4957264957264957,{'C': 0.05}
+177,80,30,1,2,tf,Level post lowercase,110,Difference,svm,90,0.4957264957264957,{'C': 0.05}
+177,80,30,1,2,tf,Level post lowercase,110,Difference,svm,797,0.4957264957264957,{'C': 0.05}
+177,80,30,1,2,tf,Level post lowercase,110,Difference,svm,218,0.4957264957264957,{'C': 0.05}
+187,80,30,1,2,stopwords,Level post lowercase,110,Difference,svm,533,0.4957264957264957,{'C': 0.05}
+187,80,30,1,2,stopwords,Level post lowercase,110,Difference,svm,565,0.4957264957264957,{'C': 0.05}
+187,80,30,1,2,stopwords,Level post lowercase,110,Difference,svm,25,0.4957264957264957,{'C': 0.05}
+187,80,30,1,2,stopwords,Level post lowercase,110,Difference,svm,234,0.4957264957264957,{'C': 0.05}
+187,80,30,1,2,stopwords,Level post lowercase,110,Difference,svm,254,0.4957264957264957,{'C': 0.05}
+197,80,30,1,2,tf_idf,Level post lowercase,110,Difference,svm,684,0.4957264957264957,{'C': 0.05}
+197,80,30,1,2,tf_idf,Level post lowercase,110,Difference,svm,909,0.4957264957264957,{'C': 0.05}
+197,80,30,1,2,tf_idf,Level post lowercase,110,Difference,svm,771,0.4957264957264957,{'C': 0.05}
+197,80,30,1,2,tf_idf,Level post lowercase,110,Difference,svm,358,0.4957264957264957,{'C': 0.05}
+197,80,30,1,2,tf_idf,Level post lowercase,110,Difference,svm,573,0.4957264957264957,{'C': 0.05}
+4,700,200,1,2,binary,Level post upercase,900,Difference,NB,867,0.49275362318840576,None
+4,700,200,1,2,binary,Level post upercase,900,Difference,NB,889,0.49275362318840576,None
+4,700,200,1,2,binary,Level post upercase,900,Difference,NB,854,0.49275362318840576,None
+4,700,200,1,2,binary,Level post upercase,900,Difference,NB,634,0.49275362318840576,None
+4,700,200,1,2,binary,Level post upercase,900,Difference,NB,470,0.49275362318840576,None
+14,700,200,1,2,tf_stop,Level post upercase,900,Difference,NB,682,0.49275362318840576,None
+14,700,200,1,2,tf_stop,Level post upercase,900,Difference,NB,462,0.49275362318840576,None
+14,700,200,1,2,tf_stop,Level post upercase,900,Difference,NB,277,0.49275362318840576,None
+14,700,200,1,2,tf_stop,Level post upercase,900,Difference,NB,769,0.49275362318840576,None
+14,700,200,1,2,tf_stop,Level post upercase,900,Difference,NB,395,0.49275362318840576,None
+24,700,200,1,2,tf,Level post upercase,900,Difference,NB,987,0.49275362318840576,None
+24,700,200,1,2,tf,Level post upercase,900,Difference,NB,824,0.49275362318840576,None
+24,700,200,1,2,tf,Level post upercase,900,Difference,NB,752,0.49275362318840576,None
+24,700,200,1,2,tf,Level post upercase,900,Difference,NB,86,0.49275362318840576,None
+24,700,200,1,2,tf,Level post upercase,900,Difference,NB,416,0.49275362318840576,None
+34,700,200,1,2,stopwords,Level post upercase,900,Difference,NB,278,0.49275362318840576,None
+34,700,200,1,2,stopwords,Level post upercase,900,Difference,NB,346,0.49275362318840576,None
+34,700,200,1,2,stopwords,Level post upercase,900,Difference,NB,782,0.49275362318840576,None
+34,700,200,1,2,stopwords,Level post upercase,900,Difference,NB,471,0.49275362318840576,None
+34,700,200,1,2,stopwords,Level post upercase,900,Difference,NB,930,0.49275362318840576,None
+44,700,200,1,2,tf_idf,Level post upercase,900,Difference,NB,341,0.49275362318840576,None
+44,700,200,1,2,tf_idf,Level post upercase,900,Difference,NB,853,0.49275362318840576,None
+44,700,200,1,2,tf_idf,Level post upercase,900,Difference,NB,971,0.49275362318840576,None
+44,700,200,1,2,tf_idf,Level post upercase,900,Difference,NB,774,0.49275362318840576,None
+44,700,200,1,2,tf_idf,Level post upercase,900,Difference,NB,342,0.49275362318840576,None
+155,200,200,1,2,binary,Level post lowercase,400,Difference,svm,804,0.48648648648648646,{'C': 0.25}
+155,200,200,1,2,binary,Level post lowercase,400,Difference,svm,161,0.48648648648648646,{'C': 0.25}
+155,200,200,1,2,binary,Level post lowercase,400,Difference,svm,908,0.48648648648648646,{'C': 0.25}
+155,200,200,1,2,binary,Level post lowercase,400,Difference,svm,538,0.48648648648648646,{'C': 0.25}
+155,200,200,1,2,binary,Level post lowercase,400,Difference,svm,667,0.48648648648648646,{'C': 0.25}
+165,200,200,1,2,tf_stop,Level post lowercase,400,Difference,svm,854,0.48648648648648646,{'C': 0.25}
+165,200,200,1,2,tf_stop,Level post lowercase,400,Difference,svm,350,0.48648648648648646,{'C': 0.25}
+165,200,200,1,2,tf_stop,Level post lowercase,400,Difference,svm,782,0.48648648648648646,{'C': 0.25}
+165,200,200,1,2,tf_stop,Level post lowercase,400,Difference,svm,759,0.48648648648648646,{'C': 0.25}
+165,200,200,1,2,tf_stop,Level post lowercase,400,Difference,svm,14,0.48648648648648646,{'C': 0.25}
+175,200,200,1,2,tf,Level post lowercase,400,Difference,svm,817,0.48648648648648646,{'C': 0.25}
+175,200,200,1,2,tf,Level post lowercase,400,Difference,svm,588,0.48648648648648646,{'C': 0.25}
+175,200,200,1,2,tf,Level post lowercase,400,Difference,svm,555,0.48648648648648646,{'C': 0.25}
+175,200,200,1,2,tf,Level post lowercase,400,Difference,svm,850,0.48648648648648646,{'C': 0.25}
+175,200,200,1,2,tf,Level post lowercase,400,Difference,svm,336,0.48648648648648646,{'C': 0.25}
+185,200,200,1,2,stopwords,Level post lowercase,400,Difference,svm,505,0.48648648648648646,{'C': 0.25}
+185,200,200,1,2,stopwords,Level post lowercase,400,Difference,svm,967,0.48648648648648646,{'C': 0.25}
+185,200,200,1,2,stopwords,Level post lowercase,400,Difference,svm,146,0.48648648648648646,{'C': 0.25}
+185,200,200,1,2,stopwords,Level post lowercase,400,Difference,svm,632,0.48648648648648646,{'C': 0.25}
+185,200,200,1,2,stopwords,Level post lowercase,400,Difference,svm,836,0.48648648648648646,{'C': 0.25}
+195,200,200,1,2,tf_idf,Level post lowercase,400,Difference,svm,985,0.48648648648648646,{'C': 0.25}
+195,200,200,1,2,tf_idf,Level post lowercase,400,Difference,svm,788,0.48648648648648646,{'C': 0.25}
+195,200,200,1,2,tf_idf,Level post lowercase,400,Difference,svm,864,0.48648648648648646,{'C': 0.25}
+195,200,200,1,2,tf_idf,Level post lowercase,400,Difference,svm,132,0.48648648648648646,{'C': 0.25}
+195,200,200,1,2,tf_idf,Level post lowercase,400,Difference,svm,210,0.48648648648648646,{'C': 0.25}
+59,100,200,1,2,binary,Level post upercase,300,Difference,svm,475,0.4851752021563342,{'C': 0.5}
+59,100,200,1,2,binary,Level post upercase,300,Difference,svm,852,0.4851752021563342,{'C': 0.5}
+59,100,200,1,2,binary,Level post upercase,300,Difference,svm,425,0.4851752021563342,{'C': 0.5}
+59,100,200,1,2,binary,Level post upercase,300,Difference,svm,770,0.4851752021563342,{'C': 0.5}
+59,100,200,1,2,binary,Level post upercase,300,Difference,svm,296,0.4851752021563342,{'C': 0.5}
+69,100,200,1,2,tf_stop,Level post upercase,300,Difference,svm,504,0.4851752021563342,{'C': 0.5}
+69,100,200,1,2,tf_stop,Level post upercase,300,Difference,svm,208,0.4851752021563342,{'C': 0.5}
+69,100,200,1,2,tf_stop,Level post upercase,300,Difference,svm,839,0.4851752021563342,{'C': 0.5}
+69,100,200,1,2,tf_stop,Level post upercase,300,Difference,svm,200,0.4851752021563342,{'C': 0.5}
+69,100,200,1,2,tf_stop,Level post upercase,300,Difference,svm,249,0.4851752021563342,{'C': 0.5}
+79,100,200,1,2,tf,Level post upercase,300,Difference,svm,168,0.4851752021563342,{'C': 0.5}
+79,100,200,1,2,tf,Level post upercase,300,Difference,svm,721,0.4851752021563342,{'C': 0.5}
+79,100,200,1,2,tf,Level post upercase,300,Difference,svm,476,0.4851752021563342,{'C': 0.5}
+79,100,200,1,2,tf,Level post upercase,300,Difference,svm,572,0.4851752021563342,{'C': 0.5}
+79,100,200,1,2,tf,Level post upercase,300,Difference,svm,656,0.4851752021563342,{'C': 0.5}
+89,100,200,1,2,stopwords,Level post upercase,300,Difference,svm,484,0.4851752021563342,{'C': 0.5}
+89,100,200,1,2,stopwords,Level post upercase,300,Difference,svm,398,0.4851752021563342,{'C': 0.5}
+89,100,200,1,2,stopwords,Level post upercase,300,Difference,svm,593,0.4851752021563342,{'C': 0.5}
+89,100,200,1,2,stopwords,Level post upercase,300,Difference,svm,766,0.4851752021563342,{'C': 0.5}
+89,100,200,1,2,stopwords,Level post upercase,300,Difference,svm,354,0.4851752021563342,{'C': 0.5}
+99,100,200,1,2,tf_idf,Level post upercase,300,Difference,svm,962,0.4851752021563342,{'C': 0.5}
+99,100,200,1,2,tf_idf,Level post upercase,300,Difference,svm,147,0.4851752021563342,{'C': 0.5}
+99,100,200,1,2,tf_idf,Level post upercase,300,Difference,svm,184,0.4851752021563342,{'C': 0.5}
+99,100,200,1,2,tf_idf,Level post upercase,300,Difference,svm,570,0.4851752021563342,{'C': 0.5}
+99,100,200,1,2,tf_idf,Level post upercase,300,Difference,svm,879,0.4851752021563342,{'C': 0.5}
+159,100,200,1,2,binary,Level post lowercase,300,Difference,svm,575,0.4833333333333334,{'C': 0.5}
+159,100,200,1,2,binary,Level post lowercase,300,Difference,svm,357,0.4833333333333334,{'C': 0.5}
+159,100,200,1,2,binary,Level post lowercase,300,Difference,svm,870,0.4833333333333334,{'C': 0.5}
+159,100,200,1,2,binary,Level post lowercase,300,Difference,svm,620,0.4833333333333334,{'C': 0.5}
+159,100,200,1,2,binary,Level post lowercase,300,Difference,svm,237,0.4833333333333334,{'C': 0.5}
+169,100,200,1,2,tf_stop,Level post lowercase,300,Difference,svm,270,0.4833333333333334,{'C': 0.5}
+169,100,200,1,2,tf_stop,Level post lowercase,300,Difference,svm,333,0.4833333333333334,{'C': 0.5}
+169,100,200,1,2,tf_stop,Level post lowercase,300,Difference,svm,835,0.4833333333333334,{'C': 0.5}
+169,100,200,1,2,tf_stop,Level post lowercase,300,Difference,svm,13,0.4833333333333334,{'C': 0.5}
+169,100,200,1,2,tf_stop,Level post lowercase,300,Difference,svm,591,0.4833333333333334,{'C': 0.5}
+179,100,200,1,2,tf,Level post lowercase,300,Difference,svm,263,0.4833333333333334,{'C': 0.5}
+179,100,200,1,2,tf,Level post lowercase,300,Difference,svm,929,0.4833333333333334,{'C': 0.5}
+179,100,200,1,2,tf,Level post lowercase,300,Difference,svm,794,0.4833333333333334,{'C': 0.5}
+179,100,200,1,2,tf,Level post lowercase,300,Difference,svm,987,0.4833333333333334,{'C': 0.5}
+179,100,200,1,2,tf,Level post lowercase,300,Difference,svm,210,0.4833333333333334,{'C': 0.5}
+189,100,200,1,2,stopwords,Level post lowercase,300,Difference,svm,7,0.4833333333333334,{'C': 0.5}
+189,100,200,1,2,stopwords,Level post lowercase,300,Difference,svm,153,0.4833333333333334,{'C': 0.5}
+189,100,200,1,2,stopwords,Level post lowercase,300,Difference,svm,475,0.4833333333333334,{'C': 0.5}
+189,100,200,1,2,stopwords,Level post lowercase,300,Difference,svm,9,0.4833333333333334,{'C': 0.5}
+189,100,200,1,2,stopwords,Level post lowercase,300,Difference,svm,503,0.4833333333333334,{'C': 0.5}
+199,100,200,1,2,tf_idf,Level post lowercase,300,Difference,svm,872,0.4833333333333334,{'C': 0.5}
+199,100,200,1,2,tf_idf,Level post lowercase,300,Difference,svm,355,0.4833333333333334,{'C': 0.5}
+199,100,200,1,2,tf_idf,Level post lowercase,300,Difference,svm,480,0.4833333333333334,{'C': 0.5}
+199,100,200,1,2,tf_idf,Level post lowercase,300,Difference,svm,29,0.4833333333333334,{'C': 0.5}
+199,100,200,1,2,tf_idf,Level post lowercase,300,Difference,svm,795,0.4833333333333334,{'C': 0.5}
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,426,0.48175182481751827,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,98,0.48175182481751827,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,194,0.48175182481751827,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,738,0.48175182481751827,None
+102,500,200,1,2,binary,Level post lowercase,700,Difference,NB,635,0.48175182481751827,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,892,0.48175182481751827,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,691,0.48175182481751827,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,910,0.48175182481751827,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,432,0.48175182481751827,None
+112,500,200,1,2,tf_stop,Level post lowercase,700,Difference,NB,895,0.48175182481751827,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,643,0.48175182481751827,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,735,0.48175182481751827,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,238,0.48175182481751827,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,686,0.48175182481751827,None
+122,500,200,1,2,tf,Level post lowercase,700,Difference,NB,821,0.48175182481751827,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,505,0.48175182481751827,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,49,0.48175182481751827,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,549,0.48175182481751827,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,569,0.48175182481751827,None
+132,500,200,1,2,stopwords,Level post lowercase,700,Difference,NB,85,0.48175182481751827,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,892,0.48175182481751827,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,650,0.48175182481751827,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,799,0.48175182481751827,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,561,0.48175182481751827,None
+142,500,200,1,2,tf_idf,Level post lowercase,700,Difference,NB,318,0.48175182481751827,None
+200,300,300,2,2,binary,Level post upercase,600,Difference,NB,527,0.47761194029850745,None
+200,300,300,2,2,binary,Level post upercase,600,Difference,NB,667,0.47761194029850745,None
+200,300,300,2,2,binary,Level post upercase,600,Difference,NB,912,0.47761194029850745,None
+200,300,300,2,2,binary,Level post upercase,600,Difference,NB,21,0.47761194029850745,None
+200,300,300,2,2,binary,Level post upercase,600,Difference,NB,471,0.47761194029850745,None
+210,300,300,2,2,tf_stop,Level post upercase,600,Difference,NB,546,0.47761194029850745,None
+210,300,300,2,2,tf_stop,Level post upercase,600,Difference,NB,421,0.47761194029850745,None
+210,300,300,2,2,tf_stop,Level post upercase,600,Difference,NB,358,0.47761194029850745,None
+210,300,300,2,2,tf_stop,Level post upercase,600,Difference,NB,406,0.47761194029850745,None
+210,300,300,2,2,tf_stop,Level post upercase,600,Difference,NB,650,0.47761194029850745,None
+220,300,300,2,2,tf,Level post upercase,600,Difference,NB,444,0.47761194029850745,None
+220,300,300,2,2,tf,Level post upercase,600,Difference,NB,219,0.47761194029850745,None
+220,300,300,2,2,tf,Level post upercase,600,Difference,NB,459,0.47761194029850745,None
+220,300,300,2,2,tf,Level post upercase,600,Difference,NB,430,0.47761194029850745,None
+220,300,300,2,2,tf,Level post upercase,600,Difference,NB,951,0.47761194029850745,None
+230,300,300,2,2,stopwords,Level post upercase,600,Difference,NB,318,0.47761194029850745,None
+230,300,300,2,2,stopwords,Level post upercase,600,Difference,NB,585,0.47761194029850745,None
+230,300,300,2,2,stopwords,Level post upercase,600,Difference,NB,930,0.47761194029850745,None
+230,300,300,2,2,stopwords,Level post upercase,600,Difference,NB,802,0.47761194029850745,None
+230,300,300,2,2,stopwords,Level post upercase,600,Difference,NB,281,0.47761194029850745,None
+240,300,300,2,2,tf_idf,Level post upercase,600,Difference,NB,328,0.47761194029850745,None
+240,300,300,2,2,tf_idf,Level post upercase,600,Difference,NB,353,0.47761194029850745,None
+240,300,300,2,2,tf_idf,Level post upercase,600,Difference,NB,952,0.47761194029850745,None
+240,300,300,2,2,tf_idf,Level post upercase,600,Difference,NB,222,0.47761194029850745,None
+240,300,300,2,2,tf_idf,Level post upercase,600,Difference,NB,172,0.47761194029850745,None
+153,100,100,1,2,binary,Level post lowercase,200,Difference,svm,395,0.47696476964769646,{'C': 0.25}
+153,100,100,1,2,binary,Level post lowercase,200,Difference,svm,710,0.47696476964769646,{'C': 0.25}
+153,100,100,1,2,binary,Level post lowercase,200,Difference,svm,339,0.47696476964769646,{'C': 0.25}
+153,100,100,1,2,binary,Level post lowercase,200,Difference,svm,147,0.47696476964769646,{'C': 0.25}
+153,100,100,1,2,binary,Level post lowercase,200,Difference,svm,701,0.47696476964769646,{'C': 0.25}
+163,100,100,1,2,tf_stop,Level post lowercase,200,Difference,svm,836,0.47696476964769646,{'C': 0.25}
+163,100,100,1,2,tf_stop,Level post lowercase,200,Difference,svm,782,0.47696476964769646,{'C': 0.25}
+163,100,100,1,2,tf_stop,Level post lowercase,200,Difference,svm,887,0.47696476964769646,{'C': 0.25}
+163,100,100,1,2,tf_stop,Level post lowercase,200,Difference,svm,98,0.47696476964769646,{'C': 0.25}
+163,100,100,1,2,tf_stop,Level post lowercase,200,Difference,svm,388,0.47696476964769646,{'C': 0.25}
+173,100,100,1,2,tf,Level post lowercase,200,Difference,svm,677,0.47696476964769646,{'C': 0.25}
+173,100,100,1,2,tf,Level post lowercase,200,Difference,svm,633,0.47696476964769646,{'C': 0.25}
+173,100,100,1,2,tf,Level post lowercase,200,Difference,svm,718,0.47696476964769646,{'C': 0.25}
+173,100,100,1,2,tf,Level post lowercase,200,Difference,svm,914,0.47696476964769646,{'C': 0.25}
+173,100,100,1,2,tf,Level post lowercase,200,Difference,svm,682,0.47696476964769646,{'C': 0.25}
+183,100,100,1,2,stopwords,Level post lowercase,200,Difference,svm,64,0.47696476964769646,{'C': 0.25}
+183,100,100,1,2,stopwords,Level post lowercase,200,Difference,svm,939,0.47696476964769646,{'C': 0.25}
+183,100,100,1,2,stopwords,Level post lowercase,200,Difference,svm,16,0.47696476964769646,{'C': 0.25}
+183,100,100,1,2,stopwords,Level post lowercase,200,Difference,svm,306,0.47696476964769646,{'C': 0.25}
+183,100,100,1,2,stopwords,Level post lowercase,200,Difference,svm,489,0.47696476964769646,{'C': 0.25}
+193,100,100,1,2,tf_idf,Level post lowercase,200,Difference,svm,779,0.47696476964769646,{'C': 0.25}
+193,100,100,1,2,tf_idf,Level post lowercase,200,Difference,svm,563,0.47696476964769646,{'C': 0.25}
+193,100,100,1,2,tf_idf,Level post lowercase,200,Difference,svm,962,0.47696476964769646,{'C': 0.25}
+193,100,100,1,2,tf_idf,Level post lowercase,200,Difference,svm,770,0.47696476964769646,{'C': 0.25}
+193,100,100,1,2,tf_idf,Level post lowercase,200,Difference,svm,34,0.47696476964769646,{'C': 0.25}
+208,300,200,2,2,binary,Level post upercase,500,Difference,NB,798,0.4732824427480916,None
+208,300,200,2,2,binary,Level post upercase,500,Difference,NB,929,0.4732824427480916,None
+208,300,200,2,2,binary,Level post upercase,500,Difference,NB,997,0.4732824427480916,None
+208,300,200,2,2,binary,Level post upercase,500,Difference,NB,814,0.4732824427480916,None
+208,300,200,2,2,binary,Level post upercase,500,Difference,NB,931,0.4732824427480916,None
+218,300,200,2,2,tf_stop,Level post upercase,500,Difference,NB,242,0.4732824427480916,None
+218,300,200,2,2,tf_stop,Level post upercase,500,Difference,NB,490,0.4732824427480916,None
+218,300,200,2,2,tf_stop,Level post upercase,500,Difference,NB,200,0.4732824427480916,None
+218,300,200,2,2,tf_stop,Level post upercase,500,Difference,NB,882,0.4732824427480916,None
+218,300,200,2,2,tf_stop,Level post upercase,500,Difference,NB,407,0.4732824427480916,None
+228,300,200,2,2,tf,Level post upercase,500,Difference,NB,128,0.4732824427480916,None
+228,300,200,2,2,tf,Level post upercase,500,Difference,NB,963,0.4732824427480916,None
+228,300,200,2,2,tf,Level post upercase,500,Difference,NB,805,0.4732824427480916,None
+228,300,200,2,2,tf,Level post upercase,500,Difference,NB,721,0.4732824427480916,None
+228,300,200,2,2,tf,Level post upercase,500,Difference,NB,604,0.4732824427480916,None
+238,300,200,2,2,stopwords,Level post upercase,500,Difference,NB,953,0.4732824427480916,None
+238,300,200,2,2,stopwords,Level post upercase,500,Difference,NB,408,0.4732824427480916,None
+238,300,200,2,2,stopwords,Level post upercase,500,Difference,NB,641,0.4732824427480916,None
+238,300,200,2,2,stopwords,Level post upercase,500,Difference,NB,848,0.4732824427480916,None
+238,300,200,2,2,stopwords,Level post upercase,500,Difference,NB,757,0.4732824427480916,None
+248,300,200,2,2,tf_idf,Level post upercase,500,Difference,NB,453,0.4732824427480916,None
+248,300,200,2,2,tf_idf,Level post upercase,500,Difference,NB,937,0.4732824427480916,None
+248,300,200,2,2,tf_idf,Level post upercase,500,Difference,NB,777,0.4732824427480916,None
+248,300,200,2,2,tf_idf,Level post upercase,500,Difference,NB,909,0.4732824427480916,None
+248,300,200,2,2,tf_idf,Level post upercase,500,Difference,NB,684,0.4732824427480916,None
+303,100,100,2,2,binary,Level post lowercase,200,Difference,NB,204,0.46896551724137925,None
+303,100,100,2,2,binary,Level post lowercase,200,Difference,NB,463,0.46896551724137925,None
+303,100,100,2,2,binary,Level post lowercase,200,Difference,NB,67,0.46896551724137925,None
+303,100,100,2,2,binary,Level post lowercase,200,Difference,NB,536,0.46896551724137925,None
+303,100,100,2,2,binary,Level post lowercase,200,Difference,NB,969,0.46896551724137925,None
+313,100,100,2,2,tf_stop,Level post lowercase,200,Difference,NB,926,0.46896551724137925,None
+313,100,100,2,2,tf_stop,Level post lowercase,200,Difference,NB,645,0.46896551724137925,None
+313,100,100,2,2,tf_stop,Level post lowercase,200,Difference,NB,88,0.46896551724137925,None
+313,100,100,2,2,tf_stop,Level post lowercase,200,Difference,NB,779,0.46896551724137925,None
+313,100,100,2,2,tf_stop,Level post lowercase,200,Difference,NB,153,0.46896551724137925,None
+323,100,100,2,2,tf,Level post lowercase,200,Difference,NB,106,0.46896551724137925,None
+323,100,100,2,2,tf,Level post lowercase,200,Difference,NB,168,0.46896551724137925,None
+323,100,100,2,2,tf,Level post lowercase,200,Difference,NB,217,0.46896551724137925,None
+323,100,100,2,2,tf,Level post lowercase,200,Difference,NB,803,0.46896551724137925,None
+323,100,100,2,2,tf,Level post lowercase,200,Difference,NB,262,0.46896551724137925,None
+333,100,100,2,2,stopwords,Level post lowercase,200,Difference,NB,588,0.46896551724137925,None
+333,100,100,2,2,stopwords,Level post lowercase,200,Difference,NB,847,0.46896551724137925,None
+333,100,100,2,2,stopwords,Level post lowercase,200,Difference,NB,822,0.46896551724137925,None
+333,100,100,2,2,stopwords,Level post lowercase,200,Difference,NB,452,0.46896551724137925,None
+333,100,100,2,2,stopwords,Level post lowercase,200,Difference,NB,454,0.46896551724137925,None
+343,100,100,2,2,tf_idf,Level post lowercase,200,Difference,NB,26,0.46896551724137925,None
+343,100,100,2,2,tf_idf,Level post lowercase,200,Difference,NB,871,0.46896551724137925,None
+343,100,100,2,2,tf_idf,Level post lowercase,200,Difference,NB,461,0.46896551724137925,None
+343,100,100,2,2,tf_idf,Level post lowercase,200,Difference,NB,56,0.46896551724137925,None
+343,100,100,2,2,tf_idf,Level post lowercase,200,Difference,NB,856,0.46896551724137925,None
+53,100,100,1,2,binary,Level post upercase,200,Difference,svm,954,0.4680851063829787,{'C': 0.25}
+53,100,100,1,2,binary,Level post upercase,200,Difference,svm,825,0.4680851063829787,{'C': 0.25}
+53,100,100,1,2,binary,Level post upercase,200,Difference,svm,669,0.4680851063829787,{'C': 0.25}
+53,100,100,1,2,binary,Level post upercase,200,Difference,svm,309,0.4680851063829787,{'C': 0.25}
+53,100,100,1,2,binary,Level post upercase,200,Difference,svm,753,0.4680851063829787,{'C': 0.25}
+63,100,100,1,2,tf_stop,Level post upercase,200,Difference,svm,216,0.4680851063829787,{'C': 0.25}
+63,100,100,1,2,tf_stop,Level post upercase,200,Difference,svm,126,0.4680851063829787,{'C': 0.25}
+63,100,100,1,2,tf_stop,Level post upercase,200,Difference,svm,698,0.4680851063829787,{'C': 0.25}
+63,100,100,1,2,tf_stop,Level post upercase,200,Difference,svm,582,0.4680851063829787,{'C': 0.25}
+63,100,100,1,2,tf_stop,Level post upercase,200,Difference,svm,623,0.4680851063829787,{'C': 0.25}
+73,100,100,1,2,tf,Level post upercase,200,Difference,svm,94,0.4680851063829787,{'C': 0.25}
+73,100,100,1,2,tf,Level post upercase,200,Difference,svm,66,0.4680851063829787,{'C': 0.25}
+73,100,100,1,2,tf,Level post upercase,200,Difference,svm,964,0.4680851063829787,{'C': 0.25}
+73,100,100,1,2,tf,Level post upercase,200,Difference,svm,688,0.4680851063829787,{'C': 0.25}
+73,100,100,1,2,tf,Level post upercase,200,Difference,svm,467,0.4680851063829787,{'C': 0.25}
+83,100,100,1,2,stopwords,Level post upercase,200,Difference,svm,165,0.4680851063829787,{'C': 0.25}
+83,100,100,1,2,stopwords,Level post upercase,200,Difference,svm,102,0.4680851063829787,{'C': 0.25}
+83,100,100,1,2,stopwords,Level post upercase,200,Difference,svm,822,0.4680851063829787,{'C': 0.25}
+83,100,100,1,2,stopwords,Level post upercase,200,Difference,svm,105,0.4680851063829787,{'C': 0.25}
+83,100,100,1,2,stopwords,Level post upercase,200,Difference,svm,976,0.4680851063829787,{'C': 0.25}
+93,100,100,1,2,tf_idf,Level post upercase,200,Difference,svm,620,0.4680851063829787,{'C': 0.25}
+93,100,100,1,2,tf_idf,Level post upercase,200,Difference,svm,302,0.4680851063829787,{'C': 0.25}
+93,100,100,1,2,tf_idf,Level post upercase,200,Difference,svm,983,0.4680851063829787,{'C': 0.25}
+93,100,100,1,2,tf_idf,Level post upercase,200,Difference,svm,444,0.4680851063829787,{'C': 0.25}
+93,100,100,1,2,tf_idf,Level post upercase,200,Difference,svm,583,0.4680851063829787,{'C': 0.25}
+202,500,200,2,2,binary,Level post upercase,700,Difference,NB,607,0.4626865671641791,None
+202,500,200,2,2,binary,Level post upercase,700,Difference,NB,437,0.4626865671641791,None
+202,500,200,2,2,binary,Level post upercase,700,Difference,NB,180,0.4626865671641791,None
+202,500,200,2,2,binary,Level post upercase,700,Difference,NB,411,0.4626865671641791,None
+202,500,200,2,2,binary,Level post upercase,700,Difference,NB,778,0.4626865671641791,None
+212,500,200,2,2,tf_stop,Level post upercase,700,Difference,NB,525,0.4626865671641791,None
+212,500,200,2,2,tf_stop,Level post upercase,700,Difference,NB,494,0.4626865671641791,None
+212,500,200,2,2,tf_stop,Level post upercase,700,Difference,NB,982,0.4626865671641791,None
+212,500,200,2,2,tf_stop,Level post upercase,700,Difference,NB,57,0.4626865671641791,None
+212,500,200,2,2,tf_stop,Level post upercase,700,Difference,NB,547,0.4626865671641791,None
+222,500,200,2,2,tf,Level post upercase,700,Difference,NB,214,0.4626865671641791,None
+222,500,200,2,2,tf,Level post upercase,700,Difference,NB,690,0.4626865671641791,None
+222,500,200,2,2,tf,Level post upercase,700,Difference,NB,310,0.4626865671641791,None
+222,500,200,2,2,tf,Level post upercase,700,Difference,NB,234,0.4626865671641791,None
+222,500,200,2,2,tf,Level post upercase,700,Difference,NB,602,0.4626865671641791,None
+232,500,200,2,2,stopwords,Level post upercase,700,Difference,NB,931,0.4626865671641791,None
+232,500,200,2,2,stopwords,Level post upercase,700,Difference,NB,364,0.4626865671641791,None
+232,500,200,2,2,stopwords,Level post upercase,700,Difference,NB,992,0.4626865671641791,None
+232,500,200,2,2,stopwords,Level post upercase,700,Difference,NB,897,0.4626865671641791,None
+232,500,200,2,2,stopwords,Level post upercase,700,Difference,NB,394,0.4626865671641791,None
+242,500,200,2,2,tf_idf,Level post upercase,700,Difference,NB,526,0.4626865671641791,None
+242,500,200,2,2,tf_idf,Level post upercase,700,Difference,NB,326,0.4626865671641791,None
+242,500,200,2,2,tf_idf,Level post upercase,700,Difference,NB,999,0.4626865671641791,None
+242,500,200,2,2,tf_idf,Level post upercase,700,Difference,NB,998,0.4626865671641791,None
+242,500,200,2,2,tf_idf,Level post upercase,700,Difference,NB,256,0.4626865671641791,None
+204,700,200,2,2,binary,Level post upercase,900,Difference,NB,621,0.4626865671641791,None
+204,700,200,2,2,binary,Level post upercase,900,Difference,NB,433,0.4626865671641791,None
+204,700,200,2,2,binary,Level post upercase,900,Difference,NB,208,0.4626865671641791,None
+204,700,200,2,2,binary,Level post upercase,900,Difference,NB,197,0.4626865671641791,None
+204,700,200,2,2,binary,Level post upercase,900,Difference,NB,618,0.4626865671641791,None
+214,700,200,2,2,tf_stop,Level post upercase,900,Difference,NB,69,0.4626865671641791,None
+214,700,200,2,2,tf_stop,Level post upercase,900,Difference,NB,578,0.4626865671641791,None
+214,700,200,2,2,tf_stop,Level post upercase,900,Difference,NB,501,0.4626865671641791,None
+214,700,200,2,2,tf_stop,Level post upercase,900,Difference,NB,264,0.4626865671641791,None
+214,700,200,2,2,tf_stop,Level post upercase,900,Difference,NB,353,0.4626865671641791,None
+224,700,200,2,2,tf,Level post upercase,900,Difference,NB,424,0.4626865671641791,None
+224,700,200,2,2,tf,Level post upercase,900,Difference,NB,869,0.4626865671641791,None
+224,700,200,2,2,tf,Level post upercase,900,Difference,NB,35,0.4626865671641791,None
+224,700,200,2,2,tf,Level post upercase,900,Difference,NB,380,0.4626865671641791,None
+224,700,200,2,2,tf,Level post upercase,900,Difference,NB,401,0.4626865671641791,None
+234,700,200,2,2,stopwords,Level post upercase,900,Difference,NB,915,0.4626865671641791,None
+234,700,200,2,2,stopwords,Level post upercase,900,Difference,NB,492,0.4626865671641791,None
+234,700,200,2,2,stopwords,Level post upercase,900,Difference,NB,835,0.4626865671641791,None
+234,700,200,2,2,stopwords,Level post upercase,900,Difference,NB,910,0.4626865671641791,None
+234,700,200,2,2,stopwords,Level post upercase,900,Difference,NB,358,0.4626865671641791,None
+244,700,200,2,2,tf_idf,Level post upercase,900,Difference,NB,920,0.4626865671641791,None
+244,700,200,2,2,tf_idf,Level post upercase,900,Difference,NB,390,0.4626865671641791,None
+244,700,200,2,2,tf_idf,Level post upercase,900,Difference,NB,109,0.4626865671641791,None
+244,700,200,2,2,tf_idf,Level post upercase,900,Difference,NB,96,0.4626865671641791,None
+244,700,200,2,2,tf_idf,Level post upercase,900,Difference,NB,289,0.4626865671641791,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,674,0.45801526717557256,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,813,0.45801526717557256,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,935,0.45801526717557256,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,18,0.45801526717557256,None
+2,500,200,1,2,binary,Level post upercase,700,Difference,NB,317,0.45801526717557256,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,137,0.45801526717557256,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,345,0.45801526717557256,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,578,0.45801526717557256,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,600,0.45801526717557256,None
+12,500,200,1,2,tf_stop,Level post upercase,700,Difference,NB,998,0.45801526717557256,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,767,0.45801526717557256,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,405,0.45801526717557256,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,404,0.45801526717557256,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,149,0.45801526717557256,None
+22,500,200,1,2,tf,Level post upercase,700,Difference,NB,658,0.45801526717557256,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,300,0.45801526717557256,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,702,0.45801526717557256,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,614,0.45801526717557256,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,855,0.45801526717557256,None
+32,500,200,1,2,stopwords,Level post upercase,700,Difference,NB,280,0.45801526717557256,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,541,0.45801526717557256,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,873,0.45801526717557256,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,709,0.45801526717557256,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,55,0.45801526717557256,None
+42,500,200,1,2,tf_idf,Level post upercase,700,Difference,NB,504,0.45801526717557256,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,584,0.43939393939393945,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,140,0.43939393939393945,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,695,0.43939393939393945,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,154,0.43939393939393945,None
+100,300,300,1,2,binary,Level post lowercase,600,Difference,NB,340,0.43939393939393945,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,709,0.43939393939393945,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,971,0.43939393939393945,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,887,0.43939393939393945,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,26,0.43939393939393945,None
+110,300,300,1,2,tf_stop,Level post lowercase,600,Difference,NB,353,0.43939393939393945,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,243,0.43939393939393945,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,895,0.43939393939393945,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,688,0.43939393939393945,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,931,0.43939393939393945,None
+120,300,300,1,2,tf,Level post lowercase,600,Difference,NB,206,0.43939393939393945,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,244,0.43939393939393945,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,246,0.43939393939393945,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,334,0.43939393939393945,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,727,0.43939393939393945,None
+130,300,300,1,2,stopwords,Level post lowercase,600,Difference,NB,444,0.43939393939393945,None
+206,1000,1000,2,2,binary,Level post upercase,2000,Difference,NB,872,0.43939393939393945,None
+206,1000,1000,2,2,binary,Level post upercase,2000,Difference,NB,649,0.43939393939393945,None
+206,1000,1000,2,2,binary,Level post upercase,2000,Difference,NB,570,0.43939393939393945,None
+206,1000,1000,2,2,binary,Level post upercase,2000,Difference,NB,752,0.43939393939393945,None
+206,1000,1000,2,2,binary,Level post upercase,2000,Difference,NB,121,0.43939393939393945,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,191,0.43939393939393945,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,780,0.43939393939393945,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,866,0.43939393939393945,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,724,0.43939393939393945,None
+140,300,300,1,2,tf_idf,Level post lowercase,600,Difference,NB,719,0.43939393939393945,None
+216,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,NB,676,0.43939393939393945,None
+216,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,NB,377,0.43939393939393945,None
+216,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,NB,133,0.43939393939393945,None
+216,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,NB,316,0.43939393939393945,None
+216,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,NB,992,0.43939393939393945,None
+226,1000,1000,2,2,tf,Level post upercase,2000,Difference,NB,74,0.43939393939393945,None
+226,1000,1000,2,2,tf,Level post upercase,2000,Difference,NB,284,0.43939393939393945,None
+226,1000,1000,2,2,tf,Level post upercase,2000,Difference,NB,562,0.43939393939393945,None
+226,1000,1000,2,2,tf,Level post upercase,2000,Difference,NB,442,0.43939393939393945,None
+226,1000,1000,2,2,tf,Level post upercase,2000,Difference,NB,614,0.43939393939393945,None
+236,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,NB,798,0.43939393939393945,None
+236,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,NB,735,0.43939393939393945,None
+236,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,NB,631,0.43939393939393945,None
+236,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,NB,858,0.43939393939393945,None
+236,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,NB,439,0.43939393939393945,None
+246,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,NB,935,0.43939393939393945,None
+246,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,NB,66,0.43939393939393945,None
+246,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,NB,114,0.43939393939393945,None
+246,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,NB,861,0.43939393939393945,None
+246,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,NB,500,0.43939393939393945,None
+201,500,100,2,2,binary,Level post upercase,600,Difference,NB,507,0.43749999999999994,None
+201,500,100,2,2,binary,Level post upercase,600,Difference,NB,958,0.43749999999999994,None
+201,500,100,2,2,binary,Level post upercase,600,Difference,NB,170,0.43749999999999994,None
+201,500,100,2,2,binary,Level post upercase,600,Difference,NB,375,0.43749999999999994,None
+201,500,100,2,2,binary,Level post upercase,600,Difference,NB,320,0.43749999999999994,None
+211,500,100,2,2,tf_stop,Level post upercase,600,Difference,NB,206,0.43749999999999994,None
+211,500,100,2,2,tf_stop,Level post upercase,600,Difference,NB,687,0.43749999999999994,None
+211,500,100,2,2,tf_stop,Level post upercase,600,Difference,NB,263,0.43749999999999994,None
+211,500,100,2,2,tf_stop,Level post upercase,600,Difference,NB,844,0.43749999999999994,None
+211,500,100,2,2,tf_stop,Level post upercase,600,Difference,NB,206,0.43749999999999994,None
+221,500,100,2,2,tf,Level post upercase,600,Difference,NB,958,0.43749999999999994,None
+221,500,100,2,2,tf,Level post upercase,600,Difference,NB,432,0.43749999999999994,None
+221,500,100,2,2,tf,Level post upercase,600,Difference,NB,444,0.43749999999999994,None
+221,500,100,2,2,tf,Level post upercase,600,Difference,NB,889,0.43749999999999994,None
+221,500,100,2,2,tf,Level post upercase,600,Difference,NB,518,0.43749999999999994,None
+231,500,100,2,2,stopwords,Level post upercase,600,Difference,NB,441,0.43749999999999994,None
+231,500,100,2,2,stopwords,Level post upercase,600,Difference,NB,671,0.43749999999999994,None
+231,500,100,2,2,stopwords,Level post upercase,600,Difference,NB,68,0.43749999999999994,None
+231,500,100,2,2,stopwords,Level post upercase,600,Difference,NB,90,0.43749999999999994,None
+231,500,100,2,2,stopwords,Level post upercase,600,Difference,NB,232,0.43749999999999994,None
+241,500,100,2,2,tf_idf,Level post upercase,600,Difference,NB,362,0.43749999999999994,None
+241,500,100,2,2,tf_idf,Level post upercase,600,Difference,NB,107,0.43749999999999994,None
+241,500,100,2,2,tf_idf,Level post upercase,600,Difference,NB,471,0.43749999999999994,None
+241,500,100,2,2,tf_idf,Level post upercase,600,Difference,NB,532,0.43749999999999994,None
+241,500,100,2,2,tf_idf,Level post upercase,600,Difference,NB,772,0.43749999999999994,None
+203,100,100,2,2,binary,Level post upercase,200,Difference,NB,345,0.4285714285714285,None
+203,100,100,2,2,binary,Level post upercase,200,Difference,NB,991,0.4285714285714285,None
+203,100,100,2,2,binary,Level post upercase,200,Difference,NB,739,0.4285714285714285,None
+203,100,100,2,2,binary,Level post upercase,200,Difference,NB,44,0.4285714285714285,None
+203,100,100,2,2,binary,Level post upercase,200,Difference,NB,350,0.4285714285714285,None
+213,100,100,2,2,tf_stop,Level post upercase,200,Difference,NB,680,0.4285714285714285,None
+213,100,100,2,2,tf_stop,Level post upercase,200,Difference,NB,920,0.4285714285714285,None
+213,100,100,2,2,tf_stop,Level post upercase,200,Difference,NB,935,0.4285714285714285,None
+213,100,100,2,2,tf_stop,Level post upercase,200,Difference,NB,983,0.4285714285714285,None
+213,100,100,2,2,tf_stop,Level post upercase,200,Difference,NB,458,0.4285714285714285,None
+223,100,100,2,2,tf,Level post upercase,200,Difference,NB,373,0.4285714285714285,None
+223,100,100,2,2,tf,Level post upercase,200,Difference,NB,296,0.4285714285714285,None
+223,100,100,2,2,tf,Level post upercase,200,Difference,NB,582,0.4285714285714285,None
+223,100,100,2,2,tf,Level post upercase,200,Difference,NB,478,0.4285714285714285,None
+223,100,100,2,2,tf,Level post upercase,200,Difference,NB,524,0.4285714285714285,None
+233,100,100,2,2,stopwords,Level post upercase,200,Difference,NB,479,0.4285714285714285,None
+233,100,100,2,2,stopwords,Level post upercase,200,Difference,NB,459,0.4285714285714285,None
+233,100,100,2,2,stopwords,Level post upercase,200,Difference,NB,343,0.4285714285714285,None
+233,100,100,2,2,stopwords,Level post upercase,200,Difference,NB,618,0.4285714285714285,None
+233,100,100,2,2,stopwords,Level post upercase,200,Difference,NB,42,0.4285714285714285,None
+243,100,100,2,2,tf_idf,Level post upercase,200,Difference,NB,290,0.4285714285714285,None
+243,100,100,2,2,tf_idf,Level post upercase,200,Difference,NB,704,0.4285714285714285,None
+243,100,100,2,2,tf_idf,Level post upercase,200,Difference,NB,590,0.4285714285714285,None
+243,100,100,2,2,tf_idf,Level post upercase,200,Difference,NB,471,0.4285714285714285,None
+243,100,100,2,2,tf_idf,Level post upercase,200,Difference,NB,991,0.4285714285714285,None
+256,1000,1000,2,2,binary,Level post upercase,2000,Difference,svm,142,0.41432225063938616,{'C': 0.05}
+256,1000,1000,2,2,binary,Level post upercase,2000,Difference,svm,632,0.41432225063938616,{'C': 0.05}
+256,1000,1000,2,2,binary,Level post upercase,2000,Difference,svm,288,0.41432225063938616,{'C': 0.05}
+256,1000,1000,2,2,binary,Level post upercase,2000,Difference,svm,647,0.41432225063938616,{'C': 0.05}
+256,1000,1000,2,2,binary,Level post upercase,2000,Difference,svm,861,0.41432225063938616,{'C': 0.05}
+266,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,svm,742,0.41432225063938616,{'C': 0.05}
+266,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,svm,685,0.41432225063938616,{'C': 0.05}
+266,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,svm,194,0.41432225063938616,{'C': 0.05}
+266,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,svm,544,0.41432225063938616,{'C': 0.05}
+266,1000,1000,2,2,tf_stop,Level post upercase,2000,Difference,svm,464,0.41432225063938616,{'C': 0.05}
+276,1000,1000,2,2,tf,Level post upercase,2000,Difference,svm,98,0.41432225063938616,{'C': 0.05}
+276,1000,1000,2,2,tf,Level post upercase,2000,Difference,svm,268,0.41432225063938616,{'C': 0.05}
+276,1000,1000,2,2,tf,Level post upercase,2000,Difference,svm,504,0.41432225063938616,{'C': 0.05}
+276,1000,1000,2,2,tf,Level post upercase,2000,Difference,svm,946,0.41432225063938616,{'C': 0.05}
+276,1000,1000,2,2,tf,Level post upercase,2000,Difference,svm,416,0.41432225063938616,{'C': 0.05}
+286,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,svm,64,0.41432225063938616,{'C': 0.05}
+286,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,svm,668,0.41432225063938616,{'C': 0.05}
+286,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,svm,761,0.41432225063938616,{'C': 0.05}
+286,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,svm,407,0.41432225063938616,{'C': 0.05}
+286,1000,1000,2,2,stopwords,Level post upercase,2000,Difference,svm,381,0.41432225063938616,{'C': 0.05}
+296,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,svm,200,0.41432225063938616,{'C': 0.05}
+296,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,svm,805,0.41432225063938616,{'C': 0.05}
+296,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,svm,862,0.41432225063938616,{'C': 0.05}
+296,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,svm,352,0.41432225063938616,{'C': 0.05}
+296,1000,1000,2,2,tf_idf,Level post upercase,2000,Difference,svm,408,0.41432225063938616,{'C': 0.05}
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,867,0.4126984126984127,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,101,0.4126984126984127,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,172,0.4126984126984127,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,93,0.4126984126984127,None
+101,500,100,1,2,binary,Level post lowercase,600,Difference,NB,650,0.4126984126984127,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,875,0.4126984126984127,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,471,0.4126984126984127,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,186,0.4126984126984127,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,863,0.4126984126984127,None
+111,500,100,1,2,tf_stop,Level post lowercase,600,Difference,NB,754,0.4126984126984127,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,146,0.4126984126984127,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,841,0.4126984126984127,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,493,0.4126984126984127,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,82,0.4126984126984127,None
+121,500,100,1,2,tf,Level post lowercase,600,Difference,NB,996,0.4126984126984127,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,905,0.4126984126984127,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,44,0.4126984126984127,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,94,0.4126984126984127,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,6,0.4126984126984127,None
+131,500,100,1,2,stopwords,Level post lowercase,600,Difference,NB,799,0.4126984126984127,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,863,0.4126984126984127,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,4,0.4126984126984127,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,250,0.4126984126984127,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,290,0.4126984126984127,None
+141,500,100,1,2,tf_idf,Level post lowercase,600,Difference,NB,108,0.4126984126984127,None
+254,700,200,2,2,binary,Level post upercase,900,Difference,svm,304,0.39890710382513667,{'C': 0.5}
+254,700,200,2,2,binary,Level post upercase,900,Difference,svm,347,0.39890710382513667,{'C': 0.5}
+254,700,200,2,2,binary,Level post upercase,900,Difference,svm,492,0.39890710382513667,{'C': 0.5}
+254,700,200,2,2,binary,Level post upercase,900,Difference,svm,161,0.39890710382513667,{'C': 0.5}
+254,700,200,2,2,binary,Level post upercase,900,Difference,svm,319,0.39890710382513667,{'C': 0.5}
+264,700,200,2,2,tf_stop,Level post upercase,900,Difference,svm,506,0.39890710382513667,{'C': 0.5}
+264,700,200,2,2,tf_stop,Level post upercase,900,Difference,svm,250,0.39890710382513667,{'C': 0.5}
+264,700,200,2,2,tf_stop,Level post upercase,900,Difference,svm,568,0.39890710382513667,{'C': 0.5}
+264,700,200,2,2,tf_stop,Level post upercase,900,Difference,svm,678,0.39890710382513667,{'C': 0.5}
+264,700,200,2,2,tf_stop,Level post upercase,900,Difference,svm,984,0.39890710382513667,{'C': 0.5}
+274,700,200,2,2,tf,Level post upercase,900,Difference,svm,298,0.39890710382513667,{'C': 0.5}
+274,700,200,2,2,tf,Level post upercase,900,Difference,svm,405,0.39890710382513667,{'C': 0.5}
+274,700,200,2,2,tf,Level post upercase,900,Difference,svm,684,0.39890710382513667,{'C': 0.5}
+274,700,200,2,2,tf,Level post upercase,900,Difference,svm,380,0.39890710382513667,{'C': 0.5}
+274,700,200,2,2,tf,Level post upercase,900,Difference,svm,342,0.39890710382513667,{'C': 0.5}
+284,700,200,2,2,stopwords,Level post upercase,900,Difference,svm,973,0.39890710382513667,{'C': 0.5}
+284,700,200,2,2,stopwords,Level post upercase,900,Difference,svm,488,0.39890710382513667,{'C': 0.5}
+284,700,200,2,2,stopwords,Level post upercase,900,Difference,svm,578,0.39890710382513667,{'C': 0.5}
+284,700,200,2,2,stopwords,Level post upercase,900,Difference,svm,332,0.39890710382513667,{'C': 0.5}
+284,700,200,2,2,stopwords,Level post upercase,900,Difference,svm,68,0.39890710382513667,{'C': 0.5}
+294,700,200,2,2,tf_idf,Level post upercase,900,Difference,svm,289,0.39890710382513667,{'C': 0.5}
+294,700,200,2,2,tf_idf,Level post upercase,900,Difference,svm,943,0.39890710382513667,{'C': 0.5}
+294,700,200,2,2,tf_idf,Level post upercase,900,Difference,svm,67,0.39890710382513667,{'C': 0.5}
+294,700,200,2,2,tf_idf,Level post upercase,900,Difference,svm,821,0.39890710382513667,{'C': 0.5}
+294,700,200,2,2,tf_idf,Level post upercase,900,Difference,svm,657,0.39890710382513667,{'C': 0.5}
+251,500,100,2,2,binary,Level post upercase,600,Difference,svm,182,0.3682983682983683,{'C': 0.05}
+251,500,100,2,2,binary,Level post upercase,600,Difference,svm,237,0.3682983682983683,{'C': 0.05}
+251,500,100,2,2,binary,Level post upercase,600,Difference,svm,751,0.3682983682983683,{'C': 0.05}
+251,500,100,2,2,binary,Level post upercase,600,Difference,svm,393,0.3682983682983683,{'C': 0.05}
+251,500,100,2,2,binary,Level post upercase,600,Difference,svm,175,0.3682983682983683,{'C': 0.05}
+261,500,100,2,2,tf_stop,Level post upercase,600,Difference,svm,789,0.3682983682983683,{'C': 0.05}
+261,500,100,2,2,tf_stop,Level post upercase,600,Difference,svm,132,0.3682983682983683,{'C': 0.05}
+261,500,100,2,2,tf_stop,Level post upercase,600,Difference,svm,584,0.3682983682983683,{'C': 0.05}
+261,500,100,2,2,tf_stop,Level post upercase,600,Difference,svm,404,0.3682983682983683,{'C': 0.05}
+261,500,100,2,2,tf_stop,Level post upercase,600,Difference,svm,61,0.3682983682983683,{'C': 0.05}
+271,500,100,2,2,tf,Level post upercase,600,Difference,svm,981,0.3682983682983683,{'C': 0.05}
+271,500,100,2,2,tf,Level post upercase,600,Difference,svm,869,0.3682983682983683,{'C': 0.05}
+271,500,100,2,2,tf,Level post upercase,600,Difference,svm,705,0.3682983682983683,{'C': 0.05}
+271,500,100,2,2,tf,Level post upercase,600,Difference,svm,468,0.3682983682983683,{'C': 0.05}
+271,500,100,2,2,tf,Level post upercase,600,Difference,svm,674,0.3682983682983683,{'C': 0.05}
+281,500,100,2,2,stopwords,Level post upercase,600,Difference,svm,68,0.3682983682983683,{'C': 0.05}
+281,500,100,2,2,stopwords,Level post upercase,600,Difference,svm,512,0.3682983682983683,{'C': 0.05}
+281,500,100,2,2,stopwords,Level post upercase,600,Difference,svm,779,0.3682983682983683,{'C': 0.05}
+281,500,100,2,2,stopwords,Level post upercase,600,Difference,svm,600,0.3682983682983683,{'C': 0.05}
+281,500,100,2,2,stopwords,Level post upercase,600,Difference,svm,772,0.3682983682983683,{'C': 0.05}
+291,500,100,2,2,tf_idf,Level post upercase,600,Difference,svm,471,0.3682983682983683,{'C': 0.05}
+291,500,100,2,2,tf_idf,Level post upercase,600,Difference,svm,845,0.3682983682983683,{'C': 0.05}
+291,500,100,2,2,tf_idf,Level post upercase,600,Difference,svm,508,0.3682983682983683,{'C': 0.05}
+291,500,100,2,2,tf_idf,Level post upercase,600,Difference,svm,789,0.3682983682983683,{'C': 0.05}
+291,500,100,2,2,tf_idf,Level post upercase,600,Difference,svm,713,0.3682983682983683,{'C': 0.05}
+252,500,200,2,2,binary,Level post upercase,700,Difference,svm,275,0.3602771362586605,{'C': 0.12}
+252,500,200,2,2,binary,Level post upercase,700,Difference,svm,751,0.3602771362586605,{'C': 0.12}
+252,500,200,2,2,binary,Level post upercase,700,Difference,svm,0,0.3602771362586605,{'C': 0.12}
+252,500,200,2,2,binary,Level post upercase,700,Difference,svm,774,0.3602771362586605,{'C': 0.12}
+252,500,200,2,2,binary,Level post upercase,700,Difference,svm,34,0.3602771362586605,{'C': 0.12}
+262,500,200,2,2,tf_stop,Level post upercase,700,Difference,svm,16,0.3602771362586605,{'C': 0.12}
+262,500,200,2,2,tf_stop,Level post upercase,700,Difference,svm,402,0.3602771362586605,{'C': 0.12}
+262,500,200,2,2,tf_stop,Level post upercase,700,Difference,svm,696,0.3602771362586605,{'C': 0.12}
+262,500,200,2,2,tf_stop,Level post upercase,700,Difference,svm,142,0.3602771362586605,{'C': 0.12}
+262,500,200,2,2,tf_stop,Level post upercase,700,Difference,svm,791,0.3602771362586605,{'C': 0.12}
+272,500,200,2,2,tf,Level post upercase,700,Difference,svm,71,0.3602771362586605,{'C': 0.12}
+272,500,200,2,2,tf,Level post upercase,700,Difference,svm,513,0.3602771362586605,{'C': 0.12}
+272,500,200,2,2,tf,Level post upercase,700,Difference,svm,557,0.3602771362586605,{'C': 0.12}
+272,500,200,2,2,tf,Level post upercase,700,Difference,svm,959,0.3602771362586605,{'C': 0.12}
+272,500,200,2,2,tf,Level post upercase,700,Difference,svm,646,0.3602771362586605,{'C': 0.12}
+282,500,200,2,2,stopwords,Level post upercase,700,Difference,svm,918,0.3602771362586605,{'C': 0.12}
+282,500,200,2,2,stopwords,Level post upercase,700,Difference,svm,950,0.3602771362586605,{'C': 0.12}
+282,500,200,2,2,stopwords,Level post upercase,700,Difference,svm,447,0.3602771362586605,{'C': 0.12}
+282,500,200,2,2,stopwords,Level post upercase,700,Difference,svm,817,0.3602771362586605,{'C': 0.12}
+282,500,200,2,2,stopwords,Level post upercase,700,Difference,svm,199,0.3602771362586605,{'C': 0.12}
+292,500,200,2,2,tf_idf,Level post upercase,700,Difference,svm,914,0.3602771362586605,{'C': 0.12}
+292,500,200,2,2,tf_idf,Level post upercase,700,Difference,svm,477,0.3602771362586605,{'C': 0.12}
+292,500,200,2,2,tf_idf,Level post upercase,700,Difference,svm,469,0.3602771362586605,{'C': 0.12}
+292,500,200,2,2,tf_idf,Level post upercase,700,Difference,svm,247,0.3602771362586605,{'C': 0.12}
+292,500,200,2,2,tf_idf,Level post upercase,700,Difference,svm,575,0.3602771362586605,{'C': 0.12}
+250,300,300,2,2,binary,Level post upercase,600,Difference,svm,648,0.3572984749455338,{'C': 0.05}
+250,300,300,2,2,binary,Level post upercase,600,Difference,svm,981,0.3572984749455338,{'C': 0.05}
+250,300,300,2,2,binary,Level post upercase,600,Difference,svm,257,0.3572984749455338,{'C': 0.05}
+250,300,300,2,2,binary,Level post upercase,600,Difference,svm,654,0.3572984749455338,{'C': 0.05}
+250,300,300,2,2,binary,Level post upercase,600,Difference,svm,760,0.3572984749455338,{'C': 0.05}
+260,300,300,2,2,tf_stop,Level post upercase,600,Difference,svm,405,0.3572984749455338,{'C': 0.05}
+260,300,300,2,2,tf_stop,Level post upercase,600,Difference,svm,390,0.3572984749455338,{'C': 0.05}
+260,300,300,2,2,tf_stop,Level post upercase,600,Difference,svm,125,0.3572984749455338,{'C': 0.05}
+260,300,300,2,2,tf_stop,Level post upercase,600,Difference,svm,763,0.3572984749455338,{'C': 0.05}
+260,300,300,2,2,tf_stop,Level post upercase,600,Difference,svm,626,0.3572984749455338,{'C': 0.05}
+270,300,300,2,2,tf,Level post upercase,600,Difference,svm,709,0.3572984749455338,{'C': 0.05}
+270,300,300,2,2,tf,Level post upercase,600,Difference,svm,497,0.3572984749455338,{'C': 0.05}
+270,300,300,2,2,tf,Level post upercase,600,Difference,svm,52,0.3572984749455338,{'C': 0.05}
+270,300,300,2,2,tf,Level post upercase,600,Difference,svm,302,0.3572984749455338,{'C': 0.05}
+270,300,300,2,2,tf,Level post upercase,600,Difference,svm,251,0.3572984749455338,{'C': 0.05}
+280,300,300,2,2,stopwords,Level post upercase,600,Difference,svm,382,0.3572984749455338,{'C': 0.05}
+280,300,300,2,2,stopwords,Level post upercase,600,Difference,svm,511,0.3572984749455338,{'C': 0.05}
+280,300,300,2,2,stopwords,Level post upercase,600,Difference,svm,530,0.3572984749455338,{'C': 0.05}
+280,300,300,2,2,stopwords,Level post upercase,600,Difference,svm,795,0.3572984749455338,{'C': 0.05}
+280,300,300,2,2,stopwords,Level post upercase,600,Difference,svm,185,0.3572984749455338,{'C': 0.05}
+290,300,300,2,2,tf_idf,Level post upercase,600,Difference,svm,319,0.3572984749455338,{'C': 0.05}
+290,300,300,2,2,tf_idf,Level post upercase,600,Difference,svm,972,0.3572984749455338,{'C': 0.05}
+290,300,300,2,2,tf_idf,Level post upercase,600,Difference,svm,261,0.3572984749455338,{'C': 0.05}
+290,300,300,2,2,tf_idf,Level post upercase,600,Difference,svm,995,0.3572984749455338,{'C': 0.05}
+290,300,300,2,2,tf_idf,Level post upercase,600,Difference,svm,677,0.3572984749455338,{'C': 0.05}
+258,300,200,2,2,binary,Level post upercase,500,Difference,svm,258,0.34968017057569295,{'C': 0.05}
+258,300,200,2,2,binary,Level post upercase,500,Difference,svm,254,0.34968017057569295,{'C': 0.05}
+258,300,200,2,2,binary,Level post upercase,500,Difference,svm,255,0.34968017057569295,{'C': 0.05}
+258,300,200,2,2,binary,Level post upercase,500,Difference,svm,326,0.34968017057569295,{'C': 0.05}
+258,300,200,2,2,binary,Level post upercase,500,Difference,svm,823,0.34968017057569295,{'C': 0.05}
+268,300,200,2,2,tf_stop,Level post upercase,500,Difference,svm,196,0.34968017057569295,{'C': 0.05}
+268,300,200,2,2,tf_stop,Level post upercase,500,Difference,svm,810,0.34968017057569295,{'C': 0.05}
+268,300,200,2,2,tf_stop,Level post upercase,500,Difference,svm,481,0.34968017057569295,{'C': 0.05}
+268,300,200,2,2,tf_stop,Level post upercase,500,Difference,svm,880,0.34968017057569295,{'C': 0.05}
+268,300,200,2,2,tf_stop,Level post upercase,500,Difference,svm,487,0.34968017057569295,{'C': 0.05}
+278,300,200,2,2,tf,Level post upercase,500,Difference,svm,130,0.34968017057569295,{'C': 0.05}
+278,300,200,2,2,tf,Level post upercase,500,Difference,svm,903,0.34968017057569295,{'C': 0.05}
+278,300,200,2,2,tf,Level post upercase,500,Difference,svm,988,0.34968017057569295,{'C': 0.05}
+278,300,200,2,2,tf,Level post upercase,500,Difference,svm,793,0.34968017057569295,{'C': 0.05}
+278,300,200,2,2,tf,Level post upercase,500,Difference,svm,684,0.34968017057569295,{'C': 0.05}
+288,300,200,2,2,stopwords,Level post upercase,500,Difference,svm,392,0.34968017057569295,{'C': 0.05}
+288,300,200,2,2,stopwords,Level post upercase,500,Difference,svm,257,0.34968017057569295,{'C': 0.05}
+288,300,200,2,2,stopwords,Level post upercase,500,Difference,svm,519,0.34968017057569295,{'C': 0.05}
+288,300,200,2,2,stopwords,Level post upercase,500,Difference,svm,540,0.34968017057569295,{'C': 0.05}
+288,300,200,2,2,stopwords,Level post upercase,500,Difference,svm,911,0.34968017057569295,{'C': 0.05}
+298,300,200,2,2,tf_idf,Level post upercase,500,Difference,svm,687,0.34968017057569295,{'C': 0.05}
+298,300,200,2,2,tf_idf,Level post upercase,500,Difference,svm,78,0.34968017057569295,{'C': 0.05}
+298,300,200,2,2,tf_idf,Level post upercase,500,Difference,svm,958,0.34968017057569295,{'C': 0.05}
+298,300,200,2,2,tf_idf,Level post upercase,500,Difference,svm,519,0.34968017057569295,{'C': 0.05}
+298,300,200,2,2,tf_idf,Level post upercase,500,Difference,svm,151,0.34968017057569295,{'C': 0.05}
+255,200,200,2,2,binary,Level post upercase,400,Difference,svm,871,0.3483870967741936,{'C': 0.05}
+255,200,200,2,2,binary,Level post upercase,400,Difference,svm,10,0.3483870967741936,{'C': 0.05}
+255,200,200,2,2,binary,Level post upercase,400,Difference,svm,121,0.3483870967741936,{'C': 0.05}
+255,200,200,2,2,binary,Level post upercase,400,Difference,svm,511,0.3483870967741936,{'C': 0.05}
+255,200,200,2,2,binary,Level post upercase,400,Difference,svm,656,0.3483870967741936,{'C': 0.05}
+265,200,200,2,2,tf_stop,Level post upercase,400,Difference,svm,558,0.3483870967741936,{'C': 0.05}
+265,200,200,2,2,tf_stop,Level post upercase,400,Difference,svm,356,0.3483870967741936,{'C': 0.05}
+265,200,200,2,2,tf_stop,Level post upercase,400,Difference,svm,407,0.3483870967741936,{'C': 0.05}
+265,200,200,2,2,tf_stop,Level post upercase,400,Difference,svm,566,0.3483870967741936,{'C': 0.05}
+265,200,200,2,2,tf_stop,Level post upercase,400,Difference,svm,7,0.3483870967741936,{'C': 0.05}
+275,200,200,2,2,tf,Level post upercase,400,Difference,svm,83,0.3483870967741936,{'C': 0.05}
+275,200,200,2,2,tf,Level post upercase,400,Difference,svm,302,0.3483870967741936,{'C': 0.05}
+275,200,200,2,2,tf,Level post upercase,400,Difference,svm,160,0.3483870967741936,{'C': 0.05}
+275,200,200,2,2,tf,Level post upercase,400,Difference,svm,606,0.3483870967741936,{'C': 0.05}
+275,200,200,2,2,tf,Level post upercase,400,Difference,svm,270,0.3483870967741936,{'C': 0.05}
+285,200,200,2,2,stopwords,Level post upercase,400,Difference,svm,160,0.3483870967741936,{'C': 0.05}
+285,200,200,2,2,stopwords,Level post upercase,400,Difference,svm,864,0.3483870967741936,{'C': 0.05}
+285,200,200,2,2,stopwords,Level post upercase,400,Difference,svm,844,0.3483870967741936,{'C': 0.05}
+285,200,200,2,2,stopwords,Level post upercase,400,Difference,svm,373,0.3483870967741936,{'C': 0.05}
+285,200,200,2,2,stopwords,Level post upercase,400,Difference,svm,253,0.3483870967741936,{'C': 0.05}
+295,200,200,2,2,tf_idf,Level post upercase,400,Difference,svm,958,0.3483870967741936,{'C': 0.05}
+295,200,200,2,2,tf_idf,Level post upercase,400,Difference,svm,59,0.3483870967741936,{'C': 0.05}
+295,200,200,2,2,tf_idf,Level post upercase,400,Difference,svm,890,0.3483870967741936,{'C': 0.05}
+295,200,200,2,2,tf_idf,Level post upercase,400,Difference,svm,706,0.3483870967741936,{'C': 0.05}
+295,200,200,2,2,tf_idf,Level post upercase,400,Difference,svm,678,0.3483870967741936,{'C': 0.05}
+108,300,200,1,2,binary,Level post lowercase,500,Difference,NB,385,0.3471074380165289,None
+108,300,200,1,2,binary,Level post lowercase,500,Difference,NB,123,0.3471074380165289,None
+108,300,200,1,2,binary,Level post lowercase,500,Difference,NB,917,0.3471074380165289,None
+108,300,200,1,2,binary,Level post lowercase,500,Difference,NB,418,0.3471074380165289,None
+108,300,200,1,2,binary,Level post lowercase,500,Difference,NB,388,0.3471074380165289,None
+118,300,200,1,2,tf_stop,Level post lowercase,500,Difference,NB,192,0.3471074380165289,None
+118,300,200,1,2,tf_stop,Level post lowercase,500,Difference,NB,913,0.3471074380165289,None
+118,300,200,1,2,tf_stop,Level post lowercase,500,Difference,NB,434,0.3471074380165289,None
+118,300,200,1,2,tf_stop,Level post lowercase,500,Difference,NB,615,0.3471074380165289,None
+118,300,200,1,2,tf_stop,Level post lowercase,500,Difference,NB,949,0.3471074380165289,None
+128,300,200,1,2,tf,Level post lowercase,500,Difference,NB,572,0.3471074380165289,None
+128,300,200,1,2,tf,Level post lowercase,500,Difference,NB,287,0.3471074380165289,None
+128,300,200,1,2,tf,Level post lowercase,500,Difference,NB,181,0.3471074380165289,None
+128,300,200,1,2,tf,Level post lowercase,500,Difference,NB,494,0.3471074380165289,None
+128,300,200,1,2,tf,Level post lowercase,500,Difference,NB,396,0.3471074380165289,None
+138,300,200,1,2,stopwords,Level post lowercase,500,Difference,NB,283,0.3471074380165289,None
+138,300,200,1,2,stopwords,Level post lowercase,500,Difference,NB,258,0.3471074380165289,None
+138,300,200,1,2,stopwords,Level post lowercase,500,Difference,NB,692,0.3471074380165289,None
+138,300,200,1,2,stopwords,Level post lowercase,500,Difference,NB,231,0.3471074380165289,None
+138,300,200,1,2,stopwords,Level post lowercase,500,Difference,NB,486,0.3471074380165289,None
+148,300,200,1,2,tf_idf,Level post lowercase,500,Difference,NB,689,0.3471074380165289,None
+148,300,200,1,2,tf_idf,Level post lowercase,500,Difference,NB,549,0.3471074380165289,None
+148,300,200,1,2,tf_idf,Level post lowercase,500,Difference,NB,680,0.3471074380165289,None
+148,300,200,1,2,tf_idf,Level post lowercase,500,Difference,NB,911,0.3471074380165289,None
+148,300,200,1,2,tf_idf,Level post lowercase,500,Difference,NB,735,0.3471074380165289,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,586,0.33333333333333337,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,112,0.33333333333333337,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,638,0.33333333333333337,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,384,0.33333333333333337,None
+1,500,100,1,2,binary,Level post upercase,600,Difference,NB,461,0.33333333333333337,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,674,0.33333333333333337,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,526,0.33333333333333337,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,214,0.33333333333333337,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,57,0.33333333333333337,None
+11,500,100,1,2,tf_stop,Level post upercase,600,Difference,NB,797,0.33333333333333337,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,977,0.33333333333333337,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,243,0.33333333333333337,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,70,0.33333333333333337,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,651,0.33333333333333337,None
+21,500,100,1,2,tf,Level post upercase,600,Difference,NB,666,0.33333333333333337,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,164,0.33333333333333337,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,264,0.33333333333333337,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,107,0.33333333333333337,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,764,0.33333333333333337,None
+31,500,100,1,2,stopwords,Level post upercase,600,Difference,NB,836,0.33333333333333337,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,800,0.33333333333333337,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,117,0.33333333333333337,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,341,0.33333333333333337,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,812,0.33333333333333337,None
+41,500,100,1,2,tf_idf,Level post upercase,600,Difference,NB,365,0.33333333333333337,None
+253,100,100,2,2,binary,Level post upercase,200,Difference,svm,906,0.299625468164794,{'C': 0.12}
+253,100,100,2,2,binary,Level post upercase,200,Difference,svm,943,0.299625468164794,{'C': 0.12}
+253,100,100,2,2,binary,Level post upercase,200,Difference,svm,761,0.299625468164794,{'C': 0.12}
+253,100,100,2,2,binary,Level post upercase,200,Difference,svm,316,0.299625468164794,{'C': 0.12}
+253,100,100,2,2,binary,Level post upercase,200,Difference,svm,64,0.299625468164794,{'C': 0.12}
+263,100,100,2,2,tf_stop,Level post upercase,200,Difference,svm,487,0.299625468164794,{'C': 0.12}
+263,100,100,2,2,tf_stop,Level post upercase,200,Difference,svm,754,0.299625468164794,{'C': 0.12}
+263,100,100,2,2,tf_stop,Level post upercase,200,Difference,svm,879,0.299625468164794,{'C': 0.12}
+263,100,100,2,2,tf_stop,Level post upercase,200,Difference,svm,966,0.299625468164794,{'C': 0.12}
+263,100,100,2,2,tf_stop,Level post upercase,200,Difference,svm,33,0.299625468164794,{'C': 0.12}
+273,100,100,2,2,tf,Level post upercase,200,Difference,svm,149,0.299625468164794,{'C': 0.12}
+273,100,100,2,2,tf,Level post upercase,200,Difference,svm,651,0.299625468164794,{'C': 0.12}
+273,100,100,2,2,tf,Level post upercase,200,Difference,svm,912,0.299625468164794,{'C': 0.12}
+273,100,100,2,2,tf,Level post upercase,200,Difference,svm,886,0.299625468164794,{'C': 0.12}
+273,100,100,2,2,tf,Level post upercase,200,Difference,svm,628,0.299625468164794,{'C': 0.12}
+283,100,100,2,2,stopwords,Level post upercase,200,Difference,svm,902,0.299625468164794,{'C': 0.12}
+283,100,100,2,2,stopwords,Level post upercase,200,Difference,svm,745,0.299625468164794,{'C': 0.12}
+283,100,100,2,2,stopwords,Level post upercase,200,Difference,svm,811,0.299625468164794,{'C': 0.12}
+283,100,100,2,2,stopwords,Level post upercase,200,Difference,svm,15,0.299625468164794,{'C': 0.12}
+283,100,100,2,2,stopwords,Level post upercase,200,Difference,svm,534,0.299625468164794,{'C': 0.12}
+293,100,100,2,2,tf_idf,Level post upercase,200,Difference,svm,606,0.299625468164794,{'C': 0.12}
+293,100,100,2,2,tf_idf,Level post upercase,200,Difference,svm,755,0.299625468164794,{'C': 0.12}
+293,100,100,2,2,tf_idf,Level post upercase,200,Difference,svm,563,0.299625468164794,{'C': 0.12}
+293,100,100,2,2,tf_idf,Level post upercase,200,Difference,svm,19,0.299625468164794,{'C': 0.12}
+293,100,100,2,2,tf_idf,Level post upercase,200,Difference,svm,146,0.299625468164794,{'C': 0.12}
+257,80,30,2,2,binary,Level post upercase,110,Difference,svm,785,0.2566844919786096,{'C': 0.12}
+257,80,30,2,2,binary,Level post upercase,110,Difference,svm,233,0.2566844919786096,{'C': 0.12}
+257,80,30,2,2,binary,Level post upercase,110,Difference,svm,334,0.2566844919786096,{'C': 0.12}
+257,80,30,2,2,binary,Level post upercase,110,Difference,svm,890,0.2566844919786096,{'C': 0.12}
+257,80,30,2,2,binary,Level post upercase,110,Difference,svm,362,0.2566844919786096,{'C': 0.12}
+267,80,30,2,2,tf_stop,Level post upercase,110,Difference,svm,339,0.2566844919786096,{'C': 0.12}
+267,80,30,2,2,tf_stop,Level post upercase,110,Difference,svm,384,0.2566844919786096,{'C': 0.12}
+267,80,30,2,2,tf_stop,Level post upercase,110,Difference,svm,548,0.2566844919786096,{'C': 0.12}
+267,80,30,2,2,tf_stop,Level post upercase,110,Difference,svm,149,0.2566844919786096,{'C': 0.12}
+267,80,30,2,2,tf_stop,Level post upercase,110,Difference,svm,546,0.2566844919786096,{'C': 0.12}
+277,80,30,2,2,tf,Level post upercase,110,Difference,svm,153,0.2566844919786096,{'C': 0.12}
+277,80,30,2,2,tf,Level post upercase,110,Difference,svm,424,0.2566844919786096,{'C': 0.12}
+277,80,30,2,2,tf,Level post upercase,110,Difference,svm,17,0.2566844919786096,{'C': 0.12}
+277,80,30,2,2,tf,Level post upercase,110,Difference,svm,588,0.2566844919786096,{'C': 0.12}
+277,80,30,2,2,tf,Level post upercase,110,Difference,svm,416,0.2566844919786096,{'C': 0.12}
+287,80,30,2,2,stopwords,Level post upercase,110,Difference,svm,687,0.2566844919786096,{'C': 0.12}
+287,80,30,2,2,stopwords,Level post upercase,110,Difference,svm,510,0.2566844919786096,{'C': 0.12}
+287,80,30,2,2,stopwords,Level post upercase,110,Difference,svm,131,0.2566844919786096,{'C': 0.12}
+287,80,30,2,2,stopwords,Level post upercase,110,Difference,svm,401,0.2566844919786096,{'C': 0.12}
+287,80,30,2,2,stopwords,Level post upercase,110,Difference,svm,780,0.2566844919786096,{'C': 0.12}
+297,80,30,2,2,tf_idf,Level post upercase,110,Difference,svm,175,0.2566844919786096,{'C': 0.12}
+297,80,30,2,2,tf_idf,Level post upercase,110,Difference,svm,541,0.2566844919786096,{'C': 0.12}
+297,80,30,2,2,tf_idf,Level post upercase,110,Difference,svm,666,0.2566844919786096,{'C': 0.12}
+297,80,30,2,2,tf_idf,Level post upercase,110,Difference,svm,304,0.2566844919786096,{'C': 0.12}
+297,80,30,2,2,tf_idf,Level post upercase,110,Difference,svm,755,0.2566844919786096,{'C': 0.12}
+307,80,30,2,2,binary,Level post lowercase,110,Difference,NB,896,0.2434782608695652,None
+307,80,30,2,2,binary,Level post lowercase,110,Difference,NB,595,0.2434782608695652,None
+307,80,30,2,2,binary,Level post lowercase,110,Difference,NB,689,0.2434782608695652,None
+307,80,30,2,2,binary,Level post lowercase,110,Difference,NB,683,0.2434782608695652,None
+307,80,30,2,2,binary,Level post lowercase,110,Difference,NB,40,0.2434782608695652,None
+317,80,30,2,2,tf_stop,Level post lowercase,110,Difference,NB,804,0.2434782608695652,None
+317,80,30,2,2,tf_stop,Level post lowercase,110,Difference,NB,997,0.2434782608695652,None
+317,80,30,2,2,tf_stop,Level post lowercase,110,Difference,NB,585,0.2434782608695652,None
+317,80,30,2,2,tf_stop,Level post lowercase,110,Difference,NB,791,0.2434782608695652,None
+317,80,30,2,2,tf_stop,Level post lowercase,110,Difference,NB,140,0.2434782608695652,None
+327,80,30,2,2,tf,Level post lowercase,110,Difference,NB,806,0.2434782608695652,None
+327,80,30,2,2,tf,Level post lowercase,110,Difference,NB,402,0.2434782608695652,None
+327,80,30,2,2,tf,Level post lowercase,110,Difference,NB,542,0.2434782608695652,None
+327,80,30,2,2,tf,Level post lowercase,110,Difference,NB,809,0.2434782608695652,None
+327,80,30,2,2,tf,Level post lowercase,110,Difference,NB,720,0.2434782608695652,None
+337,80,30,2,2,stopwords,Level post lowercase,110,Difference,NB,932,0.2434782608695652,None
+337,80,30,2,2,stopwords,Level post lowercase,110,Difference,NB,243,0.2434782608695652,None
+337,80,30,2,2,stopwords,Level post lowercase,110,Difference,NB,411,0.2434782608695652,None
+337,80,30,2,2,stopwords,Level post lowercase,110,Difference,NB,697,0.2434782608695652,None
+337,80,30,2,2,stopwords,Level post lowercase,110,Difference,NB,577,0.2434782608695652,None
+347,80,30,2,2,tf_idf,Level post lowercase,110,Difference,NB,714,0.2434782608695652,None
+347,80,30,2,2,tf_idf,Level post lowercase,110,Difference,NB,522,0.2434782608695652,None
+347,80,30,2,2,tf_idf,Level post lowercase,110,Difference,NB,543,0.2434782608695652,None
+347,80,30,2,2,tf_idf,Level post lowercase,110,Difference,NB,852,0.2434782608695652,None
+347,80,30,2,2,tf_idf,Level post lowercase,110,Difference,NB,145,0.2434782608695652,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,338,0.21428571428571427,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,992,0.21428571428571427,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,449,0.21428571428571427,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,319,0.21428571428571427,None
+0,300,300,1,2,binary,Level post upercase,600,Difference,NB,735,0.21428571428571427,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,287,0.21428571428571427,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,250,0.21428571428571427,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,145,0.21428571428571427,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,138,0.21428571428571427,None
+10,300,300,1,2,tf_stop,Level post upercase,600,Difference,NB,685,0.21428571428571427,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,871,0.21428571428571427,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,607,0.21428571428571427,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,132,0.21428571428571427,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,164,0.21428571428571427,None
+20,300,300,1,2,tf,Level post upercase,600,Difference,NB,944,0.21428571428571427,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,79,0.21428571428571427,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,42,0.21428571428571427,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,89,0.21428571428571427,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,432,0.21428571428571427,None
+30,300,300,1,2,stopwords,Level post upercase,600,Difference,NB,668,0.21428571428571427,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,861,0.21428571428571427,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,303,0.21428571428571427,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,665,0.21428571428571427,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,411,0.21428571428571427,None
+40,300,300,1,2,tf_idf,Level post upercase,600,Difference,NB,873,0.21428571428571427,None
+8,300,200,1,2,binary,Level post upercase,500,Difference,NB,158,0.16666666666666669,None
+8,300,200,1,2,binary,Level post upercase,500,Difference,NB,428,0.16666666666666669,None
+8,300,200,1,2,binary,Level post upercase,500,Difference,NB,687,0.16666666666666669,None
+8,300,200,1,2,binary,Level post upercase,500,Difference,NB,222,0.16666666666666669,None
+8,300,200,1,2,binary,Level post upercase,500,Difference,NB,538,0.16666666666666669,None
+18,300,200,1,2,tf_stop,Level post upercase,500,Difference,NB,820,0.16666666666666669,None
+18,300,200,1,2,tf_stop,Level post upercase,500,Difference,NB,765,0.16666666666666669,None
+18,300,200,1,2,tf_stop,Level post upercase,500,Difference,NB,748,0.16666666666666669,None
+18,300,200,1,2,tf_stop,Level post upercase,500,Difference,NB,272,0.16666666666666669,None
+18,300,200,1,2,tf_stop,Level post upercase,500,Difference,NB,635,0.16666666666666669,None
+28,300,200,1,2,tf,Level post upercase,500,Difference,NB,38,0.16666666666666669,None
+28,300,200,1,2,tf,Level post upercase,500,Difference,NB,832,0.16666666666666669,None
+28,300,200,1,2,tf,Level post upercase,500,Difference,NB,25,0.16666666666666669,None
+28,300,200,1,2,tf,Level post upercase,500,Difference,NB,871,0.16666666666666669,None
+28,300,200,1,2,tf,Level post upercase,500,Difference,NB,755,0.16666666666666669,None
+38,300,200,1,2,stopwords,Level post upercase,500,Difference,NB,861,0.16666666666666669,None
+38,300,200,1,2,stopwords,Level post upercase,500,Difference,NB,843,0.16666666666666669,None
+38,300,200,1,2,stopwords,Level post upercase,500,Difference,NB,91,0.16666666666666669,None
+38,300,200,1,2,stopwords,Level post upercase,500,Difference,NB,732,0.16666666666666669,None
+38,300,200,1,2,stopwords,Level post upercase,500,Difference,NB,529,0.16666666666666669,None
+48,300,200,1,2,tf_idf,Level post upercase,500,Difference,NB,24,0.16666666666666669,None
+48,300,200,1,2,tf_idf,Level post upercase,500,Difference,NB,53,0.16666666666666669,None
+48,300,200,1,2,tf_idf,Level post upercase,500,Difference,NB,12,0.16666666666666669,None
+48,300,200,1,2,tf_idf,Level post upercase,500,Difference,NB,186,0.16666666666666669,None
+48,300,200,1,2,tf_idf,Level post upercase,500,Difference,NB,629,0.16666666666666669,None
+207,80,30,2,2,binary,Level post upercase,110,Difference,NB,94,0.039999999999999994,None
+207,80,30,2,2,binary,Level post upercase,110,Difference,NB,363,0.039999999999999994,None
+207,80,30,2,2,binary,Level post upercase,110,Difference,NB,465,0.039999999999999994,None
+207,80,30,2,2,binary,Level post upercase,110,Difference,NB,241,0.039999999999999994,None
+207,80,30,2,2,binary,Level post upercase,110,Difference,NB,244,0.039999999999999994,None
+217,80,30,2,2,tf_stop,Level post upercase,110,Difference,NB,36,0.039999999999999994,None
+217,80,30,2,2,tf_stop,Level post upercase,110,Difference,NB,162,0.039999999999999994,None
+217,80,30,2,2,tf_stop,Level post upercase,110,Difference,NB,455,0.039999999999999994,None
+217,80,30,2,2,tf_stop,Level post upercase,110,Difference,NB,203,0.039999999999999994,None
+217,80,30,2,2,tf_stop,Level post upercase,110,Difference,NB,346,0.039999999999999994,None
+227,80,30,2,2,tf,Level post upercase,110,Difference,NB,676,0.039999999999999994,None
+227,80,30,2,2,tf,Level post upercase,110,Difference,NB,5,0.039999999999999994,None
+227,80,30,2,2,tf,Level post upercase,110,Difference,NB,819,0.039999999999999994,None
+227,80,30,2,2,tf,Level post upercase,110,Difference,NB,776,0.039999999999999994,None
+227,80,30,2,2,tf,Level post upercase,110,Difference,NB,937,0.039999999999999994,None
+237,80,30,2,2,stopwords,Level post upercase,110,Difference,NB,895,0.039999999999999994,None
+237,80,30,2,2,stopwords,Level post upercase,110,Difference,NB,272,0.039999999999999994,None
+237,80,30,2,2,stopwords,Level post upercase,110,Difference,NB,917,0.039999999999999994,None
+237,80,30,2,2,stopwords,Level post upercase,110,Difference,NB,361,0.039999999999999994,None
+237,80,30,2,2,stopwords,Level post upercase,110,Difference,NB,982,0.039999999999999994,None
+247,80,30,2,2,tf_idf,Level post upercase,110,Difference,NB,200,0.039999999999999994,None
+247,80,30,2,2,tf_idf,Level post upercase,110,Difference,NB,792,0.039999999999999994,None
+247,80,30,2,2,tf_idf,Level post upercase,110,Difference,NB,143,0.039999999999999994,None
+247,80,30,2,2,tf_idf,Level post upercase,110,Difference,NB,813,0.039999999999999994,None
+247,80,30,2,2,tf_idf,Level post upercase,110,Difference,NB,598,0.039999999999999994,None
+105,200,200,1,2,binary,Level post lowercase,400,Difference,NB,886,0.039999999999999994,None
+105,200,200,1,2,binary,Level post lowercase,400,Difference,NB,374,0.039999999999999994,None
+105,200,200,1,2,binary,Level post lowercase,400,Difference,NB,988,0.039999999999999994,None
+105,200,200,1,2,binary,Level post lowercase,400,Difference,NB,461,0.039999999999999994,None
+105,200,200,1,2,binary,Level post lowercase,400,Difference,NB,394,0.039999999999999994,None
+115,200,200,1,2,tf_stop,Level post lowercase,400,Difference,NB,605,0.039999999999999994,None
+115,200,200,1,2,tf_stop,Level post lowercase,400,Difference,NB,60,0.039999999999999994,None
+115,200,200,1,2,tf_stop,Level post lowercase,400,Difference,NB,622,0.039999999999999994,None
+115,200,200,1,2,tf_stop,Level post lowercase,400,Difference,NB,30,0.039999999999999994,None
+115,200,200,1,2,tf_stop,Level post lowercase,400,Difference,NB,475,0.039999999999999994,None
+125,200,200,1,2,tf,Level post lowercase,400,Difference,NB,94,0.039999999999999994,None
+125,200,200,1,2,tf,Level post lowercase,400,Difference,NB,859,0.039999999999999994,None
+125,200,200,1,2,tf,Level post lowercase,400,Difference,NB,96,0.039999999999999994,None
+125,200,200,1,2,tf,Level post lowercase,400,Difference,NB,493,0.039999999999999994,None
+125,200,200,1,2,tf,Level post lowercase,400,Difference,NB,756,0.039999999999999994,None
+135,200,200,1,2,stopwords,Level post lowercase,400,Difference,NB,5,0.039999999999999994,None
+135,200,200,1,2,stopwords,Level post lowercase,400,Difference,NB,365,0.039999999999999994,None
+135,200,200,1,2,stopwords,Level post lowercase,400,Difference,NB,662,0.039999999999999994,None
+135,200,200,1,2,stopwords,Level post lowercase,400,Difference,NB,852,0.039999999999999994,None
+135,200,200,1,2,stopwords,Level post lowercase,400,Difference,NB,430,0.039999999999999994,None
+145,200,200,1,2,tf_idf,Level post lowercase,400,Difference,NB,168,0.039999999999999994,None
+145,200,200,1,2,tf_idf,Level post lowercase,400,Difference,NB,8,0.039999999999999994,None
+145,200,200,1,2,tf_idf,Level post lowercase,400,Difference,NB,33,0.039999999999999994,None
+145,200,200,1,2,tf_idf,Level post lowercase,400,Difference,NB,199,0.039999999999999994,None
+145,200,200,1,2,tf_idf,Level post lowercase,400,Difference,NB,150,0.039999999999999994,None
+3,100,100,1,2,binary,Level post upercase,200,Difference,NB,878,0.0,None
+3,100,100,1,2,binary,Level post upercase,200,Difference,NB,840,0.0,None
+3,100,100,1,2,binary,Level post upercase,200,Difference,NB,424,0.0,None
+3,100,100,1,2,binary,Level post upercase,200,Difference,NB,142,0.0,None
+3,100,100,1,2,binary,Level post upercase,200,Difference,NB,271,0.0,None
+13,100,100,1,2,tf_stop,Level post upercase,200,Difference,NB,467,0.0,None
+13,100,100,1,2,tf_stop,Level post upercase,200,Difference,NB,853,0.0,None
+13,100,100,1,2,tf_stop,Level post upercase,200,Difference,NB,865,0.0,None
+13,100,100,1,2,tf_stop,Level post upercase,200,Difference,NB,462,0.0,None
+13,100,100,1,2,tf_stop,Level post upercase,200,Difference,NB,448,0.0,None
+23,100,100,1,2,tf,Level post upercase,200,Difference,NB,320,0.0,None
+23,100,100,1,2,tf,Level post upercase,200,Difference,NB,949,0.0,None
+23,100,100,1,2,tf,Level post upercase,200,Difference,NB,711,0.0,None
+23,100,100,1,2,tf,Level post upercase,200,Difference,NB,931,0.0,None
+23,100,100,1,2,tf,Level post upercase,200,Difference,NB,565,0.0,None
+33,100,100,1,2,stopwords,Level post upercase,200,Difference,NB,1,0.0,None
+33,100,100,1,2,stopwords,Level post upercase,200,Difference,NB,269,0.0,None
+33,100,100,1,2,stopwords,Level post upercase,200,Difference,NB,553,0.0,None
+33,100,100,1,2,stopwords,Level post upercase,200,Difference,NB,487,0.0,None
+33,100,100,1,2,stopwords,Level post upercase,200,Difference,NB,949,0.0,None
+43,100,100,1,2,tf_idf,Level post upercase,200,Difference,NB,317,0.0,None
+43,100,100,1,2,tf_idf,Level post upercase,200,Difference,NB,188,0.0,None
+43,100,100,1,2,tf_idf,Level post upercase,200,Difference,NB,733,0.0,None
+43,100,100,1,2,tf_idf,Level post upercase,200,Difference,NB,414,0.0,None
+43,100,100,1,2,tf_idf,Level post upercase,200,Difference,NB,782,0.0,None
+5,200,200,1,2,binary,Level post upercase,400,Difference,NB,719,0.0,None
+5,200,200,1,2,binary,Level post upercase,400,Difference,NB,644,0.0,None
+5,200,200,1,2,binary,Level post upercase,400,Difference,NB,133,0.0,None
+5,200,200,1,2,binary,Level post upercase,400,Difference,NB,374,0.0,None
+5,200,200,1,2,binary,Level post upercase,400,Difference,NB,357,0.0,None
+15,200,200,1,2,tf_stop,Level post upercase,400,Difference,NB,186,0.0,None
+15,200,200,1,2,tf_stop,Level post upercase,400,Difference,NB,712,0.0,None
+15,200,200,1,2,tf_stop,Level post upercase,400,Difference,NB,979,0.0,None
+15,200,200,1,2,tf_stop,Level post upercase,400,Difference,NB,352,0.0,None
+15,200,200,1,2,tf_stop,Level post upercase,400,Difference,NB,436,0.0,None
+25,200,200,1,2,tf,Level post upercase,400,Difference,NB,126,0.0,None
+25,200,200,1,2,tf,Level post upercase,400,Difference,NB,316,0.0,None
+25,200,200,1,2,tf,Level post upercase,400,Difference,NB,929,0.0,None
+25,200,200,1,2,tf,Level post upercase,400,Difference,NB,863,0.0,None
+25,200,200,1,2,tf,Level post upercase,400,Difference,NB,368,0.0,None
+35,200,200,1,2,stopwords,Level post upercase,400,Difference,NB,897,0.0,None
+35,200,200,1,2,stopwords,Level post upercase,400,Difference,NB,139,0.0,None
+35,200,200,1,2,stopwords,Level post upercase,400,Difference,NB,512,0.0,None
+35,200,200,1,2,stopwords,Level post upercase,400,Difference,NB,396,0.0,None
+35,200,200,1,2,stopwords,Level post upercase,400,Difference,NB,642,0.0,None
+45,200,200,1,2,tf_idf,Level post upercase,400,Difference,NB,603,0.0,None
+45,200,200,1,2,tf_idf,Level post upercase,400,Difference,NB,761,0.0,None
+45,200,200,1,2,tf_idf,Level post upercase,400,Difference,NB,250,0.0,None
+45,200,200,1,2,tf_idf,Level post upercase,400,Difference,NB,259,0.0,None
+45,200,200,1,2,tf_idf,Level post upercase,400,Difference,NB,812,0.0,None
+7,80,30,1,2,binary,Level post upercase,110,Difference,NB,976,0.0,None
+7,80,30,1,2,binary,Level post upercase,110,Difference,NB,755,0.0,None
+7,80,30,1,2,binary,Level post upercase,110,Difference,NB,799,0.0,None
+7,80,30,1,2,binary,Level post upercase,110,Difference,NB,902,0.0,None
+7,80,30,1,2,binary,Level post upercase,110,Difference,NB,302,0.0,None
+17,80,30,1,2,tf_stop,Level post upercase,110,Difference,NB,912,0.0,None
+17,80,30,1,2,tf_stop,Level post upercase,110,Difference,NB,446,0.0,None
+17,80,30,1,2,tf_stop,Level post upercase,110,Difference,NB,828,0.0,None
+17,80,30,1,2,tf_stop,Level post upercase,110,Difference,NB,216,0.0,None
+17,80,30,1,2,tf_stop,Level post upercase,110,Difference,NB,440,0.0,None
+27,80,30,1,2,tf,Level post upercase,110,Difference,NB,915,0.0,None
+27,80,30,1,2,tf,Level post upercase,110,Difference,NB,747,0.0,None
+27,80,30,1,2,tf,Level post upercase,110,Difference,NB,880,0.0,None
+27,80,30,1,2,tf,Level post upercase,110,Difference,NB,36,0.0,None
+27,80,30,1,2,tf,Level post upercase,110,Difference,NB,564,0.0,None
+37,80,30,1,2,stopwords,Level post upercase,110,Difference,NB,718,0.0,None
+37,80,30,1,2,stopwords,Level post upercase,110,Difference,NB,627,0.0,None
+37,80,30,1,2,stopwords,Level post upercase,110,Difference,NB,157,0.0,None
+37,80,30,1,2,stopwords,Level post upercase,110,Difference,NB,696,0.0,None
+37,80,30,1,2,stopwords,Level post upercase,110,Difference,NB,347,0.0,None
+103,100,100,1,2,binary,Level post lowercase,200,Difference,NB,110,0.0,None
+103,100,100,1,2,binary,Level post lowercase,200,Difference,NB,272,0.0,None
+103,100,100,1,2,binary,Level post lowercase,200,Difference,NB,9,0.0,None
+103,100,100,1,2,binary,Level post lowercase,200,Difference,NB,763,0.0,None
+103,100,100,1,2,binary,Level post lowercase,200,Difference,NB,392,0.0,None
+47,80,30,1,2,tf_idf,Level post upercase,110,Difference,NB,474,0.0,None
+47,80,30,1,2,tf_idf,Level post upercase,110,Difference,NB,751,0.0,None
+47,80,30,1,2,tf_idf,Level post upercase,110,Difference,NB,655,0.0,None
+47,80,30,1,2,tf_idf,Level post upercase,110,Difference,NB,659,0.0,None
+47,80,30,1,2,tf_idf,Level post upercase,110,Difference,NB,395,0.0,None
+113,100,100,1,2,tf_stop,Level post lowercase,200,Difference,NB,31,0.0,None
+113,100,100,1,2,tf_stop,Level post lowercase,200,Difference,NB,180,0.0,None
+113,100,100,1,2,tf_stop,Level post lowercase,200,Difference,NB,860,0.0,None
+113,100,100,1,2,tf_stop,Level post lowercase,200,Difference,NB,793,0.0,None
+113,100,100,1,2,tf_stop,Level post lowercase,200,Difference,NB,830,0.0,None
+123,100,100,1,2,tf,Level post lowercase,200,Difference,NB,345,0.0,None
+123,100,100,1,2,tf,Level post lowercase,200,Difference,NB,967,0.0,None
+123,100,100,1,2,tf,Level post lowercase,200,Difference,NB,437,0.0,None
+123,100,100,1,2,tf,Level post lowercase,200,Difference,NB,260,0.0,None
+123,100,100,1,2,tf,Level post lowercase,200,Difference,NB,489,0.0,None
+133,100,100,1,2,stopwords,Level post lowercase,200,Difference,NB,803,0.0,None
+133,100,100,1,2,stopwords,Level post lowercase,200,Difference,NB,544,0.0,None
+133,100,100,1,2,stopwords,Level post lowercase,200,Difference,NB,374,0.0,None
+133,100,100,1,2,stopwords,Level post lowercase,200,Difference,NB,921,0.0,None
+133,100,100,1,2,stopwords,Level post lowercase,200,Difference,NB,475,0.0,None
+143,100,100,1,2,tf_idf,Level post lowercase,200,Difference,NB,122,0.0,None
+143,100,100,1,2,tf_idf,Level post lowercase,200,Difference,NB,889,0.0,None
+143,100,100,1,2,tf_idf,Level post lowercase,200,Difference,NB,88,0.0,None
+143,100,100,1,2,tf_idf,Level post lowercase,200,Difference,NB,415,0.0,None
+143,100,100,1,2,tf_idf,Level post lowercase,200,Difference,NB,156,0.0,None
+9,100,200,1,2,binary,Level post upercase,300,Difference,NB,571,0.0,None
+9,100,200,1,2,binary,Level post upercase,300,Difference,NB,41,0.0,None
+9,100,200,1,2,binary,Level post upercase,300,Difference,NB,457,0.0,None
+9,100,200,1,2,binary,Level post upercase,300,Difference,NB,378,0.0,None
+9,100,200,1,2,binary,Level post upercase,300,Difference,NB,27,0.0,None
+19,100,200,1,2,tf_stop,Level post upercase,300,Difference,NB,454,0.0,None
+19,100,200,1,2,tf_stop,Level post upercase,300,Difference,NB,239,0.0,None
+19,100,200,1,2,tf_stop,Level post upercase,300,Difference,NB,465,0.0,None
+19,100,200,1,2,tf_stop,Level post upercase,300,Difference,NB,486,0.0,None
+19,100,200,1,2,tf_stop,Level post upercase,300,Difference,NB,131,0.0,None
+29,100,200,1,2,tf,Level post upercase,300,Difference,NB,534,0.0,None
+29,100,200,1,2,tf,Level post upercase,300,Difference,NB,310,0.0,None
+29,100,200,1,2,tf,Level post upercase,300,Difference,NB,890,0.0,None
+29,100,200,1,2,tf,Level post upercase,300,Difference,NB,935,0.0,None
+29,100,200,1,2,tf,Level post upercase,300,Difference,NB,11,0.0,None
+39,100,200,1,2,stopwords,Level post upercase,300,Difference,NB,370,0.0,None
+39,100,200,1,2,stopwords,Level post upercase,300,Difference,NB,920,0.0,None
+39,100,200,1,2,stopwords,Level post upercase,300,Difference,NB,104,0.0,None
+39,100,200,1,2,stopwords,Level post upercase,300,Difference,NB,499,0.0,None
+39,100,200,1,2,stopwords,Level post upercase,300,Difference,NB,309,0.0,None
+49,100,200,1,2,tf_idf,Level post upercase,300,Difference,NB,977,0.0,None
+49,100,200,1,2,tf_idf,Level post upercase,300,Difference,NB,106,0.0,None
+49,100,200,1,2,tf_idf,Level post upercase,300,Difference,NB,646,0.0,None
+49,100,200,1,2,tf_idf,Level post upercase,300,Difference,NB,777,0.0,None
+49,100,200,1,2,tf_idf,Level post upercase,300,Difference,NB,300,0.0,None
+107,80,30,1,2,binary,Level post lowercase,110,Difference,NB,396,0.0,None
+107,80,30,1,2,binary,Level post lowercase,110,Difference,NB,998,0.0,None
+107,80,30,1,2,binary,Level post lowercase,110,Difference,NB,38,0.0,None
+107,80,30,1,2,binary,Level post lowercase,110,Difference,NB,559,0.0,None
+107,80,30,1,2,binary,Level post lowercase,110,Difference,NB,102,0.0,None
+117,80,30,1,2,tf_stop,Level post lowercase,110,Difference,NB,672,0.0,None
+117,80,30,1,2,tf_stop,Level post lowercase,110,Difference,NB,197,0.0,None
+117,80,30,1,2,tf_stop,Level post lowercase,110,Difference,NB,769,0.0,None
+117,80,30,1,2,tf_stop,Level post lowercase,110,Difference,NB,778,0.0,None
+117,80,30,1,2,tf_stop,Level post lowercase,110,Difference,NB,284,0.0,None
+127,80,30,1,2,tf,Level post lowercase,110,Difference,NB,973,0.0,None
+127,80,30,1,2,tf,Level post lowercase,110,Difference,NB,869,0.0,None
+127,80,30,1,2,tf,Level post lowercase,110,Difference,NB,17,0.0,None
+127,80,30,1,2,tf,Level post lowercase,110,Difference,NB,994,0.0,None
+127,80,30,1,2,tf,Level post lowercase,110,Difference,NB,147,0.0,None
+137,80,30,1,2,stopwords,Level post lowercase,110,Difference,NB,875,0.0,None
+137,80,30,1,2,stopwords,Level post lowercase,110,Difference,NB,365,0.0,None
+137,80,30,1,2,stopwords,Level post lowercase,110,Difference,NB,151,0.0,None
+137,80,30,1,2,stopwords,Level post lowercase,110,Difference,NB,92,0.0,None
+137,80,30,1,2,stopwords,Level post lowercase,110,Difference,NB,566,0.0,None
+147,80,30,1,2,tf_idf,Level post lowercase,110,Difference,NB,403,0.0,None
+147,80,30,1,2,tf_idf,Level post lowercase,110,Difference,NB,915,0.0,None
+147,80,30,1,2,tf_idf,Level post lowercase,110,Difference,NB,844,0.0,None
+147,80,30,1,2,tf_idf,Level post lowercase,110,Difference,NB,779,0.0,None
+147,80,30,1,2,tf_idf,Level post lowercase,110,Difference,NB,513,0.0,None
+109,100,200,1,2,binary,Level post lowercase,300,Difference,NB,712,0.0,None
+109,100,200,1,2,binary,Level post lowercase,300,Difference,NB,459,0.0,None
+109,100,200,1,2,binary,Level post lowercase,300,Difference,NB,433,0.0,None
+109,100,200,1,2,binary,Level post lowercase,300,Difference,NB,43,0.0,None
+109,100,200,1,2,binary,Level post lowercase,300,Difference,NB,6,0.0,None
+119,100,200,1,2,tf_stop,Level post lowercase,300,Difference,NB,395,0.0,None
+119,100,200,1,2,tf_stop,Level post lowercase,300,Difference,NB,318,0.0,None
+119,100,200,1,2,tf_stop,Level post lowercase,300,Difference,NB,595,0.0,None
+119,100,200,1,2,tf_stop,Level post lowercase,300,Difference,NB,95,0.0,None
+119,100,200,1,2,tf_stop,Level post lowercase,300,Difference,NB,164,0.0,None
+129,100,200,1,2,tf,Level post lowercase,300,Difference,NB,278,0.0,None
+129,100,200,1,2,tf,Level post lowercase,300,Difference,NB,681,0.0,None
+129,100,200,1,2,tf,Level post lowercase,300,Difference,NB,211,0.0,None
+129,100,200,1,2,tf,Level post lowercase,300,Difference,NB,942,0.0,None
+129,100,200,1,2,tf,Level post lowercase,300,Difference,NB,732,0.0,None
+139,100,200,1,2,stopwords,Level post lowercase,300,Difference,NB,126,0.0,None
+139,100,200,1,2,stopwords,Level post lowercase,300,Difference,NB,711,0.0,None
+139,100,200,1,2,stopwords,Level post lowercase,300,Difference,NB,41,0.0,None
+139,100,200,1,2,stopwords,Level post lowercase,300,Difference,NB,549,0.0,None
+139,100,200,1,2,stopwords,Level post lowercase,300,Difference,NB,543,0.0,None
+149,100,200,1,2,tf_idf,Level post lowercase,300,Difference,NB,964,0.0,None
+149,100,200,1,2,tf_idf,Level post lowercase,300,Difference,NB,529,0.0,None
+149,100,200,1,2,tf_idf,Level post lowercase,300,Difference,NB,608,0.0,None
+149,100,200,1,2,tf_idf,Level post lowercase,300,Difference,NB,292,0.0,None
+149,100,200,1,2,tf_idf,Level post lowercase,300,Difference,NB,189,0.0,None

@@ -224,7 +224,7 @@ def run_experiment_depression(test_labels, num_exp, param_list={}):
     p, r, f, _ = precision_recall_fscore_support(test_labels, y_pred, average='macro', pos_label=1)
     result_name = 'result_depression_' + str(num_exp) + '.txt'
     path_name = 'Results/Depresion' + '/' + result_name
-    path_name_features = 'Results/Depresion' + '/features_words_' + str(num_exp) + '.txt'
+    path_name_features = 'Results/Depresion' + '/features_words_final_' + str(num_exp) + '.txt'
     path_name_stop = 'Results/Depresion' + '/stopwords_' + str(num_exp) + '.txt'
     with open(path_name, "w") as f:
         f.write("Experimento de depresión número: " + str(num_exp) + '\n')

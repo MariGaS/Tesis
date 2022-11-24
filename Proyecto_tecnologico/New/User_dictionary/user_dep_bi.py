@@ -29,7 +29,7 @@ n_n = users_2017n+users_2018n
 
 #STATE YAKE PARAMTERS
 language = "en"
-max_ngram_size = 1
+max_ngram_size = 2
 deduplication_thresold = 0.9
 deduplication_algo = 'seqm'
 windowSize = 1

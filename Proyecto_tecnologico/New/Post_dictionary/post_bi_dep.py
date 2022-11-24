@@ -32,7 +32,7 @@ negative_dep= [item for sublist in negative_dep for item in sublist]
 
 #STATE YAKE PARAMTERS
 language = "en"
-max_ngram_size = 1
+max_ngram_size = 2
 deduplication_thresold = 0.9
 deduplication_algo = 'seqm'
 windowSize = 1
